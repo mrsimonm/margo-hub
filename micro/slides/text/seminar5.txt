@@ -1,0 +1,277 @@
+
+=== SLIDE 1 ===
+3BE 123 - Microeconomics
+Ing. Zuzana Dzbankova, Ph.D.
+Department of Managerial
+Economics, FBA
+University of Economics, Prague
+http://kmae.vse.cz
+=== SLIDE 2 ===
+2
+Seminar 5
+Elasticity price of demand, consumer surplus,
+transaction costs, production function in short
+run, costs in SR
+.
+=== SLIDE 3 ===
+3
+HW 1: Price Elasticity of Demand
+The Midpoint Method
+• Suppose that business travelers and tourists have the
+following demand for airline tickets from New York to
+Boston:
+• As the price of tickets rises from $200 to $250, what is
+the price elasticity of demand for (a) business travelers
+and (b) tourists? Explain the differences in the above
+elasticities if any exist.
+Price ($) Quantity demanded (tickets)
+Business travelers Tourists
+150 2100 1000
+200 2000 800
+250 1900 600
+300 1800 400
+=== SLIDE 4 ===
+4
+Solution
+• Use midpoint formula.
+1.EPD for business travelers = [(1.900 – 2.000)/1.950] :
+[(250 – 200)/225] = -0,05 : 0,22 = - 0,23 (raunded) - e.g.
+|- 0,23 | < 1 inelastic demand
+2. EPD for tourists = ………………………….. = - 1,3 – e.g.
+| -1,3 | > 1 elastic demand
+￼
+=== SLIDE 5 ===
+5
+The Relationship
+between EPD and
+TR
+￼
+=== SLIDE 6 ===
+6
+Consumer Surplus - Benefit from
+Taking Part in a Market
+• Lorem ipsum dolor sit amet,.
+TU = Σ MU
+Cosumer surplus = TU – real expenditure
+￼
+Consumer
+surplus
+=== SLIDE 7 ===
+7
+Solution
+• Use example:
+1.The price of blueberries is EUR 6 per half of the litre. This is
+too expansive for Jane, and she doesn‘t purchase anything.
+•When price decreases to P = 5, she purchases half of the litre.
+•Per price four she is willing to buy one litre.
+•Per price 3, Jane purchases two litres blueberries.
+•Per price two she buys two and half of litre.
+2.Therefore, we can summarize Jan‘s total utility for her
+consumption: TU = 5 + 4 + 3 + 2 = 14.
+3.The actual market price is € 2,- and Jane purchases 2,5 litres
+of blueberries. She spends 5 EUR for blueberries e.g.
+2*(2,5*2) = 10. Price is per half of the litre.
+4.Consumer surplus = TU – real expenditure = 14 -10 = 4
+=== SLIDE 8 ===
+8
+Homework 2 - Using the Demand Curve to
+Measure Consumer Surplus
+• We can use the information on willingness to pay to derive a
+demand curve for the rare Elvis Presley album.
+• Derive the demand curve.
+• Calculate the consumer surplus if the price is $70.
+• What happens to the surplus if the price drops to $ 50?
+Price Buiers Quantity Demanded
+More than $100 None 0
+$80 to $100 John 1
+$70 to $80 John, Paul 2
+$50 to $70 John, Paul, George 3
+$50 or less John, Paul, George,
+Ringo
+4
+=== SLIDE 9 ===
+9
+HW 3
+Fill in the missing values in the tables: 1.
+• We consider a short-term period, the number of
+other inputs is constant.
+Q (total
+units
+produced)
+L TP AP MP
+0 0
+4 1
+7 2
+9 3
+10 4
+10,5 5
+=== SLIDE 10 ===
+10
+Principles of a Firm´
+s Decisions About
+Volume of Production and Price
+Basic rule: Maximization of profit vs. Minimization of costs
+Revenue (total revenue, TR) – how much we get from selling our
+product?
+TR = P x Q
+Costs (total costs, TC): Explicit (accounting) costs– actually spent
+money + Implicit (opportunity costs)
+Profit– economic profit vs. accounting profit:
+Economic profit (EP) = accounting profit (AP) - opportunity costs
+(OC, implicit costs)
+EP (π) = AP – OC; AP = revenues (TR) – explicit costs
+=== SLIDE 11 ===
+11
+Homework 4: Accounting profit, Economic profit
+• Imagine that you own a small firm whose monthly financial flows
+(presented below – 3 first items) are quite stable. Although your
+accountant ignores the costs which do not imply cash outflows,
+you are fully aware of them.
+• Will you stay in business in the long term?
+• Total revenue = 600 000 CZK
+• The cost of materials = 200 000 CZK
+• (Employees’) wages = 250 000 CZK
+• Foregone salary = 100 000 CZK (if you worked as a Financial
+Director in the successful manufacturing company)
+• Forgone rent and interest = 80 000 CZK (if you (1) rented your
+commercial premises and (2) put your money (instead of
+investing it in the business) in a bank)
+Hint: read Mankiw (explicit/implicit costs + accounting/economic
+profit)
+=== SLIDE 12 ===
+12
+Homework 4: Accounting profit, Economic profit
+Hint solution:
+• Calculate accounting profit (AP) = TR – explicit cost.
+• AP = 600.000 - (200.000 + 250.000)= 150.000
+• Calculate economic profit (EP) = AC – implicit
+costs = 150.000 – (100.000 + 80.000) = - 30.000
+• For you is better to stop your business and to stay
+an employee.
+Hint: read Mankiw (explicit/implicit costs +
+accounting/economic profit)
+=== SLIDE 13 ===
+13
+Relationship of production
+and cost functions in a
+short period– standard
+shapes
+￼
+=== SLIDE 14 ===
+Example 2
+The table below shows how the number of university
+classrooms cleaned in an evening varies with the
+number of janitors:
+1. What is the marginal product of the second janitor?
+2. What is the average product of four janitors?
+3. Is the addition of the third janitor associated with
+increasing, diminishing, or negative marginal returns?
+Explain. To be cont.
+Janitors
+per
+evening
+0 1 2 3 4 5 6 7
+Classroms
+cleaned
+per
+evening
+0 3 7 12 16 17 17 16
+=== SLIDE 15 ===
+Example 2– cont.
+4. Is the addition of the seventh janitor associated
+with increasing, diminishing, or negative marginal
+returns? Explain.
+5. Draw the total product, average product, and
+marginal product curves and shade the regions
+corresponding to increasing marginal returns,
+decreasing marginal returns, and negative
+marginal returns.
+6. Calculate the slope of the total product curve as
+each janitor is added.
+=== SLIDE 16 ===
+Example 3
+Initial values:
+Production function in the SR: Q = 144.L + 30.L2
+– 2. L3;
+1. Writte/identify the average physical product equation.
+2. Identify the value of MPPL for seven units of labour that
+are used.
+=== SLIDE 17 ===
+17
+Example 4
+• The table below shows the total cost of cleaning classrooms:
+1. What is the average fixed cost of cleaning three classrooms?
+2. What is the average variable cost of cleaning three classrooms?
+3. What is the average fixed cost of cleaning seven classrooms?
+Classroom
+cleaned per
+evening
+0 3 7 12 16 17
+Total cost
+($)
+100 200 300 400 500 600
+=== SLIDE 18 ===
+Homework 1 for next week (not writing)
+Q of
+cars
+TC, $ MC, $ FC, $ VC, $ AVC, $ AFC, $ AC, $
+0 500 000
+1 540 000
+2 560 000
+3 570 000
+4 590 000
+5 620 000
+6 660 000
+7 720 000
+8 800 000
+9 920 000
+10 1 100 000
+=== SLIDE 19 ===
+• The owner of Zmrzlinka pays each of his workers 1200
+CZK per day. The cost of his other variable inputs is 10
+CZK per cup of yogurt. His fixed cost is 1500 CZK per
+day.
+L Q of ice
+cream
+(cups)
+VC FC TC
+0 0
+1 110
+2 200
+3 270
+4 300
+5 320
+6 330
+=== SLIDE 20 ===
+Homerwork 2: Cost-minimization Optimum
+• Initial values:
+• Let w = $3 and r = $6; Total revenue is (P.Q) = 3500
+euros.
+• The MPL and the MPK are as follows: MPL = 2 and MPK = 5
+(pieces/t). State the conditions for cost minimization.
+• Does this company minimize costs?
+• If it does not minimize, suggest a solution.
+=== SLIDE 21 ===
+21
+Homework 3: TR –AR –MR and 𝜋
+• Imagine you have applied for an economic analyst position.
+In order to succeed in the hiring process, you have to
+correctly calculate the following values:
+1)revenue from selling the third unit
+2)average revenue if we sell 5 units
+3)revenue from selling 5 units
+4)total profit if average cost of 5 units is equal to 100
+CZK.
+• Use the below table as a basis for your calculations.
+p (CZK/Q) 160 150 140 130 120
+Q
+(quantity)
+1 2 3 4 5
+=== SLIDE 22 ===
+22
+Relevant Literature
+• Mankiw „Principles of Microeconomics“: chapter 5 („Elasticity and its
+application“, only up to „other demand elasticities“); ch. 7 (only
+consumer surplus) chapter 13 (“What are costs” - only a definition of
+TC; “Production and costs” + “the various measures of cost” –
+everything up to “costs in the short run and costs in the long run”)

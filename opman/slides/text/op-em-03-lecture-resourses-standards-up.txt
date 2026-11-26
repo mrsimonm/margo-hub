@@ -1,0 +1,830 @@
+
+=== SLIDE 1 ===
+OPERATIONS
+MANAGEMENT
+Felipe Martinez
+© Felipe Martinez
+=== SLIDE 2 ===
+Today
+•Resources
+Standards
+•Materials
+© Felipe Martinez
+=== SLIDE 3 ===
+Operations Management
+Principles Performance Objectives
+© Felipe Martinez
+=== SLIDE 4 ===
+How to manage it?
+Resources OPERATION Product /
+Service
+© Felipe Martinez
+=== SLIDE 5 ===
+“It is a document that
+provides requirements,
+specifications, guidelines
+or characteristics that
+can be used consistently
+to ensure that materials,
+products, processes and
+services are fit for their
+purpose.”
+Standard
+ISO (2014)
+© Felipe Martinez
+=== SLIDE 6 ===
+Standard
+© Felipe Martinez
+=== SLIDE 7 ===
+Resources Standards
+•Material
+•Labor
+•Others
+© Felipe Martinez
+=== SLIDE 8 ===
+How much
+materials do we
+need?
+How much
+should I pay for
+the materials?
+© Felipe Martinez
+=== SLIDE 9 ===
+Target Costing
+Price
+based on
+Cost
+Cost
+based on
+Price
+© Felipe Martinez
+=== SLIDE 10 ===
+Target Costing
+Final Price
+Goal price
+Price
++ Profit
+Cost
+- Profit
+Total costs
+based on
+Limit for costs
+based on
++ Expenses
+Cost
++ Labor costs
++ Material costs
+Limit expenses
+Price
+Limit labor costs
+Limit material costs
+© Felipe Martinez
+=== SLIDE 11 ===
+Target Costing
+Final Price
+Goal price
+Price
++ Profit
+Cost
+- Profit
+Total costs
+based on
+Limit for costs
+based on
++ Expenses
+Cost
++ Labor costs
++ Material costs
+Limit expenses
+Price
+Limit labor costs
+Limit material costs
+© Felipe Martinez
+=== SLIDE 12 ===
+Target Costing & Standards
+Goal price
+- Profit
+Limit for costs
+Limit expenses
+Standards
+Limit labor costs
+Limit material costs
+Manage &
+Improve
+© Felipe Martinez
+=== SLIDE 13 ===
+How many/much material?
+Since there is a GOAL
+price, then…
+Goal price
+- Profit
+Limit for costs
+What is the limit of
+material cost?
+Limit expenses
+Limit labor costs
+Limit material costs
+© Felipe Martinez
+=== SLIDE 14 ===
+•Analytical-Calculated
+•Comparative - Analogy
+•Statistical
+•Test
+•Index
+•Estimation
+•
+…
+© Felipe Martinez
+Standard Setup
+=== SLIDE 15 ===
+•Analytical-Calculated
+•Comparative - Analogy
+•Statistical
+•Test
+•Index
+•Estimation
+•
+…
+© Felipe Martinez
+Standard Setup
+=== SLIDE 16 ===
+Resources Standards
+As an operation manager, one of your
+responsibilities is to deliver bottled
+wine. The wine arrives to your facilities
+in barrels of 100lts each. If each bottle
+has a 500ml capacity, how many bottles
+of wine can you ensure to deliver from
+one barrel?
+© Felipe Martinez
+=== SLIDE 17 ===
+Resources Standards
+As an operation manager, one of your
+responsibilities is to deliver bottled
+wine. The wine arrives to your facilities
+in barrels of 100lts each. If each bottle
+has a 500ml capacity, how many bottles
+of wine can you ensure to deliver from
+one barrel?
+© Felipe Martinez
+=== SLIDE 18 ===
+Resources Standards
+As an operation manager, one of your
+responsibilities is to deliver bottled
+wine. The wine arrives to your facilities
+in barrels of 100lts each. If each bottle
+has a 500ml capacity, how many
+bottles of wine can you ensure to
+deliver from one barrel?
+© Felipe Martinez
+=== SLIDE 19 ===
+Resources Standards
+100lts each ÷ 500ml
+100lts each ÷ 0,5lts
+200 bottles
+© Felipe Martinez
+=== SLIDE 20 ===
+Resources Standards
+Material Requirement
+Net (useful) requirement Necessary useless requirement
+© Felipe Martinez
+=== SLIDE 21 ===
+Resources Standards
+Necessary useless requirement
+Technically
+unavoidable lost
+Irreversibly
+lost
+Irreversibly Reversible
+© Felipe Martinez
+=== SLIDE 22 ===
+Resources Standards
+Material Requirement
+Net (useful) requirement Necessary useless requirement
+Technically
+unavoidable lost
+Irreversibly
+lost
+Irreversibly Reversible
+© Felipe Martinez
+=== SLIDE 23 ===
+Resources Standards
+Statistically, 0,2% of wine is lost in the
+pipelines due to friction, pressure and
+hydraulic properties of the wine.
+Additionally, the operation of bottling
+losses 0,3% per batch of 6 bottles.
+© Felipe Martinez
+=== SLIDE 24 ===
+Resources Standards
+Material Requirement
+Net (useful) requirement
+500ml
+Necessary useless requirement
+Technically
+unavoidable lost
+Irreversibly
+lost
+0,3%
+I need this in
+every bottle
+Irreversibly
+0,2%
+But I lose this in
+© Felipe Martinez
+every bottle
+Reversible Batch
+and this
+in 6
+bottles
+=== SLIDE 25 ===
+Resources Standards
+I need 500ml
+But,
+I lose (500ml x 0,002ml) = 1ml (0,2%)
+And,
+I lose (500ml x 𝟔
+𝟔 bottles x 0,003ml) = 1,5ml (0,3%)
+Then,
+I require (5oo+1+1,5) 502,5ml to fill ONE 500ml bottle.© Felipe Martinez
+=== SLIDE 26 ===
+Resources Standards
+Material Requirement
+502,5ml
+Net (useful) requirement
+500ml
+Necessary useless requirement
+Technically
+unavoidable lost
+Irreversibly
+lost
+0,003ml
+Irreversibly
+0,002ml
+Reversible Batch
+© Felipe Martinez
+=== SLIDE 27 ===
+Resources Standards
+100lts each ÷ 502,5ml
+100lts each ÷ 0,5025lts
+199 bottles
+✓
+0,004975124378bottles = 0,0025ml
+© Felipe Martinez
+=== SLIDE 28 ===
+Resources Standards
+Therefore, we can say
+that I obtain one barrel
+of 100lts and I use
+99.5lts of it in the
+actual product I sell.
+Then, 99,5% CMU
+© Felipe Martinez
+=== SLIDE 29 ===
+Coefficient of material utilization - CMU
+It is the relation between the Net (useful)
+requirement and the total Material
+Requirement.
+© Felipe Martinez
+=== SLIDE 30 ===
+Coefficient of material utilization - CMU
+It is the relation between the Net (useful)
+requirement and the total Material
+Requirement.
+Net (useful) requirement
+CMU =-----------------------------------------------------------------------------------------
+Material Requirement
+© Felipe Martinez
+=== SLIDE 31 ===
+Resources Standards
+100 l 500 ml 2,5ml
+No. of bottles = 199 bottles
+0,004975124378bottles = 0,0025ml© Felipe Martinez
+=== SLIDE 32 ===
+Resources Standards
+Coefficient of material
+utilization - CMU
+Net (useful) requirement
+199 bottles x 500ml = 99,5 l
+Total purchase: 100 l
+CMU of one barrel = 0,995
+© Felipe Martinez
+=== SLIDE 33 ===
+Resources Standards
+Coefficient of material
+utilization - CMU
+100lts each ÷ 502,5ml
+100lts each ÷ 0,5025lts
+199 bottles
+Net (useful) requirement
+199 bottles x 500ml = 99,5 l
+Total purchase: 100 l
+CMU of one barrel = 0,995
+© Felipe Martinez
+=== SLIDE 34 ===
+Resources Standards
+Coefficient of material
+utilization - CMU
+100lts each ÷ 502,5ml
+100lts each ÷ 0,5025lts
+199 bottles
+Net (useful) requirement
+199 bottles x 500ml = 99,5 l
+Total purchase: 100 l
+CMU of one barrel = 0,995
+© Felipe Martinez
+=== SLIDE 35 ===
+Bill of Materials
+It is a document that provides
+information on what parts are
+required for each product and
+how many of them. The
+document comprises the product
+structure and the quantity for
+each product part. OF_CH_B© Felipe Martinez
+=== SLIDE 36 ===
+5x
+1x
+1x
+1x
+1x
+1x
+1x
+Office
+Chair
+2x
+1x
+1x
+4x
+1x
+1x
+© Felipe Martinez
+1x
+1x
+1x
+1x
+Bill of
+Materials
+1x
+1x
+4x
+=== SLIDE 37 ===
+Cod OF_CH_458 OF_CH_558 OF_CH_50 OF_CH_55 OF_CH_BB S_47895 OF_CH_B_L OF_CH_B_R OF_CH_SL OF_CH_SR OF_CH_SC OF_CH_BS Name Quantity
+/Product
+Carpet casters 5
+Metal arm for casters 5
+Metal spider for 5 casters 1
+Metal pipe connector 1
+Chair Base - Blue 1
+Screw 47895 8
+Arm stem Left – Blue 1
+Arm stem Right – Blue 1
+Support for Arm stem Left 1
+Support for Arm stem Right 1
+Support for Seat Back 1
+Seat back – Blue 1
+© Felipe Martinez
+Bill of
+Materials
+OF_CH_B
+=== SLIDE 38 ===
+How many metal sheets?
+OF_CH_B
+• The order is: 100 chairs
+• The OF_CH_558 is manufactured in pairs. This operation
+requires 1metal sheet of 30x30cm and 3mm thickness.
+• Metal sheets 1m2 are available only.
+• The purchase order has to be done per 5 metal sheets.
+• How many metal sheets do you need in order to fulfil the
+demand?
+© Felipe Martinez
+=== SLIDE 39 ===
+5x
+1x
+1x
+1x
+1x
+1x
+1x
+Office
+Chair
+2x
+1x
+1x
+4x
+1x
+1x
+© Felipe Martinez
+1x
+1x
+1x
+1x
+Bill of
+Materials
+1x
+1x
+4x
+=== SLIDE 40 ===
+Bill of
+Materials
+© Felipe Martinez
+=== SLIDE 41 ===
+Bill of
+Materials
+I need
+5
+Metal arm for
+casters
+per chair
+© Felipe Martinez
+=== SLIDE 42 ===
+Cod OF_CH_458 OF_CH_558 OF_CH_50 OF_CH_55 OF_CH_BB S_47895 OF_CH_B_L OF_CH_B_R OF_CH_SL OF_CH_SR OF_CH_SC OF_CH_BS Name Quantity
+/Product
+Carpet casters 5
+Metal arm for casters 5
+Metal spider for 5 casters 1
+Metal pipe connector 1
+Chair Base - Blue 1
+Screw 47895 8
+Arm stem Left – Blue 1
+Arm stem Right – Blue 1
+Support for Arm stem Left 1
+Support for Arm stem Right 1
+Support for Seat Back 1
+Seat back – Blue 1
+© Felipe Martinez
+Bill of
+Materials
+OF_CH_B
+=== SLIDE 43 ===
+Cod OF_CH_458 OF_CH_558 OF_CH_50 OF_CH_55 OF_CH_BB S_47895 OF_CH_B_L OF_CH_B_R OF_CH_SL OF_CH_SR OF_CH_SC OF_CH_BS Name Quantity
+/Product
+Carpet casters 5
+Metal arm for casters 5
+Metal spider for 5 casters 1
+Metal pipe connector 1
+Chair Base - Blue 1
+Screw 47895 8
+Arm stem Left – Blue 1
+Arm stem Right – Blue 1
+Support for Arm stem Left 1
+Support for Arm stem Right 1
+Support for Seat Back 1
+Seat back – Blue 1
+© Felipe Martinez
+Bill of
+Materials
+OF_CH_B
+=== SLIDE 44 ===
+Operation
+metal press
+© Felipe Martinez
+=== SLIDE 45 ===
+Operation
+metal press
+© Felipe Martinez
+=== SLIDE 46 ===
+One machine
+cycle
+manufactures
+2
+metal arm
+casters
+Operation
+metal press
+© Felipe Martinez
+=== SLIDE 47 ===
+Operation
+metal press
+30 x 30
+• The order is: 100 chairs
+• The OF_CH_558 is manufactured in
+pairs. This operation requires 1metal
+sheet of 30x30cm and 3mm
+thickness.
+• Metal sheets 1 m2 are available only.
+• The purchase order has to be done
+per 5 metal sheets.
+• How many metal sheets do you
+need in order to fulfil the demand?© Felipe Martinez
+=== SLIDE 48 ===
+Resources Standards
+Material Requirement
+Net (useful) requirement Necessary useless requirement
+Technically
+unavoidable lost
+Irreversibly
+lost
+Irreversibly Reversible
+© Felipe Martinez
+=== SLIDE 49 ===
+Metal sheets 1m2 are available only
+1 m2 18 OF_CH_558
+© Felipe Martinez
+=== SLIDE 50 ===
+The purchase order has to be done per 5
+metal sheets.
+1 m2
+1 m2
+1 m2
+1 m2
+1 m2
+© Felipe Martinez
+=== SLIDE 51 ===
+The purchase order has to be done per 5
+metal sheets.
+18 OF_CH_558 x 5 ms = 90 OF_CH_558
+© Felipe Martinez
+=== SLIDE 52 ===
+How many metal sheets?
+OF_CH_B
+• The order is: 100 chairs
+• The OF_CH_558 is manufactured in pairs. This operation
+requires 1metal sheet of 30x30cm and 3mm thickness.
+• Metal sheets 1m2 are available only.
+• The purchase order has to be done per 5 metal sheets.
+• How many metal sheets do you need in order to fulfil
+the demand?
+© Felipe Martinez
+=== SLIDE 53 ===
+OF_CH_B
+How many metal sheets?
+• The order is: 100 chairs
+1 chair = 5 OF_CH_558
+100 chairs = 500 OF_CH_558
+• The OF_CH_558 is manufactured in
+pairs. This operation requires 1metal
+sheet of 30x30cm and 3mm thickness.
+• Metal sheets 1m2 are available only.
+At one sheet = 18 OF_CH_558
+500/18= 27,777 = 28 metal sheets
+• The purchase order has to be done per 5
+metal sheets.
+But, since the purchase only per 5 metal sheets, then the order is 30 Metal
+• How many metal sheets do you need
+sheets.
+in order to fulfil the demand?
+© Felipe Martinez
+=== SLIDE 54 ===
+OF_CH_B
+• The order is: 100 chairs
+• The OF_CH_558 is manufactured in
+pairs. This operation requires 1metal
+sheet of 30x30cm and 3mm thickness.
+• Metal sheets 1m2 are available only.
+• The purchase order has to be done per 5
+metal sheets.
+• How many metal sheets do you need
+in order to fulfil the demand?
+How many metal sheets?
+1 chair = 5 OF_CH_558
+100 chairs = 500 OF_CH_558
+One purchase = 90 OF_CH_558
+500/90 = 5,5 = 6 purchases
+= 30 Metal sheets
+© Felipe Martinez
+=== SLIDE 55 ===
+OF_CH_B
+• The order is: 100 chairs
+• The OF_CH_558 is manufactured in
+pairs. This operation requires 1metal
+sheet of 30x30cm and 3mm thickness.
+• Metal sheets 1m2 are available only.
+• The purchase order has to be done per 5
+metal sheets.
+• How many metal sheets do you need
+in order to fulfil the demand?
+How many metal sheets?
+1 chair = 5 OF_CH_558
+100 chairs = 500 OF_CH_558
+Total purchase = 30 Metal sheets
+One purchase = 5 Metal sheets
+30/5 = 6 purchases
+© Felipe Martinez
+=== SLIDE 56 ===
+CMU of one cut?
+30 x 30
+© Felipe Martinez
+=== SLIDE 57 ===
+CMU of one cut?
+30 x 30
+© Felipe Martinez
+=== SLIDE 58 ===
+CMU of one cut?
+If an ellipse has its centre at the origin,
+𝑥2
+𝐴2 + 𝑦2
+= 1
+𝐵2
+Then, 𝐴𝑟𝑒𝑎 = 𝜋 × 𝐴 × 𝐵
+A
+30 x 30
+B
+© Felipe Martinez
+=== SLIDE 59 ===
+𝐴 = 2𝐵
+𝐴𝑟𝑒𝑎 = 𝜋 × 𝐴 × 𝐵
+CMU of one cut?
+A
+30 x 30
+B
+© Felipe Martinez
+=== SLIDE 60 ===
+15
+𝐴𝑟𝑒𝑎 = 𝜋 × 15 ×
+CMU of one cut?
+2
+𝐴𝑟𝑒𝑎 = 353,4292 𝑐𝑚2
+A
+30 x 30
+B
+© Felipe Martinez
+=== SLIDE 61 ===
+CMU of one cut?
+𝐵𝑜𝑡ℎ 𝐴𝑟𝑒𝑎𝑠 = 706,85𝑐𝑚2
+A
+A
+30 x 30
+B
+B
+© Felipe Martinez
+=== SLIDE 62 ===
+CMU of one cut
+30 x 30
+𝑇ℎ𝑒𝑛,
+𝑇𝑜𝑡𝑎𝑙 𝑎𝑟𝑒𝑎 = 30 × 30 = 900𝑐𝑚2
+𝑈𝑠𝑒𝑑 𝑖𝑛 𝑏𝑜𝑡ℎ 𝑎𝑟𝑒𝑎𝑠 = 706,85𝑐𝑚2
+𝐶𝑀𝑈 = 78,5398%
+𝐿𝑜𝑠𝑡 𝑝𝑒𝑟 30𝑥30 𝑠ℎ𝑒𝑒𝑡 = 193,1417𝑐𝑚2
+© Felipe Martinez
+=== SLIDE 63 ===
+CMU of one metal sheet?
+10cm
+100cm
+100cm
+1 m2
+100cm
+10cm
+90cm
+© Felipe Martinez
+=== SLIDE 64 ===
+CMU of one metal sheet
+100 × 100 = 10000𝑐𝑚2
+193,1417𝑐𝑚2 100 × 10 = 1000𝑐𝑚2
+90 × 10 = 900𝑐𝑚2
+193,1417 × 9 = 1738,2749 𝑐𝑚2
+193,1417𝑐𝑚2 193,1417𝑐𝑚2 6361,73 𝑐𝑚2
+10000𝑐𝑚2
+= 𝟔𝟑, 𝟔𝟏%
+10cm
+© Felipe Martinez
+193,1417𝑐𝑚2
+193,1417𝑐𝑚2
+193,1417𝑐𝑚2
+90cm
+10cm
+193,1417𝑐𝑚2
+193,1417𝑐𝑚2
+193,1417𝑐𝑚2
+100cm
+=== SLIDE 65 ===
+CMU at 28th metal sheet?
+• The order requires 500 arms (18
+OF_CH_558)
+• 27 metal sheets are totally used. This
+provide 18 arms each (27x18)=486
+arms
+• Then on the 28th metal sheet I need
+to make 14 arms more (500 – 486 =
+14) to complete the order
+• Therefore, the CMU for this only
+metal sheet is:
+193,1417𝑐𝑚2 193,1417𝑐𝑚2 193,1417𝑐𝑚2
+10cm
+© Felipe Martinez
+193,1417𝑐𝑚2
+193,1417𝑐𝑚2
+90cm
+10cm
+193,1417𝑐𝑚2
+100cm
+193,1417𝑐𝑚2
+=== SLIDE 66 ===
+CMU at 28th metal sheet?
+Therefore, the CMU for this only
+metal sheet is:
+100 × 100 = 10000𝑐𝑚2
+193,1417𝑐𝑚2 100 × 10 = 1000𝑐𝑚2
+90 × 10 = 900𝑐𝑚2
+193,1417 × 7 = 1351,992 𝑐𝑚2
+2 × 30 × 30 = 1800𝑐𝑚2
+193,1417𝑐𝑚2 193,1417𝑐𝑚2
+10cm
+4948 𝑐𝑚2
+10000𝑐𝑚2
+= 𝟒𝟗, 𝟒𝟖%
+© Felipe Martinez
+193,1417𝑐𝑚2
+193,1417𝑐𝑚2
+90cm
+10cm
+193,1417𝑐𝑚2
+100cm
+193,1417𝑐𝑚2
+=== SLIDE 67 ===
+OF_CH_B
+But... CMU of the purchase?
+•I buy 30 metal sheets. 30 × 10000𝑐𝑚2 = 300000𝑐𝑚2
+•But, I only use 28 metal sheets for this order.
+• 27 metal sheets uses an area of 6361,73𝑐𝑚2 each
+(CMU=63,61%), then all of them uses 171766,6𝑐𝑚2
+.
+• The 28th uses 4948𝑐𝑚2 (CMU = 49,48%). Since just 14 arms are
+made from this metal sheet.
+• The 29th and 30th are no used in the order (20000𝑐𝑚2)
+(CMU=0%).
+© Felipe Martinez
+=== SLIDE 68 ===
+Coefficient of material utilization - CMU
+It is the relation between the Net (useful)
+requirement and the total Material
+Requirement.
+Net (useful) requirement
+CMU =-----------------------------------------------------------------------------------------
+Material Requirement
+© Felipe Martinez
+=== SLIDE 69 ===
+OF_CH_B
+But... CMU of the purchase?
+I use 27 × 6361,73𝑐𝑚2 = 171766,6𝑐𝑚2
+1 × 4948𝑐𝑚2 = 4948𝑐𝑚2
+Net (useful) requirement
+I buy 30 × 10000𝑐𝑚2 = 300000𝑐𝑚2
+Material Requirement
+Then, CMU of the purchase = 176714,6
+300000
+© Felipe Martinez
+= 58,90%
+=== SLIDE 70 ===
+CMU of the purchase
+All in 𝑐𝑚2 Net (useful) requirement One 30x30 metal sheet 706.86 One 100x100 metal
+sheet (full used - 9
+pairs)
+6361.73 One 100x100 metal
+sheet (none full used - 7
+pairs)
+4948.01 Purchase 30 100x100
+metal sheets (27 (9
+pairs) + 1 (7 pairs))
+176714.59 © Felipe Martinez
+Material Requirement 900 10000 10000 300000 CMU
+78.54%
+63.62%
+49.48%
+58.90%
+=== SLIDE 71 ===
+CMU of the purchase
+All in 𝑐𝑚2 Net (useful) requirement One 30x30 metal sheet 706.86 One 100x100 metal
+sheet (full used - 9
+pairs)
+6361.73 One 100x100 metal
+sheet (none full used - 7
+pairs)
+4948.01 Purchase 30 100x100
+metal sheets (27 (9
+pairs) + 1 (7 pairs))
+176714.59 © Felipe Martinez
+Material Requirement 900 10000 10000 300000 CMU
+78.54%
+63.62%
+49.48%
+58.90%
+=== SLIDE 72 ===
+Today
+• Resources Standards
+• Materials
+• CMU
+• Bill of Materials
+• Methods
+• Analytical-Calculated
+• Comparative-Analogy
+© Felipe Martinez
+=== SLIDE 73 ===
+Next - Seminar
+• Resources Standards
+• Materials
+• CMU
+• Bill of Materials
+Exercises
+• Methods
+• Analytical-Calculated
+• Comparative-Analogy
+© Felipe Martinez
+=== SLIDE 74 ===
+Feedback
+© Felipe Martinez
+=== SLIDE 75 ===
+OPERATIONS
+MANAGEMENT
+Felipe Martinez
+© Felipe Martinez

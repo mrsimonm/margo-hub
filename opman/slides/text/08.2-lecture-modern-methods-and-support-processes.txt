@@ -1,0 +1,721 @@
+
+=== SLIDE 1 ===
+OPERATIONS
+MANAGEMENT
+Felipe Martinez
+© Felipe Martinez
+=== SLIDE 2 ===
+Today
+Modern Methods
+Support Processes
+Photo by Chris Holgersson on Unsplash
+© Felipe Martinez
+=== SLIDE 3 ===
+Today
+Modern Methods
+Support Processes
+Photo by Chris Holgersson on Unsplash
+© Felipe Martinez
+=== SLIDE 4 ===
+TRIZ
+A B C
+Process Mapping
+TPM
+PokaYoke
+LEAN
+Toolbox
+VSM
+SMED
+Kanban
+„Learning by Doing“
+Mieruka
+© Felipe Martinez
+Layout
+DBR
+TOC
+Jidoka
+=== SLIDE 5 ===
+Modern methods of production and
+inventory management
+Principles of Lean
+Push-Pull
+TPS
+JIT
+Lean Six Sigma
+JIS
+TOC
+Kanban
+ABC Method
+© Felipe Martinez
+=== SLIDE 6 ===
+What is LEAN? - Lean Principles
+Value Waste
+Continuous
+Improvement
+© Felipe Martinez
+Felipe Martinez, (2018) "Lean home services in Czech Republic", International Journal of Lean Six Sigma, https://doi.org/10.1108/IJLSS-07-2017-0088
+=== SLIDE 7 ===
+Value
+Increases
+What is LEAN?
+Lean Principles
+Continuous
+Improvement LEAN
+Reduces
+Waste
+© Felipe Martinez
+Felipe Martinez, (2018) "Lean home services in Czech Republic", International Journal of Lean Six Sigma, https://doi.org/10.1108/IJLSS-07-2017-0088
+=== SLIDE 8 ===
+What is LEAN? - Lean
+Principles
+It is a methodology that
+increases value to the
+customer by reducing
+waste in a continuous
+improvement
+environment.
+© Felipe Martinez
+Felipe Martinez, (2018) "Lean home services in Czech Republic", International Journal of Lean Six Sigma, https://doi.org/10.1108/IJLSS-07-2017-0088
+=== SLIDE 9 ===
+Flexible / Different
+LEAN Manufacturing
+CRAFT LEAN
+MASS
++ Costs -
+© Felipe Martinez
+=== SLIDE 10 ===
+Market change
+Lean
+Mass
+Craft
+© Felipe Martinez
+=== SLIDE 11 ===
+The evolution of the five performance
+objectives
+Lean
+Mass
+Craft
+© Felipe Martinez
+=== SLIDE 12 ===
+Principles of Lean
+© Felipe Martinez
+=== SLIDE 13 ===
+Modern methods of production and
+inventory management
+Principles of Lean
+Push-Pull
+TPS
+JIT
+Lean Six Sigma
+JIS
+TOC
+Kanban
+ABC Method
+© Felipe Martinez
+=== SLIDE 14 ===
+Modern methods of production and
+inventory management
+Principles of Lean
+Push-Pull
+TPS
+JIT
+Lean Six Sigma
+JIS
+TOC
+Kanban
+ABC Method
+© Felipe Martinez
+=== SLIDE 15 ===
+4P: Continuously Solving Root
+Problems Drives Organisational
+learnings
+3P: Add value to your organisation by
+Developing your people and partners
+2P: The Right Process Will Produce
+the Right Results
+1P: Long Term Philosophy
+© Felipe Martinez
+TPS
+principles
+Sections
+=== SLIDE 16 ===
+1S: Long
+Term
+Philosophy
+TPS principles
+•Principle 1: Base your
+management decisions
+on a long term
+philosophy, even at the
+expense of short-term
+financial goals
+© Felipe Martinez
+=== SLIDE 17 ===
+2S: The
+Right
+Process
+Will
+Produce
+the
+Right
+Results
+TPS principles
+• Principle 2: Create continuous process flow to
+bring problems to the surface
+• Principle 3: Use "Pull" system to avoid overproduction
+• Principle 4: Level out the workload (heijunka). (Work like
+a tortoise, not the hare)
+• Principle 5: Build a culture of stopping to fix problems, to
+get quality right at the first time
+• Principle 6: Standardized units are the foundation for
+continuous improvements and employee empowerment
+• Principle 7: Use Visual Control so no problems are hidden
+• Principle 8: Use only reliable, thoroughly tested
+technology that servers your people and process
+© Felipe Martinez
+=== SLIDE 18 ===
+3S: Add
+value to your
+organisation
+by
+Developing
+your people
+and partners
+TPS principles
+• Principle 9: Grow leaders who thoroughly
+understands the work, live philosophy and
+teach it to others.
+• Principle 10: Develop exceptional people
+and teams who follow your company's
+philosophy
+• Principle 11: Respect your extended
+network of partners and suppliers by
+challenging them and helping them
+improve
+© Felipe Martinez
+=== SLIDE 19 ===
+4S:
+Continuously
+Solving Root
+Problems
+Drives
+Organisational
+learnings
+TPS principles
+• Principle 12: Go and see for yourself to
+thoroughly understand the situation
+(Genchi Genbutsu)
+• Principle 13: Make decision slowly by
+consensus, thoroughly considering all
+options; implement decisions rapidly
+• Principle 14: Become a learning
+organisation through relentless
+reflection (hansei) and continuous
+improvements(Kaizen)
+© Felipe Martinez
+=== SLIDE 20 ===
+Modern methods of production and
+inventory management
+Principles of Lean
+Push-Pull
+TPS
+JIT
+Lean Six Sigma
+JIS
+TOC
+Kanban
+ABC Method
+© Felipe Martinez
+=== SLIDE 21 ===
+LEAN and Six Sigma
+LEAN - Effectiveness Six Sigma - Variability
+© Felipe Martinez
+13.11.2023 29
+=== SLIDE 22 ===
+Modern methods of production and
+inventory management
+Principles of Lean
+Push-Pull
+TPS
+JIT
+Lean Six Sigma
+JIS
+TOC
+Kanban
+ABC Method
+© Felipe Martinez
+=== SLIDE 23 ===
+Eliyahu Goldratt
+•Physicist
+•Israel
+•TOC
+•DBR
+•CCPM
+•Etc… (March 31, 1947 – June 11, 2011)
+© Felipe Martinez
+=== SLIDE 24 ===
+Eliyahu Goldratt
+The Goal:
+A Process of
+Ongoing
+Improvement
+Eliyahu M. Goldratt, Jeff Cox, David Whitford
+North River Press, Jun 1, 2012 - 408 pages
+© Felipe Martinez
+=== SLIDE 25 ===
+TOC – basic concepts
+Throughput
+Operational
+Expenses
+Inventory
+© Felipe Martinez
+=== SLIDE 26 ===
+TOC - Theory of Constraints
+IDENTIFY
+the system's constraint
+EXPLOIT
+the constraint
+SUBORDINATE
+everything else to the constraint(s)
+ELEVATE
+the constraint
+PREVENT INERTIA
+from becoming the constraint!
+© Felipe Martinez
+=== SLIDE 27 ===
+Modern methods of production and
+inventory management
+Principles of Lean
+Push-Pull
+TPS
+JIT
+Lean Six Sigma
+JIS
+TOC
+Kanban
+ABC Method
+© Felipe Martinez
+=== SLIDE 28 ===
+High
+Medium
+Low
+ABC XYZ Method
+ABC - Value
+XYZ - Dependability
+High Medium Low
+© Felipe Martinez
+=== SLIDE 29 ===
+13.11.2023 Tramnitzke, M., & Crone, S. Segmenting sales forecasting accuracy.
+© Felipe Martinez
+© Felipe Martinez http://www.forecasters.org/submissions08/TramnitzkeMichaelISF2008.pdf
+37
+=== SLIDE 30 ===
+ABC XYZ Method
+X Y Z
+A
+B
+C
+© Felipe Martinez
+=== SLIDE 31 ===
+A
+B
+C
+ABC XYZ Method
+X Y Z
+AX AY AZ
+BX BY BZ
+CX CY CZ
+© Felipe Martinez
+=== SLIDE 32 ===
+Modern methods of production and
+inventory management
+Principles of Lean
+Push-Pull
+TPS
+JIT
+Lean Six Sigma
+JIS
+TOC
+Kanban
+ABC Method
+© Felipe Martinez
+=== SLIDE 33 ===
+Pull system
+„ Give me what I need in the right time.“
+LIKER, Jeffery. Toyota Way. 2007.
+http://smallbusiness.chron.com/push-system-vs-pull-system-inventory-control-12650.html
+© Felipe Martinez
+=== SLIDE 34 ===
+JIT
+Just In Time
+Make only what you need, when you need and the
+amount needed.
+Natalie J. Sayer, Bruce Williams, Lean For Dummies, pg 36
+© Felipe Martinez
+=== SLIDE 35 ===
+JIT
+Just-in-time offers a smooth, continuous and optimised
+workflow, with carefully planned and measured work-cycle times
+and on-demand movement of goods, reduces the cost of wasted
+time, materials and capacity. Team members can concentrate on
+their tasks without interruption, which leads to better quality,
+timely delivery, and peace-of-mind for Toyota’s customers.
+http://www.toyota-forklifts.co.uk/EN/company/Toyota-Production-System/Just-in-time/Pages/default.aspx
+© Felipe Martinez
+=== SLIDE 36 ===
+JIS
+Just in Sequence. Inventory matching JIT.
+It is warehouse-free process, characterized by the delivery
+of parts, modules and systems in line with the assembly
+sequence of the original equipment manufacture.
+Use of Distributed IT Tools for Assessment of Manufacturing Processes
+Authors: Pawel Pawlewski Poznan University Of Technology, Poznan, Poland 60965
+Zbigniew J. Pasek University of Windsor, Windsor, Canada N9B3P4
+© Felipe Martinez
+=== SLIDE 37 ===
+Kanban
+•Signboard, Billboard
+•Signals to move and produce.
+•“Take one, make one”
+© Felipe Martinez
+=== SLIDE 38 ===
+Kanban
+Kanban is a system that controls the flow of
+resources in production processes through the
+cards (signs). These cards are used to indicate
+material supply or production parts.
+© Felipe Martinez
+=== SLIDE 39 ===
+Modern methods of production and
+inventory management
+?
+Principles of Lean
+Push-Pull
+TPS
+JIT
+Lean Six Sigma
+JIS
+TOC
+Kanban
+ABC Method
+© Felipe Martinez
+=== SLIDE 40 ===
+Today
+Modern Methods
+Support Processes
+Photo by Chris Holgersson on Unsplash
+© Felipe Martinez
+=== SLIDE 41 ===
+VALUE CHAIN
+© Felipe Martinez
+=== SLIDE 42 ===
+Value Chain
+•Process Approach
+•Main or Core Process
+•Support Process
+•Service Process
+Michael Porter, Competitive Advantage: Creating and Sustaining Superior Performance, 1985© Felipe Martinez
+=== SLIDE 43 ===
+Value Chain
+Core Process
+Inbound
+Logistics Operations Outbound
+Logistics
+Marketing &
+Sales Service
+Michael Porter, Competitive Advantage: Creating and Sustaining Superior Performance, 1985
+© Felipe Martinez
+=== SLIDE 44 ===
+Value Chain
+Support Process and Service Process
+Firm Infrastructure
+Human Resource Management
+Technology Development
+Procurement
+Michael Porter, Competitive Advantage: Creating and Sustaining Superior Performance, 1985
+© Felipe Martinez
+=== SLIDE 45 ===
+Value Chain
+Firm Infrastructure
+Human Resource Management
+Support
+Process
+Technology Development
+Procurement
+Margin
+Core
+Process
+Inbound
+Logistics Operations Outbound
+Logistics
+Marketing &
+Sales Service
+Michael Porter, Competitive Advantage: Creating and Sustaining Superior Performance, 1985© Felipe Martinez
+=== SLIDE 46 ===
+Value Chain
+Human Resource
+Management
+Technology
+Development
+Core
+Process
+Inbound
+Logistics Operations Outbound
+Logistics
+Marketing &
+Sales Service
+GOALS
+Support
+Process
+Firm Infrastructure
+Procurement
+© Felipe Martinez
+=== SLIDE 47 ===
+Value Chain
+•Process Approach
+•Main or Core Process
+•Support Process
+•Service Process
+Michael Porter, Competitive Advantage: Creating and Sustaining Superior Performance, 1985© Felipe Martinez
+=== SLIDE 48 ===
+Support processes
+TPM
+Facility
+Management
+© Felipe Martinez
+=== SLIDE 49 ===
+Support processes
+TPM
+Facility
+Management
+© Felipe Martinez
+=== SLIDE 50 ===
+Facility Management
+“Facility management is a
+profession that
+encompasses multiple
+disciplines to ensure
+functionality of the built
+environment by
+integrating people, place,
+process and technology.”
+IFMA, 2014
+© Felipe Martinez
+=== SLIDE 51 ===
+Facility management
+It is a profession that encompasses multiple
+disciplines to ensure functionality of the built
+environment by integrating people, place, process
+and technology.
+IFMA, 2014
+© Felipe Martinez
+=== SLIDE 52 ===
+• Communication
+• Emergency Preparedness
+and Business Continuity
+• Environmental Stewardship
+and Sustainability
+• Finance and Business
+• Human Factors
+• Leadership and Strategy
+FM – 11 Core competences
+• Operations and Maintenance
+• Project Management
+• Quality
+• Real Estate and Property
+Management
+• Technology
+IFMA, 2014
+© Felipe Martinez
+=== SLIDE 53 ===
+Support processes
+TPM
+Facility
+Management
+© Felipe Martinez
+=== SLIDE 54 ===
+TPM
+Total
+Productive
+Maintenance
+© Felipe Martinez
+=== SLIDE 55 ===
+TPM
+•Total Productive Maintenance
+•Total Productive Management
+•Total Productivity Maintenance
+•Total Productive Equipment
+Management
+•„Tým pomáhá mašinám“ (At
+Bosch factory, České Budějovice,
+CZ)
+•
+…
+© Felipe Martinez 73
+Photo by Антон Дмитриев on Unsplash
+=== SLIDE 56 ===
+TPM
+NONE
+✓ Product defects;
+✓ Unplanned downtime;
+✓ Accidents
+© Felipe Martinez
+74
+Photo by Bernard Hermant on Unsplash
+=== SLIDE 57 ===
+TPM
+•Total. Consider every aspect and involve everyone from
+top management to the workers;
+•Productive. Maintenance without stopping production. It
+is about minimizing troubles for production;
+•Maintenance. maintaining equipment in good condition
+(autonomous productive activities). Repair, clean, etc.
+Just understand that maintenance needs time.
+© Felipe Martinez
+=== SLIDE 58 ===
+Total. Consider every aspect and involve
+everyone from top management to the
+workers;
+© Felipe Martinez
+13.11.2023 76
+=== SLIDE 59 ===
+Productive. Maintenance without stopping
+production. It is about minimizing troubles for
+production;
+© Felipe Martinez
+13.11.2023 77
+=== SLIDE 60 ===
+Maintenance. maintaining equipment in good condition
+(autonomous productive activities). Repair, clean, etc. Just
+understand that maintenance needs time.
+© Felipe Martinez
+13.11.2023 78
+=== SLIDE 61 ===
+TPM
+Work vs. Maintenance Work & Maintenance
+Photo by Goh Rhy Yan on Unsplash
+© Felipe Martinez
+13.11.2023 79
+=== SLIDE 62 ===
+Productive
+Time
+Net operating time
+Operating time
+Planned time
+Total time
+Defects and
+rework
+Losses
+from start
+Overall equipment efficiency - OEE
+Reduced
+speed
+Idling & minor
+interruptions
+Settings and
+Adjustments
+Failures
+Planned shutdown
+© Felipe Martinez
+=== SLIDE 63 ===
+TPM - OEE
+TPM OEE
+© Felipe Martinez
+13.11.2023 81
+=== SLIDE 64 ===
+TPM Elements
+1. Teamwork to achieve common goals;
+2. Improving equipment efficiency by focusing on large losses;
+3. Involvement workers in daily, routine maintenance of their equipment;
+4. Improving the efficiency and effectiveness of maintenance;
+5. Machine/Device life cycle and design.
+6. Training for all concerned.
+© Felipe Martinez
+13.11.2023 82
+=== SLIDE 65 ===
+TPM Elements
+1. Teamwork to
+achieve common
+goals.
+© Felipe Martinez
+83
+=== SLIDE 66 ===
+TPM Elements
+2. Improving equipment
+efficiency by focusing on
+large losses;
+© Felipe Martinez
+84
+=== SLIDE 67 ===
+TPM Elements
+3. Involvement workers in daily,
+routine maintenance of their
+equipment;
+© Felipe Martinez
+85Photo by sol on Unsplash
+=== SLIDE 68 ===
+TPM Elements
+4. Improving the
+efficiency and
+effectiveness of
+maintenance;
+© Felipe Martinez
+86
+Photo by Vitolda Klein on Unsplash
+=== SLIDE 69 ===
+TPM Elements
+5. Machine/Device life cycle
+and design.
+© Felipe Martinez
+87
+=== SLIDE 70 ===
+TPM Elements
+6. Training for all concerned;
+© Felipe Martinez
+88
+Photo by Science in HD on Unsplash
+=== SLIDE 71 ===
+TPM
+• Total. consider every aspect and involve
+everyone from top management to
+workers;
+• Productive. maintenance is done while
+production continues. It is about
+minimizing production difficulties;
+• Maintenance. keeping equipment in
+good condition (autonomous production
+activities). Repair, clean, etc. Mainly
+understand that maintenance needs
+time.
+© Felipe Martinez
+13.11.2023 89
+=== SLIDE 72 ===
+TPM Elements
+1. Teamwork to achieve common goals;
+2. Improving equipment efficiency by focusing on large losses;
+3. Involvement workers in daily, routine maintenance of their equipment;
+4. Improving the efficiency and effectiveness of maintenance;
+5. Machine/Device life cycle and design.
+6. Training for all concerned.
+?
+© Felipe Martinez
+90
+=== SLIDE 73 ===
+Today
+Modern Methods
+Support Processes
+Photo by Chris Holgersson on Unsplash
+© Felipe Martinez
+=== SLIDE 74 ===
+Seminar
+Industry 4.0
+Photo by ZMorph All-in-One 3D Printers on Unsplash
+© Felipe Martinez
+=== SLIDE 75 ===
+Feedback
+© Felipe Martinez
+=== SLIDE 76 ===
+OPERATIONS
+MANAGEMENT
+Felipe Martinez
+© Felipe Martinez

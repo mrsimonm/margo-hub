@@ -1,19 +1,24 @@
 // Margo's Study Hub offline support: caches the unified shell, Statistics Hub, Micro Hub and Op Man Hub.
 // Bump V when you change root shell files or switcher.js. Content files (json, md, js, html)
 // are fetched fresh when online and served from cache when offline.
-const V = "margo-hub-v2";
+const V = "margo-hub-bd6417d3";
 const SHELL = [
   "./", "./index.html", "./switcher.js", "./manifest.webmanifest",
   "./lib/firebase-config.js", "./lib/firebase-sync.js", "./lib/cat.js", "./lib/stats.js",
   "./icon-192.png", "./icon-512.png", "./icon-maskable-512.png",
-  "./stats/", "./stats/index.html", "./stats/app.js", "./stats/lib/lecture-lib.js", "./stats/lib/cat.js", "./stats/lib/stats.js",
-  "./stats/lib/firebase-config.js", "./stats/lib/firebase-sync.js", "./stats/courses/stats/course.json",
-  "./micro/", "./micro/index.html", "./micro/app.js", "./micro/lib/lecture-lib.js", "./micro/lib/cat.js", "./micro/lib/stats.js",
-  "./micro/lib/formulas.js", "./micro/lib/graphs.js", "./micro/lib/firebase-config.js", "./micro/lib/firebase-sync.js",
+  /* HUB:BEGIN */
+  "./stats/", "./stats/index.html", "./stats/app.js", "./stats/lib/apply.js",
+  "./stats/lib/cat.js", "./stats/lib/firebase-config.js", "./stats/lib/firebase-sync.js", "./stats/lib/formulas.js",
+  "./stats/lib/lecture-lib.js", "./stats/lib/path.js", "./stats/lib/stats.js", "./stats/courses/stats/course.json",
+  "./micro/", "./micro/index.html", "./micro/app.js", "./micro/lib/apply.js",
+  "./micro/lib/cat.js", "./micro/lib/firebase-config.js", "./micro/lib/firebase-sync.js", "./micro/lib/formulas.js",
+  "./micro/lib/graphs.js", "./micro/lib/lecture-lib.js", "./micro/lib/path.js", "./micro/lib/stats.js",
   "./micro/courses/micro/course.json",
-  "./opman/", "./opman/index.html", "./opman/app.js", "./opman/lib/lecture-lib.js", "./opman/lib/cat.js", "./opman/lib/stats.js",
-  "./opman/lib/formulas.js", "./opman/lib/apply.js", "./opman/lib/path.js", "./opman/lib/opman.js", "./opman/lib/firebase-config.js", "./opman/lib/firebase-sync.js",
+  "./opman/", "./opman/index.html", "./opman/app.js", "./opman/lib/apply.js",
+  "./opman/lib/cat.js", "./opman/lib/firebase-config.js", "./opman/lib/firebase-sync.js", "./opman/lib/formulas.js",
+  "./opman/lib/lecture-lib.js", "./opman/lib/opman.js", "./opman/lib/path.js", "./opman/lib/stats.js",
   "./opman/courses/opman/course.json"
+  /* HUB:END */
 ];
 
 self.addEventListener("install", (e) => {
@@ -29,9 +34,11 @@ self.addEventListener("activate", (e) => {
 });
 
 function navFallback(pathname) {
+  /* HUB:BEGIN */
   if (/\/stats(\/|$)/.test(pathname)) return caches.match("./stats/index.html");
   if (/\/micro(\/|$)/.test(pathname)) return caches.match("./micro/index.html");
   if (/\/opman(\/|$)/.test(pathname)) return caches.match("./opman/index.html");
+  /* HUB:END */
   return caches.match("./index.html");
 }
 

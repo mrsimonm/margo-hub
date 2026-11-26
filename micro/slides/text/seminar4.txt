@@ -1,0 +1,271 @@
+
+=== SLIDE 1 ===
+3BE 123 - Microeconomics
+Ing. Zuzana Dzbankova, Ph.D.
+Department of Managerial
+Economics, FBA
+University of Economics, Prague
+http://kmae.vse.cz
+=== SLIDE 2 ===
+2
+Seminar 4
+Ordinal Approach– optimum compl., demand,
+elasticity, market equlibrium, consumer
+surplus.
+=== SLIDE 3 ===
+3
+Derive the Individual Demand Curve
+• Assumption: I and PY are
+constant; PY changes
+• I = 150,-
+PY = 15,-
+PX = 10,- (↓ PX = 5,- )
+I/ PX = 15 I/ PX = 30
+=== SLIDE 4 ===
+4
+HW: 1 from the last week
+THE CONSUMER: Marginal utility function:
+MUX = 10 – X; MUY = 24 – Y; TU = 10X + 24Y – 0,5X2
+–
+0,5Y2
+.
+Restriction: Budget (income, Px, Py)
+I = 4400 CZK, Px = 200, Py = 600
+• The consumer spends all income on these two goods.
+What is the optimal combination of goods to maximize the
+utility of the consumption?
+Outcomes: X = 4, Y = 6
+=== SLIDE 5 ===
+55
+Price Elasticity of Demand
+• Elasticity of Demand - the
+rate of consumer response
+to changes in the market
+conditions
+• Price Elasticity of Demand -
+percent change in quantity
+resulting from a one-percent
+change in price
+￼
+￼
+Percent change in quantity demanded
+Percent change in price
+￼
+CZK/Q
+=== SLIDE 6 ===
+66
+Arc Elasticity of Demand
+￼
+•
+￼
+￼
+￼
+￼
+Arc Elasticity of
+Demand
+Change in
+quantity
+demanded
+Average
+quantity
+Change
+in price
+Average
+price
+=== SLIDE 7 ===
+7
+Ex. 1 Price Elasticity of Demand
+• New Zealand’s shopping mall announced 50%
+discount on men’s clothing. Market research
+has discovered that respective price elasticity
+of demand is 4. As a result of the discount,
+purchases of male apparel:
+a)increased by 12,5 %
+b)decreased by 12,5 %
+c)increased by 0,2 %
+d)decreased 0,2 %
+e)increased by 200 %
+f) decreased by 200 %
+=== SLIDE 8 ===
+8
+HW 2 – Price Elasticity of Demand
+• Imagine that you have online bookselling business.
+• You know that your customers can be divided into the
+following groups according to their likely responses to
+the discount:
+• If you want to increase your total revenue, should
+discounts be offered to group A or to group B, to
+neither group, or to both groups?
+Group A
+(sales per week)
+Group B
+(sales per week)
+Volume of sales
+before the 10%
+discount
+1.55 million 1.50 million
+Volume of sales
+after the 10%
+discount
+1.65 million 1.70 million
+=== SLIDE 9 ===
+9
+Solution
+A) Group: EPD = (1.65 – 1.55)/ (1.65 + 1.55): 2 this is nominater
+10 % denominator
+= (0.1/1.6) : 10 = 0.0625 (e.g. 6.15 %) : 10 % = - 0.625 Neelastic.
+B) Group: EPD = (1.70 – 1.50)/ (1.70 + 1.50):2 ═
+10 %
+= (0.2/1.6)/10 % = 0.125 (e.g. 12.5 %)
+10 %
+= -1.25 Elastic.
+￼
+=== SLIDE 10 ===
+10
+HW 3. Price Elasticity of Demand
+• An owner of a pizza delivery firm hired you as his
+adviser.
+• He says that last year he acquired 40% of new
+customers after he had reduced the pizza price by
+8%.
+• He expected that his client base would increase by
+half as a result of price reduction.
+• He asks you to help him understand why his
+expectations were not met.
+P
+=== SLIDE 11 ===
+11
+Solution
+EPD = % Δ Q/% Δ P = 0.4 / 0.08 = 5
+EPD = 0.5 / 0.8 = 6.25 under this terms
+5 = 0.5/X = 10 → P↓ by 10 %
+=== SLIDE 12 ===
+1212
+Point Price Elasticity
+￼
+￼
+￼
+￼
+The reciprocal value of the slope of
+demand curve
+￼
+=== SLIDE 13 ===
+13
+13
+Point Price Elasticity
+￼
+￼
+￼
+￼
+4P = 160 - Q
+P = 160/4 – 1/4Q
+P = 40 – 1/4Q
+EPD= -4 x 30/40 = -3
+EPD= -4 x 20/80 = -
+1
+=== SLIDE 14 ===
+1414
+Determinants of Price Demand Elasticity
+￼
+￼
+￼
+• Availability of substitutes
+• The definition of the good
+• Luxuries versus necessities
+• Proportion of the consumer‘s budget spent on the
+good
+• A matter of time
+=== SLIDE 15 ===
+15
+HW 1: Price Elasticity of Demand
+The Midpoint Method
+• Suppose that business travelers and tourists have the
+following demand for airline tickets from New York to
+Boston:
+• As the price of tickets rises from $200 to $250, what is
+the price elasticity of demand for (a) business travelers
+and (b) tourists? Explain the differences in the above
+elasticities if any exist.
+Price ($) Quantity demanded (tickets)
+Business travelers Tourists
+150 2100 1000
+200 2000 800
+250 1900 600
+300 1800 400
+=== SLIDE 16 ===
+16
+Example 2
+The following table tracks the development of demand for espresso at the U
+Bílého Hrněčku café. We are examining the relationship between price and the
+daily sales volume of this type of coffee. The owner feels that there are not
+enough customers and wants to attract them by lowering the price. He is
+considering a price of 40, 30, or even 20 CZK.
+a) Calculate the price elasticity of demand if the owner reduces the price of coffee
+from CZK 40 to CZK 30.
+b) Calculate the price elasticity of demand if the owner reduces the price of coffee
+from CZK 30 to CZK 20.
+c) Interpret the result and justify it using your knowledge.
+d) Determine the coffee shop visitors' expenditure on coffee at both prices.
+e) Draw a demand curve in the figure, determine its slope, and illustrate the gradual
+price reduction, including its consequences.
+f) Explain to the coffee shop owner the perhaps surprising finding that selling more
+does not always pay off.
+Price 60 50 40 30 20 10
+Quantity 0 10 20 30 40 50
+=== SLIDE 17 ===
+17
+Homework 2 - Using the Demand Curve to
+Measure Consumer Surplus
+• We can use the information on willingness to pay to derive a
+demand curve for the rare Elvis Presley album.
+• Derive the demand curve.
+• Calculate the consumer surplus if the price is $70.
+• What happens to the surplus if the price drops to $ 50?
+Price Buiers Quantity Demanded
+More than $100 None 0
+$80 to $100 John 1
+$70 to $80 John, Paul 2
+$50 to $70 John, Paul, George 3
+$50 or less John, Paul, George,
+Ringo
+4
+=== SLIDE 18 ===
+18
+HW 3
+Fill in the missing values in the tables: 1.
+• We consider a short-term period, the number of
+other inputs is constant.
+Q (total
+units
+produced)
+L TP AP MP
+0 0
+4 1
+7 2
+9 3
+10 4
+10,5 5
+=== SLIDE 19 ===
+19
+Homework 4 for next week
+• Imagine that you own a small firm whose monthly financial flows (presented
+below – 3 first items) are quite stable. Although your accountant ignores the
+costs which do not imply cash outflows, you are fully aware of them.
+• Will you stay in business in the long term?
+• Total revenue = 600 000 CZK
+• The cost of materials = 200 000 CZK
+• (Employees’) wages = 250 000 CZK
+• Foregone salary = 100 000 CZK (if you worked as a Financial Director in the
+successful manufacturing company)
+• Forgone rent and interest = 80 000 CZK (if you (1) rented your commercial
+premises and (2) put your money (instead of investing it in the business) in a
+bank)
+Hint: read Mankiw (explicit/implicit costs + accounting/economic profit)
+=== SLIDE 20 ===
+20
+Relevant Literature
+• Mankiw „Principles of Microeconomics“: ch. 21 (except for (1) two
+extreme examples of indifference curves; (2) income and
+substitution effects; (3) three applications); chapter 5 („Elasticity and
+its application“, only up to „other demand elasticities“); ch. 7 (only
+consumer surplus)

@@ -1,0 +1,131 @@
+
+=== SLIDE 1 ===
+University of Economics, Prague
+Faculty of Business Administration
+3BE216 - Operations Management
+Prepared by: Felipe Martinez
+Wednesday, 11 October 2023
+EXERCISES TO PRACTICE
+First Test
+1. Resources standards
+A construction company has an order to build 5 garages. The structure needs 3 steel profiles (IPE
+140) with a length of 5.4 m and one of a length of 1.1 m. These steel profiles are sold in bars with a
+length of 6 meters or 12 meters. The specific weight per linear meter is 12.9 kg. How many steel
+profiles (IPE 140) of each length are needed to be ordered?
+a) b) c) d) e) Calculate the total demand of steel profiles in meters and the coefficient of material
+utilization for both profile lengths (CMU). The Cold saw has a width of 0.5 cm, and the heat
+burns 0.5 mm of material on both sides of the cut.
+Decide the number of long steel profiles to order and the number of short steel profiles to
+order.
+Next, consider whether buying steel profiles on the exact length required dimensions would
+be beneficial. The supplier offers this option at 5% extra of the purchase price.
+You have the opportunity to sell the non-required material at 50% of the market price
+(19,50EUR/meter). Determine the sales price in CZK (1EUR = 25CZK)
+The available truck has 10mts trunk capacity. You have to wait 2 days for the truck with
+12mts trunk capacity. The extra cost of stopping manufacture is 5% of the material cost per
+day. What truck will you use? Why?
+2. Work standards
+A batch (120 pieces) must be completed at the end of this Friday shift. Decide when this order must
+start its manufacture process. Please specify the day and the number of the shift. (Monday = 1st shift.
+One shift per day. 1 shift = 8 hours). Each shift uses 12min for general cleaning of the shop floor at
+the end.
+Calculate for LTL, µ and UTL:
+a) Unit, batch, shift time.
+b) c) Time to manufacture one batch
+Determine the shift/day to order production
+=== SLIDE 2 ===
+Operation LTL Time (min) µ UTL Time type
+Preparing the workplace 4,0 5,0 6,0
+Studying workflow and drawing 6,0 8,0 10,0
+Adjustment of machine 140,0 150,0 160,0
+Clamp the workpiece in the machine 0,3 0,5 0,7
+Turning one piece 13,0 13,5 14,0
+Release workpiece 0,4 0,5 0,6
+Check one (each) piece 0,49 0,5 0,51
+Handing over completed work 6,0 7,0 8,0
+Cleaning workplace 4,0 5,0 6,0
+(SVOBODOVÁ, et al., 2012)
+3. Resources standards
+A construction company has an order to build one garage. The structure needs 4 steel profiles with a
+length of 5.6 m. These steel profiles are sold in bars with a length of 12 meters. The supplier also
+offers a length of 7 m, because these are leftovers from another job.
+a) b) c) d) Calculate the total demand of steel profiles in meters and the coefficient of material
+utilization for both profile lengths 7 meters and 12 meters. (Do not include the material
+losses due Cold saw. The material tolerance covers this waste).
+Decide on the length of the steel profiles. Argue your answer.
+Next, consider whether it would be beneficial to buy steel profiles on the exact length
+required dimensions. The supplier offers this option at 12% extra of the purchase price.
+Write any further information you need in order to know argue your decision.
+(SVOBODOVÁ, et al., 2012)
+4. Little’s Law
+a) A queue at the local coffee shop has 10 persons. One Barista is able to process orders around
+5 minutes/per customer. Calculate how many baristas is needed to serve these 10 customers
+in 25 min. (FACTORY PHYSICS, 2014)
+b) A product is scheduled to wait for 2 days in finished goods inventory before shipping to the
+customer. Use Little’s law to determine the total amount of inventory in finished goods.
+Manufacture facilities provide 10 finished goods per day. (FACTORY PHYSICS, 2014)
+c) A system at peak processes 8000 Transactions/Hour with an average response time of ~5s
+per transaction. The average Think Time per user is ~30s. What is the number of concurrent
+users on the system? (Practical Performance Analyst, 2014)
+University of Economics, Prague Wednesday, 11 October 2023
+Faculty of Business Administration Prepared by: Felipe Martinez
+3BE216 - Operations Management 2
+=== SLIDE 3 ===
+5. Concepts and theory
+Please answer the following questions:
+A) Define process.
+B) Argue the importance of standards.
+C) Define Target costing.
+D) Why the principles from Porter and Chandler are important in operations management?
+E) Explain the each of the five performance objectives of operations management.
+F) What are the external effects of the five performance objectives of operations management?
+Present your answer graphically.
+G) Define and explain the different types of processes.
+H) What is the difference between Outsourcing, Insourcing, Off-shore, Re-shore and Next-
+Shore? Explain each concept and argue which of them is the best for a bakery in Prague 1.
+I) What information you obtain from a “Bill of Materials”?
+J) What information is at a Process diagram?
+K) What information is at a Process layout?
+L) What information is at a Process flowchart?
+M) How many hours have 1 TMU?
+N) What is capacity?
+O) How to calculate process capability?
+P) What type of pieces can you made in a lathe?
+Q) Argue the reasons to use Little’s law in a hospital?
+R) What is the relation between HR and OM?
+S) In the framework of book the goal, answer the following questions. Argument your answer.
+a. What is the goal of the organisation?
+b. What principle Alex learned with the scouts?
+c. Are robots efficient?
+d. Define throughput
+e. Define operational expense
+f. Define Inventory
+g. List the 5 steps of the theory
+h. Define constrain? Give an example
+i. Define bottle neck? Give an example
+j. Who is Herbie and why is important in the story?
+k. What is Theory of Constraints?
+l. Define "dependent events" and "statistical fluctuations"
+m. How to balance the flow in the production line?
+n. If the material flow stops at the bottleneck, the whole system losses time. Is this
+true? Why?
+University of Economics, Prague Wednesday, 11 October 2023
+Faculty of Business Administration Prepared by: Felipe Martinez
+3BE216 - Operations Management 3
+=== SLIDE 4 ===
+Literature
+FACTORY PHYSICS. 2014. FACTORY PHYSICS. Principle (Little's Law). [Online] EZsitePRO, 2014. [Cited:
+10 4, 2014.] http://www.factoryphysics.com/Principle/LittlesLaw.htm.
+GOLDRATT, Eliyahu M and COX , Jeff. 2004. The goal: a process of ongoing improvement. . Great
+Barrington : North River Press, 2004. ISBN 0-88427-178-1.
+MARTINEZ, Felipe. 2014. Slides of the Lectures at the document server. 2014.
+Practical Performance Analyst. 2014. Practical Performance Analyst. What Is Little’s Law. [Online]
+Practical Performance Analyst, 2014. [Cited: 10 4, 2014.]
+http://www1.practicalperformanceanalyst.com/resources/important-formulae/what-is-littles-law/.
+SLACK, Nigel, CHAMBERS, Stuart and JOHNSTON, Robert. 2010. Operations Management. Harlow :
+Financial Times/Prentice Hall, 2010. 978-0-273-73046-0.
+SVOBODOVÁ, Hana and MEJDRECH, Vlastimil. 2012. Provozní management: příklady. 2. přeprac.
+Praha : Oeconomica, 2012. 978-80-245-1845-9.
+University of Economics, Prague Wednesday, 11 October 2023
+Faculty of Business Administration Prepared by: Felipe Martinez
+3BE216 - Operations Management 4

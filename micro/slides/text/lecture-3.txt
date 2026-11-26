@@ -1,0 +1,396 @@
+
+=== SLIDE 1 ===
+3BE 123 - Microeconomics
+Ing. Zuzana Dzbankova, Ph.D.
+Department of Managerial
+Economics, FBA
+University of Economics, Prague
+http://kmae.vse.cz
+=== SLIDE 2 ===
+2
+2. Lecture
+II. Consumer Behavior and Market
+Demand
+1. Utility and its Measurement
+2. Optimum of Consumer and Demand
+Curves - Measurable Utility
+3. Optimum of Consumer and Demand
+Curves–Unmeasurable Utility
+4. Individual and Market Demand
+Curves
+=== SLIDE 3 ===
+3
+1. Utility and Its Measurement
+Assumptions:
+– The market of goods (Demand →
+households; Supply → firms)
+– The rational consumer (limitations:
+physical, occasional, financial)
+Consumer‘s goal:
+• the consumer maximizes the utility of the
+consumption
+=== SLIDE 4 ===
+4
+The Cardinalist and Ordinalist Approaches
+• Cardinal utility function is described by how
+much one market basket is preferred to another
+• Ordinal Utility function generates a ranking of
+market baskets in order of most to least
+preferred
+vs
+￼
+￼
+=== SLIDE 5 ===
+5
+3. Optimum of Consumer and Demand
+Curve - Unmeasurable Utility
+• Ordinal approach
+• Assumptions
+• Indifference analysis
+Consumers are able to rank their preferences
+for various combinations of goods
+=== SLIDE 6 ===
+6
+Indifference Curve
+Indifference curve Indifference set
+• It expresses a combination of goods that provide the same overall
+benefit regardless of budget constraint
+￼
+X (salami) Y (cheese) MRS
+A 4 24
+B 5 19 5
+C 6 16 3
+D 11 8 8/5
+E 12 7 1
+￼
+￼
+=== SLIDE 7 ===
+7
+Indifference Analysis
+• Indifference curve represents a set of
+possible consumption bundles between
+which the individual is indifferent
+- shows all combinations of two goods
+that provide the consumer with the
+same total satisfaction or total utility
+(IC)
+• Indifference map- a collection of
+(selected) indifference curves
+=== SLIDE 8 ===
+8
+Indifference Curves Cannot Intersect
+• If indifference curves crossed, such as point A, then A, B and C
+will have the same utility.
+• But point B is a combination with same salami and more
+cheese than point C must represent a higher level of utility.
+￼
+=== SLIDE 9 ===
+9
+Characteristics of Indifference Curves
+• There are the indifference curves at every point
+of the graph (there is an infinite amount of IC);
+• Indifference curves are downward (consider
+desirable goods);
+• The more IC are distant from the outset (origin),
+the greater the benefit;
+• Indifference curves cannot intersect;
+• Indifference curves are convex to the origin - the
+law of diminishing marginal utility applies;
+=== SLIDE 10 ===
+10
+Marginal Rate of Substitution
+• Marginal rate of substitution
+(MRSC) - maximum amount of a
+good that a consumer is willing to
+give up in order to obtain one
+additional unit of another good.
+MRSC = ΔY/ Δ X = MUX / MUY
+(TU is constant)
+• MRSC = the slope of
+indifference curve (use absolute
+value)
+￼
+￼
+=== SLIDE 11 ===
+11
+Indifference Map
+• Graph containing a
+set of indifference
+curves showing the
+market baskets
+among which a
+consumer is
+indifferent.
+￼
+=== SLIDE 12 ===
+12
+Budget Constraint; e.g. Budget Line
+(I = BL)
+• Budget Constraint
+Constraints that consumers
+face as a result of limited
+incomes.
+I = PX.X + PY.Y
+• Budget Line All
+combinations of goods for
+which the total amount of
+money spent is equal to
+income (regardless of
+preferences).
+￼
+￼
+QY
+QX
+=== SLIDE 13 ===
+13
+The Slope of the Budget Line
+• Y = I / Py - (Px / Py) X
+MRSE = ΔY/ ΔX = PX / PY (Income is constant)
+• MRSE = the ratio, in which one product may substitute
+for another product in exchange (at a given income
+and prices of the goods)
+￼
+=== SLIDE 14 ===
+14
+Budget Line
+Example
+Income of consumer = 150,-
+Price of salami PX = 10,-
+Price of cheese PY = 15,-
+150 = 10.X + 15.Y
+￼
+S
+CH
+10
+15
+=== SLIDE 15 ===
+15
+The Effects of Changes in Income
+and Prices
+I a PY const., ↓ PX I increses, PX , PY const.
+￼
+=== SLIDE 16 ===
+16
+Maximizing Consumer Satisfaction
+Consumer equilibrium occurs at
+MUX/ MUY = PX/ PY
+can be modified by math
+→ MUX/ PX = MUY / PY
+￼
+￼
+slope of the
+indifference
+curve
+slope of the
+budget line
+=== SLIDE 17 ===
+17
+Deriving of the Individual Demand
+Curve
+• Assumption: I and PY are
+constant; PY changes
+• I = 150,-
+PY = 15,-
+PX = 10,- (↓ PX = 5,- )
+I/ PX = 15 I/ PX = 30
+￼
+pieces
+pieces
+￼
+Income if
+(PX = 5)
+Income if (PY =
+10)
+pieces
+CZK/Q
+=== SLIDE 18 ===
+18
+The Market Demand Curve
+Constructing a Market Demand Curve
+from Individual Demand Curves
+￼
+￼
+￼
+￼
+Market Demand
+Curve
+￼
+=== SLIDE 19 ===
+1919
+Determinants of Demand
+a) Factors that affect only the quantity demanded
+(the shift along the curve)
+• Price - The Income Effect
+- The Substitution Effect
+b) Factors that cause a change in demand (the
+whole demand curve shifts)
+• Income
+• Prices of substitutes and compliments
+• Specific and subjective factors (expectations,
+preferences)
+￼
+￼
+￼
+=== SLIDE 20 ===
+2020
+Price Elasticity of Demand
+• Elasticity of Demand - the
+rate of consumer response
+to changes in the market
+conditions
+• Price Elasticity of Demand -
+percent change in quantity
+resulting from a one-percent
+change in price
+￼
+￼
+Percent change in quantity demanded
+Percent change in price
+￼
+CZK/Q
+=== SLIDE 21 ===
+2121
+Arc Elasticity of Demand = Midpoint method
+￼
+•
+￼
+￼
+￼
+￼
+Arc Elasticity of
+Demand
+Change in
+quantity
+demanded
+Average
+quantity
+Change
+in price
+Average
+price
+=== SLIDE 22 ===
+22
+Demand Examples
+￼
+￼
+￼
+￼
+￼
+Inelastic demand Elastic demand
+Unitary elasticity
+Price increases by
+10,5 %
+Quantity drops by
+5,1 %
+Price
+increases
+by 10,5 %
+Quantity drops
+by 66,6 %
+Price increases by
+10,5%
+Quantity drops
+by 10,5 %
+88,9
+A) B)
+C)
+=== SLIDE 23 ===
+23
+Example
+𝐸𝑃𝐷 =
+%Δ𝑄
+%Δ𝑃
+Price increased by 10.5% and quantity demanded decreased by 5.1%
+↑ P by 1% → ↓Q by 0.5%
+￼
+￼
+￼
+=== SLIDE 24 ===
+2424
+Categories of Demand Elasticity
+￼
+￼
+￼
+• │EPD│= 1 Unitary elasticity; the percentage change in quantity
+demanded equals the percentage change in price; Total Revenue
+(TR) does‘t change
+• │EPD│ < 1 Demand is inelastic; the percentage change in
+quantity demanded is less than the percentage change
+in price; TR increases
+• │EPD│ > 1 Demand is elastic, the percentage change in quantity
+demanded changes by greater percentage than does
+the price; TR decreases.
+• EPD = 0 Perfectly inelastic demand
+• EPD = ∞ Perfectly elastic demand
+=== SLIDE 25 ===
+2525
+Point Price Elasticity
+￼
+￼
+￼
+￼
+The reciprocal value of the slope of
+demand curve
+￼
+=== SLIDE 26 ===
+26
+26
+Point Price Elasticity
+￼
+￼
+￼
+￼
+4P = 160 - Q
+P = 160/4 – 1/4Q
+P = 40 – 1/4Q
+EPD= -4 x 30/40 = -3
+EPD= -4 x 20/80 = -1
+=== SLIDE 27 ===
+2727
+Special Demand Curves
+￼
+￼
+￼
+￼
+Perfectly elastic Perfectly inelastic
+CZK/Q CZK/Q
+=== SLIDE 28 ===
+2828
+Variable and Constant Demand Elasticity
+￼
+￼
+Unitary elasticity
+CZK/Q
+CZK/Q
+=== SLIDE 29 ===
+2929
+Determinants of Price Demand Elasticity
+￼
+￼
+￼
+• Availability of substitutes
+• The definition of the good
+• Luxuries versus necessities
+• Proportion of the consumer‘s budget spent on the
+good
+• A matter of time
+=== SLIDE 30 ===
+30
+Benefits from Taking Part in a Market
+(Welfare Economics)
+TU = Σ MU Consumer surplus = TU – real expenditure
+￼
+Consumer
+surplus
+=== SLIDE 31 ===
+31
+Relevant Literature
+• Mankiw „Principles of Microeconomics“: ch. 21
+(except for (1) two extreme examples of
+indifference curves; (2) income and substitution
+effects; (3) three applications); chapter 5
+(„Elasticity and its application“, only up to „other
+demand elasticities“);
+• https://www.youtube.com/watch?v=HHcblIxiAAk
+• https://www.youtube.com/watch?v=oL20S7c0ZJ
+E

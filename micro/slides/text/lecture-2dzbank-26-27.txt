@@ -1,0 +1,287 @@
+
+=== SLIDE 1 ===
+3BE 123 - Microeconomics
+Ing. Zuzana Dzbankova, Ph.D.
+Department of Managerial
+Economics, FBA
+University of Economics, Prague
+http://kmae.vse.cz
+=== SLIDE 2 ===
+2
+2. Lecture
+II. Consumer Behavior and Market
+Demand
+1. Utility and its Measurement
+2. Optimum of Consumer and Demand
+Curves - Measurable Utility
+3. Optimum of Consumer and Demand
+Curves –Unmeasurable Utility
+4. Individual and Market Demand
+Curves
+=== SLIDE 3 ===
+3
+The Circular Flow of Economic Activity
+￼
+￼
+￼
+￼
+=== SLIDE 4 ===
+4
+1. Utility and Its Measurement
+Assumptions:
+– The market of goods (Demand →
+households; Supply → firms)
+– The rational consumer (limitations:
+physical, occasional, financial)
+Consumer‘s goal:
+• the consumer maximizes the utility of the
+consumption
+=== SLIDE 5 ===
+5
+What Is Utility?
+Definitions of Utility
+– the pleasure or happiness a household
+derives from the goods and services it
+consumes
+– The subjective measure of happiness or
+satisfaction
+– the pleasure, satisfaction, or need fulfillment
+that people get from their economic activity
+￼
+=== SLIDE 6 ===
+6
+Basic Terms
+Total Utility (TU) = Σ MU
+– The overall satisfaction of consumption
+Marginal Utility (MU) = ∆TU/∆Q
+– Marginal utility (MU) measures the
+additional satisfaction from consuming one
+additional unit of a good
+￼
+=== SLIDE 7 ===
+7
+The Law of Diminishing Marginal Utility
+Source:
+http://animationeconomics.com/supply%20and%20demand/23.html
+￼
+=== SLIDE 8 ===
+8
+The Law of Diminishing Marginal Utility
+- As more and more of a good is consumed,
+consuming additional amounts will yield smaller
+and smaller additions to utility
+- It‘s in force:
+- from the 1st unit
+=== SLIDE 9 ===
+9
+The Cardinalist and Ordinalist Approaches
+• Cardinal utility function is described by how
+much one market basket is preferred to another
+• Ordinal Utility function generates a ranking of
+market baskets in order of most to least
+preferred
+vs
+￼
+￼
+=== SLIDE 10 ===
+10
+2. Optimum of Consumer and Demand
+Curves - Measurable Utility
+• cardinal approach
+Definition :
+TU (Total Utility) = Σ MU (CZK)
+MU (Marginal Utility) = ∆TU/∆Q (CZK/Q)
+￼
+=== SLIDE 11 ===
+11
+Total Utility and Marginal Utility
+Quantity (pieces) Total Utility (CZK) Marginal Utility
+(CZK/Q)
+0 0 -
+1 60 60
+2 110 50
+3 150 40
+4 180 30
+5 200 20
+6 210 10
+7 210 0
+8 200 - 10
+=== SLIDE 12 ===
+12
+Total Utility and Marginal Utility Curves -
+deriving
+• Lorem ipsum dolor sit amet,
+• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non
+fermentum augue. Suspendisse potenti. Etiam lobortis magna a lorem
+hendrerit ultrices ut ac neque.
+￼
+￼
+MU
+Q
+(CZK/Q)
+(Pieces)
+TU
+(CZK)
+Q
+=== SLIDE 13 ===
+13
+Total Utility and Marginal Utility Curves
+￼
+TU
+(CZK)
+Q
+MU
+Q
+(CZK/Q)
+Saturation Point
+TU
+MU
+=== SLIDE 14 ===
+14
+Optimum of Consumer
+a) Purchase of 1 good
+MU < P → the benefit is less than the cost →
+decrease Q
+MU > P → win situation→ increase in
+consumption (Q)
+MU = P
+￼
+=== SLIDE 15 ===
+15
+Optimum of Consumer
+b) Purchase of more products
+The utility is maximized when the marginal
+utility of a good divided by its price is identical
+for each good puchased.
+￼
+￼
+=== SLIDE 16 ===
+16
+Construction of an Individual Demand
+Curve
+￼
+MU
+(CZK/Q)
+Price given by a market
+CZK
+Q
+MU
+Price
+(CZK/Q)
+Q
+MU≡d
+=== SLIDE 17 ===
+17
+Individual Demand Function
+- the sum of the consumer‘s optima when
+buying the goods for the given prices
+P ↑ → decrease value of the ratio MU/P →
+consumer↓ quantity demanded
+P ↓ → increase MU to P → consumer ↑ Q
+=== SLIDE 18 ===
+18
+The Market Demand Curve
+Constructing a Market Demand Curve
+from Individual Demand Curves
+￼
+￼
+￼
+￼
+Market Demand
+Curve
+￼
+=== SLIDE 19 ===
+19
+3. Optimum of Consumer and Demand
+Curve - Unmeasurable Utility
+• Ordinal approach
+• Assumptions
+• Indifference analysis
+Consumers are able to rank their preferences
+for various combinations of goods
+=== SLIDE 20 ===
+20
+Indifference Curve
+Indifference curve Indifference set
+• It expresses a combination of goods that provide the same overall
+benefit regardless of budget constraint
+￼
+X (salami) Y (cheese) MRS
+A 4 24
+B 5 19 5
+C 6 16 3
+D 11 8 8/5
+E 12 7 1
+￼
+￼
+=== SLIDE 21 ===
+21
+Indifference Analysis
+• Indifference curve represents a set of
+possible consumption bundles between
+which the individual is indifferent
+- shows all combinations of two goods
+that provide the consumer with the
+same total satisfaction or total utility
+(IC)
+• Indifference map - a collection of
+(selected) indifference curves
+=== SLIDE 22 ===
+22
+Indifference Curves Cannot Intersect
+• If indifference curves crossed, such as point A, then A, B and C
+will have the same utility.
+• But point B is a combination with same salami and more
+cheese than point C must represent a higher level of utility.
+￼
+=== SLIDE 23 ===
+23
+Characteristics of Indifference Curves
+• There are the indifference curves at every point
+of the graph (there is an infinite amount of IC);
+• Indifference curves are downward (consider
+desirable goods);
+• The more IC are distant from the outset (origin),
+the greater the benefit;
+• Indifference curves cannot intersect;
+• Indifference curves are convex to the origin - the
+law of diminishing marginal utility applies;
+=== SLIDE 24 ===
+24
+Marginal Rate of Substitution
+• Marginal rate of substitution
+(MRSC) - maximum amount of a
+good that a consumer is willing to
+give up in order to obtain one
+additional unit of another good.
+MRSC = ΔY/ Δ X = MUX / MUY
+(TU is constant)
+• MRSC = the slope of
+indifference curve (use absolute
+value)
+￼
+￼
+=== SLIDE 25 ===
+25
+Indifference Map
+• Graph containing a
+set of indifference
+curves showing the
+market baskets
+among which a
+consumer is
+indifferent.
+￼
+=== SLIDE 26 ===
+26
+Relevant Literature
+• Mankiw „Principles of Microeconomics“: Chapter 21
+(„The Theory of Consumer of Choice“)
+Watch the video:
+• https://www.khanacademy.org/economics-finance-
+domain/microeconomics/choices-opp-cost-
+tutorial/marginal-utility-tutorial/v/marginal-utility
+• https://www.khanacademy.org/economics-finance-
+domain/microeconomics/choices-opp-cost-tutorial/utility-
+maximization-using-marg/v/equalizing-marginal-utility-
+per-dollar-spent

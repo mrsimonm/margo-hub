@@ -1,0 +1,229 @@
+
+=== SLIDE 1 ===
+3BE 123 - Microeconomics
+Ing. Zuzana Dzbankova, Ph.D.
+Department of Managerial
+Economics, FBA
+University of Economics, Prague
+http://kmae.vse.cz
+=== SLIDE 2 ===
+2
+4. Lecture
+Consumer Behavior and Market
+Demand – complet.
+1. Consumers Surplus
+Business Behavior and the Formation
+of Supply in the Market of Goods
+2.Introduction
+3.Production and Cost Function in the SR
+=== SLIDE 3 ===
+3
+Benefits from Taking Part in a Market
+(Welfare Economics) – Consumer
+Surpuls
+TU = Σ MU Consumer surplus = TU – real expenditure
+￼
+Consumer
+surplus
+=== SLIDE 4 ===
+4
+Benefits from Taking Part in a Market
+(Welfare Economics) – Consumer
+Surplus
+Bottle MU P (CZK) CS (CZK)
+1. 50 20 30
+2. 40 20 20
+3. 30 20 10
+4. 20 20 0
+Total 60
+=== SLIDE 5 ===
+5
+IV. Business Behavior and the
+Formation of Supply in the Market of
+Goods
+1. Firm‘s Analysis - Introduction
+2. Production Function and Cost Curves in the Short
+Run
+3. Production Function and Cost Curves in the Long
+Run
+4. Revenues
+5. Profit
+6. Optimum of the Firm
+7. Perfect Competition and Firms
+8. Equilibrium in the Perfectly Competitive Market
+9. Firms and the Imperfect Compatition
+￼
+￼
+￼
+=== SLIDE 6 ===
+6
+1. Firm‘s Analysis - Introduction
+Assumptions:
+– The market of goods (Supply → firms; benefit of teamwork; reduction of transaction costs)
+– A firm is an association of individuals who have
+organized themselves for the purpose of turning inputs into outputs
+– the firm as a single decision-making unit
+Firm’s goal:
+– to maximize profit and minimize costs
+=== SLIDE 7 ===
+7
+Behavior of Profit-Maximizing Firms
+Basic decisions:
+1. How much output to supply (QE)?
+2. Which production technology to use?
+3. How much of each input to demand?
+• Firm‘s behavior depends on the competitive
+environment in which it operates.
+=== SLIDE 8 ===
+8
+Principles of a Firm´
+s Decisions About
+Volume of Production and Price
+Basic rule: Maximization of profit vs. Minimization of costs
+Revenue (total revenue, TR) – how much we get from selling our
+product?
+TR = P x Q
+Costs (total costs, TC): Explicit (accounting) costs – actually spent
+money + Implicit (opportunity costs)
+Profit – economic profit vs. accounting profit:
+Economic profit (EP) = accounting profit (AP) - opportunity costs
+(OC, implicit costs)
+EP (π) = AP – OC; AP = revenues (TR) – explicit costs
+=== SLIDE 9 ===
+9
+Fashion designer‘s butigue example
+Jane is a fashion designer. She works herself and uses a
+special sewing machine of which is the owner.
+• She makes and sells usually three tunics per week.
+• The price of tunic is CZK 3,500.
+• She hires a shop, where is her boutique and pays CZK
+15,000 per month. Cost of material is usually CZK 800 per
+one tunic.
+• She is an entrepreneur. At the same time, this designer
+can work for nearby House of Fashion and be an
+employee with the remuneration CZK 35,000 per month.
+=== SLIDE 10 ===
+10
+Fashion designer‘s butigue example - cont.
+1. Let us calculate the accounting profit of this designer.
+TR = P*Q
+TR = (3,500*3)*4 = 42,000 per month
+Explicit costs = FC + VC = 15,000 + 800 * (3*4) = 15,000 + 9,600 =
+24,600
+Accounting profit = 42,000 – 24,600 = 17,400
+2. Now we calculate economic profit.
+EP = AP - implicit cost
+EP = 17,400 - 35,000 = -17,600
+For this designer is better to stop her business and start to be an
+employee.
+=== SLIDE 11 ===
+11
+1. Production Function and Cost
+Curves in the Short Run
+Short-Run vs. Long-Run Decisions
+• The short run is a period of time for which two
+conditions hold:
+1. The firm is operating under a fixed scale (fixed
+factor) of production, and
+2. Firms can neither enter nor exit an industry.
+• The long run is a period of time for which there are no
+fixed factors of production. Firms can increase or
+decrease scale of operation, and new firms can enter
+and existing firms can exit the industry.
+=== SLIDE 12 ===
+12
+Production Function - Total Physical
+Product
+• Definition: Production function gives the
+maximum amount of output than can be
+produced using any specified amount of inputs.
+• The production function or total product
+function is a numerical or mathematical
+expression of a relationship between inputs and
+outputs. It shows units of total product as a
+function of units of inputs.
+Q = f(F1, F2, F3, …… Fn)
+Q = TPP
+￼
+￼
+￼
+￼
+￼
+=== SLIDE 13 ===
+13
+Marginal Physical Product
+• Marginal product is the additional output that can be
+produced by adding one more unit of a specific input,
+ceteris paribus.
+MPP = ΔTPP/ ΔF
+￼
+￼
+￼
+￼
+=== SLIDE 14 ===
+14
+Average Physical Product
+• Average physical product is the average amount
+produced by each unit of a variable factor of
+production.
+APP = TPP/F
+￼
+￼
+￼
+￼
+=== SLIDE 15 ===
+15
+Table 1Total Product, Marginal
+Product, and Average Product of
+Labor
+￼
+￼
+￼
+Variable imput
+(L)
+TPP APP = TPP/F MPP=ΔTPP/ ΔF
+0 0 -
+1 100 100 100
+2 210 105 110
+3 324 108 114
+4 436 109 112
+5 540 108 104
+6 630 105 90
+7 700 100 70
+￼
+=== SLIDE 16 ===
+16
+Diminishing Marginal Returns (DMR)
+The Low of Diminishing Marginal Returns states that:
+• When additional units of a variable input are added
+to fixed inputs, the marginal product of the variable
+input declines.
+• When there is at least one fixed input, eventually a
+point is reached at which the marginal product of an
+additional worker begins to fall.
+=== SLIDE 17 ===
+17
+Standard Shape of the Production Function
+￼
+• Q = f(K, L); K is constant
+• The law of diminishing
+marginal returns operates
+from point A
+• MPP ↑ → TPP grows
+more quickly than the input
+• MPP ↓ → TPP grows
+more slowly than the input
+• MPP = 0 → TPP is at the
+maximum
+• MPP < 0 → TPP decreases
+• MPP > APP ↑
+MPP < APP ↓
+MPP = APP → APP = max
+=== SLIDE 18 ===
+18
+Relevant Literature
+• Mankiw „Principles of Microeconomics“: chapter 5
+(„Elasticity and its application“, only up to „other
+demand elasticities“); chapter 13
+• https://www.youtube.com/watch?v=4D1c2YJLNc4
+• https://www.youtube.com/watch?v=xLSRMt-wWAM

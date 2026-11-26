@@ -1,0 +1,350 @@
+
+=== SLIDE 1 ===
+3BE 123 - Microeconomics
+Ing. Zuzana Dzbankova, Ph.D.
+Department of Managerial
+Economics, FBA
+University of Economics, Prague
+http://kmae.vse.cz
+=== SLIDE 2 ===
+7. Lecture
+1. Firm in Perfect Competition
+2. Revenue, Costs, Profit
+3. Optimum of a Firm
+=== SLIDE 3 ===
+3
+Isocost Line
+• Isocost Line - identifies all
+combinations of capital and labor the
+firm can purchased for a given total
+cost
+TC = K . PK + L . PL
+• K = TC / PK - (PL / PK) L
+• Slope of isocost line:
+ΔK/ΔL = PL / PK
+￼
+￼
+=== SLIDE 4 ===
+4
+Isocost Line – Factor‘s Price
+Changing, TC Changing
+￼
+Price of Labor
+decreases
+TC increasing
+=== SLIDE 5 ===
+5
+Cost Minimization
+• It solves the problem of minimizing the cost (TC) for
+achieving the given volume of output Q
+• Or maximizing production volume Q for a given cost
+(TC)
+Last-dollar rule: cost is minimized if inputs are chosen
+so that the last dollar spent on labor adds as much
+extra output as the last dollar spend on capital
+￼
+￼
+￼
+=== SLIDE 6 ===
+6
+Cost Minimization – cont.
+￼
+Units of Labour
+per hour
+Units of
+Capital per
+hour
+=== SLIDE 7 ===
+Production Function in the Long Run
+￼
+The isocost intersects the x-axis for L = 40 and the y-axis for K = 30.
+a) If the price of labor is 150, then the total cost is ........... and the
+price of K is ............. .
+b) b) In the cost optimum, the firm hires 20 units of labor, then the
+cost of K is ............... .c) In the cost optimum, the marginal rate of
+technical substitution (MRTS) is ................ .
+=== SLIDE 8 ===
+8
+Derivation of TC in the Long Run
+￼
+=== SLIDE 9 ===
+9
+Cost Curves in the Long Run
+Unit Costs Total Cost
+• Determination by Returns to Scale
+￼
+CZK
+￼
+CZK/Q
+=== SLIDE 10 ===
+10
+Principles of a Firm´
+s Decisions About
+Volume of Production and Price – rep.
+Basic rule: Maximization of profit vs. Minimization of costs
+Revenue (total revenue, TR) – how much we get from selling our
+product? TR = P x Q
+• Average revenue AR = TR / Q = (P.Q) / Q = P
+• Marginal revenue MR = ΔTR / ΔQ
+Costs (total costs, TC): Explicit (accounting) costs – actually spent
+money + Implicit (opportunity costs)
+Profit – economic profit vs. accounting profit:
+Economic profit (EP) = accounting profit (AP) - opportunity costs
+(OC, implicit costs)
+EP (π) = AP – OC; AP = revenues (TR) – explicit costs
+=== SLIDE 11 ===
+11
+Optimum of a Firm
+• The goal of the firm: mamximization of profit, i.g. minimization of
+costs
+• How much to produce to maximize profit?
+• What is QE? → max π
+✓MC > MR → decrease the production (↓Q)
+✓MC < MR → increase the production (↑Q)
+✓MC = MR
+• MC = MR - optimum production volume (QE) → the golden rule of
+profit maximization → It is the bargain in the perfect competition and
+the imperfect competition.
+=== SLIDE 12 ===
+12
+6. Firm in the Perfect Competition
+6.1 Characteristics of the Perfect Competition
+6.2 The Optimum of the Firm in the Perfect
+Competition
+6.3 Derivation of the Supply Curve
+6.3.1 Economic Results of the Firm in SR
+6.3.2 Shut-down Point
+6.4 Firm‘s Long-run Supply Decisions
+6.4.1 Break-even Ponit
+6.5 Equilibrium of a Perfectly Competitive Industry
+=== SLIDE 13 ===
+13
+Characteristics of the Perfect Competition
+• abstraction (predominantly model form)
+• the product is homogeneous (identical)
+• similar to the market of unprocessed agricultural products
+• there are many small firms and many buyers
+• no economic operator can determine the price
+• sellers are price-takers (receive the market price); perfectly elastic
+demand for the production of a firm
+• sellers act independently of each other
+• firms can leave and enter the industry freely
+• sellers and buyers are well informed
+• transaction costs are low
+=== SLIDE 14 ===
+14
+Price is Determined by the Perfectly
+Competitive Industry
+￼
+P
+(CZK/Q)
+MARKET
+Q
+(Pieces)
+P
+(CZK/Q)
+FIRM
+Q
+(Pieces)
+d
+=== SLIDE 15 ===
+15
+Total and Unit Revenues
+￼
+(CZK)
+(Pieces)
+(CZK(Q)
+(Pieces)
+=== SLIDE 16 ===
+16
+Optimum of the Firm → max π
+MR = MC = P
+￼
+(CZK)
+PROFIT
+LOSS
+(Pieces)
+(CZK/Q)
+(Pieces)
+=== SLIDE 17 ===
+17
+Firm Short- Run Supply Decision
+• Eπ > 0
+• Eπ < 0
+• Eπ = 0
+.
+Eπ > 0 → firm makes a profit
+￼
+(CZK/Q)
+PROFIT
+(Pieces)
+=== SLIDE 18 ===
+18
+Firm Short- Run Supply Decision –
+cont.
+• Eπ < 0
+Firm makes a loss →
+continue production or
+not?
+• If AR > AVC → Q > 0
+• if AR equals AVC → the
+firm should shut down
+(Q = 0)
+￼
+(CZK/Q)
+LOSS
+(Pieces)
+=== SLIDE 19 ===
+19
+Shut-down Point
+• TR = VC → loss
+equals FC
+• TR/Q = VC/Q →
+AR = P = AVC
+.
+the firm doesn‘t produce if AR = P ≤ AVC
+￼
+(CZK/Q)
+(Pieces)
+LOSS
+Shut-down point
+=== SLIDE 20 ===
+20
+Perfectly Competitive Firm (short run)
+• Profit maximizing quantity and price?
+• Shut-down point – a firm may continue producing in the short run if
+the revenue covers at least the variable cost and the loss might
+reach the amount of the total fixed cost.
+• The firm should shut dowvn (close down) if its total revenue is below
+the total variable cost.
+• Shut-down point by the economists is called the point in the graph
+where the curve of the marginal revenue becomes the tangent line
+of the curve of the average variable cost.
+• DERIVING OF THE EQUILIBRIUM AND A SUPPLY CURVE IN
+THE SHORT RUN
+=== SLIDE 21 ===
+21
+Derivation of the Supply Curve of the Firm
+• In PC:
+P = MC
+￼
+(CZK/Q)
+(Pieces)
+Short run firm supply
+curve
+Shut-down point
+=== SLIDE 22 ===
+22
+Firm Long-Run Supply Decision
+• Eπ > 0 → no
+• Eπ < 0 → no
+• E π = 0 → TR = TC,
+or AR = AC
+• tendency to zero
+economic profit
+Break-Even Point: the point
+where revenue equals cost → normal profit (i.e. profit at a level of
+implicit costs)
+￼
+(CZK/Q)
+(Pieces)
+=== SLIDE 23 ===
+23
+Perfectly Competitive Firm (long run)
+• A Break-even point
+• A critical point where the equilibrium is reached.
+• Under break, we understand the disruption in the growth
+of fall of the indicator.
+• In the economic performance of a firm, the break-even
+point means the equality of the total revenue and the
+total cost when the result of o firm´
+s performance
+changes from a profit to a loss or vice versa.
+=== SLIDE 24 ===
+24
+Perfectly Competitive Market Short-Run
+Supply Curve
+￼
+(ĆZK/Q) (CZK/Q) (CZK/Q)
+(Pieces) (Pieces) (Pieces)
+Firm 1 Firm 2 Industry
+Firm 1 supply Firm 2 supply Industry supply
+∑MC=S
+=== SLIDE 25 ===
+25
+Equilibrium in the Perfect Competitive
+Market
+1. Market Equilibrium and its Conditions
+a) Perfect Competition and Efficiency
+b) Economic Benefits of the Exchange
+(Consumers‘ and Producers‘ Surplus)
+c) Factors that Affect the Market Balance
+2. State interventions – price controls
+=== SLIDE 26 ===
+26
+Conditions for the Existence of Market
+Equilibrium
+￼
+=== SLIDE 27 ===
+27
+Perfect Competition and Efficiency
+￼
+• Allocative efficiency → MU = MC
+￼
+=== SLIDE 28 ===
+28
+Benefits from Taking Part in a Market
+• Lorem ipsum dolor sit amet, consectetur
+adipiscing elit. Fusce non fermentum augue
+Suspendisse potenti. Etiam lobortis magna
+lorem hendrerit ultrices ut ac neque.
+• Lorem ipsum dolor sit amet, consectetur
+adipiscing elit. Fusce non fermentum augue.
+TU = Σ MU Producer surplus = P – MC
+Consumer surplus
+= TU – real expenditure
+￼
+￼
+Consumer
+surplus
+Producer
+surplus
+=== SLIDE 29 ===
+29
+Producer surplus - example
+Q VC
+0 0
+1 5
+2 12
+3 20
+4 29
+5 39
+6 50
+7 62
+MC P - MC
+-
+5 5
+7 3
+8 2
+9 1
+10 0
+11 -1
+12 -2
+P = 10 → QE = 5 ; P=MC; TR - VC = (5x10) – 39 = 11
+P – MC = 5 + 3 + 2 + 1 = 11
+=== SLIDE 30 ===
+30
+Relevant Literature
+• Mankiw „Principles of Microeconomics“: chapter 13, 14 (“The
+Revenue of a Competitive Firm” + “A Simple Example of Profit
+Maximization”)
+• https://www.youtube.com/watch?v=_NznT4Cn8As
+• https://www.youtube.com/watch?v=Z9e_7j9WzA0
+• https://www.youtube.com/watch?v=WUJwZYTfroI
+• https://www.youtube.com/watch?v=SON0BtLMUHw
+• https://www.youtube.com/watch?v=aPiZloqtlnc
+=== SLIDE 31 ===
+31
+Thank you for your attention!
+￼
+￼

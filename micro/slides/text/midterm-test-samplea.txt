@@ -1,0 +1,55 @@
+
+=== SLIDE 1 ===
+MIDTERM TEST – SAMPLE VERSION A
+Name:
+______________________________________
+Date:_______________________________
+1. A firm has the following costs for the short-run production of different quantities of a
+good.
+L (workers) 0 1 2 3 4 5 6 7 8
+Q (output) 0 20 50 85 125 160 190 215 235
+FC 4,000
+VC
+Total Cost 4,000 5,200 6,400 7,600 8,800 10,000 11,200 12,400 13,600
+AVC
+AFC
+MC
+Fill in the missing values: Fixed Cost (FC), Variable Cost (VC), Average Variable Cost
+(AVC), Average Fixed Cost (AFC), and Marginal Cost (MC). 5 points
+2. The table shows the utilities Anna derives from jackets and shoes.
+Q 1 2 3 4 5 6
+TU (jackets)
+MU 2,400 2,000 1,600 1,200 800 400
+TU (shoes) 2,000 3,800 5,400 6,800 8,000 9,000
+MU
+a) Compute Total Utility (TU) of jackets and Marginal Utility (MU) of shoes and fill in the
+table. 2 points
+b) What is the optimal amount of both goods if the price of jackets is CZK 1,600 and the
+price of shoes is CZK 1,400? Anna wants to spend exactly CZK 10,400. 3 points
+=== SLIDE 2 ===
+3. Illustrate the standard shape of the short-run production function TPP, APP, and MPP.
+Graphs: 4 points
+4. a) Graphically show equilibrium in the Supply and Demand model if the equilibrium
+price is CZK 120 and the equilibrium quantity is 800 units. 2 points
+b) Use graph (a) to illustrate the effect of an increase in the price of a complementary
+good. 2 points
+Graph a) and b):
+5. Suppose that 80 bottles of juice are demanded at a particular price. If the price of
+juice rises by 5 percent, the quantity demanded falls to 72 bottles. 1 point
+Using the midpoint approach to calculate the price elasticity of demand, it follows that:
+• a) Demand for juice in this price range is elastic.
+• b) Demand for juice in this price range is inelastic.
+• c) Demand for juice in this price range is unit elastic.
+• d) Price elasticity of demand for juice in this price range is 0.
+• e) Price elasticity of demand for juice in this price range is infinity.
+=== SLIDE 3 ===
+6. The total revenue of an entrepreneur is CZK 1.2 million. The explicit costs of
+materials, building rental, and wages amount to CZK 0.7 million. If the entrepreneur
+were employed by another company, they could earn CZK 0.2 million. At the same time,
+they could rent out their own equipment for CZK 0.15 million. 1 point
+Which statement is correct?
+• a) The firm makes only a normal profit.
+• b) The accounting profit is CZK 350,000.
+• c) The economic profit is CZK 150,000.
+• d) The economic loss is CZK −150,000.
+• e) None of the answers is correct.

@@ -1,0 +1,433 @@
+
+=== SLIDE 1 ===
+3BE 123 - Microeconomics
+Ing. Zuzana Dzbankova, Ph.D.
+Department of Managerial
+Economics, FBA
+University of Economics, Prague
+http://kmae.vse.cz
+=== SLIDE 2 ===
+2
+IV. Business Behavior and the
+Formation of Supply in the Market of
+Goods
+1. Firm‘s Analysis - Introduction
+2. Production Function and Cost Curves in the Short
+Run
+3. Production Function and Cost Curves in the Long
+Run
+4. Revenues
+5. Profit
+6. Optimum of the Firm
+7. Perfect Competition and Firms
+8. Equilibrium in the Perfectly Competitive Market
+9. Firms and the Imperfect Compatition
+￼
+￼
+￼
+=== SLIDE 3 ===
+3
+Standard Shape of the Production Function
+￼
+• Q = f(K, L); K is constant
+• The law of diminishing
+marginal returns operates
+from point A
+• MPP ↑ → TPP grows
+more quickly than the input
+• MPP ↓ → TPP grows
+more slowly than the input
+• MPP = 0 → TPP is at the
+maximum
+• MPP < 0 → TPP decreases
+• MPP > APP ↑
+MPP < APP ↓
+MPP = APP → APP = max
+=== SLIDE 4 ===
+4
+Cost Functions in the Short Run
+• Cost function is derived from the production function..
+• In a short period it is the graphical inverse of the
+production function.
+TC = f (Q)
+• Total Cost (TC) The market value of the inputs a firm uses
+in production.
+TC = FC + VC
+￼
+￼
+￼
+￼
+￼
+=== SLIDE 5 ===
+5
+Derivation of Total Costs Functions
+• Fixed costs are those costs
+that do not change with the
+quantity of output produced.
+Ex: Rent, accountant’s wage,
+some taxes . . .
+FC = PK . K
+• Variable costs are those costs
+that do change with the
+quantity of output produced.
+Ex: Labor, electricity,
+transportation . . .
+VC = PL . L
+￼
+CZK
+Q
+=== SLIDE 6 ===
+6
+Fixed Costs vs. Variable Costs
+Simple Example
+A bakery incurs the following monthly costs:
+Rent: €800
+Manager's salary: €1,400
+Insurance: €200
+Total fixed costs = €2,400 per month.
+Whether the bakery produces 1,000 rolls or 10,000 rolls, it still has to pay these
+€2,400.
+=== SLIDE 7 ===
+7
+Fixed Costs vs. Variable Costs
+Fixed Costs Variable Costs
+Rent Flour
+Manager's salary Yeast
+Insurance Electricity used in baking
+Depreciation of equipment Packaging materials
+Equipment lease payments Wages of workers paid per unit produced
+=== SLIDE 8 ===
+8
+Total Costs Functions vs. Marginal Cost
+• For Q < Q1 → increasing
+returns to variable input
+• Q1 - the law of
+diminishing marginal
+returns begins
+• Q > Q1 decreasing returns
+to variable input
+￼
+CZK
+CZK/Q
+=== SLIDE 9 ===
+9
+Unit Costs in the SR
+• The unit cost is the cost incurred by a company to
+produce, store and sell one unit of a particular
+product. Unit costs include all fixed costs and all
+variable costs involved in production.
+￼
+￼
+￼
+=== SLIDE 10 ===
+10
+Average Costs
+–can be determined by dividing the firm’s costs by
+the quantity of output it produces.
+–answer the following question: How much does it
+cost to produce one unit of a good on average?
+AC = TC/Q ; ATC = AFC + AVC
+–AFC - with output growth declining
+–AVC - with the growth of production, first falling
+and then rising
+AFC = FC/Q; AVC = VC/Q
+￼
+￼
+￼
+￼
+￼
+=== SLIDE 11 ===
+11
+Average Costs – cont.
+• Average Costs
+• Average Fixed Cost (AFC) =
+Total Fixed Cost / Qty
+• Average Variable Cost (AVC) =
+Total Variable Cost / Qty
+• Average Total Costs (ATC) =
+Total Cost / Qty
+ATC = AFC + AVC
+￼
+=== SLIDE 12 ===
+12
+Marginal Cost
+–Marginal Cost (MC) is the additional cost of
+producing the last unit.
+–Marginal cost helps answer the following question:
+• How much does it cost to produce an additional
+unit of output?
+MC = ∆TC/∆Q = ∆VC/∆Q
+TP P→ VC
+APP → AVC
+MPP → MC
+￼
+￼
+￼
+￼
+￼
+=== SLIDE 13 ===
+13
+Unit Cost Curves in the SR – Standard
+Shapes
+￼
+CZK/Q
+AFC of Q4
+=== SLIDE 14 ===
+14
+Relationship of production
+and cost functions in a
+short period
+￼
+=== SLIDE 15 ===
+15
+Total and Unit Costs
+￼
+￼
+￼
+Q VC FC TC MC AVC AFC AC
+0 0 244 244 - - - -
+100 462 244 706 4,62 4,62 2,44 7,06
+210 924 244 1168 4,2 4,4 1,16 5,56
+324 1386 244 1630 4,05 4,28 0,75 5,03
+436 1848 244 2092 4,25 4,24 0,56 4,8
+540 2310 244 2554 4,44 4,28 0,45 4,73
+630 2772 244 3016 5,13 4,4 0,39 4,79
+700 3324 244 3478 6,6 4,62 0,35 4,97
+=== SLIDE 16 ===
+16
+Costs in Economics
+1. Economic Costs (TC) = Explicit C + Implicit C
+• Explicit Costs (“accounting costs” or
+“expenses”)
+–Actual payments made to factors of production
+and other suppliers
+–Out-of-pocket expenses
+• Implicit Costs (opportunity costs)
+–All the opportunity costs of the resources
+supplied by the firm’s owners
+–The charge to the firm for the resources
+provided by the owner(s) of the firm
+￼
+￼
+￼
+￼
+=== SLIDE 17 ===
+17
+Costs in Economics – cont.
+2. Sunk Costs – are fixed cost that cannot be avoided
+even by going out of business
+3. Transaction Costs – the cost associated with
+exchange of goods or services and incurred in
+overcoming market imperfections. Transaction costs
+cover a wide range: communication charges, legal
+fees, informational cost of finding the price, quality,
+and durability, etc.
+￼
+￼
+￼
+=== SLIDE 18 ===
+18
+2. Production Function and Cost
+Curves in the Long-Run
+• The Long Run – a lengthy enough period of time
+that all inputs can be varied and substituted
+• The Production Function – expresses the
+maximum amount of production, which can be
+produced with different combinations of inputs
+for a given technolgy
+=== SLIDE 19 ===
+19
+Long-Run Production Function
+Q = f(K, L)
+• Two properties - substitution of inputs
+(characteristic) - returns to scale
+=== SLIDE 20 ===
+20
+Returns to Scale
+• the relationship between the proportional change in
+inputs and the corresponding change in output
+a.Increasing returns to scale (IRS) - property
+of a production function whereby output rises
+more than in proportion to an equal increase in
+all inputs
+•Output more than doubles when all
+inputs are doubled.
+=== SLIDE 21 ===
+21
+Returns to Scale – cont.
+b.Decreasing returns to scale (DRS) - property of
+a production function whereby output increases
+less than in proportion to an equal percentage
+increase in all inputs
+• Output less than doubles when all inputs are
+doubled.
+c. Constant returns to scale (CRS) - property of a
+production function whereby when all inputs are
+increased by a certain percentage, output
+increases by that same percentage
+• Output doubles when all inputs are doubled.
+=== SLIDE 22 ===
+22
+Isoquants – Typical Shape
+• Isoquant - a curve that shows
+the combinations of labor and
+capital that can produce a
+single (iso) level of output
+(quantity).
+• Equation for an Isoquant:
+q = f (L, K)
+• Isoquant map - can be
+defined as the set of
+isoquant curves
+￼
+=== SLIDE 23 ===
+23
+Properties of Isoquants
+• There is an isoquant for every output level the
+firm could possibly produce
+• The farther an isoquant is from the origin, the
+greater the level of output.
+• Isoquants do not cross
+• Isoquants slope downward
+• Isoquants are usually convex to the origin
+=== SLIDE 24 ===
+24
+Isoquants vs. Geografical Contour Line
+￼
+=== SLIDE 25 ===
+25
+Marginal Rate of Technical Substitution
+• marginal rate of technical substitution
+(MRTS) - the number of extra units of one
+input needed to replace one unit of another
+input that enables a firm to keep the amount
+of output it produces constant
+￼
+￼
+Slope of Isoquant!
+=== SLIDE 26 ===
+26
+Substitutability of Inputs and Marginal
+Products.
+• Along an Isoquant q = 0, or:
+(MPL x ΔL) + (MPK x ΔK) = 0.
+• Or
+￼
+Increase in
+q per extra
+unit of labor
+￼
+Extra units
+of labor
+￼
+Increase in
+q per extra
+unit of
+capital
+￼
+Extra units
+of capital
+MRTSK,L = ΔK/ΔL = MPPL/ MPPK
+=== SLIDE 27 ===
+27
+How the Marginal Rate of Technical
+Substitution Varies Along an Isoquant
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+K , Units of capital per d ay
+L , Workers per day
+4
+5
+7
+10
+16 a
+b
+c
+d
+e
+q = 10
+K = –6
+L = 1
+0 1
+1
+1
+1
+2 3
+–3
+–2
+–1
+4 5 6 7 8 9 10
+=== SLIDE 28 ===
+28
+Isocost Line
+• Isocost Line - identifies all
+combinations of capital and labor the
+firm can purchased for a given total
+cost
+TC = K . PK + L . PL
+• K = TC / PK - (PL / PK) L
+• Slope of isocost line:
+ΔK/ΔL = PL / PK
+￼
+￼
+=== SLIDE 29 ===
+29
+Isocost Line – Factor‘s Price
+Changing, TC Changing
+￼
+Price of Labor
+decreases
+TC increasing
+=== SLIDE 30 ===
+30
+Cost Minimization
+• It solves the problem of minimizing the cost (TC) for
+achieving the given volume of output Q
+• Or maximizing production volume Q for a given cost
+(TC)
+Last-dollar rule: cost is minimized if inputs are chosen
+so that the last dollar spent on labor adds as much
+extra output as the last dollar spend on capital
+￼
+￼
+￼
+=== SLIDE 31 ===
+31
+Cost Minimization – cont.
+￼
+Units of Labour
+per hour
+Units of
+Capital per
+hour
+=== SLIDE 32 ===
+Production Function in the Long Run
+￼
+The isocost intersects the x-axis for L = 40 and the y-axis for K = 30.
+a) If the price of labor is 150, then the total cost is ........... and the
+price of K is ............. .
+b) b) In the cost optimum, the firm hires 20 units of labor, then the
+cost of K is ............... .c) In the cost optimum, the marginal rate of
+technical substitution (MRTS) is ................ .
+=== SLIDE 33 ===
+33
+Derivation of TC in the Long Run
+￼
+=== SLIDE 34 ===
+34
+Cost Curves in the Long Run
+Unit Costs Total Cost
+• Determination by Returns to Scale
+￼
+CZK
+￼
+CZK/Q
+=== SLIDE 35 ===
+35
+Relevant Literature
+• Mankiw „Principles of Microeconomics“: chapter 13, 14

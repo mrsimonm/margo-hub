@@ -1,0 +1,197 @@
+
+=== SLIDE 1 ===
+3BE123 – Microeconomics – Winter semester 2026/27
+Supervisor, Lecturer, Seminar leader Ing.Zuzana Dzbankova, Ph.D.
+Seminar leader: Andrea Sáenz de Viteri Vázquez, M.S., Ph.D.
+Office: Rajska building: RB 324 (Z. Dzbankova)
+RB 344 (A. Sáenz de Viteri Vázquez),
+Phone: +420 224 098 324 (Z. Dzbankova)
++420 224 09 8644 (A. Sáenz de Viteri Vázquez)
+E-mail: dzbank@vse.cz (Z. Dzbankova)
+andrea.vazquez@vse.cz (A. Sáenz de Viteri Vázquez
+Office hours: Mrs. Dzbankova –
+TUE 15.00-16.00 RB 324 Žižkov + online (please call me via
+TEAMS)
+THU 11.00-12.00 JM277
+Ms. Sáenz de Viteri Vázquez –
+MON:13:00–14:00
+TUE: 09:00–10:00
+Location: RB 344
+Content and time schedule of the course
+Week Lecture Tuesday Seminars
+1.
+22.9.
+The subject and methods of
+Economics. Economic circle. Models.
+Principles, variables, math and graphs in
+Economics. Opportunity costs. Use supply
+and demand model.
+2.
+29.9.
+Theory of the Consumer: cardinal,
+ordinal approach, optimum
+Economics. Economic circle, demand and
+supply model.
+3.
+6.10.
+Theory of the Consumer - cardinal,
+ordinal approach, optimum. Demand,
+elasticity, shifts, consumer surplus.
+Theory of the Consumer - cardinal
+approach.
+4.
+13.10.
+Theory of the Firm - introduction,
+Production function in the short run,
+costs.
+Ordinal Approach, indifference curve,
+budget line, optimum.
+5.
+20.10.
+Production function in the long run,
+costs. Revenues. Profit.
+Demand Elasticity, consumer surplus.
+Transaction costs, production function in
+the short run, costs in SR.
+6.
+27.10.
+Perfectly competitive firm - economic
+profit and equilibrium in the short and
+long run.
+Production function in the long run, costs.
+Revenues. Profit. Perfectly competitive firm
+optimum.
+7.
+3.11.
+Innovation Week- Classes have been
+canceled
+Innovation Week- Classes have been
+canceled
+8.
+10.11.
+Market equilibrium, demand and
+supply, shifts, allocation efficiency,
+non-equilibrium, state interventions.
+1st test (topics 1. - 7. incl.)
+After test: Perfectly competitive firm -
+economic profit and equilibrium in the short
+and long run.
+9.
+17.11.
+Canceled
+State holiday State holiday
+=== SLIDE 2 ===
+10.
+24.11.
+Imperfect markets - general features.
+PC and IC comparison. Monopoly,
+oligopoly, monopolistic competition.
+Allocative and productive inefficiency.
+Imperfect markets - general features. PC
+and IC comparison. Monopoly, oligopoly,
+monopolistic competition. Allocative and
+productive inefficiency.
+11.
+1.12.
+Alternative goals of the firm.
+Production factors' market -general
+features. Land market
+Alternative goals. Production factors'
+market -general features. Optimum of the
+firm in the market of inputs.
+12.
+8.12.
+Labor market. Production function and
+labor demand, market supply of labor,
+equilibrium of the labor market, trade
+unions
+Capital market. Optimum of firm in
+capital market, capital demand.
+Labor market. Production function and labor
+demand, market supply of labor, labor
+market equilibrium, trade unions.
+13.
+15.12.
+Market failures and state interventions.
+Externalities, social and private costs
+and benefits, property rights and the
+Coase theorem. Public goods and
+public choice: non-excludability and
+the free-rider problem, non-rivalry.
+Asymmetric information.
+2nd test (topics 7.
+- 11. incl.)
+Please note: During Innovation Week, classes have been canceled. (see the schedule
+above).
+Occasional changes to the schedule will be communicated via email or directly in the
+lectures/seminars.
+Assessment criteria:
+Active participation during seminars 10 %
+Tests 40 % (1st and 2nd paper test per 20 points)
+Oral exam 50 %
+Students are required to attend at least 50% of lectures. Otherwise, a student is classified as
+failed without any possibility of going to the oral examination (final mark "4").
+1. Activity
+- max. total 10 points per semester
+= unsupported correct answers to the questions relevant to the discussed topic during
+the seminar: maximum 2 points per 1 seminar
+- Points from activities are not counted toward the minimum points for tests and the
+minimum required for the oral exam (only points from tests are valid for participation in the
+oral exam). Points from activities are considered as an additional improvement to the oral
+exam result (the final marking).
+- discussions/solutions of HW, participation in solving new problems in class, answers to a
+teacher's theoretical question, maybe a couple of short quizzes (will be announced in
+advance)
+2. Tests
+=== SLIDE 3 ===
+Two written tests containing theory and computation. Both tests are obligatory for
+all students!!
+Students must have a minimum of 20 points from the written tests to go to the oral
+exam. If a student does not earn the required minimum number of points, he or she may
+take a retake test covering topics from the entire course, i.e., both Test 1 and Test 2.
+Test duration: max. 45 min (usually 30 min). A sample test will be available at least 1
+week before testing. In the case of cheating, a student immediately forfeits the privilege of
+taking the test and earns ZERO points from the test. Such a test cannot be retaken!
+A structure of the test:
+I. Definition, explanation of terms, principles, variables....
+II. Computation
+III. Graphs
+IV. Formulas
+1st test (mid-term)
+ Maximum 20 points
+Week 8 during the seminar. Details will be specified later.
+Content of the 1st test:
+1. The subject and method of economics.
+2. Theory of the Consumer: cardinal and ordinal approach; substitution in consumption (MRSC),
+budget constraint, optimum.
+3. Demand: demand curve, substitution and income effects. State intervention: price floor, price
+ceiling.
+4. Price elasticity of demand, consumer surplus.
+5. Theory of the firm: transaction costs and the nature of the firm; goals of a firm; the production
+function and costs: short run, long run; marginal rate of technical substitution (MRTS).
+6. Revenues, demand.
+2nd test (end-term)
+ maximum 20 points
+Week 13 during the seminar. Details will be specified later.
+Content of the 2nd test:
+7. Firm in perfect competition – optimum in the short and long run. Market equilibrium and market
+price; benefits of exchange, changes in equilibrium.
+8. Imperfect markets: price creation in an imperfect market, monopoly, monopolistic competition,
+oligopoly.
+9. Alternative goals of firms, principal-agent problem.
+10. Specific features of the market of production factors. Agriculture (land) market.
+11. Labor markets: production function and labor demand, market supply of labor, equilibrium of
+the labor market.
+=== SLIDE 4 ===
+3. Oral exam
+A student goes to the oral exam if he/she has reached at least 20 points from tests. If
+students do not meet this requirement, they receive a final grade of "4".
+If students are not successful on the oral examination, they can receive a grade of 4+ on the oral
+examination and retake it. In total, each student has two attempts to pass the oral exam (the
+regular attempt and one "re-take" attempt). If a student cheats while preparing for an oral exam,
+the student will receive a failing grade of “4.”
+First expected date of oral exam for “early birds” (©): December 2026 (after the final test and its
+review) and later.
+Oral exam procedure at school: blind choice of topic, written preparation of approximately 15
+min, oral examination, final grading (1-2-3-4 or 4+).
+The current list of exam questions will be available in the InSIS documents.

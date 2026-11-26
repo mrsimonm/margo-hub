@@ -1,0 +1,281 @@
+
+=== SLIDE 1 ===
+3BE 123 - Microeconomics
+Ing. Zuzana Dzbankova, Ph.D.
+Department of Managerial
+Economics, FBA
+University of Economics, Prague
+http://kmae.vse.cz
+=== SLIDE 2 ===
+2
+Consulting hours
+TUE: 15.00 – 16.00 RB 324 and online via MS Teams
+THU: 11.00 – 12.00 (JM 277)
+dzbank@vse.cz
+=== SLIDE 3 ===
+3
+Literature
+• RQ MANKIW, N G. Principles of microeconomics.
+Mason: South-Western/Cengage Learning,
+2013.
+• RQ FRANK, R H. -- BERNANKE, B. -- JOHNSTON, L.
+Principles of microeconomics. Boston:
+McGraw-Hill/Irwin, 2009.
+• RE NICHOLSON, W. -- SNYDER, C M.
+Intermediate microeconomics and its application.
+Mason: South-Western Cengage Learning,
+2010.
+=== SLIDE 4 ===
+4
+Content of the Course
+1. Introduction to Economics
+2. Markets and Market Elements, Elasticity
+3. Consumer Behavior and Demand
+4. Firm Behavior and Supply. Production and Cost in the Short
+Run
+5. Firm - Production and Cost in the Long Run. Revenue and
+Profit
+6. Equilibrium of a Firm in a Perfect Market
+7. Market Equilibrium, Demand and Supply, Non-equilibrium
+8. Imperfectly Competitive Markets – General Features
+9. Imperfectly Competitive Firms – Specify Features
+10. Factor Markets - General Overview. Land Market
+11. Labour and Capital Markets
+12. Market Failures and State Interventions
+=== SLIDE 5 ===
+5
+1. Lecture
+I. Introduction to Economics
+1. Subject of Economics - basic terms
+2. Historical creation of Economics
+II. Market and market mechanisms
+=== SLIDE 6 ===
+6
+What is Economics?
+Economics vs. the Economy
+• Economy = real economic system around
+us – we all are active participants and
+creators
+• Economics = science
+• Economics – theoretical vs. Empirical
+=== SLIDE 7 ===
+7
+Definition of Economics
+Economics is the study of:
+• how societies with limited, scarce resources
+decide what gets produced, how, and for
+whom
+• how individuals and societies make choices
+under scarcity and the implications of those
+choices
+=== SLIDE 8 ===
+8
+Scarcity vs. Unlimited Wants
+• Scarcity implies the need for a choice
+among alternatives– no free lunch.
+• Trade Off - when you choose option A over
+option B; you sacrifice of B
+• Wants are unlimited while resources for
+satisfying them are finite.
+• A need is something that you have to have.
+• A want (desire) is something you would like
+to have.
+=== SLIDE 9 ===
+9
+Opportunity cost
+• Definition: The value of the next-best
+alternative that must be forgone in
+order to undertake an activity.
+• The opportunity cost of any good or
+services is the amount of other goods
+or services that must be given up to
+obtain it.
+=== SLIDE 10 ===
+10
+Microeconomics vs. Macroeconomics
+• Microeconomics focuses on how
+decisions are made by individuals and
+firms and the consequences of those
+decisions.
+• Macroeconomics aggregates for
+millions of actors (consumers, firms, the
+whole economy) – aggregate level
+=== SLIDE 11 ===
+11
+Microeconomics and Macroeconomics
+Microeconomics question
+￼
+Macroeconomics question
+What determines the cost to a
+university or college of offering a
+new course?
+What government policies should
+be adopted to make it easier for
+low-income students to attend
+￼
+What determines whether
+Citibank opens a new office in
+Shanghai?
+What determines the overall level
+of prices in the economy as a
+whole?
+What government policies
+What determines the overall
+trade in goods, services and
+financial assets between the US
+and the rest of the world?
+=== SLIDE 12 ===
+12
+When Was Economics Created?
+Adam Smith
+(1723 – 1790)
+￼
+￼
+￼
+￼
+1776 Wealth of Nations
+(An Inquiry into the Nature
+and Causes of the Wealth of
+Nations. )
+Aritotelés
+(384-322 BC)
+Xénofón
+(430-355 BC)
+Oikonomikos
+=== SLIDE 13 ===
+13
+Three breakpoints in the development of
+economics
+• Adam Smith 1776 J. M. Kenes (1883 –1946)
+• Karel Marx 1867 – 94
+• John Meynard Keynes 1936
+￼
+￼
+The General Theory
+of Employment,
+Interest and Money
+(1936)
+Liberalism vs Interventionalism
+Karel Marx
+(1818 – 1893)
+=== SLIDE 14 ===
+14
+Current Schools of Economic Thought
+• Liberalism (free-market, or laissez-faire)
+– monetarists
+– neo-classical school
+• State intervention
+– keynesian school
+– neo-keynesian school
+=== SLIDE 15 ===
+15
+Social or a Natural Science?
+Positive or Normative?
+• Economics is a social science
+• Modells – simplifying assumptions (incl.
+Ceteris paribus or the other-things-constant
+assumption)
+• Positive Economics– description, what is or
+could be.
+• Normative Economics- value judgments; it
+what should be.
+=== SLIDE 16 ===
+16
+The assumption Ceteris Paribus
+•
+„All other things being equal.“
+•
+„Other factor are held constant.“
+=== SLIDE 17 ===
+17
+The Assumption of Rationality
+Economists assume that people are rational.
+Rationality = try to fulfill their goals as best they
+can with available resources and information.
+A rational approach
+= compare benefits vs. costs
+=== SLIDE 18 ===
+18
+Homo Economicus, or the Economic
+Human
+• Humans are rational and narrowly self-
+interested actors who have the ability to make
+judgments about their subjectively defined
+goals.
+• Using these rational assessments, homo
+economicus attempts to maximize utility as a
+consumer and economic profit as a producer.
+=== SLIDE 19 ===
+19
+￼
+A Stoic Man: The origin of hommo economicus
+4 characteristics of a Stoic:
+- Clever
+- Plays fair
+- Controls himself
+- Bold
+=== SLIDE 20 ===
+20
+The Circular Flow of Economic Activity
+￼
+￼
+￼
+￼
+=== SLIDE 21 ===
+21
+Economic Agents (Subjects)
+• Individuals (households)
+• Firms
+• State
+• World (open economy)
+￼
+￼
+￼
+=== SLIDE 22 ===
+22
+Production Factors (Inputs)
+1.Labour (labour services)
+2.Capital (machines, tools, bildings)
+3.Land (including raw materials)
+4.Technology
+=== SLIDE 23 ===
+23
+Short Run vs. Long Run
+• Short run: A period of time during which some
+of a firm’s inputs cannot be varied or in which a
+firm or household has not fully adapted to a
+price change.
+• Long run: A period of time long enough for a
+firm to be able to vary all its factors of
+productions or for a firm or househod to adapt
+fully to a price change.
+=== SLIDE 24 ===
+24
+Basic Terminology - Summary
+• Economics vs.
+Economy
+• Positive vs. Normative
+Economics
+• Microeconomics vs.
+Macroeconomics
+• Rationality Homo
+Oeconomicus
+• Scarcity
+• Production Factors
+• Opportunity Cost
+• Short Run, Long Run
+=== SLIDE 25 ===
+25
+Relevant literature
+• MANKIW „Principles of Microeconomics“: chapter 1
+(„Ten Principles of Economics“); chapter 2
+(„Thinking like an Economist” + APPENDIX)
+• NICHOLSON, W. -- SNYDER, C M. „Intermediate
+microeconomics and its application“
+. Part 1,
+Apendix 1A
+• Watch the video:
+https://www.khanacademy.org/economics-finance-
+domain/microeconomics/supply-demand-
+equilibrium/economics-introduction/v/introduction-to-
+economics

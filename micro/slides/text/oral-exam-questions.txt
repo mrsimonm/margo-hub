@@ -1,0 +1,72 @@
+
+=== SLIDE 1 ===
+3BE123 - Microeconomics I Oral Examination Topic List - WT 2026/27
+1. Consumer Optimum and Demand Curve under the Assumption of Direct Utility
+Measurement
+Total Utility. Marginal Utility. Consumer Optimum. Derivation of Demand Curve on the Basis of Cardinal
+Approach.
+2. Consumer Optimum and Demand Curve under the Assumption of Unmeasurable Utility
+Indifference Curve Analysis. Indifference Curve. Budget Line. Consumer Optimum. Derivation of
+Demand Curve on the Basis of Ordinal Approach.
+3. Market and Market Elements
+Definition of Demand. Movement along the Demand Curve and Shift of the Demand Curve. Definition of supply.
+Movement along the Supply Curve and Shift of the Supply Curve. Price.
+Market Equilibrium, Non-equilibrium situations (surplus/shortage).
+4. Price Elasticity of Demand
+Point Price Elasticity of Demand. Interval Price Elasticity of Demand (Midpoint Method). Relationship between
+Price Elasticity of Demand, Marginal Revenue, and Total Revenue.
+5. Short-run Production Function
+Characteristics of the short run. Short-run Production Function. Total, Marginal, and Average Product.
+Determination and standard shapes.
+6. Short-run Cost Function
+Characteristics of the short run. Firm's Short-run Costs. Derivation of Cost Function from Production Function.
+Types, Standard Shapes, and Properties (determination) of Short-run Costs.
+7. Long-run Production and Cost Functions
+Characteristics of the Long Run. Isoquant, Isoquant Map. Isocost. Cost Minimization Optimum. Derivation of
+Cost Function from Production Function. Types, Shapes, and Properties of Long-run Costs.
+8. Revenue, profit and optimum of a firm under perfect competition
+Total, Average, and Marginal Revenue in Perfect Competition. Explicit and Implicit Costs. Sunk Costs.
+Accounting and Economic Profit. Optimal Level of Firm's Production - Golden Rule of Profit Maximization.
+9. Revenue, profit and optimum of a firm under imperfect competition
+Total, Average, and Marginal Revenue in Imperfect Competition. Explicit and Implicit Costs.
+Accounting and Economic Profit. Optimal Level of Firm's Production - Golden Rule of Profit
+Maximization.
+10. Behavior of a perfectly competitive firm
+Characteristics of perfect competition. Firm's Supply in the short run. The shutdown point. The break-even
+point. Price elasticity of supply. Market supply. Efficiency of perfect competition.
+11. Market equilibrium of perfect competition
+Market Equilibrium and its Conditions. Equilibrium and Efficiency. Benefits of Exchange. Equilibrium with
+Respect to Period Length. Equilibrium and Simultaneous Change of Supply and Demand.
+12. General characteristics of imperfect competition
+Reasons behind Existence of Imperfect Competition. Common and Distinctive Features of Perfect and Imperfect
+Competition.
+=== SLIDE 2 ===
+13. Specific Characteristics of Imperfect Competition
+Forms of Imperfect Competition. Monopoly. Oligopoly (Collusive Oligopoly, Oligopoly with A Dominant Firm).
+Monopolistic Competition - Differentiation between Short-run and Long-run Situation.
+14. Alternative Goals of a Firm
+Types of Firms in a Market Economy. Alternative Goals of a Firm. Comparison of Behavior of a Profit
+Maximizing Firm and a Revenue Maximizing Firm.
+15. General Overview of Factor Markets
+Essence and Specifics of Factor Markets. Types of factor prices. Composition of Factor Earnings (Transfer
+Earnings and Economic Rent). Factor Demand. Factor Supply. Firm's Equilibrium in a Perfectly Competitive
+Factor Market.
+16. Labor Market
+Labor as a Factor of Production. Individual Firm's Labor Demand. Labor Supply to an Individual Firm and Labor
+Supply of a Single Worker. (Market) Equilibrium in a Perfectly Competitive Labor Market. Imperfections of a
+Labor Market (Reasons and Consequences of Imperfections, Presence of Labor Unions and Monopsony).
+17. Capital Market. Land Market.
+Basic Terms of Capital Theory (Definitions and Classifications of Capital). Demand in a Capital Market. Supply
+in a Capital Market. Equilibrium in a Capital Market. Market of Capital Goods. Specifics of a Land Market.
+Economic Rent.
+18. Market Failure and Governmental Influence
+Forms of Market Failures. Monopoly Power. Externalities in Production. Externalities in Consumption. Positive
+Externalities and Inefficiency. Negative Externalities and Inefficiency. Public Goods. Characteristics of Public
+Goods. Optimal Amount of Public Goods. Asymmetric Information. Moral Hazard. Adverse Selection.
+Governmental Influence on Microeconomic Agents.
+19. Comparison of Efficiency of Different Market Structures – Productive Efficiency
+Definition of Productive Efficiency. Productive Efficiency (Inefficiency) under Perfect Competition, Monopolistic
+Competition, Oligopoly, and Monopoly.
+20. Comparison of Efficiency of Different Marker Structures – Allocative Efficiency
+Definition of Allocative Efficiency. Consumers Surplus. Producers Surplus. Allocative Efficiency (Inefficiency)
+under Perfect Competition, Monopolistic Competition, Oligopoly, and Monopoly.

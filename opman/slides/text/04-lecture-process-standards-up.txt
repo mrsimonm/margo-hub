@@ -1,0 +1,733 @@
+
+=== SLIDE 1 ===
+OPERATIONS
+MANAGEMENT
+Felipe Martinez
+© Felipe Martinez
+=== SLIDE 2 ===
+Today
+•Process Standards
+•Time
+•Work– People
+•Capacities
+Photo by Remy Gieling on Unsplash
+© Felipe Martinez
+=== SLIDE 3 ===
+HR & OM
+What is the
+relationship
+between HR and
+OM?
+© Felipe Martinez
+=== SLIDE 4 ===
+What is the relationship between HR and OM?
+Q
+C ?
+S
+HR
+F
+D
+© Felipe Martinez
+=== SLIDE 5 ===
+HR & OM
+•Leadership
+•Development
+•Organization
+© Felipe Martinez
+=== SLIDE 6 ===
+HR & OM
+Figure 9.2. page 235. at:
+SLACK, Nigel, CHAMBERS, Stuart a JOHNSTON, Robert. Operations management. 6th ed. Harlow:
+Financial Times/Prentice Hall, 2010. xxv, 686 s. ISBN 978-0-273-73046-0.© Felipe Martinez
+=== SLIDE 7 ===
+Standardisation labour consumption
+Time
+Required
+(Standard)
+Loss
+Work General
+pauses
+Specific
+pauses
+Personal Technical and
+organizational
+t1 t2 t3
+© Felipe Martinez
+Force
+majeure
+=== SLIDE 8 ===
+Allocate work times
+•Determine how much time do
+we have in the operation.
+•Determine how much time do
+we need in the operation.
+•Calculate if there is enough
+time to run the operation.
+© Felipe Martinez
+Photo by Gayatri Malhotra on Unsplash
+=== SLIDE 9 ===
+Time
+•How much time
+do you have to
+study for the
+next test?
+© Felipe Martinez
+=== SLIDE 10 ===
+Time
+•How much time
+do you need to
+study for the
+next test?
+© Felipe Martinez
+=== SLIDE 11 ===
+•How much time
+do you have to
+study for the
+next test?
+Time
+•How much time
+do you need to
+study for the
+next test?
+© Felipe Martinez
+=== SLIDE 12 ===
+•Do you have
+enough time to
+study for the
+test?
+enough =
+© Felipe Martinez
+Time
+need
+have
+=== SLIDE 13 ===
+Time
+Over Capacity
+need
+enough = = 100% Ideal
+have
+Under Capacity
+© Felipe Martinez
+=== SLIDE 14 ===
+Time
+Over Capacity
+120
+enough = = 120% Ideal
+100
+© Felipe Martinez
+=== SLIDE 15 ===
+Time
+80
+enough = = 80% Ideal
+100
+Under Capacity
+© Felipe Martinez
+=== SLIDE 16 ===
+Times
+•Lead time. Total time to complete one unit of a
+specific product or service.
+•Cycle time. Total time of a specific process.
+•Change over time. Setup time.
+•Takt time. Rate of customer demand.
+•Line Takt. Rate of line outputs.
+© Felipe Martinez
+=== SLIDE 17 ===
+Productive
+Time
+Net operating time
+Operating time
+Planned time
+Total time
+Defects and
+rework
+Losses
+from start
+Overall equipment efficiency - OEE
+Reduced
+speed
+Idling & minor
+interruptions
+Settings and
+Adjustments
+Failures
+Planned shutdown
+© Felipe Martinez
+=== SLIDE 18 ===
+Time
+•Shift times (tc)
+•Batch times (tb)
+•Unit/piece times (ta)
+© Felipe Martinez
+=== SLIDE 19 ===
+Time
+•Shift times
+•Batch times
+•Unit/piece times
+•Legislation
+•Process
+• Time-motion
+study
+✓PMTS
+✓TMU
+© Felipe Martinez
+=== SLIDE 20 ===
+Time
+•Shift times (tc)
+•Batch times (tb)
+•Unit/piece times (ta)
+© Felipe Martinez
+=== SLIDE 21 ===
+•How much time
+do you have to
+study for the
+next test?
+Time
+•How much time
+do you need to
+study for the
+next test?
+© Felipe Martinez
+=== SLIDE 22 ===
+Working days per country?
+•Calculate the
+number of
+working days in
+your country for
+this year.
+© Felipe Martinez
+=== SLIDE 23 ===
+Available time
+Calculate the available time for the production line on the third
+quarter of the year 20XX. There is a planned plant shutdown from
+monday the 2nd to 13th of August. The Czech national holidays 5th
+and 6th of July are on Thursday and Friday. September 28th is a
+Tuesday. November 17th is a Wednesday. There are 13 weekends.
+Maintenance is carried out during working hours and it is 5 hours
+a month. Overhaul in a given period is not planned. Plant works
+intermittent production at two shifts per day (8 hours / shift).
+© Felipe Martinez
+=== SLIDE 24 ===
+Available time
+Calculate the available time for the production line on the third
+quarter of the year 20XX. There is a planned plant shutdown from
+monday the 2nd to 13th of August. The Czech national holidays 5th
+and 6th of July are on Thursday and Friday. September 28th is a
+Tuesday. November 17th is a Wednesday. There are 13 weekends.
+Maintenance is carried out during working hours and it is 5 hours
+a month. Overhaul in a given period is not planned. Plant works
+intermittent production at two shifts per day (8 hours / shift).
+AT = {(31 + 31 + 30 – 10 – 26 – 3) * 2 * 8} – (5 * 3) = (53 * 16) – 15 = 833 h© Felipe Martinez
+=== SLIDE 25 ===
+Available working time
+In the same period, calculate the available time for 8
+workers. Working 5 days a week, 8 hours/day. In average,
+from the 4 weeks vacation, they still have 1 vacation week left. Unfortunately, the illness rate 5%.
+AWT (1) worker = {(31 + 31 + 30 – 10 – 26 – 3– 5) * 8h * 0.95} = (48 * 8 * 0.95) = 364,8 h
+AWT (8) = 364,8 * 8 = 2918,4h© Felipe Martinez
+=== SLIDE 26 ===
+•How much time
+do you have to
+study for the
+next test?
+Time
+•How much time
+do you need to
+study for the
+next test?
+© Felipe Martinez
+=== SLIDE 27 ===
+Time
+•Time-motion study
+✓Predetermined motion time systems -
+PMTS
+✓ Methods-time measurement – MTM
+✓Maynard Operation Sequence
+Technique - MOST
+➢TMU
+© Felipe Martinez
+=== SLIDE 28 ===
+TMU - Time Measurement Unit
+•TMU = .00001 hr
+= .0006 min
+= .036 sec
+•1 hr = 100,000 TMU
+Maynard, 1940
+© Felipe Martinez
+=== SLIDE 29 ===
+Maynard, 1940
+Basic categories of motions
+• 1) GET (G)
+• 2) PUT (P)
+• 3) APPLY PRESSURE (A) = 14 TMU
+• 4) REGRASP (R) = 6 TMU
+• 5) EYE ACTION (E) = 7 TMU
+• 6) CRANK (C) = 15 TMUs/rev
+• 7) STEPS (S) = 18 TMU/step
+• 8) FOOT MOTION (F) = 9 TMU
+• 9) BEND & ARISE (B) = 61 TMU
+© Felipe Martinez
+=== SLIDE 30 ===
+•How much time
+do you have to
+study for the
+next test?
+Time
+•How much time
+do you need to
+study for the
+next test?
+© Felipe Martinez
+=== SLIDE 31 ===
+Time
+•Shift times (tc)
+•Batch times (tb)
+•Unit/piece times (ta)
+© Felipe Martinez
+=== SLIDE 32 ===
+WOOD STOVE & OPEN FIRE
+A production line cuts wood blocks. One product WS25 is cut every
+3,5min. One product WS30 is cut every 3min. Machine setup for
+both products is 20min per batch. The workers clean and prepare
+the working place at the beginning and the end for about 30min per
+shift.
+Determine time typology of the activities.
+Calculate the time needed to cut 20 WS25 and 100 WS30.© Felipe Martinez
+=== SLIDE 33 ===
+WOOD STOVE & OPEN FIRE
+A production line cuts wood blocks. One product WS25 is cut every
+3,5min. One product WS30 is cut every 3min. Machine setup for
+both products is 20min per batch. The workers clean and prepare
+the working place at the beginning and the end for about 30min per
+shift.
+Determine time typology of the activities.
+Calculate the time needed to cut 20 WS25 and 100 WS30.© Felipe Martinez
+=== SLIDE 34 ===
+Wood stove & Open Fire – Type of process
+ By production
+ Mass production
+ Series production
+ Piece production
+ By sales order
+ Order
+ To stock
+ By technology
+ Mechanical
+ Chemical
+ Biological or
+biochemical
+ By layout
+ Individual
+ Flow
+ Group
+◼ Product / service
+◼ Technology
+ Phase
+ By location
+ Mobile
+ Immobile
+ By continuity of
+operations
+ Continuity
+ Intermittent
+© Felipe Martinez
+ By time
+ Pre-production Stage. Cutting
+the wood.
+ Production Stage. Line cuts
+wood blocks.
+ Post-production stage.
+Packaging.
+ By the nature of operations
+ Core/Main. Line cuts wood
+blocks.
+ Support. Cold saw
+maintenance.
+ Service. Office supplies
+purchasing.
+=== SLIDE 35 ===
+Wood stove & Open Fire – Type of process
+ By production
+ Mass production
+ Series production
+ Piece production
+ By sales order
+ Order
+ To stock
+ By technology
+ Mechanical
+ Chemical
+ Biological or
+biochemical
+ By layout
+ Individual
+ Flow
+ Group
+◼ Product / service
+◼ Technology
+ Phase
+ By location
+ Mobile
+ Immobile
+ By continuity of
+operations
+ Continuity
+ Intermittent
+© Felipe Martinez
+ By time
+ Pre-production Stage. Cutting
+the wood.
+ Production Stage. Line cuts
+wood blocks.
+ Post-production stage.
+Packaging.
+ By the nature of operations
+ Core/Main. Line cuts wood
+blocks.
+ Support. Cold saw
+maintenance.
+ Service. Office supplies
+purchasing.
+=== SLIDE 36 ===
+ By time
+ Pre-production Stage.
+Cutting the wood.
+ Production Stage.
+Line cuts wood blocks.
+ Post-production stage.
+Packaging.
+Wood stove & Open Fire – Type of process
+ By production
+ Mass production
+ Series production
+ Piece production
+ By sales order
+ Order
+ To stock
+ By technology
+ Mechanical
+ Chemical
+ Biological or
+biochemical
+ By layout
+ Individual
+ Flow
+ Group
+◼ Product / service
+◼ Technology
+ Phase
+ By location
+ Mobile
+ Immobile
+ By continuity of
+operations
+ Continuity
+ Intermittent
+© Felipe Martinez
+ By the nature of operations
+ Core/Main.
+ Support.
+ Service.
+Line cuts wood blocks.
+Cold saw maintenance.
+Office supplies purchasing.
+=== SLIDE 37 ===
+Wood stove & Open Fire – Type of process
+ By production
+ Mass production
+ Series production
+ Piece production
+ By sales order
+ Order
+ To stock
+ By technology
+ Mechanical
+ Chemical
+ Biological or
+biochemical
+ By layout
+ Individual
+ Flow
+ Group
+◼ Product / service
+◼ Technology
+ Phase
+ By location
+ Mobile
+ Immobile
+ By continuity of
+operations
+ Continuity
+ Intermittent
+© Felipe Martinez
+ By time
+ Pre-production Stage.
+Cutting the wood.
+ Production Stage.
+Line cuts wood blocks.
+ Post-production stage.
+Packaging.
+ By the nature of operations
+ Core/Main.
+Line cuts wood blocks.
+ Support.
+Cold saw maintenance.
+ Service.
+Office supplies purchasing.
+=== SLIDE 38 ===
+WOOD STOVE & OPEN FIRE
+A production line cuts wood blocks. One product WS25 is cut every
+3,5min. One product WS30 is cut every 3min. Machine setup for
+both products is 20min per batch. The workers clean and prepare
+the working place at the beginning and the end for about 30min per
+shift.
+Calculate the time needed to cut 20 WS25 and 100 WS30.© Felipe Martinez
+=== SLIDE 39 ===
+WOOD STOVE & OPEN FIRE
+WS25: 20 units
+Unit time = 3,5 min
+Batch time = 20 min
+(3,5 x 20) + 20 = 90min
+WS30: 100 units
+Unit time = 3 min
+Batch time = 20 min
+(3 x 100) + 20 = 320min
+Shift time = 30 min© Felipe Martinez
+=== SLIDE 40 ===
+•How much time
+do you have to
+study for the
+next test?
+Time
+•How much time
+do you need to
+study for the
+next test?
+© Felipe Martinez
+=== SLIDE 41 ===
+Order Unit time Batch time Need WOOD STOVE & OPEN FIRE
+WS25 WS30
+20 units 100 units
+3,5 min 3 min
+20 min 20 min
+???? ????
+© Felipe Martinez
+=== SLIDE 42 ===
+Order Unit time Batch time Need WOOD STOVE & OPEN FIRE
+WS25 WS30
+20 units 100 units
+3,5 min 3 min
+20 min 20 min
+???? ????
+© Felipe Martinez
+=== SLIDE 43 ===
+Order Unit time Batch time Need WOOD STOVE & OPEN FIRE
+WS25 WS30
+20 units 100 units
+3,5 min 3 min
+20 min 20 min
+(3,5 x 20) + 20 = 90min (3 x 100) + 20 = 320min
+I need 410 min
+© Felipe Martinez
+=== SLIDE 44 ===
+•Do you have
+enough time to
+study for the
+test?
+enough =
+© Felipe Martinez
+Time
+need
+have
+=== SLIDE 45 ===
+Capacity
+Capacity is the maximum number of
+products (outputs) that a operation (line,
+workshop, office, etc.) produced in a
+specific time period (year, month, shift)
+under the specific conditions
+(technological, organisational).
+© Felipe Martinez
+=== SLIDE 46 ===
+Process Capability
+Process capability is a measure of the acceptability of the variation of the
+process. The simplest measure of capability (Cp) is given by the ratio of the
+specification range to the ‘natural’ variation of the process (i.e. ±3 standard
+deviations):
+Where
+UTL = the upper tolerance limit
+LTL = the lower tolerance limit
+s = the standard deviation of the process variability.
+Figure 2.10. page 522. at:
+© Felipe Martinez
+SLACK, Nigel, CHAMBERS, Stuart a JOHNSTON, Robert. Operations management. 6th ed. Harlow: Financial Times/Prentice Hall, 2010. xxv, 686 s. ISBN 978-0-273-73046-0.
+=== SLIDE 47 ===
+Process Capability
+Average
+LTL UTL
+© Felipe Martinez
+=== SLIDE 48 ===
+Process Capability
+© Felipe Martinez
+=== SLIDE 49 ===
+Process Capability
+Average
+LTL UTL
+© Felipe Martinez
+=== SLIDE 50 ===
+Capacity
+Capacity is the maximum number of
+products (outputs) that a operation (line,
+workshop, office, etc.) produced in a
+specific time period (year, month, shift)
+under the specific conditions
+(technological, organisational).
+© Felipe Martinez
+=== SLIDE 51 ===
+•Do you have
+enough time to
+study for the
+test?
+enough =
+© Felipe Martinez
+Time
+need
+have
+=== SLIDE 52 ===
+WOOD STOVE & OPEN FIRE
+A production line cuts wood blocks. One product WS25 is cut
+every 3,5min. One product WS30 is cut every 3min. Machine setup
+for both products is 20min per batch. The workers clean and
+prepare the working place at the beginning and the end for about
+30min per shift.
+Determine time typology of the activities.
+Calculate whether it is possible for one worker cut 20 WS25 and
+100 WS30 in the same shift.© Felipe Martinez
+=== SLIDE 53 ===
+WOOD STOVE & OPEN FIRE
+WS25: 20 units
+Unit time = 3,5 min
+Batch time = 20 min
+(3,5 x 20) + 20 = 90min
+WS30: 100 units
+Unit time = 3 min
+Batch time = 20 min
+(3 x 100) + 20 = 320min
+Shift time = 30 min© Felipe Martinez
+=== SLIDE 54 ===
+•How much time
+do you have to
+study for the
+next test?
+Time
+•How much time
+do you need to
+study for the
+next test?
+© Felipe Martinez
+=== SLIDE 55 ===
+Order Unit time Batch time Need WOOD STOVE & OPEN FIRE
+WS25 WS30
+20 units 100 units
+3,5 min 3 min
+20 min 20 min
+(3,5 x 20) + 20 = 90min (3 x 100) + 20 = 320min
+I need 410 min
+© Felipe Martinez
+=== SLIDE 56 ===
+•How much time
+do you have to
+study for the
+next test?
+Time
+•How much time
+do you need to
+study for the
+next test?
+© Felipe Martinez
+=== SLIDE 57 ===
+WOOD STOVE & OPEN FIRE
+1 worker
+1 shift = 8h
+= 480min
+Shift time = 30 min
+= ?????
+© Felipe Martinez
+=== SLIDE 58 ===
+WOOD STOVE & OPEN FIRE
+1 worker
+1 shift = 8h
+= 480min
+Shift time = 30 min
+= ?????
+© Felipe Martinez
+=== SLIDE 59 ===
+I have
+WOOD STOVE & OPEN FIRE
+1 worker
+1 shift = 8h
+= 480min
+Shift time = 30 min
+= 450min
+© Felipe Martinez
+=== SLIDE 60 ===
+WS25 = 90min
+WS30 = 320min
+Total time = 410 min
+WOOD STOVE & OPEN FIRE
+1 worker
+1 shift = 8h
+= 480min
+Shift time = 30 min
+= 450min
+© Felipe Martinez
+=== SLIDE 61 ===
+•Do you have
+enough time to
+study for the
+test?
+enough =
+© Felipe Martinez
+Time
+need
+have
+=== SLIDE 62 ===
+•Do you have
+enough
+time?
+91,11% =
+© Felipe Martinez
+Capacity
+410 min
+450 min
+=== SLIDE 63 ===
+Capacity
+450 min
+•Do you have
+enough
+1,0975 =
+time? 410 min
+© Felipe Martinez
+=== SLIDE 64 ===
+Today
+•Process Standards
+•Time
+•Work– People
+•Capacities
+Photo by Remy Gieling on Unsplash
+© Felipe Martinez
+=== SLIDE 65 ===
+Next… at the seminar
+•Process
+Standards
+•Time
+•Work– People
+•Capacities
+© Felipe Martinez
+=== SLIDE 66 ===
+Feedback
+© Felipe Martinez
+=== SLIDE 67 ===
+OPERATIONS
+MANAGEMENT
+Felipe Martinez
+© Felipe Martinez

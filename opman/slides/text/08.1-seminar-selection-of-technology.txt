@@ -1,0 +1,385 @@
+
+=== SLIDE 1 ===
+OPERATIONS
+MANAGEMENT
+Felipe Martinez
+© Felipe Martinez
+=== SLIDE 2 ===
+Today
+•Process Design
+Photo by Alvaro Reyes on Unsplash
+•Selection of the best
+technology for the
+design.
+© Felipe Martinez
+=== SLIDE 3 ===
+Today at the seminar
+•Process Design
+Photo by Alvaro Reyes on Unsplash
+•Selection of the best
+technology for the
+design.
+© Felipe Martinez
+=== SLIDE 4 ===
+Supply network design
+Layout
+and flow
+Process
+technology
+People, jobs
+and
+organization
+Product/service
+design
+© Felipe Martinez
+Process Design
+Figure 4.1. page 86. at:
+SLACK, Nigel, CHAMBERS,
+Stuart a JOHNSTON, Robert.
+Operations management. 6th
+ed. Harlow: Financial
+Times/Prentice Hall, 2010. xxv,
+686 s. ISBN 978-0-273-73046-0.
+=== SLIDE 5 ===
+Supply network design
+Layout
+and flow
+Process
+technology
+People, jobs
+and
+organization
+Product/service
+design
+© Felipe Martinez
+Process Design
+Figure 4.1. page 86. at:
+SLACK, Nigel, CHAMBERS,
+Stuart a JOHNSTON, Robert.
+Operations management. 6th
+ed. Harlow: Financial
+Times/Prentice Hall, 2010. xxv,
+686 s. ISBN 978-0-273-73046-0.
+=== SLIDE 6 ===
+Process
+technology
+What is the best
+technology?
+Photo by timJ on Unsplash
+© Felipe Martinez
+=== SLIDE 7 ===
+Selection of the best technology
+There are 2 CNCs to ensure the delivery of quality products
+on time from your operation. Please calculate, what is the
+best economical option to manufacture 25000 units and
+35000 units?
+Options CNC - A CNC - B
+Fixed costs (CZK / year) 2 700 000 3 600 000
+Variable costs (CZK / pc) 240 210
+© Felipe Martinez
+=== SLIDE 8 ===
+Selection of the best technology
+1. Fixed costs (FC). Independent of the amount of
+produced units.
+2. Variable costs (VC). Depended of the amount of
+produced units.
+3. Total cost (TC).
+TC = FC + VC*Q
+© Felipe Martinez
+=== SLIDE 9 ===
+Y = mx + b
+TCA = FCA + VCA*Q
+B
+TCB = FCB + VCB*Q
+A
+FCA + VCA*Q = FCB + VCB*Q
+© Felipe Martinez
+=== SLIDE 10 ===
+Selection of the best technology
+Options CNC - A CNC - B
+Fixed costs (CZK / year) 2 700 000 3 600 000
+Variable costs (CZK / pc) 240 210
+𝑭𝑪𝑩 − 𝑭𝑪𝑨
+TC = FC + VC*Q 𝑸 = ?
+𝑽𝑪𝑨 − 𝑽𝑪𝑩
+© Felipe Martinez
+=== SLIDE 11 ===
+Selection of the best technology
+Options CNC - A CNC - B
+Fixed costs (CZK / year) 2 700 000 3 600 000
+Variable costs (CZK / pc) 240 210
+𝑭𝑪𝑩 − 𝑭𝑪𝑨
+TC = FC + VC*Q 𝑸 =
+𝑽𝑪𝑨 − 𝑽𝑪𝑩
+© Felipe Martinez
+=== SLIDE 12 ===
+Selection of the best technology
+CZK
+© Felipe Martinez
+Units
+=== SLIDE 13 ===
+Selection of the best technology
+There are 2 CNCs to ensure the delivery of quality products
+on time from your operation. Please calculate, what is the
+best economical option to manufacture 25000 units and
+35000 units?
+Options CNC - A CNC - B
+Fixed costs (CZK / year) 2 700 000 3 600 000
+Variable costs (CZK / pc) 240 210
+Capacity (pc) 25 000 50 000
+© Felipe Martinez
+=== SLIDE 14 ===
+Selection of the best technology
+1. Fixed costs (FC). Independent of the amount of
+produced units.
+2. Variable costs (VC). Depended of the amount of
+produced units.
+3. Total cost (TC).
+TC = FC + VC*Q
+© Felipe Martinez
+=== SLIDE 15 ===
+Selection of the best technology
+CZK
+© Felipe Martinez
+Units
+=== SLIDE 16 ===
+Selection of the best technology
+CZK
+25 000 50 000
+© Felipe Martinez
+Units
+=== SLIDE 17 ===
+Selection of the best technology
+A currier operation has three transport suppliers. All of them have optimal
+similar delivery and quality output. Moreover, it is unclear which supplier is
+economically better based on the number of units in the transportation
+order. Calculate the unit limits on which each supplier represents the best
+economical delivery option.
+Supplier Fixed costs (CZK / year) Variable costs (CZK / pc) Capacity (pc)
+I 10 000 400 250
+II 30 000 200 110
+III 40 000 150 250
+© Felipe Martinez
+=== SLIDE 18 ===
+Selection of the best technology
+Supplier Fixed costs (CZK / year) Variable costs (CZK / pc) Capacity (pc)
+I 10 000 400 250
+II 30 000 200 110
+III 40 000 150 250
+FCB-FCA VCA-VCB Q
+I/II
+𝑭𝑪𝑩 − 𝑭𝑪𝑨
+II/III
+𝑸 =
+𝑽𝑪𝑨 − 𝑽𝑪𝑩
+I/III
+© Felipe Martinez
+=== SLIDE 19 ===
+Selection of the best technology
+Supplier Fixed costs (CZK / year) Variable costs (CZK / pc) Capacity (pc)
+I 10 000 400 250
+II 30 000 200 110
+III 40 000 150 250
+FCB-FCA VCA-VCB Q
+I/II 20 000 200 100
+𝑭𝑪𝑩 − 𝑭𝑪𝑨
+II/III 10 000 50 200
+𝑸 =
+𝑽𝑪𝑨 − 𝑽𝑪𝑩
+I/III 30 000 250 120
+© Felipe Martinez
+=== SLIDE 20 ===
+Supplier Fixed costs (CZK / year) Variable costs (CZK / pc) Capacity (pc)
+FCB-FCA VCA-VCB Q
+I 10 000 400 250
+I/II 20 000 200 100
+II 30 000 200 110
+II/III 10 000 50 200
+III 40 000 150 250
+I/III 30 000 250 120
+100000
+90000
+80000
+70000
+60000
+50000
+40000
+30000
+20000
+10000
+0
+The Best Technology
+From To Option
+0 100 I
+100 200 II
+200 - III
+I
+II
+III
+0 50 100 150 200 100 200
+© Felipe Martinez
+250
+=== SLIDE 21 ===
+TC
+S3-40000
+S2-30000
+From 0 units to 1oo units I use S1
+From 100 units to 200units I use S2
+From 200 units to …. I use S3
+S1-10000
+Q
+120
+100 200
+© Felipe Martinez
+=== SLIDE 22 ===
+Selection of the best technology
+A currier operation has 3 transport suppliers. All of them have optimal
+similar delivery and quality output. Moreover, it is not clear which supplier is
+economical better to deliver based on the amount of units in the
+transportation order. Calculate the units limits on which each supplier
+represents the best economical option to deliver.
+Supplier Fixed costs (CZK / year) Variable costs (CZK / pc) Capacity (pc)
+I 10 000 400 250
+II 30 000 200 110
+III 40 000 150 250
+© Felipe Martinez
+=== SLIDE 23 ===
+Supplier Fixed costs (CZK / year) Variable costs (CZK / pc) Capacity (pc)
+FCB-FCA VCA-VCB Q
+I 10 000 400 250
+I/II 20 000 200 100
+II 30 000 200 110
+II/III 10 000 50 200
+III 40 000 150 250
+I/III 30 000 250 120
+100000
+90000
+80000
+70000
+60000
+50000
+40000
+30000
+20000
+10000
+0
+The Best Technology
+From To Option
+0 100 I
+100 110 II
+I
+II
+III
+111 120 I
+120 250 III
+0 50 100 100
+150 200 250
+110
+120 250© Felipe Martinez
+=== SLIDE 24 ===
+TC
+S3-40000
+S2-30000
+From 0 units to 1oo units I use S1
+From 100 units until 110 units I use S2
+From 111 units to 120units I use S1
+From 120 units to 250 units I use S3
+S1-10000
+Q
+120
+100 200
+250
+110
+© Felipe Martinez
+=== SLIDE 25 ===
+Change from “per year” to “per month”
+But…
+Photo by Ross Findon on Unsplash
+© Felipe Martinez
+=== SLIDE 26 ===
+Selection of the best technology
+The production of a new portfolio of products can be manufactured in three different
+technological lines, which differ in their fixed and variable costs.
+A. Using the following table, decide which technology is the best for different number of
+manufactured units.
+B. C. Review your decision based on the production lines annual capacities.
+Review how your decisions will change if the provided information per year will be provided
+per month.
+Option A Option B Option C
+Rent CZK / year 600 000 600 000 600 000
+Depreciation CZK / year 300 000 200 000 400 000
+Other fixed costs CZK / year 180 000 120 000 110 000
+Mat. costs CZK / unit 25 35 55
+Payroll costs CZK / unit 90 100 55
+Annual capacity © Felipe Martinez
+11 000 5 000 11 000
+=== SLIDE 27 ===
+C
+B
+A
+From 0 units until 7600 units I use B
+From 7600units until …. I use C
+6000 8000
+7600
+© Felipe Martinez
+=== SLIDE 28 ===
+C
+B
+A
+5000
+6000 8000
+7600
+From 0 units until 5000 I use B
+From 5001 until 6000 I use A
+From 6000 until 11000 I use C
+11000
+© Felipe Martinez
+=== SLIDE 29 ===
+Selection of the best technology
+The production of a new portfolio of products can be manufactured in three different
+technological lines, which differ in their fixed and variable costs.
+A. Using the following table, decide which technology is the best for different number of
+manufactured units.
+B. C. Review your decision based on the production lines annual capacities.
+Review how your decisions will change if the provided information per year will be provided
+per month.
+Option A Option B Option C
+Rent CZK / year 600 000 600 000 600 000
+Depreciation CZK / year 300 000 200 000 400 000
+Other fixed costs CZK / year 180 000 120 000 110 000
+Mat. costs CZK / unit 20 35 55
+Payroll costs CZK / unit 90 100 55
+Annual capacity © Felipe Martinez
+11 000 5 000 11 000
+=== SLIDE 30 ===
+C
+B
+A
+When A and C are parallel
+6400
+© Felipe Martinez
+=== SLIDE 31 ===
+C
+B
+A
+5000
+6400
+When A and C are parallel
+11000
+© Felipe Martinez
+=== SLIDE 32 ===
+Today
+•Process Design
+Photo by Alvaro Reyes on Unsplash
+•Selection of the best
+technology for the
+design.
+© Felipe Martinez
+=== SLIDE 33 ===
+Feedback
+© Felipe Martinez
+=== SLIDE 34 ===
+OPERATIONS
+MANAGEMENT
+Felipe Martinez
+© Felipe Martinez

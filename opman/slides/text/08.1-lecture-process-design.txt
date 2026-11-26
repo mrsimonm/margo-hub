@@ -1,0 +1,473 @@
+
+=== SLIDE 1 ===
+OPERATIONS
+MANAGEMENT
+Felipe Martinez
+© Felipe Martinez
+=== SLIDE 2 ===
+Today
+•Process Design
+Photo by Alvaro Reyes on Unsplash
+•Selection of the best
+technology for the
+design.
+© Felipe Martinez
+=== SLIDE 3 ===
+Today
+•Process Design
+Photo by Alvaro Reyes on Unsplash
+•Selection of the best
+technology for the
+design.
+© Felipe Martinez
+=== SLIDE 4 ===
+It is the conceptual
+exercise which
+determines the
+specifics of the
+activities that
+create the desired
+product or service.
+© Felipe Martinez
+Process Design
+=== SLIDE 5 ===
+Supply network design
+Layout
+and flow
+Process
+technology
+People, jobs
+and
+organization
+Product/service
+design
+© Felipe Martinez
+Process Design
+Figure 4.1. page 86. at:
+SLACK, Nigel, CHAMBERS,
+Stuart a JOHNSTON, Robert.
+Operations management. 6th
+ed. Harlow: Financial
+Times/Prentice Hall, 2010. xxv,
+686 s. ISBN 978-0-273-73046-0.
+=== SLIDE 6 ===
+Think about
+the process
+from your
+Video!
+© Felipe Martinez
+Process Design
+=== SLIDE 7 ===
+Supply network design
+Layout
+and flow
+Process
+technology
+People, jobs
+and
+organization
+Product/service
+design
+© Felipe Martinez
+Process Design
+Figure 4.1. page 86. at:
+SLACK, Nigel, CHAMBERS,
+Stuart a JOHNSTON, Robert.
+Operations management. 6th
+ed. Harlow: Financial
+Times/Prentice Hall, 2010. xxv,
+686 s. ISBN 978-0-273-73046-0.
+=== SLIDE 8 ===
+Product/service
+design
+It determines
+the output of
+the process.
+© Felipe Martinez
+=== SLIDE 9 ===
+Product/service
+design
+© Felipe Martinez
+=== SLIDE 10 ===
+Quality function deployment
+QFD.
+From customers
+requirements to
+technical
+requirements
+Figure 5.7. page 126. at:
+SLACK, Nigel, CHAMBERS, Stuart a JOHNSTON, Robert. Operations management. 6th ed. Harlow: Financial
+Times/Prentice Hall, 2010. xxv, 686 s. ISBN 978-0-273-73046-0.
+© Felipe Martinez
+=== SLIDE 11 ===
+Quality function deployment (QFD)
+© Felipe Martinez
+=== SLIDE 12 ===
+Supply network design
+Layout
+and flow
+Process
+technology
+People, jobs
+and
+organization
+Product/service
+design
+© Felipe Martinez
+Process Design
+Figure 4.1. page 86. at:
+SLACK, Nigel, CHAMBERS,
+Stuart a JOHNSTON, Robert.
+Operations management. 6th
+ed. Harlow: Financial
+Times/Prentice Hall, 2010. xxv,
+686 s. ISBN 978-0-273-73046-0.
+=== SLIDE 13 ===
+Process Technology
+It determines the
+steps, tools,
+methods and
+systems to obtain
+the output of the
+process.Photo by ThisisEngineering RAEng on Unsplash
+© Felipe Martinez
+=== SLIDE 14 ===
+ By production
+ Mass production
+ Series production
+ Piece production
+ By sales order
+ Order
+ To stock
+ By technology
+ Mechanical
+ Chemical
+ Biological or
+biochemical
+Type of processes
+ By layout
+ Individual
+ Flow
+ Group
+◼ Product / service
+◼ Technology
+ Phase
+ By location
+ Mobile
+ Immobile
+ By continuity of
+operations
+ Continuity
+ Intermittent
+© Felipe Martinez
+ By time
+ Pre-production Stage.
+_____________
+ Production Stage.
+_____________
+ Post-production stage.
+.
+.
+.
+_____________
+ By the nature of operations
+ Core/Main. _____________
+.
+ Support. _____________
+.
+ Service.
+.
+_____________
+=== SLIDE 15 ===
+• Machines
+• Equipment
+• Appliances
+• Software
+• Hardware
+• Automatic
+• Manual
+Process technology
+© Felipe Martinez
+=== SLIDE 16 ===
+Process Technology
+•CAD and CAM
+© Felipe Martinez
+=== SLIDE 17 ===
+Process Technology
+•CNC– Computer Numerical Control
+© Felipe Martinez
+=== SLIDE 18 ===
+Process Technology
+•CAM vs. CNC
+© Felipe Martinez
+=== SLIDE 19 ===
+Process Technology
+•FMS – Flexible Manufacturing System
+© Felipe Martinez
+=== SLIDE 20 ===
+Process Technology
+•3D printing… additive manufacturing
+© Felipe Martinez
+=== SLIDE 21 ===
+Process Technology
+• Then… what is the best process technology?
+Let’s take a look…
+© Felipe Martinez
+=== SLIDE 22 ===
+Process Technology
+•Manual
+© Felipe Martinez
+=== SLIDE 23 ===
+CRM
+What is service?
+© Felipe Martinez
+=== SLIDE 24 ===
+CRM
+© Felipe Martinez
+=== SLIDE 25 ===
+CRM
+What is service?
+Satisfying customer
+needs© Felipe Martinez
+=== SLIDE 26 ===
+CRM
+What is service?
+Knowledge on Client
+© Felipe Martinez
+=== SLIDE 27 ===
+CRM
+Customer Relationship Management
+It is a strategic vision that encompasses all the
+processes in the organization of learning,
+strengthening and maintaining levels of customer
+needs and using that to achieve the highest
+possible profit (Martinez, 2010).
+© Felipe Martinez
+=== SLIDE 28 ===
+CRM =X
+CRM
+DATABÁZE
+SOFTWARE
+CALL CENTER
+WEB 2.0
+© Felipe Martinez
+=== SLIDE 29 ===
+Supply network design
+Layout
+and flow
+Process
+technology
+People, jobs
+and
+organization
+Product/service
+design
+© Felipe Martinez
+Process Design
+Figure 4.1. page 86. at:
+SLACK, Nigel, CHAMBERS,
+Stuart a JOHNSTON, Robert.
+Operations management. 6th
+ed. Harlow: Financial
+Times/Prentice Hall, 2010. xxv,
+686 s. ISBN 978-0-273-73046-0.
+=== SLIDE 30 ===
+People, jobs and organization
+It determines the
+jobs, their
+integration in
+coordination with
+HR.
+Photo by ThisisEngineering RAEng on Unsplash
+© Felipe Martinez
+=== SLIDE 31 ===
+People, jobs and organization
+•Organisational
+Structure
+•Job description
+•Profile
+•HR
+© Felipe Martinez
+=== SLIDE 32 ===
+Organisational Structure
+© Felipe Martinez
+=== SLIDE 33 ===
+Organisational Structure
+© Felipe Martinez
+=== SLIDE 34 ===
+Job description & Profile
+• Bachelor's degree in a relevant topic area such as Computer Science,
+Electronics or Software Engineering.
+• Proven track record of commercial experience and managing project
+deadlines
+• Experience working with low power wireless communications such as
+Bluetooth or WiFi.
+• Knowledge of audio codecs such as I2C, SPI or R232, or audio
+streaming.
+• Experience using Software Development Kits (SDK) or Accessory
+Development Kits (ADK).
+• Good command of the English language - both written and oral
+communication.
+• Knowledge of software architecture.
+• Experience in Embedded C or C programming.
+© Felipe Martinez
+Photo by Ahsanization ッ on Unsplash
+=== SLIDE 35 ===
+Supply network design
+Layout
+and flow
+Process
+technology
+People, jobs
+and
+organization
+Product/service
+design
+© Felipe Martinez
+Process Design
+Figure 4.1. page 86. at:
+SLACK, Nigel, CHAMBERS,
+Stuart a JOHNSTON, Robert.
+Operations management. 6th
+ed. Harlow: Financial
+Times/Prentice Hall, 2010. xxv,
+686 s. ISBN 978-0-273-73046-0.
+=== SLIDE 36 ===
+Layout and Flow
+It determines the location of the
+workstations and the way the
+material will flow, the finished
+products as well as the documents
+and information in general.
+© Felipe Martinez
+Photo by Remy Gieling on Unsplash
+=== SLIDE 37 ===
+Layout
+and Flow
+•How the process
+works in the real
+world!
+•The position of
+the resources in
+the real space.
+Figure 7.4. page 182. at:
+SLACK, Nigel, CHAMBERS, Stuart a JOHNSTON, Robert. Operations
+management. 6th ed. Harlow: Financial Times/Prentice Hall, 2010. xxv, 686 s.
+ISBN 978-0-273-73046-0.
+© Felipe Martinez
+=== SLIDE 38 ===
+Layout
+and Flow
+© Felipe Martinez
+=== SLIDE 39 ===
+Layout and Flow
+© Felipe Martinez
+=== SLIDE 40 ===
+Supply network design
+Layout
+and flow
+Process
+technology
+People, jobs
+and
+organization
+Product/service
+design
+© Felipe Martinez
+Process Design
+Figure 4.1. page 86. at:
+SLACK, Nigel, CHAMBERS,
+Stuart a JOHNSTON, Robert.
+Operations management. 6th
+ed. Harlow: Financial
+Times/Prentice Hall, 2010. xxv,
+686 s. ISBN 978-0-273-73046-0.
+=== SLIDE 41 ===
+Supply network design
+It determines the
+operation in the context
+of the activities at the
+suppliers and
+customers.
+© Felipe Martinez
+=== SLIDE 42 ===
+Supply network design
+Photo by RoseBox رز باکسon Unsplash Photo by Clay Banks on Unsplash© Felipe Martinez
+=== SLIDE 43 ===
+Supply
+network
+design
+Photo by Brett Zeck on Unsplash
+© Felipe Martinez
+=== SLIDE 44 ===
+10.1. Chapter 15.
+Vertical Integration and Outsourcing
+Uncertainty
+Low Medium High
+Low Market
+Transaction
+Market
+Transaction
+Market
+Transaction
+Asset Specificity
+Medium Contract
+Contract or
+Vertical
+Integration
+Contract or
+Vertical
+Integration
+High Contract
+Contract or
+Vertical
+Integration
+Vertical
+Integration
+BRICKLEY, James A., SMITH, Clifford W. a ZIMMERMAN, Jerold L. Managerialeconomicsandorganizational
+© Felipe Martinez
+architecture. 5th ed. Boston: McGraw-Hill, ©2009. xxi, 714 s.ISBN 978-0-07-128480-6.
+=== SLIDE 45 ===
+Supply network design
+Layout
+and flow
+Process
+technology
+People, jobs
+and
+organization
+Product/service
+design
+© Felipe Martinez
+Process Design
+Figure 4.1. page 86. at:
+SLACK, Nigel, CHAMBERS,
+Stuart a JOHNSTON, Robert.
+Operations management. 6th
+ed. Harlow: Financial
+Times/Prentice Hall, 2010. xxv,
+686 s. ISBN 978-0-273-73046-0.
+=== SLIDE 46 ===
+Today at the lecture
+•Process Design
+Photo by Alvaro Reyes on Unsplash
+•Selection of the best
+technology for the
+design.
+© Felipe Martinez
+=== SLIDE 47 ===
+Next… at the seminar
+•Process Design
+Photo by Alvaro Reyes on Unsplash
+•Selection of the best
+technology for the
+design.
+© Felipe Martinez
+=== SLIDE 48 ===
+Feedback
+© Felipe Martinez
+=== SLIDE 49 ===
+OPERATIONS
+MANAGEMENT
+Felipe Martinez
+© Felipe Martinez

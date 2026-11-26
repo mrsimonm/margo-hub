@@ -1,0 +1,438 @@
+
+=== SLIDE 1 ===
+3BE 123 - Microeconomics
+Ing. Zuzana Dzbankova, Ph.D.
+Department of Managerial
+Economics, FBA
+University of Economics, Prague
+http://kmae.vse.cz
+=== SLIDE 2 ===
+2
+Consulting hours
+TUE: 15.00 – 16.00 RB 324 and online via MS Teams
+THU: 11:00 – 12:00 (JM 277)
+dzbank@vse.cz
+=== SLIDE 3 ===
+3
+Assessment critera
+10
+20
+20
+50
+Activity
+Mid-term test
+End-term test
+Oral exam
+Comments:
+Active participation during seminars 10 %
+Tests 40 %
+Oral exam 50 %
+=== SLIDE 4 ===
+4
+Assessment criteria
+1. Activity
+• max. total 10 points per semester
+• = unsupported right answers to the questions relevant to the
+discussed topic during the seminar maximum 1 point per 1
+seminar
+• Points from activities are not count into the points for
+tests´ minimum and to the minimum required for the oral
+exam (only points from tests are valid for participation in the
+oral exam). Points from activities are considered as the
+additional improvement of the oral exam result (the final
+marking).
+2. Tests– max 40 points (Mid-term test 20%, End-term test 20%)
+=== SLIDE 5 ===
+5
+Assessment criteria
+3. Oral exam (max 50 points)
+A student goes to the oral exam, if he/she has reached at
+least 20 points from tests as a minimum. If students do not
+meet this requirement, they receive final grading “4”.
+Students must attend at least 50 % of the lectures.
+Otherwise, the student is classified with a failing grade with
+no opportunity to progress to the examination.
+=== SLIDE 6 ===
+6
+Content and time schedule of the course
+Tuesdays Lecture (RB 212 11.00 – 12.30) Seminars (RB 106 12.45 – 14.15 and RB 106 16.15 – 17.45)
+1.
+22.9.
+The subject and methods of Economics. Economic circle. Models. Principles, variables, math and graphs in Economics.
+Opportunity costs. Use supply and demand model
+2.
+29.9.
+Theory of the Consumer: cardinal, ordinal approach, optimum. Economics. Economic circle. Demand and supply model.
+3.
+6.10.
+Theory of the Consumer - cardinal, ordinal approach, optimum.
+demand, elasticity, shifts, consumer surplus.
+Theory of the Consumer– cardinal approach
+4.
+13.10.
+Theory of the Firm – introduction, Production function in the short
+run, costs.
+Ordinal Approach, indifferent curve, budget line, .Optimum,
+5.
+20.10.
+Production function in the long run, costs.
+Revenues. Profit.
+Demand, elasticity, shifts, consumer surplus. Transaction costs,
+production function in short run, costs in SR.
+6.
+27.10.
+Perfectly competitive firm – economic profit and equilibrium in short
+and long run.
+Production function in the long run, costs.
+Revenues. Profit. Perfectly competitive firm.
+7.
+3.11.
+Innov.Week
+-Classes are
+held
+Market equilibrium, demand and supply, shifts, allocation efficiency,
+non-equilibrium, state interventions.
+Perfectly competitive firm – economic profit and equilibrium in
+short and long run.
+Market equilibrium, demand and supply, shifts, allocation
+efficiency, non-equilibrium, state interventions.
+8.
+10.11.
+Imperfect markets – general features. PC and IC comparison.
+Monopoly
+1st test (topics 1. - 7. incl.)
+After test: Imperfect markets - general features. PC and IC
+comparison
+9.
+17.11.
+Canceled
+State holiday. State holiday
+10.
+24.11.
+Imperfectly competitive firms - oligopoly, monopolistic competition.
+Allocative and productive inefficiency
+Imperfectly competitive firms – monopoly, oligopoly, monopolistic
+competition.
+Allocative and cost inefficiency.
+11.
+1.12.
+Alternative goals of the firm.
+Production factors' market -general features. Land market
+Alternative goals.
+Production factors´ market – general features.
+Land market.
+12.
+8.12.
+Labour market. production function and labour demand, market supply
+of labour, equilibrium of the labour market, trade unions
+Capital market. Optimum of firm in capital market, capital demand.
+Labour market. production function and labour demand, market
+supply of labour, equilibrium of the labour market, trade unions.
+13. Market failures and state interventions Externalities social and 2nd test (topics 7. - 11. incl.)
+=== SLIDE 7 ===
+7
+Literature
+• RQ MANKIW, N G. Principles of microeconomics.
+Mason: South-Western/Cengage Learning,
+2013.
+• RQ FRANK, R H. -- BERNANKE, B. -- JOHNSTON, L.
+Principles of microeconomics. Boston:
+McGraw-Hill/Irwin, 2009. 978-0-07-128540-7
+• RE NICHOLSON, W. -- SNYDER, C M.
+Intermediate microeconomics and its application.
+Mason: South-Western Cengage Learning,
+2010. 978-0-324-59910-7
+=== SLIDE 8 ===
+8
+1st Seminar
+USE OF GRAPHS IN MICROECONOMICS. VARIABLES AND
+RELATIONSHIPS BETWEEN VARIABLES.
+SLOPE OF A LINE AND A CURVE.
+MOVEMENT ALONG A CURVE AND SHIFT OF A CURVE.
+=== SLIDE 9 ===
+9
+Starting Points
+• Economics- the study of the allocation of scarce
+resources among alternative uses.
+• Microeconomics-the study of the economic choices
+individuals and firms make and of how these choices
+create markets.
+• Economics is a human science but it uses math and
+many simplifications and economic models to explain
+economic reality.
+• Models are simple theoretical descriptions that capture
+the essentials of how the economy works.
+=== SLIDE 10 ===
+10
+Slope of a Line
+￼
+￼
+￼
+Slope: How steep a stright
+line is? Divide the change in
+height by the change in
+horizontal distance
+=== SLIDE 11 ===
+11
+The slope of the straight line
+Price
+Quantity
+Slope
+￼
+￼
+=== SLIDE 12 ===
+12
+The slope of the straight line
+Price
+Quantity
+￼
+Slope
+￼
+=== SLIDE 13 ===
+13
+Slope of a curve
+￼
+Price
+Quantity
+￼
+Slope
+Average slope of the curve between two
+points
+=== SLIDE 14 ===
+14
+The slope of the curve at the point
+Price
+Quantity
+Slope
+￼
+￼
+The slope of the tangent at that point
+=== SLIDE 15 ===
+15
+Slope of a Curve
+￼
+￼
+What conclusion can we make about the slope of the left curve as we
+move along it?
+￼
+=== SLIDE 16 ===
+16
+￼
+1
+2
+3
+1 2 3
+￼
+￼
+y
+Example
+y = 3 + 2x
+y = 2x
+￼
+￼
+￼
+y
+x
+3
+10
+10 20
+￼
+A
+B
+slope = - 7/10
+￼
+-7
+￼
+10
+￼
+￼
+￼
+2
+=== SLIDE 17 ===
+17
+Movement Along a Curve
+vs.
+Shift of a Curve
+￼
+￼
+￼
+￼
+￼
+=== SLIDE 18 ===
+18
+Variables and Relationships between
+Variables. TR, AR, MR
+• Total revenue
+TR = P.Q
+• Average revenue
+AR = TR / Q = (P.Q) / Q = P
+• Marginal revenue
+MR = ΔTR / ΔQ
+=== SLIDE 19 ===
+19
+Relationships between Variables (TAM)
+Quantity(Q) Price (AR; P) Total
+revenue (TR)
+Increment
+∆
+Marginal
+revenue
+(MR)
+0 10 0
+1 9 9 + 9 8 = 9+7/2
+2 8 16 + 7 6
+3 7 21 + 5 4
+4 6 24 + 3 2
+5 5 25 + 1 0
+6 4 24 - 1 - 2
+7 3 21 - 3 - 4
+8 2 16 - 5 - 6
+9 1 9 - 7 - 8
+10 0 0 - 9
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+=== SLIDE 20 ===
+20
+Relationships between
+Variables (TAM) –
+cont.
+￼
+=== SLIDE 21 ===
+21
+Relationships between Variables (TAM) –
+cont.
+Total (T) and marginal (M) variables
+↑T → M > 0
+• T ↑ convex; M > 0 and ↑
+• T ↑ concave; M > 0 and ↓
+• T ↑ linear; M > 0 and const.)
+T max → M = 0
+↓T → M < 0
+=== SLIDE 22 ===
+22
+Relationships between Variables (TAM) –
+cont.
+Average (A) and marginal (M)
+↑ A → M > A
+↓ A → M < A
+A max (min) M = A
+=== SLIDE 23 ===
+23
+Production Factors
+• The inputs– including labor services, land, machines,
+tools, buildings, and raw materials– used to produce
+goods and services.
+=== SLIDE 24 ===
+24
+Short Run vs. Long Run
+• Long run: A period of time long enough for a
+firm to be able to vary all its factors of
+productions or for a firm or household to adapt
+fully to a price change.
+• Short run: A period of time during which some
+of a firm’s inputs cannot be varied or in which a
+firm or household has not fully adapted to a
+price change.
+=== SLIDE 25 ===
+25
+Opportunity Cost
+• Definition: The value of the next-best
+alternative that must be forgone in order to
+undertake an activity.
+• The opportunity cost of any good or
+services is the amount of other goods or
+services that must be given up to obtain it.
+=== SLIDE 26 ===
+26
+Think about
+• Describe an important trade-off you’ve recently faced.
+• Give an example of some action that has both a
+monetary and nonmonetary opportunity cost.
+• Describe an incentive your parents offered to you in
+an effort to influence your behavior.
+• Define the terms: opportunity cost, short run, long run,
+production factors.
+=== SLIDE 27 ===
+27
+This Week’s Homework A
+• Suppose that the price of basketball tickets at VSE is
+determined by market forces. Currently, the demand and
+supply schedules are as follows:
+• Draw D and S. What is unusual about this S?
+• What are PE and QE of tickets?
+• See next slide: 2nd part of the task
+Price
+(Czech
+crowns)
+Quantity
+Demanded
+Quantity
+Supplied
+100
+150
+180
+200
+230
+10,000
+8,000
+6,000
+4,000
+2,000
+8,000
+8,000
+8,000
+8,000
+8,000
+=== SLIDE 28 ===
+28
+• VSE plans to increase total enrollment next year by
+5,000 students. The additional students will have the
+following demand schedule:
+• Add the old demand schedule and the demand schedule
+for the new students to calculate the new demand
+schedule for the entire university.
+• What will be the new equilibrium PE and QE?
+Price (Czech crowns) Quantity Demanded
+100
+150
+180
+200
+230
+4,000
+3,000
+2,000
+1,000
+0
+This Week’s Homework B
+=== SLIDE 29 ===
+29
+Assume that the markets for sugar cane, rum, and
+whiskey are initially in equilibrium.
+• Assume further that Hurricane Marilyn destroys
+much of the Jamaican sugar cane crop. Sugar
+cane is a principal ingredient in rum, but it is not
+an ingredient in whiskey.
+• Analyze the effect of the hurricane on the
+markets for each of the three goods. Explain
+using graphs.
+This Week’s Homework C
+=== SLIDE 30 ===
+30
+Relevant Literature
+• Mankiw „Principles of Microeconomics“: chapter 1
+(„Ten Principles of Economics“); chapter 2 („Thinking
+like an Economist” + APPENDIX)
+• NICHOLSON, W. -- SNYDER, C M.„Intermediate
+microeconomics and its application“
+. Part 1, Apendix
+1A

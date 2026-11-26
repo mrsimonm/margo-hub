@@ -9,19 +9,13 @@
   var IDLE_MS = 90000;
   var SESS_GAP_MS = 900000; // 15 min idle starts a new session
 
+  /* HUB:BEGIN */
   var HUBS = [
     { id: "stats", name: "Statistics Hub", short: "Stats", icon: "🎲", code: "4ST601", color: "var(--c1)", key: "statsHub.v1", examKey: "exam40" },
     { id: "micro", name: "Micro Hub", short: "Micro", icon: "📈", code: "3BE123", color: "var(--c4)", key: "microHub.v1", examKey: "exam40" },
     { id: "opman", name: "Op Man Hub", short: "Op Man", icon: "🏭", code: "3BE216", color: "var(--ok)", key: "opmanHub.v1", examKey: "exam40" }
   ];
-  var HUB_IDS = HUBS.map(function (h) { return h.id; });
-  function zeroVals() { var o = {}; HUB_IDS.forEach(function (h) { o[h] = 0; }); return o; }
-  function sumVals(v) { var t = 0; HUB_IDS.forEach(function (h) { t += +v[h] || 0; }); return t; }
-  function perHub(make) { var o = {}; HUB_IDS.forEach(function (h) { o[h] = make(); }); return o; }
-  var HUB_BY_ID = {};
-  HUBS.forEach(function (h) { HUB_BY_ID[h.id] = h; });
 
-  /* Complete lecture & question-bank denominators across both hubs so stats work instantly from any page */
   var CATALOG = {
     stats: [
       { id: "t6", num: 6, short: "Moving averages & seasonality", steps: 5, q: 16, voc: 15, mas: true },
@@ -45,6 +39,14 @@
       { id: "t7", num: 7, short: "Industry 4.0", steps: 2, q: 15, voc: 18, mas: true }
     ]
   };
+  /* HUB:END */
+
+  var HUB_IDS = HUBS.map(function (h) { return h.id; });
+  function zeroVals() { var o = {}; HUB_IDS.forEach(function (h) { o[h] = 0; }); return o; }
+  function sumVals(v) { var t = 0; HUB_IDS.forEach(function (h) { t += +v[h] || 0; }); return t; }
+  function perHub(make) { var o = {}; HUB_IDS.forEach(function (h) { o[h] = make(); }); return o; }
+  var HUB_BY_ID = {};
+  HUBS.forEach(function (h) { HUB_BY_ID[h.id] = h; });
   var ECO_TICK_TOTAL = 24;
   var ECO_PATH_TOTAL = 72;
 
@@ -75,7 +77,9 @@
   function activeHubId() {
     var s = document.querySelector("script[data-hub]");
     if (s && s.getAttribute("data-hub")) return s.getAttribute("data-hub");
-    var m = /\/(stats|micro|opman)(?:\/|$)/.exec(location.pathname);
+    if (!HUB_IDS.length) return "";
+    var hubRe = new RegExp("\\/(" + HUB_IDS.join("|") + ")(?:\\/|$)");
+    var m = hubRe.exec(location.pathname);
     return m ? m[1] : "";
   }
 
@@ -1215,7 +1219,7 @@
         '</span>' +
         '<span style="color:var(--mute)">Period total: <b>' + fmtMetricVal(periodTot, UI.metric) + '</b> · Active slots: <b>' + nonZero + '/' + series.buckets.length + '</b></span>' +
       '</div>' +
-      (UI.scope === "all" ? '<div class="st-leg"><span><i class="st-sw" style="background:var(--c1)"></i>🎲 Statistics Hub</span><span><i class="st-sw" style="background:var(--c4)"></i>📈 Micro Hub</span><span style="margin-left:auto">Tap any bar to inspect</span></div>' : '') +
+      (UI.scope === "all" ? '<div class="st-leg">' + HUBS.map(function (hb) { return '<span><i class="st-sw" style="background:' + hb.color + '"></i>' + hb.icon + ' ' + esc(hb.name) + '</span>'; }).join("") + '<span style="margin-left:auto">Tap any bar to inspect</span></div>' : '') +
     '</div>';
 
     /* 3. Subject Comparison Matrix (when viewing All Subjects) */
@@ -1384,10 +1388,11 @@
         '<div class="st-top"><div class="st-top-in">' +
           '<b>📊 Statistics</b>' +
           '<div class="st-scopes" role="group" aria-label="Subject filter">' +
-            '<button type="button" class="st-pill on" data-st-scope="all">All (2)</button>' +
-            '<button type="button" class="st-pill" data-st-scope="stats">🎲 Stats</button>' +
-            '<button type="button" class="st-pill" data-st-scope="micro">📈 Micro</button>' +
-            '<button type="button" class="st-pill" data-st-scope="opman">🏭 Op Man</button>' +
+            '<button type="button" class="st-pill on" data-st-scope="all">All (' + HUB_IDS.length + ')</button>' +
+            HUB_IDS.map(function (hid) {
+              var hb = HUB_BY_ID[hid];
+              return '<button type="button" class="st-pill" data-st-scope="' + esc(hid) + '">' + hb.icon + ' ' + esc(hb.short) + '</button>';
+            }).join("") +
           '</div>' +
           '<button type="button" class="st-x" id="stclose" aria-label="Close Statistics">✕</button>' +
         '</div></div>' +

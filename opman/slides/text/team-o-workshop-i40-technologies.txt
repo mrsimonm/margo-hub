@@ -1,0 +1,102 @@
+
+=== SLIDE 1 ===
+Technology Example Source
+1.Advanced
+Robotics
+BMW Group uses NVIDIA’s Isaac robotics platform to run
+customised cars, several models on one line, just-in-time and
+just-in-sequence.
+https://ai-online.com/2020/06/bmw-
+group-and-nvidia-robotics-redefining-
+factory-logistics-with-ai/
+2.Big data Dolle A/S, a Danish manufacturer, combined shop-floor data
+with ERP data for descriptive and predictive analytics.
+https://www.scitepress.org/Papers/20
+19/81162/81162.pdf
+3.Digital
+modelling
+BMW Group builds 2.5M cars a year, and customers
+customise 99% of them. Factory simulation in NVIDIA
+Omniverse gave expected efficiency gains of up to 30%.
+https://www.engineering.com/how-
+bmw-used-plm-and-simulation-to-
+save-3-million-kwh-per-year/
+4.Internet of
+Things
+Bosch’s Nexeed platform connects production and logistics
+data, and its plant in Blaichach uses over 60,000 sensors for
+monitoring and predictive maintenance.
+https://www.analyticsinsight.net/inter
+net-of-things/how-bosch-uses-
+industrial-iot-to-power-smart-
+manufacturing
+5.Human-
+Machine
+Interaction
+Workers use Siemens SIMATIC HMI touchscreens to control
+and monitor industrial machines.
+https://www.siemens.com/en-
+us/products/simatic-hmi/panels/
+6.Augmente
+d reality
+Microsoft HoloLens displays 3D instructions to guide workers
+during industrial tasks.
+https://learn.microsoft.com/en-
+us/dynamics365/mixed-
+reality/guides/overview
+7.Virtual
+Assistants
+Siemens Industrial Copilot helps factory workers identify and
+solve machine problems using AI.
+https://www.siemens.com/en-
+us/company/insights/generative-ai-
+industrial-copilot/
+8.Energy
+sourcing
+BMW uses four wind turbines at its Leipzig factory to generate
+electricity for car production.
+https://newsroom.bmwgroup.com/gl
+obal/
+9.New
+sensors
+ABB ability sensor- – wireless sensor on factory motors https://new.abb.com/news/detail/13
+964/abb-motors-that-let-you-know-
+when-its-time-for-a-service
+10.Machine
+learning
+Google DeepMind – AI cuts data-centre cooling energy https://deepmind.google/blog/deepm
+ind-ai-reduces-google-data-centre-
+cooling-bill-40/
+11.Biosensor
+s
+Vivent PhytlSigns – plants used as sensors in greenhouses https://www.hortidaily.com/article/94
+15334/phytlsigns-analyzing-and-using-
+electric-signals-from-plants-to-
+optimize-crops/
+12.Terahertz TeraView TeraCota – terahertz checks car paint thickness on
+the line
+https://teraview.com/teracota/
+13.Autonom
+ous robots
+SymBots - warehousing https://www.symbotic.com
+14.Brain
+interface
+Non-invasive wearable - EEG https://www.hci.iao.fraunhofer.de/
+15.Cognitive
+computing
+Opentext Magellan - cognitive analytics https://www.opentext.com
+16.Quantum
+technologies
+SavantX HONE - quantum powered container logistics https://dwavequantum.com
+17.New
+graphene
+characteristi
+cs
+Graphene enhanced smart packaging https://www.sites.se.manchester.ac.u
+k
+=== SLIDE 2 ===
+Student VSE login % of participation
+Margo ginm00 25
+Lucie hanl22 25
+Khoa leph04 25
+25

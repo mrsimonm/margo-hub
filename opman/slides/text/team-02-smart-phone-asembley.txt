@@ -1,0 +1,673 @@
+
+=== SLIDE 1 ===
+￼
+OPERATIONS MANAGEMENT · VIDEO FAIR
+From components to a tested, packaged phone
+Team 02 Team members: Banyar Aung, Shune Thiri Khine, Nang Kein Kham Hom,
+Minn Anaggha Chan, Argaryta Muselova Giner
+￼
+Smartphone assembly:
+iPhone 11
+￼
+=== SLIDE 2 ===
+￼
+￼
+iPhone 11 Assembly
+About the iPhone 11
+About the Process
+Process Diagram
+Layout
+Type of Process
+Q-S-D-F-C
+Fun Fact
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+=== SLIDE 3 ===
+￼
+6.1-inch
+Liquid Retina HD
+A13
+Bionic chip
+Dual 12 MP
+Camera system
+Face ID
+TrueDepth system
+The iPhone 11 combines many precision components that must be assembled and tested in a controlled production process.
+About the iPhone 11
+=== SLIDE 4 ===
+￼
+￼
+iPhone 11 Assembly
+About the iPhone 11
+About the Process
+Process Diagram
+Layout
+Type of Process
+Q-S-D-F-C
+Fun Fact
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+=== SLIDE 5 ===
+￼
+Apple’s product system: design, suppliers, assembly and release
+The selected operation is the transformation of supplied components into a finished iPhone 11.
+3
+01 02 03 04
+APPLE
+Product design
+Specifications
+Quality requirements
+SUPPLIERS
+Displays, semiconductors,
+cameras, batteries,
+mechanical parts
+ASSEMBLY PARTNERS
+PCB + final assembly
+Inspection and testing
+Packaging
+APPLE / LOGISTICS
+Release decision
+Distribution
+After-sales support
+Operations implication Final-assembly performance depends on component quality, line balance, test capacity and the speed of the rework loop.
+O P E R A T I O N S M A N A G E M E N T · V I D E O F A I R S M A R T P H O N E A S S E M B L Y · i P H O N E 1 1
+Team estimate for academic analysis · not official Apple production data 3
+0 2 · O R G A N I S A T I O N
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+=== SLIDE 6 ===
+O P E R A T I O N S M A N A G E M E N T · V I D E O F A I R S M A R T P H O N E A S S E M B L Y · i P H O N E 1 1
+0 3 · P R O D U C T
+What is being assembled?
+The iPhone 11 is a modular product whose major subsystems arrive as components or subassemblies before final integration.
+￼
+D I S P L A Y
+6.1-inch Liquid Retina HD LCD
+C O M P U T E
+A13 Bionic on the logic board
+C A M E R A S
+Dual 12 MP Wide + Ultra Wide
+F A C E I D
+TrueDepth camera system
+P O W E R
+Rechargeable battery + Lightning connector
+4
+￼
+￼
+￼
+￼
+￼
+=== SLIDE 7 ===
+￼
+￼
+01 02
+￼
+03
+￼
+04
+￼
+05
+Component preparation
+Incoming inspection
+Kitting + traceability
+PCB / logic-board
+assembly
+Board build
+Joints / connector check
+Final device assembly
+Cameras, battery, display
+Enclosure integration
+Functional test + rework
+Software / calibration
+Display, camera, Face ID
+Packaging + store
+Label
+Pack
+Release to logistics
+Team estimate for academic analysis · not official Apple production data 5
+Five stages move the phone from parts to release
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+=== SLIDE 8 ===
+Final assembly → functional test → release
+The selected process includes a controlled rework loop, so a failed unit does not continue directly to packaging.
+Inspect + kit
+components
+Build / verify
+logic board
+Fit cameras,
+battery + display
+Close, seal
+and boot
+Functional
+test
+PASS?
+YES
+Label · package · store
+NO
+Rework / replace module
+Quality gate prevents defects from reaching logistics.
+6
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+=== SLIDE 9 ===
+￼
+￼
+iPhone 11 Assembly
+About the iPhone 11
+About the Process
+Process Diagram
+Layout
+Type of Process
+Q-S-D-F-C
+Fun Fact
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+=== SLIDE 10 ===
+Process diagram
+The activity path follows the same standard process-analysis format used in our original draft.
+7
+Activities Min cm People
+Inspect iPhone 11 components 1 0 1
+Kit iPhone 11 modules 2 0 1
+Assemble iPhone 11 logic board 4 0 1
+Inspect logic-board joints 1 0 1
+Move board to final assembly 1 500 1
+Fit cameras, battery and display 5 0 1
+Wait for test station 2 0 0
+Test display, Face ID and cameras 3 0 1
+Move phone to packaging 1 300 1
+Label and package phone 2 0 1
+Store packaged phone 2 0 0
+Total 4 2 3 1 1 24 800 4 staff
+Operation Transport Checking Delay Storage
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+=== SLIDE 11 ===
+￼
+￼
+iPhone 11 Assembly
+About the iPhone 11
+About the Process
+Process Diagram
+Layout
+Type of Process
+Q-S-D-F-C
+Fun Fact
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+=== SLIDE 12 ===
+fail
+pass after rework
+A straight flow line with one controlled rework loop
+Material moves in one direction; quality support and rework sit beside the main line rather than breaking the flow.
+Receiving
++ kitting
+Logic-board
+assembly
+Final
+assembly
+Test +
+certification
+Packaging
++ store
+Rework cell
+SUPPORT RAIL · material supply · quality engineering · maintenance · traceability
+8
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+=== SLIDE 13 ===
+￼
+￼
+iPhone 11 Assembly
+About the iPhone 11
+About the Process
+Process Diagram
+Layout
+Type of Process
+Q-S-D-F-C
+Fun Fact
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+=== SLIDE 14 ===
+￼
+=== SLIDE 15 ===
+￼
+Team estimate for academic analysis · not official Apple production data
+How the iPhone 11 assembly process is classified
+Selections follow the process-typology framework used in the course.
+B Y P R O D U C T I O N
+High volume, standardised
+output
+B Y S A L E S O R D E R
+Retail demand is served from
+finished-goods stock
+B Y T E C H N O L O G Y
+Physical/electro-
+mechanical assembly
+dominates
+B Y L A Y O U T
+Work follows a fixed
+sequence of stations
+B Y L O C A T I O N
+Equipment and stations
+stay fixed
+B Y C O N T I N U I T Y
+High-volume line runs as
+a repeating flow
+B Y T I M E PRE design · sourcing · component preparation PRODUCTION board + final assembly · functional test POST packaging · distribution
+Nature of operations: Core/Main = assembly · Support = equipment maintenance · Service = after-sales repair
+9
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+=== SLIDE 16 ===
+￼
+￼
+iPhone 11 Assembly
+About the iPhone 11
+About the Process
+Process Diagram
+Layout
+Type of Process
+Q-S-D-F-C
+Fun Fact
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+=== SLIDE 17 ===
+￼
+￼
+O P E R A T I O N S M A N A G E M E N T · V I D E O F A I R S M A R T P H O N E A S S E M B L Y · i P H O N E 1 1
+Team estimate for academic analysis · not official Apple production data
+0 9 · P E R F O R M A N C E O B J E C T I V E S
+Q–S–D–F–C: what “good” looks like on this line
+At least one measurable objective is defined for each of the five operations-performance dimensions.
+10
+Q Quality First-pass yield
+Defects per million
+Rework rate
+Build right first time
+S Speed
+Move one phone through faster
+Cycle time
+Throughput time
+Units/hour
+D Dependability
+Schedule attainment
+Test-station uptime
+On-time release
+Deliver when planned
+F Flexibility
+Model / mix changeover
+Storage / color mix
+Rework routing
+Adapt without losing flow
+C Cost Scrap + rework / unit
+Labor utilization
+Equipment utilization
+Use resources efficiently
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+=== SLIDE 18 ===
+O P E R A T I O N S M A N A G E M E N T · V I D E O F A I R S M A R T P H O N E A S S E M B L Y · i P H O N E 1 1
+Team estimate for academic analysis · not official Apple production data
+1 0 · P R O B L E M S
+Where the line can lose time, quality or output
+The issues below come directly from the structure of the modeled process—not from copying another group’s case.
+S I G N A L W H A T H A P P E N S O P E R A T I O N A L F I X O B J E C T I V E
+TEST-STATION QUEUE A phone waits before functional test Balance test capacity; parallelise fixtures SPEED
+COMPONENT DEFECT / LATE
+KIT Assembly stops or unit enters rework Supplier quality gates; line-side buffers DEPENDABILITY
+REWORK LOOP Failed unit consumes extra labour and station time Root-cause Pareto; modular replacement standard QUALITY
+MODEL / COLOUR
+CHANGEOVER Fixtures and instructions may need adjustment SMED-style changeover checklist FLEXIBILITY
+SCRAP + HANDLING Damage or failed modules increase unit cost Error-proofing; protected trays; traceability COST
+11
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+=== SLIDE 19 ===
+O P E R A T I O N S M A N A G E M E N T · V I D E O F A I R S M A R T P H O N E A S S E M B L Y · i P H O N E 1 1
+Team estimate for academic analysis · not official Apple production data
+1 1 · I M P R O V E M E N T P L A N
+Three actions that improve flow without redesigning the whole factory
+Each recommendation targets a different constraint: variability, defect escape and recovery speed.
+01
+Protect the test station
+Use a small FIFO before testing, monitor queue
+length and add parallel fixtures when utilisation
+stays high.
+FLOW
+02
+Catch defects earlier
+Strengthen incoming/module checks and use
+poka-yoke connectors and fixtures before the
+phone reaches final test.
+QUALITY
+03
+Make rework fast and
+visible
+Standardise the rework decision, record failure
+codes and replace modules using a defined
+escalation path.
+RECOVERY
+Trade-off to manage: more buffers and duplicate fixtures increase cost, so capacity should be added only where queue data proves the constraint.
+12
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+=== SLIDE 20 ===
+￼
+￼
+iPhone 11 Assembly
+About the iPhone 11
+About the Process
+Process Diagram
+Layout
+Type of Process
+Q-S-D-F-C
+Fun Fact
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+=== SLIDE 21 ===
+Fun Fact
+=== SLIDE 22 ===
+O P E R A T I O N S M A N A G E M E N T · V I D E O F A I R S M A R T P H O N E A S S E M B L Y · i P H O N E 1 1
+Team estimate for academic analysis · not official Apple production data
+SOURCES
+References & source map
+Every external source is tied to the slide(s) it supports; model-only values are disclosed separately.
+14
+[1] Apple Inc.
+— iPhone 11 Technical Specifications
+Apple Support · support.apple.com/en-ie/111865
+Supports: Slide 4 — display, A13, cameras, Face ID, battery/connector facts.
+[2] Apple Inc.
+— Supply Chain Innovation
+apple.com/supply-chain/
+Supports: Slides 3 & 5 — supplier/component/assembly context.
+[3] Apple Inc. (2019) — 13th annual Supplier Responsibility Progress Report
+Apple Newsroom · 6 Mar 2019
+Supports: Slide 3 — supplier and final-assembly context.
+[4] Goldheart, S. et al. (2019) — iPhone 11 Teardown
+iFixit · 14 Oct 2019 · ifixit.com/Teardown/iPhone+11+Teardown/126192
+Supports: Slides 4–6 — internal architecture and component relationships.
+[5] IPC — J-STD-001H / IPC-A-610H: Electronic-assembly acceptability
+IPC · inspection / acceptance / rework criteria for electronic assemblies
+Supports: Slides 6, 11 & 12 — inspection, defect handling and rework logic.
+[6] Slack, N., Chambers, S. & Johnston, R. (2010)
+Operations Management, 6th ed.
+· FT/Prentice Hall · ISBN 978-0-273-73046-0
+Supports: Slides 8–10 — flow layout, process classification and Q-S-D-F-C.
+[7] Martinez, F.
+— VŠE 3BE216 Operations Management seminar materials
+Processes Identification; Types & Structure of Operations; Video Fair brief · WS 2026/27
+Supports: Slides 7–10 — process-chart symbols, typology and course framing.
+Sources: Apple, iFixit, VŠE Moodle and seminar materials
+￼

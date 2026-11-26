@@ -1,0 +1,464 @@
+
+=== SLIDE 1 ===
+OPERATIONS
+MANAGEMENT
+Felipe Martinez
+© Felipe Martinez
+=== SLIDE 2 ===
+Today
+Operations
+Planning
+Photo by Bonneval Sebastien on Unsplash
+© Felipe Martinez
+=== SLIDE 3 ===
+Operations Planning
+Demand
+© Felipe Martinez
+=== SLIDE 4 ===
+What is the difference?
+© Felipe Martinez
+=== SLIDE 5 ===
+What is the difference?
+© Felipe Martinez
+=== SLIDE 6 ===
+Time Horizon
+•Long term
+•Medium Term
+•Short term
+© Felipe Martinez
+=== SLIDE 7 ===
+Time
+Horizon
+Figure 10.2. page 271. at:
+SLACK, Nigel, CHAMBERS, Stuart a JOHNSTON, Robert. Operations management. 6th ed. Harlow: Financial Times/Prentice
+Hall, 2010. xxv, 686 s. ISBN 978-0-273-73046-0.© Felipe Martinez
+=== SLIDE 8 ===
+Demand
+Dependent Independent
+It is based on the internal
+decisions of the company
+about the operation (Plan).
+It is generated from
+decisions outside the
+company (Forecast).
+Forecast independent demand to
+plan the operation.
+© Felipe Martinez
+=== SLIDE 9 ===
+Demand
+Dependent Independent
+It is based on the internal
+decisions of the company
+about the operation (Plan).
+It is generated from
+decisions outside the
+company (Forecast).
+Forecast independent demand to
+plan the operation.
+© Felipe Martinez
+=== SLIDE 10 ===
+Demand
+Dependent Independent
+© Felipe Martinez
+=== SLIDE 11 ===
+Demand
+Dependent Independent
+© Felipe Martinez
+=== SLIDE 12 ===
+Demand
+Dependent Independent
+© Felipe Martinez
+=== SLIDE 13 ===
+Demand
+Dependent Independent
+© Felipe Martinez
+=== SLIDE 14 ===
+Demand
+Dependent Independent
+© Felipe Martinez
+=== SLIDE 15 ===
+P: Throughput Time P:D ratios
+D: Demand Time
+© Felipe Martinez
+=== SLIDE 16 ===
+Customer Order Decoupling Point
+Joakim Wikner, Martin Rudberg, (2005) "Integrating production and engineering perspectives on the customer order
+decoupling point", International Journal of Operations & Production Management, Vol. 25 Iss: 7, pp.623 - 641
+© Felipe Martinez
+14.10.2024 © Felipe Martinez 16
+=== SLIDE 17 ===
+Customer Order Decoupling Point
+• make-to-stock (MTS)
+• assemble-to-order (ATO)
+• make-to-order (MTO)
+• engineer-to-order (ETO)
+14.10.2024 Joakim Wikner, Martin Rudberg, (2005) "Integrating production and engineering perspectives on the customer order
+© Felipe Martinez
+© Felipe Martinez decoupling point", International Journal of Operations & Production Management, Vol. 25 Iss: 7, pp.623 - 641
+17
+=== SLIDE 18 ===
+OPERATION
+MANAGEMENT
+ACTIVITIES
+© Felipe Martinez
+=== SLIDE 19 ===
+OM activities
+•Loading
+•Sequencing
+•Scheduling
+•Monitoring &
+Controlling
+© Felipe Martinez
+=== SLIDE 20 ===
+OM activities
+•Loading
+•Sequencing
+•Scheduling
+•Monitoring &
+Controlling
+© Felipe Martinez
+=== SLIDE 21 ===
+Loading - How much to do?
+•Productive time
+•Valuable operating time
+© Felipe Martinez
+=== SLIDE 22 ===
+Loading - How much to do?
+Finite Loading Infinite Loading
+© Felipe Martinez
+=== SLIDE 23 ===
+OM activities
+•Loading
+•Sequencing
+•Scheduling
+•Monitoring &
+Controlling
+© Felipe Martinez
+=== SLIDE 24 ===
+Sequencing – In what order do things?
+© Felipe Martinez
+=== SLIDE 25 ===
+Sequencing – In what order do things?
+At the lecture
+At the seminar
+• Due date (DD)
+• Last-in first-out (LIFO)
+• First-in first-out (FIFO)
+• Longest operation time
+(LOT)
+• Shortest operation time first
+(SOT)
+• Gradual sequencing
+• Parallel sequencing
+• DBR
+© Felipe Martinez
+=== SLIDE 26 ===
+Sequencing – In what order do things?
+At the lecture
+At the seminar
+• Due date (DD)
+• Last-in first-out (LIFO)
+• First-in first-out (FIFO)
+• Longest operation time
+(LOT)
+• Shortest operation time first
+(SOT)
+• Gradual sequencing
+• Parallel sequencing
+• DBR
+© Felipe Martinez
+=== SLIDE 27 ===
+Sequencing – In what order do things?
+• Due date (DD)
+• Last-in first-out (LIFO)
+• First-in first-out (FIFO)
+• Longest operation time
+(LOT)
+• Shortest operation time
+first (SOT)
+© Felipe Martinez
+=== SLIDE 28 ===
+Sequencing – In what order do things?
+Steve Smith is a web site designer in a business school.
+Returning from his annual vacation (he finished all
+outstanding jobs before he left), five design jobs are given
+to him upon arrival at work. He gives them the codes A to
+E. Steve has to decide in which sequence to undertake the
+jobs. He wants both to minimize the average time the jobs
+are tied up in his office and, if possible, to meet the
+deadlines (delivery times) allocated to each job.
+Worked example. Page 283. at:
+73046-0.
+SLACK, Nigel, CHAMBERS, Stuart a JOHNSTON, Robert. Operations management. 6th ed. Harlow: Financial Times/Prentice Hall, 2010. xxv, 686 s. ISBN 978-0-273-
+© Felipe Martinez
+=== SLIDE 29 ===
+Sequencing – In what order do things?
+• Due date (DD)
+• Last-in first-out (LIFO)
+• First-in first-out (FIFO)
+• Longest operation time (LOT)
+• Shortest operation time first (SOT)
+Jobs
+Process
+time
+(days)
+Due Date
+A 5 6
+B 3 5
+C 6 8
+D 2 7
+E 1 3
+Worked example. Page 283. at:
+73046-0.
+SLACK, Nigel, CHAMBERS, Stuart a JOHNSTON, Robert. Operations management. 6th ed. Harlow: Financial Times/Prentice Hall, 2010. xxv, 686 s. ISBN 978-0-273-
+© Felipe Martinez
+=== SLIDE 30 ===
+Sequencing – In what order do things?
+Jobs Process
+time (days) Start Time Time Finish
+Due Date Lateness
+(days)
+A 5 0 5 6 0
+B 3 5 8 5 3
+C 6 8 14 8 6
+D 2 14 16 7 9
+E 1 16 17 3 14
+Total 60 Total 32
+Average 12 Average 6,4
+Worked example. Page 283. at:
+SLACK, Nigel, CHAMBERS, Stuart a JOHNSTON, Robert. Operations management. 6th ed. Harlow: Financial Times/Prentice Hall, 2010. xxv, 686 s. ISBN 978-0-273-73046-0.
+© Felipe Martinez
+=== SLIDE 31 ===
+Sequencing – In what order do things?
+Rank the table based on each
+Jobs Process
+time (days) Start Time •Due date (DD)
+Time Finish
+Due Date •Last-in first-out (LIFO)
+Lateness
+(days)
+A 5 6
+•First-in first-out (FIFO)
+B 3 5
+•Longest operation time (LOT)
+C 6 8
+•Shortest operation time first (SOT)
+D 2 7
+E 1 3
+And complete the table.
+Total Total
+Average Average
+Worked example. Page 283. at:
+SLACK, Nigel, CHAMBERS, Stuart a JOHNSTON, Robert. Operations management. 6th ed. Harlow: Financial Times/Prentice
+Hall, 2010. xxv, 686 s. ISBN 978-0-273-73046-0.
+© Felipe Martinez
+=== SLIDE 32 ===
+Due date (DD)
+Jobs Process
+Start
+time (days)
+Time Finish Time Due Date Lateness
+(days)
+E 1 0 1 3 0
+B 3 1 4 5 0
+A 5 4 9 6 3
+D 2 9 11 7 4
+C 6 11 17 8 9
+Total 42 Total 16
+Average 8,4 Average 3,2
+© Felipe Martinez
+=== SLIDE 33 ===
+Last-in first-out (LIFO)
+Jobs Process
+Start
+time (days)
+Time Finish Time Due Date Lateness
+(days)
+E 1 0 1 3 0
+D 2 1 3 7 0
+C 6 3 9 8 1
+B 3 9 12 5 7
+A 5 12 17 6 11
+Total 42 Total 19
+Average 8,4 Average 3,8
+© Felipe Martinez
+=== SLIDE 34 ===
+First-in first-out (FIFO)
+Jobs Process
+Start
+time (days)
+Time Finish Time Due Date Lateness
+(days)
+A 5 0 5 6 0
+B 3 5 8 5 3
+C 6 8 14 8 6
+D 2 14 16 7 9
+E 1 16 17 3 14
+Total 60 Total 32
+Average 12 Average 6,4
+© Felipe Martinez
+=== SLIDE 35 ===
+Longest operation time (LOT)
+Jobs Process
+Start
+time (days)
+Time Finish Time Due Date Lateness
+(days)
+C 6 0 6 8 0
+A 5 6 11 6 5
+B 3 11 14 5 9
+D 2 14 16 7 9
+E 1 16 17 3 14
+Total 64 Total 37
+Average 12,8 Average 7,4
+© Felipe Martinez
+=== SLIDE 36 ===
+Shortest operation time first (SOT)
+Jobs Process
+Start
+time (days)
+Time Finish Time Due Date Lateness
+(days)
+E 1 0 1 3 0
+D 2 1 3 7 0
+B 3 3 6 5 1
+A 5 6 11 6 5
+C 6 11 17 8 9
+Total 38 Total 15
+Average 7,6 Average 3
+© Felipe Martinez
+=== SLIDE 37 ===
+Sequencing – In what order do things?
+Worked example. Page 283. at:
+© Felipe Martinez
+SLACK, Nigel, CHAMBERS, Stuart a JOHNSTON, Robert. Operations management. 6th ed. Harlow: Financial Times/Prentice Hall, 2010. xxv, 686 s. ISBN 978-0-273-73046-0.
+=== SLIDE 38 ===
+OM activities
+•Loading
+•Sequencing
+•Scheduling
+•Monitoring &
+Controlling
+© Felipe Martinez
+=== SLIDE 39 ===
+Scheduling – When to do things?
+It is the
+assignment of an
+specific time to
+the decided
+sequence.
+© Felipe Martinez
+=== SLIDE 40 ===
+Scheduling -
+Gantt charts
+Figure 10.11. page 287. at:
+© Felipe Martinez
+SLACK, Nigel, CHAMBERS, Stuart a JOHNSTON, Robert. Operations management. 6th ed. Harlow: Financial Times/Prentice Hall, 2010. xxv, 686 s. ISBN 978-0-273-73046-0.
+=== SLIDE 41 ===
+Scheduling - Work
+Figure 10.13. page 288. at:
+© Felipe Martinez
+SLACK, Nigel, CHAMBERS, Stuart a JOHNSTON, Robert. Operations management. 6th ed. Harlow: Financial Times/Prentice Hall, 2010. xxv, 686 s. ISBN 978-0-273-73046-0.
+=== SLIDE 42 ===
+From 1st
+test
+At what time
+(when) do you have
+to start the
+production of an
+order if the 1st shift
+starts each day at
+6am? Scheduling - Work
+Photo by QuickOrder on Unsplash
+© Felipe Martinez
+=== SLIDE 43 ===
+OM activities
+•Loading
+•Sequencing
+•Scheduling
+•Monitoring &
+Controlling
+© Felipe Martinez
+=== SLIDE 44 ===
+Monitoring & Controlling – Up to plan?
+This activity tracks in
+real time the
+information from
+loading, sequencing
+and scheduling.
+© Felipe Martinez
+=== SLIDE 45 ===
+Monitoring & Controlling – Up to plan?
+Then, it is important to plan:
+• What
+• Why
+• Who
+• Where
+• When
+• How
+CONTROL
+Photo by Michael Henry on Unsplash
+© Felipe Martinez
+=== SLIDE 46 ===
+Monitoring & Controlling
+PUSH PULL
+Figure 10.15. page 290. at:
+© Felipe Martinez
+SLACK, Nigel, CHAMBERS, Stuart a JOHNSTON, Robert. Operations management. 6th ed. Harlow: Financial Times/Prentice Hall, 2010. xxv, 686 s. ISBN 978-0-273-73046-0.
+=== SLIDE 47 ===
+DBR
+R
+Monitoring & Controlling
+D
+B
+© Felipe Martinez
+=== SLIDE 48 ===
+DBR
+1. Drum. Find the bottle neck
+2. Buffer. Calculate the
+number of units in the
+buffer.
+3. Rope. Decide when to pull
+more units into the
+production line.
+© Felipe Martinez
+=== SLIDE 49 ===
+Today
+The Lecture
+Operations
+Planning
+Photo by Bonneval Sebastien on Unsplash
+© Felipe Martinez
+=== SLIDE 50 ===
+Today
+The Seminar
+•Gradual
+sequencing
+•Parallel
+sequencing
+•DBR
+Photo by Bonneval Sebastien on Unsplash
+© Felipe Martinez
+=== SLIDE 51 ===
+Sequencing – In what order do things?
+At the lecture
+At the seminar
+• Due date (DD)
+• Last-in first-out (LIFO)
+• First-in first-out (FIFO)
+• Longest operation time
+(LOT)
+• Shortest operation time first
+(SOT)
+• Gradual sequencing
+• Parallel sequencing
+• DBR
+© Felipe Martinez
+=== SLIDE 52 ===
+Feedback
+© Felipe Martinez
+=== SLIDE 53 ===
+OPERATIONS
+MANAGEMENT
+Felipe Martinez
+© Felipe Martinez

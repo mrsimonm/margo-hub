@@ -4,6 +4,7 @@
 (function () {
   "use strict";
 
+  /* HUB:BEGIN */
   var HUBS = [
     {
       id: "stats",
@@ -36,6 +37,7 @@
       hubDoc: "opman"
     }
   ];
+  /* HUB:END */
 
   window.STUDY_HUBS = HUBS;
 
@@ -119,8 +121,9 @@
 
   var scriptEl = document.currentScript || document.querySelector("script[data-hub]");
   var curId = (scriptEl && scriptEl.getAttribute("data-hub")) || "";
-  if (!curId) {
-    var m = /\/(stats|micro|opman)(?:\/|$)/.exec(location.pathname);
+  if (!curId && HUBS.length) {
+    var hubRe = new RegExp("\\/(" + HUBS.map(function (h) { return h.id; }).join("|") + ")(?:\\/|$)");
+    var m = hubRe.exec(location.pathname);
     if (m) curId = m[1];
   }
 
@@ -190,7 +193,7 @@
     var info = GEOSync.info();
     if (!info.configured) return "";
     if (!info.user) {
-      return '<div class="hubsw-sync"><div><b>☁️ Cloud sync</b><small>One login for both subjects</small></div><button type="button" class="hubsw-sbtn" data-hub-auth="in">Sign in</button></div>';
+      return '<div class="hubsw-sync"><div><b>☁️ Cloud sync</b><small>One login for all subjects</small></div><button type="button" class="hubsw-sbtn" data-hub-auth="in">Sign in</button></div>';
     }
     var st = info.status === "synced" ? "Synced ✓" : (info.status === "saving" || info.status === "syncing") ? "Syncing…" : "Signed in";
     var who = esc(info.user.email || info.user.displayName || "Google account");

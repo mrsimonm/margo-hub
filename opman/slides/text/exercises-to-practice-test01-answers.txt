@@ -1,0 +1,278 @@
+
+=== SLIDE 1 ===
+University of Economics, Prague
+Faculty of Business Administration
+3BE216 - Operations Management
+Prepared by: Felipe Martinez
+Wednesday, 11 October 2023
+EXERCISES TO PRACTICE – with Answers
+First Test
+1. Resources standards
+A construction company has an order to build 5 garages. The structure needs 3 steel profiles (IPE
+140) with a length of 5.4 m and one of a length of 1.1 m. These steel profiles are sold in bars with a
+length of 6 meters or 12 meters. Specific weight per a linear meter is 12.9 kg. How many steel
+profiles (IPE 140) of each length are needed to be ordered?
+a) Calculate the total demand of steel profiles in meters and the coefficient of material
+utilization for both profile lengths (CMU). The Cold saw has a width of 0.5 cm, and the heat
+burns 0.5 mm of material on both sides of the cut.
+• My recommendation here is to focus in ONE bar of the longest possible purchase.
+Calculate CMU there.
+• Then, check how many long-required bars fit in one longest available (sold) bar. This
+is, use the longest available bar as much as possible.
+• When the long-required bars are been achieved, use the rest of the long available
+bar to fit there the short-required bar.
+• And the end, use small available bars to complete the demand of short-required
+bars.
+In figure 1, you can see that 5 long bars of 12 mts are used together with 5 short bars of 6 mts. The
+CMU is 96.11%, which mathematically is the highest that you can get. Thus, the answer for this part
+is CMU = 96.11%
+Figure 1. Five and Five
+BAR Mts I need I lose HIT I Lose CUT I lose HIT I need I lose HIT I Lose CUT I lose HIT I need I lose HIT I Lose CUT I lose HIT It fits? TOTAL Used Rest to Sell CMU
+I 12 5,4 0,0005 0,005 0,0005 5,4 0,0005 0,005 0,0005 1,1 0,0005 0,005 0,0005 OK, Fits 11,9 0,082 99,17%
+II 12 5,4 0,0005 0,005 0,0005 5,4 0,0005 0,005 0,0005 1,1 0,0005 0,005 0,0005 OK, Fits 11,9 0,082 99,17%
+III 12 5,4 0,0005 0,005 0,0005 5,4 0,0005 0,005 0,0005 1,1 0,0005 0,005 0,0005 OK, Fits 11,9 0,082 99,17%
+IV 12 5,4 0,0005 0,005 0,0005 5,4 0,0005 0,005 0,0005 1,1 0,0005 0,005 0,0005 OK, Fits 11,9 0,082 99,17%
+V 12 5,4 0,0005 0,005 0,0005 5,4 0,0005 0,005 0,0005 1,1 0,0005 0,005 0,0005 OK, Fits 11,9 0,082 99,17%
+I 6 5,4 0,0005 0,005 0,0005 II 6 5,4 0,0005 0,005 0,0005 III 6 5,4 0,0005 0,005 0,0005 IV 6 5,4 0,0005 0,005 0,0005 V 6 5,4 0,0005 0,005 0,0005 OK, Fits 5,4 0,594 90,00%
+OK, Fits 5,4 0,594 90,00%
+OK, Fits 5,4 0,594 90,00%
+OK, Fits 5,4 0,594 90,00%
+OK, Fits 5,4 0,594 90,00%
+90 54 0,005 0,05 0,005 27 0,0025 0,025 0,0025 5,5 0,0025 0,025 0,0025 OK, Fits 86,5 3,38 96,11%
+Source: Martinez 2023-10-11
+=== SLIDE 2 ===
+However, the same CMU is reached in figure 2, but the length of the bars left after cutting (Rest to
+sell) is longer than in figure 1. Thus, it is preferable to use the combination at the figure 2 because it
+will be easier to sell them later or use those bars in other works.
+Figure 2. Seven and One
+BAR Mts I need I lose HIT I Lose CUT I lose HIT I need I lose HIT I Lose CUT I lose HIT I need I lose HIT I Lose CUT I lose HIT It fits? TOTAL Used Rest to Sell CMU
+I 12 5,4 0,0005 0,005 0,0005 5,4 0,0005 0,005 0,0005 1,1 0,0005 0,005 0,0005 OK, Fits 11,9 0,082 99,17%
+II 12 5,4 0,0005 0,005 0,0005 5,4 0,0005 0,005 0,0005 1,1 0,0005 0,005 0,0005 OK, Fits 11,9 0,082 99,17%
+III 12 5,4 0,0005 0,005 0,0005 5,4 0,0005 0,005 0,0005 1,1 0,0005 0,005 0,0005 OK, Fits 11,9 0,082 99,17%
+IV 12 5,4 0,0005 0,005 0,0005 5,4 0,0005 0,005 0,0005 1,1 0,0005 0,005 0,0005 OK, Fits 11,9 0,082 99,17%
+V 12 5,4 0,0005 0,005 0,0005 5,4 0,0005 0,005 0,0005 1,1 0,0005 0,005 0,0005 OK, Fits 11,9 0,082 99,17%
+VI 12 5,4 0,0005 0,005 0,0005 5,4 0,0005 0,005 0,0005 0 0 0 0 OK, Fits 10,8 1,188 90,00%
+VII 12 5,4 0,0005 0,005 0,0005 5,4 0,0005 0,005 0,0005 0 0 0 0 OK, Fits 10,8 1,188 90,00%
+I 6 5,4 0,0005 0,005 0,0005 Two more bar of 1.1. to sell
+OK, Fits 5,4 0,594 90,00%
+90 43,2 0,004 0,04 0,004 37,8 0,0035 0,035 0,0035 5,5 0,0025 0,025 0,0025 OK, Fits 86,5 3,38 96,11%
+Source: Martinez 2023-10-11
+This analysis will help you to give the correct answer in the next part.
+b) Decide the number of long steel profiles to order and the number of short steel profiles to
+order.
+In this case, 7 times 12mts and 1-time 6mts because the total CMU is 96,11%, because, as explained
+before, the length of the bars left after cutting (Rest to sell) in figure 2. is longer than in figure 1.
+c) Next, consider whether buying steel profiles on the exact length required dimensions would
+be beneficial. The supplier offers this option at 5% extra of the purchase price.
+Since 1-CMU is lower than the offer, then, just based on the CMU, it is not okay to take the supplier
+option. But, the difference is so small that I will also consider other information before the last
+decision. If the percentage of material lost (1-CMU) is higher than the offer from the supplier, then,
+take the suppliers offer.
+d) You have the opportunity to sell the non-required material at 50% of the market price
+(19,50EUR/meter). Determine the sales price in CZK (1EUR = 25CZK)
+Here is about the amount left that it is possible to be sold. Remember, the burn material is lost and
+you cannot sell it because does not exist. So, there are 3,38 meters left. How much it is? Answer =
+824CZK (It is 823,875 CZK but round it without cents).
+e) The available truck has 10mts trunk capacity. You have to wait 2 days for the truck with
+12mts trunk capacity. The extra cost of stopping manufacture is 5% of the material cost per
+day. What truck will you use? Why?
+• Here you should calculate the CMU using only the 6mts available bars (Short
+available bars).
+• Based on that new CMU you will make your decision.
+University of Economics, Prague Wednesday, 11 October 2023
+Faculty of Business Administration Prepared by: Felipe Martinez
+3BE216 - Operations Management 2
+=== SLIDE 3 ===
+Figure 3. CMU with short available bars
+BAR Mts I need I lose HIT I Lose CUT I lose HIT I need I lose HIT I Lose CUT I lose HIT I need I lose HIT I Lose CUT I lose HIT It fits? TOTAL Used Rest to Sell CMU
+I 6 5,4 0,0005 0,005 0,0005 OK, Fits 5,4 0,594 90,00% OK
+II 6 5,4 0,0005 0,005 0,0005 OK, Fits 5,4 0,594 90,00% OK
+III 6 5,4 0,0005 0,005 0,0005 OK, Fits 5,4 0,594 90,00% OK
+IV 6 5,4 0,0005 0,005 0,0005 OK, Fits 5,4 0,594 90,00% OK
+V 6 5,4 0,0005 0,005 0,0005 OK, Fits 5,4 0,594 90,00% OK
+VI 6 5,4 0,0005 0,005 0,0005 OK, Fits 5,4 0,594 90,00% OK
+VII 6 5,4 0,0005 0,005 0,0005 OK, Fits 5,4 0,594 90,00% OK
+VIII 6 5,4 0,0005 0,005 0,0005 OK, Fits 5,4 0,594 90,00% OK
+IX 6 5,4 0,0005 0,005 0,0005 OK, Fits 5,4 0,594 90,00% OK
+X 6 5,4 0,0005 0,005 0,0005 OK, Fits 5,4 0,594 90,00% OK
+XI 6 5,4 0,0005 0,005 0,0005 OK, Fits 5,4 0,594 90,00% OK
+XII 6 5,4 0,0005 0,005 0,0005 OK, Fits 5,4 0,594 90,00% OK
+XIII 6 5,4 0,0005 0,005 0,0005 OK, Fits 5,4 0,594 90,00% OK
+XIV 6 5,4 0,0005 0,005 0,0005 OK, Fits 5,4 0,594 90,00% OK
+XV 6 5,4 0,0005 0,005 0,0005 OK, Fits 5,4 0,594 90,00% OK
+BAR Mts I need I lose HIT I Lose CUT I lose HIT I need I lose HIT I Lose CUT I lose HIT I need I lose HIT I Lose CUT I lose HIT I need I lose HIT I Lose CUT I lose HIT I need I lose HIT I Lose CUT I lose HIT It fits? TOTAL Used Rest to Sell CMU
+XVI 6 1,1 0,0005 0,005 0,0005 1,1 0,0005 0,005 0,0005 1,1 0,0005 0,005 0,0005 1,1 0,0005 0,005 0,0005 1,1 0,0005 0,005 0,0005 OK, Fits 5,5 0,47 91,67%
+96 86,5 9,38 90,10%
+Source: Martinez 2023-10-11
+• Notice that 15 short available bars are used to cover the 15 required bars and one
+short available bar is used to cover the requirement of short bars.
+• The new CMU, using only the 6mts bars, is then 90.10%, which is less than the
+previous one. Thus, we are losing more material (money) in this case (9.9%).
+• The cost of waiting 2 days is 10% of the material cost.
+• So, if you go now with the small truck you will lose 9.9%. But, if you wait for the long
+truck you will lose 10% plus the 3,89% from the CMU (13.89%). Thus, waiting for the
+long truck makes you lose more.
+University of Economics, Prague Wednesday, 11 October 2023
+Faculty of Business Administration Prepared by: Felipe Martinez
+3BE216 - Operations Management 3
+=== SLIDE 4 ===
+2. Work standards
+A batch (120 pieces) must be completed at the end of this Friday shift. Decide when this order must
+start its manufacture process. Please specify the day and the number of the shift. (Monday = 1st shift.
+One shift per day. 1 shift = 8 hours. The shift starts at 9:00 am). Each shift uses 12min for general
+cleaning of the shop floor at the end.
+Calculate for LTL, µ and UTL:
+a) Unit, batch, shift time.
+b) c) Time to manufacture one batch
+Determine the shift/day to order production
+Operation LTL Time (min) µ UTL Time type
+Preparing the workplace 4,0 5,0 6,0
+Studying workflow and drawing 6,0 8,0 10,0
+Adjustment of machine 140,0 150,0 160,0
+Clamp the workpiece in the machine 0,3 0,5 0,7
+Turning one piece 13,0 13,5 14,0
+Release workpiece 0,4 0,5 0,6
+Check one (each) piece 0,49 0,5 0,51
+Handing over completed work 6,0 7,0 8,0
+Cleaning workplace 4,0 5,0 6,0
+• The first thing you should do is to classify the time of time.
+• The sum up the total time for unit, batch and shift. Remember that part of the shift time
+might be also written outside the table.
+Operation LTL Time (min) µ UTL Time type
+Preparing the workplace 4 5 6 C
+Studying workflow and drawing 6 8 10 B
+Adjustment of machine 140 150 160 B
+Clamp the workpiece in the machine 0.3 0.5 0.7 A
+Turning one piece 13 13.5 14 A
+Release workpiece 0.4 0.5 0.6 A
+Check one (each) piece 0.49 0.5 0.51 A
+Handing over completed work 6 7 8 B
+Cleaning workplace 4 5 6 C
+Other shift time 12
+• Calculate the amount of time you NEED to manufacture the order.
+Units to manufacture 120
+LTL Time (min) µ UTL
+Total Unit Time 14,19 15 15,81
+Total Batch Time 152 165 178
+Time to manufacture One Batch 1854,8 1965 2075,2
+University of Economics, Prague Wednesday, 11 October 2023
+Faculty of Business Administration Prepared by: Felipe Martinez
+3BE216 - Operations Management 4
+=== SLIDE 5 ===
+• Then, calculate the amount of time you HAVE. This is the total time less shift time. The
+available time.
+Total time per day 480
+LTL Time (min) µ UTL
+Shift Time 20 22 24
+Total Available time 460 458 456
+• Getting to know the available time and the required time, find out how many SHIFTS are
+needed to manufacture the order (NEED ÷ HAVE)
+LTL Time (min) µ UTL
+Shifts to complete the order 4,0322 4,290393013 4,5509
+• With this information, you know the number of total shifts (in this case, total days) required.
+Then, it is necessary to calculate the hours (and minutes) of the uncompleted days to
+determine when to start the work.
+Shifts to complete the order LTL Time (min) µ UTL
+4.032173913 4.290393013 4.550877193
+Last minutes needed in the first day 14.8 133 251.2
+The time I have in the first day ends at Total shift time at the end of the day (The one I substract from the real time) End of the shift 16:44 16:43 16:42
+16 17 18
+17:00 17:00 17:00
+The order must start (If shift starts at 9am) before the end of the shift Hours before the end of first shift The manufacture should start about 30.8 150 269.2
+0.513333333 2.5 4.486666667
+16:29:12 14:30:00 12:30:48
+Please note that the actual time structure of the calendar has not been considered and it has been
+assumed that the activities can be carried out in parts between days. That is, this calculation works
+on the assumption that the time of each activity can be divided. That is, if an activity has 25min (I
+NEED) and towards the end of the day I HAVE only 20min, then, I could not do the whole activity
+today, but, instead, I have to split the activity. So, the answer presented in this calculation has the
+assumption that it is possible to work today only 20min on the activity and then the next day finish
+the activity using the other 5min, to complete the 25 minutes of the activity.
+In case the activities have to be performed in at once in full, this is, it cannot be divided, it is
+necessary to check directly the calendar and the actual clock hours in order to determine the start
+time of the order.
+University of Economics, Prague Wednesday, 11 October 2023
+Faculty of Business Administration Prepared by: Felipe Martinez
+3BE216 - Operations Management 5
+=== SLIDE 6 ===
+3. Resources standards
+A construction company has an order to build one garage. The structure needs 4 steel profiles with a
+length of 5.6 m. These steel profiles are sold in bars with a length of 12 meters. The supplier also
+offers a length of 7 m, because these are leftovers from another job.
+a) Calculate the total demand of steel profiles in meters and the coefficient of material
+utilization for both profile lengths 7 meters and 12 meters. (Do not include the material
+losses due Cold saw. The material tolerance covers this waste).
+• 12 meters. 2 bars CMU 93,33%
+BAR Mts I need I need I need It fits? TOTAL Used Rest to Sell CMU
+I 12 5,6 5,6 OK, Fits 11,2 0,8 93,33%
+II 12 5,6 5,6 OK, Fits 11,2 0,8 93,33%
+24 11,2 11,2 22,4 1,6 93,33%
+• 7 meters. 4 bars CMU 80%
+b) c) d) BAR Mts I need I need I need It fits? TOTAL Used Rest to Sell CMU
+I 7 5,6 OK, Fits 5,6 1,4 80,00%
+II 7 5,6 OK, Fits 5,6 1,4 80,00%
+III 7 5,6 OK, Fits 5,6 1,4 80,00%
+IV 7 5,6 OK, Fits 5,6 1,4 80,00%
+28 22,4 22,4 5,6 80,00%
+Decide on the length of the steel profiles. Argue your answer.
+2 bars of 12m because CMU is 93,33%
+Next, consider whether it would be beneficial to buy steel profiles on the exact length
+required dimensions. The supplier offers this option at 12% extra of the purchase price.
+No, 1-CMU is a lot less than 12%.
+Write any further information you need in order to know argue your decision.
+…
+(SVOBODOVÁ, et al., 2012)
+University of Economics, Prague Wednesday, 11 October 2023
+Faculty of Business Administration Prepared by: Felipe Martinez
+3BE216 - Operations Management 6
+=== SLIDE 7 ===
+4. Little’s Law
+a) A queue at the local coffee shop has 10 persons. One Barista is able to process orders around
+5 minutes/per customer. Calculate how many baristas is needed to serve these 10 customers
+in 25 min. (FACTORY PHYSICS, 2014)
+1 𝑐𝑢𝑠𝑡𝑜𝑚𝑒𝑟
+10 𝑐𝑢𝑠𝑡𝑜𝑚𝑒𝑟𝑠 =
+𝑥 𝑋 𝑚𝑖𝑛𝑢𝑡𝑒𝑠
+5 𝑚𝑖𝑛𝑢𝑡𝑒𝑠
+50 𝑚𝑖𝑛𝑢𝑡𝑒𝑠 = 𝑋
+Then, for 25 minutes, you need TWO baristas making half of the rate.
+1 𝑐𝑢𝑠𝑡𝑜𝑚𝑒𝑟
+10 𝑐𝑢𝑠𝑡𝑜𝑚𝑒𝑟𝑠 =
+𝑥 𝑋 𝑚𝑖𝑛𝑢𝑡𝑒𝑠
+2,5 𝑚𝑖𝑛𝑢𝑡𝑒𝑠
+25 𝑚𝑖𝑛𝑢𝑡𝑒𝑠 = 𝑋
+b) A product is scheduled to wait for 2 days in finished goods inventory before shipping to the
+customer. Use Little’s law to determine the total amount of inventory in finished goods.
+Manufacture facilities provide 10 finished goods per day. (FACTORY PHYSICS, 2014)
+10 𝑔𝑜𝑜𝑑𝑠
+1 𝑑𝑎𝑦 𝑥 2 𝑑𝑎𝑦𝑠
+𝑋 = 20 𝑔𝑜𝑜𝑑𝑠
+𝑋 =
+c) A system at peak processes 8000 Transactions/Hour with an average response time of ~5s
+per transaction. The average Think Time per user is ~30s. What is the number of concurrent
+users on the system? (Practical Performance Analyst, 2014)
+• Throughput or X = 8000/3600 = 2.22 TPS
+• We know: N = [Rt + Zt] * X ……….. [ N = Number of Users in the System, Rt = Response Time,
+Zt = Think Time, X = Throughput ]
+• Applying the equation: N = [ Rt + Z ] * X = [ 5 + 30 ] * 2.22 = 77.7
+• The above system has approximately 77 users at peak driving 8000 Transactions/Hour.
+University of Economics, Prague Wednesday, 11 October 2023
+Faculty of Business Administration Prepared by: Felipe Martinez
+3BE216 - Operations Management 7
+=== SLIDE 8 ===
+Literature
+FACTORY PHYSICS. 2014. FACTORY PHYSICS. Principle (Little's Law). [Online] EZsitePRO, 2014. [Cited:
+10 4, 2014.] http://www.factoryphysics.com/Principle/LittlesLaw.htm.
+GOLDRATT, Eliyahu M and COX , Jeff. 2004. The goal: a process of ongoing improvement. . Great
+Barrington : North River Press, 2004. ISBN 0-88427-178-1.
+MARTINEZ, Felipe. 2014. Slides of the Lectures at the document server. 2014.
+Practical Performance Analyst. 2014. Practical Performance Analyst. What Is Little’s Law. [Online]
+Practical Performance Analyst, 2014. [Cited: 10 4, 2014.]
+http://www1.practicalperformanceanalyst.com/resources/important-formulae/what-is-littles-law/.
+SLACK, Nigel, CHAMBERS, Stuart and JOHNSTON, Robert. 2010. Operations Management. Harlow :
+Financial Times/Prentice Hall, 2010. 978-0-273-73046-0.
+SVOBODOVÁ, Hana and MEJDRECH, Vlastimil. 2012. Provozní management: příklady. 2. přeprac.
+Praha : Oeconomica, 2012. 978-80-245-1845-9.
+University of Economics, Prague Wednesday, 11 October 2023
+Faculty of Business Administration Prepared by: Felipe Martinez
+3BE216 - Operations Management 8

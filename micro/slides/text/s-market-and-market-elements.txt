@@ -1,0 +1,542 @@
+
+=== SLIDE 1 ===
+3BE 123 - Microeconomics
+Ing. Zuzana Dzbankova, Ph.D.
+Department of Managerial
+Economics, FBA
+University of Economics, Prague
+http://kmae.vse.cz
+=== SLIDE 2 ===
+2
+II. Markets and Market Mechanisms
+1.The Market and Market Types
+2.Market Operators
+3.The Market Structure – Market Elements
+3.1 Demand
+3.2. Supply
+3.3 Price
+3.4 Competition and Kinds of Competition
+4.The Essence of Markets – Market Operation
+5.The Imperfections of Markets
+=== SLIDE 3 ===
+3
+Concepts and Types of Markets
+• The formation of the market related to
+specialization and division of labor.
+• Barter
+￼
+￼
+￼
+￼
+￼
+=== SLIDE 4 ===
+4
+Market Types
+• The territorial aspect- local, national, group, global
+• The number of types of goods those traded
+• partial (one product)
+• aggregate (all product, all services)
+• According to the object of purchase and sale
+• Market of products and services
+• Factor markets
+• Financial markets
+￼
+￼
+￼
+=== SLIDE 5 ===
+5
+Market Operators
+• Individuals (households)
+• Firms
+• State
+• World (open economy)
+￼
+￼
+￼
+=== SLIDE 6 ===
+6
+Basic activities of economic actors
+• Production = turn inputs into outputs
+• Physical transformation
+• Over time
+• In space
+• Distribution (by customs, by a market and by
+command)
+• Exchange
+• Consumption (a goal and an assumption of
+production)
+￼
+￼
+￼
+=== SLIDE 7 ===
+7
+Market mechanism‘s elements
+• Demand
+• Supply
+• Price
+• Competition
+￼
+￼
+￼
+=== SLIDE 8 ===
+8
+Demand (D)
+• Definition- Quantity of goods that consumers are
+willing to buy at various prices
+• Quantity Demanded- the amount of goods
+(products and services) that households would buy
+in a given time period if they could buy all they
+wanted at the current market price.
+• The Demand Schedule is the relationship between
+the quantity of goods demanded and the price of that
+good.
+￼
+￼
+￼
+=== SLIDE 9 ===
+9
+The Demand Schedule The
+Demand Curve
+Price (P) Quantity (Q)
+100 0
+90 1
+80 2
+70 3
+60 4
+50 5
+40 6
+30 7
+20 8
+10 9
+0 10
+Price (P)
+￼
+100
+70
+50
+30
+0
+3 5 7 10
+￼
+Quantity (Q)
+=== SLIDE 10 ===
+10
+Demand (D)
+• The law of demand states that there is a negative, or
+inverse relationship between the price and the
+quantity of goods demanded
+￼
+￼
+￼
+=== SLIDE 11 ===
+11
+Determinants of Demand
+a) Factors that affect only the quantity demanded
+(the shift along the curve)
+• Price - The Income Effect
+- The Substitution Effect
+b) Factors that cause a change in demand (the
+whole demand curve shifts)
+• Income
+• Prices of substitutes and compliments
+• Specific and subjective factors (expectations,
+preferences)
+￼
+￼
+￼
+=== SLIDE 12 ===
+12
+Determinants of Demand
+￼
+=== SLIDE 13 ===
+13
+Income Change Effect of Superior Goods
+￼
+￼
+￼
+￼
+P
+Q
+D1
+D0
+Income Growth Income Decline
+P
+Q
+D1
+D0
+￼
+￼
+=== SLIDE 14 ===
+14
+Income Change Effect of Inferior Goods
+￼
+￼
+￼
+￼
+Income Growth Income Decline
+￼
+￼
+=== SLIDE 15 ===
+15
+Related Goods Change Effect - Substitutes
+￼
+￼
+￼
+￼
+Substitute price decline
+Substitute price increase
+￼
+￼
+￼
+￼
+=== SLIDE 16 ===
+16
+Related Good Change Effect- Complements
+￼
+￼
+￼
+￼
+Complement Price Decline
+Complement Price Increase
+￼
+￼
+￼
+￼
+=== SLIDE 17 ===
+17
+Price Elasticity of Demand
+• Elasticity of Demand - the
+rate of consumer response
+to changes in the market
+conditions
+• Price Elasticity of Demand -
+percent change in quantity
+resulting from a one-percent
+change in price
+￼
+￼
+Percent change in quantity demanded
+Percent change in price
+￼
+CZK/Q
+=== SLIDE 18 ===
+18
+Arc Elasticity of Demand
+￼
+￼
+￼
+￼
+￼
+Arc Elasticity of
+Demand
+Change in
+quantity
+demanded
+Average
+quantity
+Change
+in price
+Average
+price
+=== SLIDE 19 ===
+19
+Point Price Elasticity
+￼
+￼
+￼
+￼
+The reciprocal value of the slope of
+demand curve
+￼
+=== SLIDE 20 ===
+20
+Categories of Demand Elasticity
+￼
+￼
+￼
+• │EPD│= 1 Unitary elasticity; the percentage change in quantity
+demanded equals the percentage change in price; Total Revenue
+(TR) does‘t change
+• │EPD│ < 1 Demand is inelastic; the percentage change in
+quantity demanded is less than the percentage change
+in price; TR decreases
+• │EPD│ > 1 Demand is elastic, the percentage change in quantity
+demanded changes by greater percentage than does
+the price; TR increases.
+• EPD = 0 Perfectly inelastic demand
+• EPD = ∞ Perfectly elastic demand
+=== SLIDE 21 ===
+21
+Determinants of Demand Elasticity
+￼
+￼
+￼
+• Availability of substitutes
+• The definition of the good
+• Luxuries versus necessities
+• Proportion of the consumer‘s budget spent on the
+good
+• A matter of time
+• Elasticity estimates
+=== SLIDE 22 ===
+22
+Forms of Demand
+￼
+￼
+￼
+• Individual Demand:
+a) One type of good that a single consumer buys at
+various prices at given time period
+b) The demand for the output of an individual firm
+(operating in perfectly or imperfectly competitive
+market)
+• Market Demand is the sum of demands of all
+potential customers (market participants) for a specific
+product over a specific period in a specific market
+• Aggregate Demand is the total amount of goods
+(products and services) demanded in the economy at
+any given price at any point in time
+=== SLIDE 23 ===
+23
+Market Demand
+￼
+￼
+￼
+￼
+Market Demand
+=== SLIDE 24 ===
+24
+Supply (S)
+• Definition - Quantity of goods that firms are willing
+to sell at various prices
+• Quantity supplied – the amount of a good that firms
+want to sell at a given price (holding contant other
+factors that influence firms‘ supply decisions, such
+as costs and government actions)
+• Supply curve – the quantity supplied at each
+possible price (holding constant other factors that
+can influence it)
+￼
+￼
+￼
+=== SLIDE 25 ===
+25
+The Law of Supply
+• states that there is a positive (directly proportional)
+relationship between the price and the quantity of
+goods supplied
+￼
+￼
+￼
+=== SLIDE 26 ===
+26
+The Supply Schedule The
+Supply Curve
+Price (P) Quantity (Q)
+10 0
+15 1
+20 2
+25 3
+30 4
+35 5
+40 6
+45 7
+50 8
+55 9
+60 10
+￼
+￼
+￼
+￼
+Price
+Quantity
+=== SLIDE 27 ===
+27
+Determinants of Supply
+a) Factors that affect only the quantity supplied
+(the shift along the curve) - Price
+b) Factors that cause a change in supply (the
+whole supply curve shifts)
+• Changes in production costs
+• Changes in the price of alternative products
+(production substitutes, complements)
+• Prices of products resulting from one
+manufacturing process
+• Market organization
+• Specific factors
+• Changes in expectations
+￼
+￼
+￼
+=== SLIDE 28 ===
+28
+Determinants of Supply
+￼
+=== SLIDE 29 ===
+29
+Effect of changes in input prices
+￼
+￼
+￼
+￼
+Increase of input
+prices
+Decrease of input
+prices
+￼
+￼
+￼
+￼
+=== SLIDE 30 ===
+30
+Effect of changes in technology
+￼
+￼
+￼
+￼
+Technology increasing
+costs
+Technology
+decreasing costs
+￼
+￼
+=== SLIDE 31 ===
+31
+Effect of changes in prices of manufacturing
+substitute
+￼
+￼
+￼
+￼
+INCREASE OF PRICES IN PRODUCTION OF SUBSTITUTES
+DECREASE OF PRICES IN PRODUCTION OF SUBSTITUTES
+￼
+￼
+￼
+￼
+=== SLIDE 32 ===
+32
+Price Elasticity of Supply
+￼
+￼
+￼
+￼
+the percentage change in quantity offered
+the percentage change in price
+=== SLIDE 33 ===
+33
+Categories of Supply Elasticity
+￼
+￼
+￼
+• EPD = 1 Unitary elasticity; the percentage change in
+quantity supplied equals the percentage change in
+price;
+• EPD < 1 Supply is inelastic; the percentage change in
+quantity supplied is less than the percentage
+change in price;
+• EPD > 1 Supply is elastic, the percentage change in
+quantity supplied is greater than the percentage
+change in price;
+• EPD = 0 Perfectly inelastic supply
+• EPD = ∞ Perfectly elastic supply
+=== SLIDE 34 ===
+34
+Key factors affecting price elasticity
+of supply
+• Spare production capacity
+• Stocks of finished products and components
+• The ease and cost of factor
+substitution/mobility
+• Time period and production speed
+=== SLIDE 35 ===
+35
+Forms of Supply
+￼
+￼
+￼
+• Individual Supply (s) = offer of a one producer
+• Market/Partial Supply (S) = the sum of individual
+supplies of every firm or producer willing and able to
+sell a particular good
+• Aggregate Supply (AS) = the total amount of goods
+and services that firms are willing to sell at a given
+price level in an economy
+=== SLIDE 36 ===
+36
+Market Supply
+￼
+￼
+￼
+￼
+P P
+Q Q
+Market Supply
+A
+B
+=== SLIDE 37 ===
+37
+Price
+￼
+￼
+￼
+• The exchange value: quantitative ratio, in which are
+exchanged
+• The price = exchange value expressed in money
+• Price functions: information, motivation and
+allocation
+• Market price: forms on the market due to the current
+state of supply and demand
+• Equilibrium price: the specific case of market prices
+when supply = demand; This cleans up the market
+price;
+=== SLIDE 38 ===
+38
+Market Price
+￼
+￼
+￼
+￼
+Demand Schedule Supply Schedule
+Q
+Price (Pi) Price (Pi)
+Quantity (Qi) Quantity (Qi)
+=== SLIDE 39 ===
+39
+The process of achieving market
+equilibrium
+￼
+￼
+￼
+￼
+surplus
+of goods
+shortage of
+goods
+=== SLIDE 40 ===
+40
+Effect of changes in supply and demand
+in equilibrium
+￼
+￼
+￼
+￼
+￼
+=== SLIDE 41 ===
+41
+Competition and its types
+￼
+￼
+￼
+• Competition = process clash of interests of individual economic
+entities
+• Classification
+• In terms of actors
+• between supply and demand (across the market)
+• on the demand side
+• on the supply side (price and non-price competition)
+• In terms of market structure (with respect to market
+organization)
+• Perfect competition
+• Imperfect competition (monopoly, oligopoly, monopolistic
+competition)

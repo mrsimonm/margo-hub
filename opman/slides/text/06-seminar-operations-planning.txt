@@ -1,0 +1,1049 @@
+
+=== SLIDE 1 ===
+OPERATIONS
+MANAGEMENT
+Felipe Martinez
+© Felipe Martinez
+=== SLIDE 2 ===
+Today
+The Lecture
+Operations
+Planning
+Photo by Bonneval Sebastien on Unsplash
+© Felipe Martinez
+=== SLIDE 3 ===
+Today
+The Seminar
+•Gradual
+sequencing
+•Parallel
+sequencing
+•DBR
+Photo by Bonneval Sebastien on Unsplash
+© Felipe Martinez
+=== SLIDE 4 ===
+Sequencing – In what order do things?
+At the lecture
+At the seminar
+• Due date (DD)
+• Last-in first-out (LIFO)
+• First-in first-out (FIFO)
+• Longest operation time
+(LOT)
+• Shortest operation time first
+(SOT)
+• Gradual sequencing
+• Parallel sequencing
+• DBR
+© Felipe Martinez
+=== SLIDE 5 ===
+Sequencing – In what order do things?
+•Gradual sequencing
+•Parallel sequencing
+•DBR
+© Felipe Martinez
+=== SLIDE 6 ===
+Sequencing – In what order do things?
+•Gradual sequencing
+•Parallel sequencing
+•DBR
+© Felipe Martinez
+=== SLIDE 7 ===
+Sequencing
+A product is manufactured using 2 sequential operations.
+The customer requests 10 products. Calculate the time
+(minutes) to manufacture the production order.
+Time (min) Operation 1 Operation 2
+Batch time 10 0
+Unit time 6 4
+© Felipe Martinez
+=== SLIDE 8 ===
+Gradual sequencing
+Time (min) Operation 1 Operation 2
+Batch time 10 0
+Unit time 6 4
+Op.1
+Op.2
+110 min
+10 10 x 6 10 x 4
+© Felipe Martinez
+=== SLIDE 9 ===
+Gradual sequencing
+Time (min) Operation 1 Operation 2
+Batch time 10 10
+Unit time 6 4
+Op.1
+Op.2
+10 10 x 6 10 x 4© Felipe Martinez
+=== SLIDE 10 ===
+Gradual and Parallel Sequencing
+• When should I include setup time?
+• Shall I include setup time after or before
+the start of the next operation?
+• Do I need the pieces from the last
+operation to setup the machine of the
+next operation?
+•
+…
+© Felipe Martinez
+=== SLIDE 11 ===
+Gradual sequencing
+Time (min) Operation 1 Operation 2
+Batch time 10 10
+Unit time 6 4
+Op.1
+Op.2
+110 min
+10 10 x 6 10 x 4
+© Felipe Martinez
+=== SLIDE 12 ===
+Gradual sequencing
+Time (min) Operation 1 Operation 2
+Batch time 10 10
+Unit time 6 4
+Op.1
+Op.2
+120 min
+© Felipe Martinez
+10 10 x 6 10 x 410
+=== SLIDE 13 ===
+Sequencing – In what order do things?
+•Gradual sequencing
+•Parallel sequencing
+•DBR
+The trick in parallel sequencing is to ask first…
+What operation has the longest operation time?
+Take care with the batch time!© Felipe Martinez
+=== SLIDE 14 ===
+Parallel sequencing
+Time (min) Operation 1 Operation 2
+Batch time 10 0
+Unit time 6 4
+Op.1
+Op.2
+74 min
+10 10 x 6 1 x 4
+© Felipe Martinez
+=== SLIDE 15 ===
+Op.1
+Op.2
+Parallel sequencing
+Time (min) Operation 1 Operation 2
+Batch time 10 0
+Unit time 6 4
+Sequencing
+Then… When
+to start Op.2?
+10 10 x 6
+© Felipe Martinez
+1 x 4 74 min
+=== SLIDE 16 ===
+Parallel sequencing
+Time (min) Operation 1 Operation 2
+Batch time 10 0
+Unit time 6 4
+Op.1
+Op.2
+Op. 2 requires
+40min
+74 – 40 = 34min
+10 10 x 6 1 x 4 74 min© Felipe Martinez
+=== SLIDE 17 ===
+Parallel sequencing
+Time (min) Operation 1 Operation 2
+Batch time 10 0
+Unit time 6 4
+Op.1
+Op.2
+Tb op1 = 10 min
+34 – 10 = 24min
+Ta op1 = 6min
+24÷6= 4units
+10 10 x 6
+© Felipe Martinez
+1 x 4 74 min
+=== SLIDE 18 ===
+Parallel sequencing
+Time (min) Operation 1 Operation 2
+Batch time 10 0
+Unit time 6 4
+Op.1
+Op.2
+Last start on the
+34min or
+After 4 units from
+op.1
+10 10 x 6
+© Felipe Martinez
+1 x 4 74 min
+=== SLIDE 19 ===
+Parallel sequencing
+Time (min) Operation 1 Operation 2
+Batch time 10 10
+Unit time 6 4
+Op.1
+Op.2
+10 10 x 6
+© Felipe Martinez
+1 x 4 74 min
+=== SLIDE 20 ===
+Parallel sequencing
+Time (min) Operation 1 Operation 2
+Batch time 10 10
+Unit time 6 4
+Op.1
+Op.2
+Last start on the
+24min. So 4 units
+arrived from op.1
+at 34min.
+10 10 x 6
+© Felipe Martinez
+1 x 4 74 min
+=== SLIDE 21 ===
+Parallel sequencing
+Time (min) Operation 1 Operation 2
+Batch time 10 10
+Unit time 6 4
+Op.1
+Op.2
+Last start 24min
+or
+After 2 units from
+op.1 (at 22min)
+10 10 x 6
+© Felipe Martinez
+1 x 4 74 min
+=== SLIDE 22 ===
+Gradual and Parallel Sequencing
+Calculate the specific time on which the batch (20 units) manufacture must
+start. The manufacture process consists in 4 sequential operations. Calculate
+the time (minutes) needed for gradual sequencing and for parallel
+sequencing. The facilities works on one shift (8 hours). There are 10 min for
+all breaks during the shift, 30 min for lunch and 10 minutes dedicated for
+cleaning.
+Operation Operation
+time (min) Batch (min) Units at
+once
+Number of
+Machines
+1 20 20 2 2
+2 20 20 1 4
+3 8 0 2 1
+4 15 0 2 1
+© Felipe Martinez
+=== SLIDE 23 ===
+Gradual Sequencing
+Op Operation Time (min) Batch (min) n s 1 20 20 2 2
+2 20 20 1 4
+3 8 0 2 1
+4 15 0 2 1
+Calculate the number of cycles required to
+manufacture the order.
+Order size = 20 units
+© Felipe Martinez
+Cycles
+=== SLIDE 24 ===
+Gradual Sequencing
+𝑂𝑟𝑑𝑒𝑟 𝑠𝑖𝑧𝑒
+𝐶𝑦𝑐𝑙𝑒𝑠 =
+𝑛 × 𝑠
+Calculate the number of cycles required to
+manufacture the order.
+Order size = 20 units
+© Felipe Martinez
+=== SLIDE 25 ===
+Gradual Sequencing
+Op Operation Time (min) Batch (min) n s Cycles
+1 20 20 2 2 5
+2 20 20 1 4 5
+3 8 0 2 1 10
+4 15 0 2 1 10
+Calculate the number of cycles required to
+manufacture the order.
+Order size = 20 units
+© Felipe Martinez
+=== SLIDE 26 ===
+Gradual Sequencing
+Op Operation Time (min) Batch (min) n s Cycles
+1 20 20 2 2 5
+2 20 20 1 4 5
+3 8 0 2 1 10
+4 15 0 2 1 10
+Gradual:
+How long it will take to manufacture
+20 units in this process?
+© Felipe Martinez
+=== SLIDE 27 ===
+Gradual Sequencing
+Op Operation Time (min) Batch (min) n s Cycles
+1 20 20 2 2 5
+2 20 20 1 4 5
+3 8 0 2 1 10
+4 15 0 2 1 10
+Gradual:
+(5 * 20) + (5 * 20) + (10 * 8) + (10 * 15) + (20 + 20) = 470 minut
+Op1. 20 / (2 * 2) * 20 + 20 = (5 * 20) + 20 Op2. 20 / (1 * 4) * 20 + 20 = (5 * 20) + 20 Op3. 20 / (2 * 1) * 8 = (10 * 8) Op4. 20 / (2 * 1) * 15 = (10 * 15) = 120
+= 120
+= 80
+= 150
+= 470
+© Felipe Martinez
+=== SLIDE 28 ===
+Gradual Sequencing
+Op Operation Time (min) Batch (min) n s Cycles
+1 20 20 2 2 5
+2 20 20 1 4 5
+3 8 0 2 1 10
+4 15 0 2 1 10
+Gradual:
+What will happen, if the activities performed during
+the batch time of Operation 2 do not require the
+units from Operation 1? How long it will take to
+manufacture 20 units in this process? (Answer in
+minutes)
+© Felipe Martinez
+=== SLIDE 29 ===
+Gradual Sequencing
+Op Operation Time (min) Batch (min) n s Cycles
+1 20 20 2 2 5
+2 20 20 1 4 5
+3 8 0 2 1 10
+4 15 0 2 1 10
+Gradual:
+(5 * 20) + (5 * 20) + (10 * 8) + (10 * 15) + (20 + Op1. 20 / (2 * 2) * 20 + 20 = (5 * 20) + 20 Op2. 20 / (1 * 4) * 20 + 20 = (5 * 20) + Op3. 20 / (2 * 1) * 8 = (10 * 8) Op4. 20 / (2 * 1) * 15 = (10 * 15) 20) = 450 minut
+20 = 120
+= 100
+= 80
+= 150
+= 450
+© Felipe Martinez
+=== SLIDE 30 ===
+Parallel Sequencing
+Op Operation Time (min) Batch (min) n s Cycles
+1 20 20 2 2 5
+2 20 20 1 4 5
+3 8 0 2 1 10
+4 15 0 2 1 10
+Parallel:
+How long it will take to manufacture
+20 units in this process?
+© Felipe Martinez
+=== SLIDE 31 ===
+Parallel Sequencing
+Op Operation Time (min) Batch (min) n s Cycles
+1 20 20 2 2 5
+2 20 20 1 4 5
+3 8 0 2 1 10
+4 15 0 2 1 10
+Parallel:
+First look after the main operation (longest operation):
+Op1. 20 / (2 * 2) * 20 + 20 = (5 * 20) + 20 Op2. 20 / (1 * 4) * 20 + 20 = (5 * 20) + 20 Op3. 20 / (2 * 1) * 8 = (10 * 8) Op4. 20 / (2 * 1) * 15 = (10 * 15) = 120
+= 120
+= 80
+= 150
+© Felipe Martinez
+=== SLIDE 32 ===
+Parallel Sequencing
+Op Operation Time (min) Batch (min) n s Cycles
+1 20 20 2 2 5
+2 20 20 1 4 5
+3 8 0 2 1 10
+4 15 0 2 1 10
+Parallel:
+First look after the main operation (longest operation):
+Op1. 20 / (2 * 2) * 20 + 20 = (5 * 20) + 20 Op2. 20 / (1 * 4) * 20 + 20 = (5 * 20) + 20 Op3. 20 / (2 * 1) * 8 = (10 * 8) Op4. 20 / (2 * 1) * 15 = (10 * 15) = 120
+= 120
+= 80
+= 150 Longest operation is Op4.
+© Felipe Martinez
+=== SLIDE 33 ===
+Parallel Sequencing Op OT
+(min)
+Batch(
+min) n s
+1 20 20 2 2
+2 20 20 1 4
+3 8 0 2 1
+4 15 0 2 1
+© Felipe Martinez
+=== SLIDE 34 ===
+Parallel Sequencing Op OT
+(min)
+Batch(
+min) n s
+1 20 20 2 2
+2 20 20 1 4
+3 8 0 2 1
+4 15 0 2 1
+© Felipe Martinez
+=== SLIDE 35 ===
+Parallel Sequencing Op OT
+(min)
+Batch(
+min) n s
+1 20 20 2 2
+2 20 20 1 4
+3 8 0 2 1
+4 15 0 2 1
+© Felipe Martinez
+=== SLIDE 36 ===
+Parallel Sequencing Op OT
+(min)
+Batch(
+min) n s
+1 20 20 2 2
+2 20 20 1 4
+3 8 0 2 1
+4 15 0 2 1
+© Felipe Martinez
+=== SLIDE 37 ===
+Parallel Sequencing Op OT
+(min)
+Batch(
+min) n s
+1 20 20 2 2
+2 20 20 1 4
+3 8 0 2 1
+4 15 0 2 1
+238min
+© Felipe Martinez
+=== SLIDE 38 ===
+Parallel Sequencing
+Op Operation Time (min) Batch (min) n s Cycles
+1 20 20 2 2 5
+2 20 20 1 4 5
+3 8 0 2 1 10
+4 15 0 2 1 10
+Parallel:
+What will happen, if the activities performed during
+the batch time of Operation 2 do not require the
+units from Operation 1? How long it will take to
+manufacture 20 units in this process? (Answer in
+minutes)
+© Felipe Martinez
+=== SLIDE 39 ===
+Parallel Sequencing Op OT
+(min)
+Batch(
+min) n s
+1 20 20 2 2
+2 20 20 1 4
+3 8 0 2 1
+4 15 0 2 1
+© Felipe Martinez
+=== SLIDE 40 ===
+Parallel Sequencing Op OT
+(min)
+Batch(
+min) n s
+1 20 20 2 2
+2 20 20 1 4
+3 8 0 2 1
+4 15 0 2 1
+© Felipe Martinez
+=== SLIDE 41 ===
+Parallel Sequencing Op OT
+(min)
+Batch(
+min) n s
+1 20 20 2 2
+2 20 20 1 4
+3 8 0 2 1
+4 15 0 2 1
+© Felipe Martinez
+=== SLIDE 42 ===
+Parallel Sequencing Op OT
+(min)
+Batch(
+min) n s
+1 20 20 2 2
+2 20 20 1 4
+3 8 0 2 1
+4 15 0 2 1
+© Felipe Martinez
+=== SLIDE 43 ===
+Parallel Sequencing Op OT
+(min)
+Batch(
+min) n s
+1 20 20 2 2
+2 20 20 1 4
+3 8 0 2 1
+4 15 0 2 1
+218min
+© Felipe Martinez
+=== SLIDE 44 ===
+Sequencing – In what order do things?
+•Gradual sequencing
+•Parallel sequencing
+•DBR
+© Felipe Martinez
+=== SLIDE 45 ===
+DBR
+R
+Monitoring & Controlling
+D
+B
+© Felipe Martinez
+=== SLIDE 46 ===
+1. Drum. Find the bottle
+neck
+2. Buffer. Calculate the
+number of units in the
+buffer.
+3. Rope. Decide when
+to pull more units into
+the production line.
+DBR
+© Felipe Martinez
+=== SLIDE 47 ===
+Apply DBR to this example! Op OT
+(min)
+Batch(
+min) n s
+1 20 20 2 2
+2 20 20 1 4
+3 8 0 2 1
+4 15 0 2 1
+238min
+© Felipe Martinez
+=== SLIDE 48 ===
+With DBR Op OT
+(min)
+Batch(
+min) n s
+1 20 20 2 2
+2 20 20 1 4
+3 8 0 2 1
+4 15 0 2 1
+150min
+© Felipe Martinez
+=== SLIDE 49 ===
+With DBR – with SetupOp (min)
+OT
+1 20 Batch(
+min) n s
+20 2 2
+2 20 20 1 4
+3 8 0 2 1
+4 15 0 2 1
+150min
+© Felipe Martinez
+=== SLIDE 50 ===
+With DBR – with WIPs Op OT
+(min)
+Batch(
+min) n s
+1 20 20 2 2
+2 20 20 1 4
+3 8 0 2 1
+4 15 0 2 1
+150min
+© Felipe Martinez
+=== SLIDE 51 ===
+With DBR – with WIPs and SetupOp (min)
+OT
+1 20 Batch(
+min) n s
+20 2 2
+2 20 20 1 4
+3 8 0 2 1
+4 15 0 2 1
+150min
+© Felipe Martinez
+=== SLIDE 52 ===
+Gradual and Parallel Sequencing
+Calculate the specific time on which the batch (20 units) manufacture must
+start. The manufacture process consists in 4 sequential operations. Calculate
+the time (minutes) needed for gradual sequencing and for parallel
+sequencing. The facilities works on one shift (8 hours). There are 10 min for
+all breaks during the shift, 30 min for lunch and 10 minutes dedicated for
+cleaning.
+Operation Operation
+time (min) Batch (min) Units at
+once
+Number of
+Machines
+1 2 5 2 2
+2 20 20 1 4
+3 8 0 2 1
+4 15 0 2 1
+© Felipe Martinez
+=== SLIDE 53 ===
+Gradual Sequencing
+Op Operation Time (min) Batch (min) n s 1 2 5 2 2
+2 20 20 1 4
+3 8 0 2 1
+4 15 0 2 1
+Calculate the number of cycles required to
+manufacture the order.
+Order size = 20 units
+© Felipe Martinez
+Cycles
+=== SLIDE 54 ===
+Gradual Sequencing
+𝑂𝑟𝑑𝑒𝑟 𝑠𝑖𝑧𝑒
+𝐶𝑦𝑐𝑙𝑒𝑠 =
+𝑛 × 𝑠
+Calculate the number of cycles required to
+manufacture the order.
+Order size = 20 units
+© Felipe Martinez
+=== SLIDE 55 ===
+Gradual Sequencing
+Op Operation Time (min) Batch (min) n s Cycles
+1 2 5 2 2 5
+2 20 20 1 4 5
+3 8 0 2 1 10
+4 15 0 2 1 10
+Calculate the number of cycles required to
+manufacture the order.
+Order size = 20 units
+© Felipe Martinez
+=== SLIDE 56 ===
+Gradual Sequencing
+Op Operation Time (min) Batch (min) n s Cycles
+1 2 5 2 2 5
+2 20 20 1 4 5
+3 8 0 2 1 10
+0 2 4 15 Gradual:
+How long it will take to manufacture
+20 units in this process?
+1 10
+© Felipe Martinez
+=== SLIDE 57 ===
+Gradual Sequencing
+Op Operation Time (min) Batch (min) n s Cycles
+1 2 5 2 2 5
+2 20 20 1 4 5
+3 8 0 2 1 10
+4 15 0 2 1 10
+Gradual:
+(5 * 2) + (5 * 20) + (10 * 8) + (10 * 15) + (5 + 20) = 365 minut
+Op1. 20 / (2 * 2) * 2 + 5= (5 * 2) + 5= 15
+Op2. 20 / (1 * 4) * 20 + 20 = (5 * 20) + 20 = 120
+Op3. 20 / (2 * 1) * 8 = (10 * 8) = 80
+Op4. 20 / (2 * 1) * 15 = (10 * 15) = 150
+= 365
+© Felipe Martinez
+=== SLIDE 58 ===
+Gradual Sequencing
+Op Operation Time (min) Batch (min) n s Cycles
+1 2 5 2 2 5
+2 20 20 1 4 5
+3 8 0 2 1 10
+4 15 0 2 1 10
+Gradual:
+(5 * 2) + (5 * 20) + (10 * 8) + (10 * 15) + (5 + 20) = 365 minut
+Op1. 20 / (2 * 2) * 2 + 5= (5 * 2) + 5= 15
+Op2. 20 / (1 * 4) * 20 + 20 = (5 * 20) + 20 = 120
+Op3. 20 / (2 * 1) * 8 = (10 * 8) = 80
+Op4. 20 / (2 * 1) * 15 = (10 * 15) = 150
+= 365
+© Felipe Martinez
+=== SLIDE 59 ===
+Gradual Sequencing
+Op Operation Time (min) Batch (min) n s Cycles
+1 2 5 2 2 5
+2 20 20 1 4 5
+3 8 0 2 1 10
+4 15 0 2 1 10
+Gradual:
+(5 * 2) + (5 * 20) + (10 * 8) + (10 * 15) + (5 + 20) = 350 minut
+Op1. 20 / (2 * 2) * 2 + 5= (5 * 2) + 5= 15
+Op2. 20 / (1 * 4) * 20 + 20 = (5 * 20) + Op3. 20 / (2 * 1) * 8 = (10 * 8) Op4. 20 / (2 * 1) * 15 = (10 * 15) 20 = 120
+= 80
+= 150
+= 350
+The batch time
+work at Op 2 can
+be done before
+the units arrive
+© Felipe Martinez
+=== SLIDE 60 ===
+Gradual Sequencing – setup with units
+Op1. Batch = 5min Units = 10min
+Op2. I need the units from operation 1 to
+make the activities of the batch time
+in operation 2
+© Felipe Martinez
+Batch = 20min
+=== SLIDE 61 ===
+Gradual Sequencing – setup without units
+Op1. Batch = 5min Units = 10min
+Op2. Batch = 20min Units = 100min
+I do not need the units from
+operation 1 to make the activities of
+the batch time in operation 2© Felipe Martinez
+=== SLIDE 62 ===
+Parallel Sequencing Op OT
+(min)
+Batch(
+min) n s
+1 2 5 2 2
+2 20 20 1 4
+3 8 0 2 1
+4 15 0 2 1
+© Felipe Martinez
+=== SLIDE 63 ===
+Parallel Sequencing Op OT
+(min)
+Batch(
+min) n s
+1 2 5 2 2
+2 20 20 1 4
+3 8 0 2 1
+4 15 0 2 1
+© Felipe Martinez
+=== SLIDE 64 ===
+Parallel Sequencing Op OT
+(min)
+Batch(
+min) n s
+1 2 5 2 2
+2 20 20 1 4
+3 8 0 2 1
+4 15 0 2 1
+© Felipe Martinez
+=== SLIDE 65 ===
+Parallel Sequencing Op OT
+(min)
+Batch(
+min) n s
+1 2 5 2 2
+2 20 20 1 4
+3 8 0 2 1
+4 15 0 2 1
+© Felipe Martinez
+=== SLIDE 66 ===
+Parallel Sequencing Op OT
+(min)
+Batch(
+min) n s
+1 2 5 2 2
+2 20 20 1 4
+3 8 0 2 1
+4 15 0 2 1
+205min
+© Felipe Martinez
+=== SLIDE 67 ===
+Parallel Sequencing – without setup Op OT
+(min)
+Batch(
+min) n s
+1 2 5 2 2
+2 20 20 1 4
+3 8 0 2 1
+4 15 0 2 1
+198min
+© Felipe Martinez
+=== SLIDE 68 ===
+With DBR – with WIPs and SetupOp (min)
+OT
+1 20 Batch(
+min) n s
+20 2 2
+2 20 20 1 4
+3 8 0 2 1
+4 15 0 2 1
+150min
+© Felipe Martinez
+=== SLIDE 69 ===
+Gradual and Parallel Sequencing
+Calculate the specific time on which the batch (20 units) manufacture must
+start. The manufacture process consists in 4 sequential operations. Calculate
+the time (minutes) needed for gradual sequencing and for parallel
+sequencing. The facilities works on one shift (8 hours). There are 10 min for
+all breaks during the shift, 30 min for lunch and 10 minutes dedicated for
+cleaning.
+Operation Operation
+time (min) Batch (min) Units at
+once
+Number of
+Machines
+1 20 20 2 2
+2 20 20 1 2
+3 8 0 4 1
+4 15 0 2 1
+© Felipe Martinez
+=== SLIDE 70 ===
+Gradual Sequencing
+Op Operation Time (min) Batch (min) n s 1 20 20 2 2
+2 20 20 1 2
+3 8 0 4 1
+4 15 0 2 1
+Calculate the number of cycles required to
+manufacture the order.
+Order size = 20 units
+© Felipe Martinez
+Cycles
+=== SLIDE 71 ===
+Gradual Sequencing
+𝑂𝑟𝑑𝑒𝑟 𝑠𝑖𝑧𝑒
+𝐶𝑦𝑐𝑙𝑒𝑠 =
+𝑛 × 𝑠
+Calculate the number of cycles required to
+manufacture the order.
+Order size = 20 units
+© Felipe Martinez
+=== SLIDE 72 ===
+Gradual Sequencing
+Op Operation Time (min) Batch (min) n s Cycles
+1 20 20 2 2 5
+2 20 20 1 2 10
+3 8 0 4 1 5
+4 15 0 2 1 10
+Calculate the number of cycles required to
+manufacture the order.
+Order size = 20 units
+© Felipe Martinez
+=== SLIDE 73 ===
+Gradual Sequencing
+Op Operation Time (min) Batch (min) n s Cycles
+1 20 20 2 2 5
+2 20 20 1 2 10
+3 8 0 4 1 5
+4 15 0 2 1 10
+Gradual:
+How long it will take to manufacture
+20 units in this process?
+© Felipe Martinez
+=== SLIDE 74 ===
+Gradual Sequencing
+Op Operation Time (min) Batch (min) n s Cycles
+1 20 20 2 2 5
+2 20 20 1 2 10
+3 8 0 4 1 5
+4 15 0 2 1 10
+Gradual:
+(5 * 20) + (10* 20) + (5* 8) + (10 * 15) + (20 + 20) = 530minut
+Op1. 20 / (2 * 2) * 20 + 20 = (5 * 20) + 20 Op2. 20 / (1 * 2) * 20 + 20 = (10 * 20) + 20 Op3. 20 / (4* 1) * 8 = (5 * 8) Op4. 20 / (2 * 1) * 15 = (10 * 15) = 120
+= 220
+= 40
+= 150
+© Felipe Martinez
+= 530
+=== SLIDE 75 ===
+Parallel Sequencing Op (min)
+OT
+1 20 Batch(
+min) n s
+20 2 2
+2 20 20 1 2
+3 8 0 4 1
+4 15 0 2 1
+© Felipe Martinez
+=== SLIDE 76 ===
+Parallel Sequencing Op2
+© Felipe Martinez
+Op (min)
+OT
+1 20 Batch(
+min) n s
+20 2 2
+2 20 20 1 2
+3 8 0 4 1
+4 15 0 2 1
+=== SLIDE 77 ===
+Parallel Sequencing Op (min)
+OT
+1 20 Batch(
+min) n s
+20 2 2
+2 20 20 1 2
+3 8 0 4 1
+4 15 0 2 1
+Setup C/T x Units
+Op2
+© Felipe Martinez
+=== SLIDE 78 ===
+Parallel Sequencing Op (min)
+OT
+1 20 Batch(
+min) n s
+20 2 2
+2 20 20 1 2
+3 8 0 4 1
+4 15 0 2 1
+Setup
+One
+Cycle
+Op1
+Setup C/T x Units
+Op2
+© Felipe Martinez
+=== SLIDE 79 ===
+Op Parallel Sequencing
+OT
+(min)
+Batch(
+min) n s
+1 20 20 2 2
+2 20 20 1 2
+3 8 0 4 1
+4 15 0 2 1
+Setup
+One
+Cycle
+2 units
+Op1
+Setup C/T x Units
+Op2
+One
+Cycle
+Op3
+© Felipe Martinez
+=== SLIDE 80 ===
+Op Parallel Sequencing
+OT
+(min)
+Batch(
+min) n s
+1 20 20 2 2
+2 20 20 1 2
+3 8 0 4 1
+4 15 0 2 1
+Setup
+One
+Cycle
+2 units
+Op1
+Setup C/T x Units
+4 units
+Op2
+One
+Cycle
+Op3
+Op4
+Two Cycles
+© Felipe Martinez
+=== SLIDE 81 ===
+Op Parallel Sequencing
+OT
+(min)
+Batch(
+min) n s
+1 20 20 2 2
+2 20 20 1 2
+3 8 0 4 1
+4 15 0 2 1
+2 units
+20 20
+Op1
+20 10 x 20 = 200
+4 units
+Op2
+8
+Op3
+Op4
+15 + 15 = 30 298min
+© Felipe Martinez
+=== SLIDE 82 ===
+Op Parallel Sequencing – without Setup
+OT
+(min)
+Batch(
+min) n s
+1 20 20 2 2
+2 20 20 1 2
+3 8 0 4 1
+4 15 0 2 1
+Setup
+One
+Cycle
+2 units
+Op1
+Setup C/T x Units
+4 units
+Op2
+One
+Cycle
+Op3
+Op4
+The batch time
+work at Op2 can be
+done before the
+units arrive.
+Two Cycles
+© Felipe Martinez
+=== SLIDE 83 ===
+Op Parallel Sequencing – without Setup
+OT
+(min)
+Batch(
+min) n s
+1 20 20 2 2
+2 20 20 1 2
+3 8 0 4 1
+4 15 0 2 1
+2 units
+20 20
+Op1
+20 10 x 20 = 200
+4 units
+Op2
+8
+Op3
+Op4
+15 + 15 = 30 278min
+© Felipe Martinez
+=== SLIDE 84 ===
+Op Parallel Sequencing – with DBR
+OT
+(min)
+Batch(
+min) n s
+1 20 20 2 2
+2 20 20 1 2
+3 8 0 4 1
+4 15 0 2 1
+Setup
+One
+Cycle
+2 units
+Op1
+Setup C/T x Units
+4 units
+Op2
+One
+Cycle
+Op3
+Op4
+Two Cycles
+© Felipe Martinez
+=== SLIDE 85 ===
+Op Parallel Sequencing – with DBR
+OT
+(min)
+Batch(
+min) n s
+1 20 20 2 2
+2 20 20 1 2
+3 8 0 4 1
+4 15 0 2 1
+2 units
+20 20
+Op1
+20 10 x 20 = 200
+4 units
+Op2
+8
+Op3
+Op4
+15 + 15 = 30 258min
+© Felipe Martinez
+=== SLIDE 86 ===
+Today
+Operations
+Planning
+Photo by Bonneval Sebastien on Unsplash
+© Felipe Martinez
+=== SLIDE 87 ===
+Feedback
+© Felipe Martinez
+=== SLIDE 88 ===
+OPERATIONS
+MANAGEMENT
+Felipe Martinez
+© Felipe Martinez

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "stats",
+    "name": "Statistics Hub",
+    "short": "Stats",
+    "icon": "🎲",
+    "code": "4ST601",
+    "sub": "VŠE · 4ST601 Statistics",
+    "desc": "Every lecture and practice organised by Test 1, Test 2 and the Final Exam, with flashcards, games, Mastery stars and exam practice.",
+    "note": "Test 1 · Test 2 · Final exam",
+    "color": "var(--c1)",
+    "key": "statsHub.v1",
+    "src": "../stats-hub",
+    "course": "courses/stats"
+  },
+  {
+    "id": "micro",
+    "name": "Micro Hub",
+    "short": "Micro",
+    "icon": "📈",
+    "code": "3BE123",
+    "sub": "VŠE · 3BE123 Microeconomics",
+    "desc": "Lessons in small bites, a formula coach with new numbers every time, graphs you can move and test practice.",
+    "note": "Formula coach · Moving graphs",
+    "color": "var(--c4)",
+    "key": "microHub.v1",
+    "src": "../micro-hub",
+    "course": "courses/micro"
+  },
+  {
+    "id": "opman",
+    "name": "Op Man Hub",
+    "short": "Op Man",
+    "icon": "🏭",
+    "code": "3BE216",
+    "sub": "VŠE · 3BE216 Operations Management",
+    "desc": "Cut steel bars, sort, order and drag, draw lead-time timelines and break-even lines, then the practice tests and 90-minute mock tests with new numbers.",
+    "note": "Drag & drop · Drills · Mock tests",
+    "color": "var(--ok)",
+    "key": "opmanHub.v1",
+    "src": "../opman-hub",
+    "course": "courses/opman"
+  }
+]

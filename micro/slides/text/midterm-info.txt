@@ -1,0 +1,50 @@
+
+=== SLIDE 1 ===
+Microeconomics WT 2026/2027 - mid-term test
+The test will be written on paper during seminars the week after Innovation Week. (Seminar
+8).
+Test content:
+1. Market elements
+2. Consumer behavior
+3. Price elasticity of demand
+4. Production and cost analysis in the short run
+5. Production and cost analysis in the long run
+6. Revenue, profit and the optimal output rule
+Test duration: 45 min
+In case of cheating, a student immediately forfeits the privilege of taking the test and earns
+ZERO points from the test
+Structure of the test:
+• Multiple-choice questions - select 1 from N;
+• Computational problems: you will use computation;
+• Drawing graphs;
+• Explanation, derivation, formulas.
+Focus on graphs:
+- Market equilibrium
+- Non-equilibrium situations (surplus/shortage)
+- Price ceiling and price floor
+- Demand curves with different price elasticity
+- Cardinal approach: TU, MU
+- Ordinal approach: consumer optimum; shift of a BL (change in income, price of one
+good)
+- Consumer surplus and producer surplus
+- Production functions in the short run: TP, AP, MP
+- Cost functions in the short run: TC, VC, FC and MC, AC, AVC, AFC
+- Cost minimization optimum (isocost, isoquant)
+- Cost functions in the long run: TC and MC, AC
+- Revenue
+=== SLIDE 2 ===
+Computation (using formulas):
+Market equlibrium
+Price elasticity of demand (general formula)
+Price elasticity of demand (the midpoint method)
+MU
+BL equation
+Slopes of BL, IC (ratios)
+MRSc, MRSE
+Consumer optimum condition (ordinal approach)
+TP, MP, AP
+TC (sum of . . .)
+MC, AC, AVC, AFC
+Cost minimization condition – Last-dollar rule
+TR, AR, MR, and -accounting vs. economic profit (TR -. . .)
+Profit (accounting, economic, normal)
