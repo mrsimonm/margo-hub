@@ -1,0 +1,103 @@
+{
+  "num": 8,
+  "id": "t8",
+  "title": "Market Equilibrium & Imperfect Competition",
+  "short": "Equilibrium & imperfect",
+  "sub": "Topics 7–8 · lecture of 10 Nov · equilibrium, surplus, state interventions, imperfect markets",
+  "blurb": "Why the market settles at Qd = Qs, consumer and producer surplus, what shifts the equilibrium, price ceilings and floors, and what changes when a firm can set its own price.",
+  "h1": "Market equilibrium and the step to imperfect competition",
+  "lede": "First the whole market: where supply meets demand, who gains from trading (consumer and producer surplus), and what happens when curves shift or the state fixes the price. Then the big switch: firms that can affect the price, where MR falls below the price and some surplus is lost.",
+  "six": [
+    "**Market equilibrium**: Qd = Qs. Above it there is a **surplus** that pushes the price down, below it a **shortage** that pushes the price up.",
+    "**Consumer surplus** = TU − real expenditure. **Producer surplus** = Σ(P − MC) = TR − VC. Perfect competition is **allocatively efficient**: MU = MC.",
+    "Both curves shift: **ΔS > ΔD → P falls**, **ΔD > ΔS → P rises**. Steep (inelastic) demand: P moves a lot, Q a little.",
+    "**Price ceiling** below equilibrium → shortage (regulated rents). **Price floor** above equilibrium → surplus (subsidised farm prices).",
+    "Imperfect competition: at least one seller can affect the price, demand d slopes down, **MR < P**. Same rules: π = TR − TC and **MR = MC**.",
+    "Because **P > MC** there is a **deadweight loss** (allocative inefficiency). Monopoly power: **Lerner index L = (P − MC) / P**."
+  ],
+  "must": "Equilibrium and surplus; ceiling and floor; MR < P, Lerner index and deadweight loss",
+  "foot": "Source: 3BE123 lecture slides of week 8 (Perfect Competition: completion; Imperfectly Competitive Market), Ing. Z. Dzbánková, VŠE.",
+  "questions": [
+    { "id": "t8-eq", "q": "What is market equilibrium?", "answer": "The price at which the quantity demanded equals the quantity supplied", "wrong": ["The price at which every firm makes a profit", "The highest price buyers are willing to pay", "The price set by the state"], "e": "Graphically the intersection of the supply and demand curves. The equilibrium price is a compromise between buyers and sellers.", "fol": true },
+    { "id": "t8-surplus", "q": "Sellers try to sell above the equilibrium price. What happens?", "answer": "A surplus appears and the price falls", "wrong": ["A shortage appears and the price rises", "Nothing, the market stays there", "Demand shifts to the right"], "e": "Above P*, Qs > Qd: unsold goods. Sellers lower the price back towards equilibrium." },
+    { "id": "t8-shortage", "q": "Buyers want to pay less than the equilibrium price. What happens?", "answer": "A shortage appears and the price rises", "wrong": ["A surplus appears and the price falls", "Supply shifts to the left", "The equilibrium quantity rises"], "e": "Below P*, Qd > Qs: not enough goods. Buyers compete and the price goes up." },
+    { "id": "t8-alloc", "q": "What is the condition for allocative efficiency in the lecture?", "answer": "MU = MC", "wrong": ["MR = MC", "P = min AVC", "TR = TC"], "e": "The value of the last unit to the consumer (MU) equals the cost of making it (MC). Perfect competition reaches this because P = MU and P = MC.", "fol": true },
+    { "id": "t8-cs", "q": "How is consumer surplus defined?", "answer": "Total utility minus real expenditure", "wrong": ["Price minus marginal cost", "Total revenue minus variable cost", "Marginal utility minus total utility"], "e": "CS = TU − what the consumer really pays. In the graph: the area under demand and above the price." },
+    { "id": "t8-ps", "q": "How is producer surplus defined?", "answer": "The sum of price minus marginal cost over all units sold (= TR − VC)", "wrong": ["Total utility minus expenditure", "Total revenue minus total cost", "Price minus average cost"], "e": "PS = Σ(P − MC). In the lecture example P = 10 gives Q = 5 and PS = 5 + 3 + 2 + 1 + 0 = 11 = TR − VC = 50 − 39.", "fol": true },
+    { "id": "t8-psex", "q": "Lecture example: VC for Q = 1…5 is 5, 12, 20, 29, 39 and P = 10. What is the producer surplus?", "h": "MC: 5, 7, 8, 9, 10.", "answer": "11", "wrong": ["50", "39", "15"], "e": "P − MC = 5 + 3 + 2 + 1 + 0 = 11. Check: TR − VC = 5 · 10 − 39 = 11." },
+    { "id": "t8-both", "q": "Supply and demand both increase, but supply increases more (ΔS > ΔD). What happens to the price?", "answer": "The price falls", "wrong": ["The price rises", "The price stays the same", "The quantity falls"], "e": "Lecture rule: ΔS > ΔD → P falls; ΔD > ΔS → P rises. The quantity rises in both cases.", "fol": true },
+    { "id": "t8-inel", "q": "Supply falls and demand is very inelastic (steep). What mainly changes?", "answer": "The price rises a lot, the quantity hardly changes", "wrong": ["The quantity falls a lot, the price hardly changes", "Nothing changes", "Both fall a lot"], "e": "With inelastic demand people keep buying almost the same amount, so the adjustment happens through the price. With elastic demand it is the quantity that changes more." },
+    { "id": "t8-vsr", "q": "In the very short run, what does the supply curve look like?", "answer": "Vertical: the quantity cannot change yet", "wrong": ["Horizontal", "Downward sloping", "The same as in the long run"], "e": "In the very short run supply is fixed (e.g. today's fish catch). A demand increase only raises the price. Over the short and long run supply becomes flatter (more elastic)." },
+    { "id": "t8-ceil", "q": "What does a price ceiling below the equilibrium price cause?", "answer": "A shortage (Qd > Qs)", "wrong": ["A surplus (Qs > Qd)", "Nothing, it is not binding", "A higher equilibrium price"], "e": "Maximum price below P*: buyers want more, sellers offer less. Example: regulated rents.", "fol": true },
+    { "id": "t8-floor", "q": "What does a price floor above the equilibrium price cause?", "answer": "A surplus (overproduction)", "wrong": ["A shortage", "A lower price for consumers", "No change"], "e": "Minimum price above P*: Qs > Qd. Example: subsidised prices of agricultural produce." },
+    { "id": "t8-tax", "q": "The state puts an excise tax (duty) on a good. What happens in the market?", "answer": "Supply shifts up by the tax, the price buyers pay rises and the quantity falls", "wrong": ["Demand shifts to the right and the quantity rises", "The price buyers pay falls by the whole tax", "Nothing changes, sellers pay it from their profit"], "e": "The tax raises sellers' costs per unit: supply shifts up. Buyers pay more, sellers keep less, less is traded. Who carries more of the tax depends on elasticity." },
+    { "id": "t8-icdef", "q": "What is the key feature of imperfect competition?", "answer": "At least one seller can affect the price", "wrong": ["Every firm makes a loss", "The product is always identical", "There are no barriers to entry"], "e": "The firm is not a price-taker. To sell more it has to lower the price, so it faces a downward-sloping demand curve d." },
+    { "id": "t8-forms", "q": "Which are the three forms of imperfect competition in the lecture?", "answer": "Monopoly, oligopoly, monopolistic competition", "wrong": ["Monopoly, perfect competition, oligopoly", "Cartel, trust, state firm", "Monopsony, duopoly, free market"], "e": "The lecture lists monopoly, oligopoly and monopolistic competition." },
+    { "id": "t8-reason", "q": "Which is NOT a reason for imperfect competition in the lecture?", "answer": "A homogeneous product sold by many small firms", "wrong": ["Barriers to competition", "Exclusive ownership of a key resource", "Legal restrictions"], "e": "That describes perfect competition. Reasons for imperfect competition: cost conditions, barriers, differentiation, legal restrictions, asymmetric information, state intervention, politics, exclusive ownership of a key resource." },
+    { "id": "t8-same", "q": "Which is the SAME in perfect and imperfect competition?", "answer": "Profit is maximised where MR = MC", "wrong": ["The demand curve of the firm is horizontal", "MR = P", "The firm has a supply curve"], "e": "Identical features: π = TR − TC, MR = MC, the cost curves, and AR = P = d.", "fol": true },
+    { "id": "t8-mr", "q": "In imperfect competition, how does MR compare with the price?", "answer": "MR is lower than the price", "wrong": ["MR equals the price", "MR is higher than the price", "MR is always zero"], "e": "To sell one more unit the firm must cut the price on all units, so the extra revenue is less than the price. For P = a − bQ, MR = a − 2bQ." },
+    { "id": "t8-lerner", "q": "What does the Lerner index L = (P − MC) / P measure?", "answer": "Monopoly power: how far the price is above marginal cost", "wrong": ["The price elasticity of supply", "The firm's market share", "The deadweight loss in CZK"], "e": "L is between 0 and 1. In perfect competition P = MC, so L = 0. The higher L, the more market power." },
+    { "id": "t8-dwl", "q": "Why is there a deadweight loss in imperfect competition?", "answer": "Because P > MC, less is produced than is efficient", "wrong": ["Because the firm makes a loss", "Because MR = MC", "Because consumers buy too much"], "e": "Units that buyers value above their cost are not produced. That lost surplus is the deadweight loss = allocative inefficiency." },
+    { "id": "t8-trel", "q": "On a straight downward-sloping demand line, where is total revenue at its maximum?", "answer": "Where demand is unit elastic (|E| = 1) and MR = 0", "wrong": ["Where demand is perfectly elastic", "At the highest price", "Where MR is at its maximum"], "e": "In the elastic part (|E| > 1) MR > 0 and TR rises with Q. In the inelastic part MR < 0 and TR falls. The top of the TR hill is at |E| = 1." },
+    { "id": "t8-nosup", "q": "Why does an imperfectly competitive firm have no supply curve?", "answer": "The relationship between price and quantity is ambiguous: the same Q can go with different prices", "wrong": ["Because it never produces", "Because its MC curve is horizontal", "Because the state sets its quantity"], "e": "The firm chooses Q (MR = MC) and then the price from its demand curve. Different demand curves can give the same Q at different prices." },
+    { "id": "t8-minac", "q": "If an imperfectly competitive firm earns only a normal profit, where is its output?", "x": true, "answer": "Before (to the left of) the minimum of AC", "wrong": ["Exactly at the minimum of AC", "After the minimum of AC", "At the shut-down point"], "e": "Its demand curve slopes down, so it touches AC on AC's falling part. In perfect competition normal profit is at Q = min AC." }
+  ],
+  "vocab": [
+    { "group": "Market equilibrium", "term": "Market equilibrium", "meaning": "The situation where the quantity demanded equals the quantity supplied (Qd = Qs) at an acceptable price for both sides." },
+    { "group": "Market equilibrium", "term": "Surplus", "meaning": "Quantity supplied exceeds quantity demanded (price above equilibrium). Pushes the price down." },
+    { "group": "Market equilibrium", "term": "Shortage", "meaning": "Quantity demanded exceeds quantity supplied (price below equilibrium). Pushes the price up." },
+    { "group": "Market equilibrium", "term": "Allocative efficiency", "meaning": "Resources make what people value most: MU = MC, the total surplus is as large as possible." },
+    { "group": "Market equilibrium", "term": "Consumer surplus", "meaning": "Total utility minus real expenditure: what buyers would pay minus what they pay." },
+    { "group": "Market equilibrium", "term": "Producer surplus", "meaning": "The sum of price minus marginal cost over every unit sold; equals TR − VC." },
+    { "group": "State interventions", "term": "Price ceiling", "meaning": "A maximum price set below equilibrium. Causes a shortage. Example: regulated rents." },
+    { "group": "State interventions", "term": "Price floor", "meaning": "A minimum price set above equilibrium. Causes a surplus. Example: subsidised farm prices." },
+    { "group": "State interventions", "term": "Excise tax", "meaning": "A tax (duty) per unit sold. Shifts supply up, raises the buyers' price, lowers the quantity." },
+    { "group": "Imperfect competition", "term": "Imperfect competition", "meaning": "A market where at least one seller can affect the price; the firm's demand slopes down." },
+    { "group": "Imperfect competition", "term": "Monopoly", "meaning": "One seller of a product with no close substitutes." },
+    { "group": "Imperfect competition", "term": "Oligopoly", "meaning": "A few large sellers who watch and react to each other." },
+    { "group": "Imperfect competition", "term": "Monopolistic competition", "meaning": "Many sellers of differentiated products, each with a little power over its price." },
+    { "group": "Imperfect competition", "term": "Product differentiation", "meaning": "Products are made different (brand, quality, design), so buyers do not see them as identical." },
+    { "group": "Imperfect competition", "term": "Lerner index", "meaning": "Measure of monopoly power: L = (P − MC) / P, between 0 and 1." },
+    { "group": "Imperfect competition", "term": "Deadweight loss", "meaning": "Total surplus lost because less is produced than is efficient (P > MC)." }
+  ],
+  "confusable": [
+    ["Surplus", "Shortage"],
+    ["Price ceiling", "Price floor"],
+    ["Consumer surplus", "Producer surplus"],
+    ["Monopoly", "Oligopoly", "Monopolistic competition"]
+  ],
+  "facts": [
+    [1, "At the market equilibrium the quantity demanded equals the quantity {supplied|produced last year|imported|wanted by the state}."],
+    [1, "A price above equilibrium creates a {surplus|shortage|tax|ceiling}."],
+    [1, "Allocative efficiency means marginal utility equals marginal {cost|revenue|product|utility}."],
+    [2, "Consumer surplus equals total utility minus real {expenditure|revenue|cost|income}."],
+    [2, "Producer surplus is the sum of price minus {marginal cost|average cost|fixed cost|marginal utility}."],
+    [3, "If supply grows more than demand, the price {falls|rises|stays|doubles}."],
+    [3, "In the very short run the supply curve is {vertical|horizontal|downward sloping|U-shaped}."],
+    [4, "A binding price ceiling causes a {shortage|surplus|tax|subsidy}."],
+    [4, "Subsidised prices of agricultural produce are an example of a price {floor|ceiling|tax|index}."],
+    [5, "In imperfect competition at least one seller can affect the {price|weather|technology|population}."],
+    [6, "In imperfect competition marginal revenue is {lower|higher|equal|unrelated} than the price."],
+    [6, "The Lerner index measures monopoly {power|losses|costs|demand}."],
+    [6, "Price above marginal cost causes a {deadweight loss|consumer gain|surplus of goods|shortage of labour}."]
+  ],
+  "sheet": [
+    ["Market and state interventions", ["Situation", "What happens", "Example"], [
+      ["Price above equilibrium", "Qs > Qd: surplus, price falls", "Sellers can't sell everything"],
+      ["Price below equilibrium", "Qd > Qs: shortage, price rises", "Queues"],
+      ["Price ceiling below P*", "Shortage, deadweight loss", "Regulated rents"],
+      ["Price floor above P*", "Surplus (overproduction), deadweight loss", "Subsidised farm prices"],
+      ["Both curves grow, ΔS > ΔD", "P falls, Q rises", ""],
+      ["Both curves grow, ΔD > ΔS", "P rises, Q rises", ""]
+    ]],
+    ["Perfect vs imperfect competition", ["Feature", "Perfect competition", "Imperfect competition"], [
+      ["Firm's demand d", "horizontal, d = AR = MR = P", "downward sloping, d = AR = P"],
+      ["Marginal revenue", "MR = P", "MR < P"],
+      ["Optimum", "MR = MC (P = MC)", "MR = MC, then P from d (P > MC)"],
+      ["Lerner index", "0", "between 0 and 1"],
+      ["Efficiency", "allocatively efficient (MU = MC)", "deadweight loss"],
+      ["Supply curve", "MC above min AVC", "does not exist"],
+      ["Normal profit at", "Q = min AC", "Q before min AC"]
+    ]]
+  ]
+}

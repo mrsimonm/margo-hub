@@ -1,0 +1,311 @@
+{
+ "seminar": 6,
+ "title": "Seminar 6 · Perfect competition: golden rule, profit or loss, shut down",
+ "source": "Seminar 6 slides (Dzbánková): The Golden Rule of Profit Maximization HW 1, Perfect competition HW 2 and HW 3; Lecture 7 producer surplus example",
+ "formulas": [
+  "rev",
+  "cost",
+  "pc",
+  "mkt"
+ ],
+ "intro": "<b>For every perfect-competition task, go in this order:</b><ul><li>Optimum: <b>P = MR = MC</b> → Q*</li><li>Revenue and cost at Q*: TR = P·Q, TC</li><li>Result: π = TR − TC</li><li>Short run: P > AVC → produce; P ≤ AVC → shut down (loss = FC)</li></ul>",
+ "exercises": [
+  {
+   "id": "gr1",
+   "text": "You have the following information about a perfectly competitive firm: P = 70 (demand function), TC = 800 + 16Q + Q², MC = 16 + 2Q. The firm maximizes profit.",
+   "parts": [
+    {
+     "q": "1) What is the optimum level of output?",
+     "ans": 27,
+     "show": "27",
+     "f": [
+      "pc-opt"
+     ],
+     "model": "Perfect competition: MR = P = 70. Golden rule MR = MC: 70 = 16 + 2Q → 2Q = 54 → Q = 27.",
+     "hint": "Set P = MC and solve for Q."
+    },
+    {
+     "q": "…and the optimum price?",
+     "ans": 70,
+     "show": "70",
+     "f": [
+      "pc-mr"
+     ],
+     "model": "The firm is a price-taker: it sells at the market price P = 70."
+    },
+    {
+     "q": "2) Total revenue at the optimum",
+     "ans": 1890,
+     "show": "1,890",
+     "f": [
+      "r-tr"
+     ],
+     "model": "TR = P · Q = 70 · 27 = 1,890."
+    },
+    {
+     "q": "Total cost at the optimum",
+     "ans": 1961,
+     "show": "1,961",
+     "f": [
+      "c-tc"
+     ],
+     "model": "TC = 800 + 16 · 27 + 27² = 800 + 432 + 729 = 1,961."
+    },
+    {
+     "q": "Economic profit (negative = loss)",
+     "ans": -71,
+     "show": "−71 (a loss)",
+     "f": [
+      "p-pi"
+     ],
+     "model": "π = TR − TC = 1,890 − 1,961 = −71. The firm makes an economic loss."
+    },
+    {
+     "q": "AVC at the optimum",
+     "ans": 43,
+     "show": "43",
+     "f": [
+      "c-ac"
+     ],
+     "model": "VC = 16Q + Q², so AVC = VC / Q = 16 + Q = 16 + 27 = 43."
+    },
+    {
+     "q": "3) Should the firm minimise the loss by continuing production or shut down?",
+     "type": "choice",
+     "options": [
+      "Continue producing: P = 70 > AVC = 43, the loss 71 is smaller than FC = 800",
+      "Shut down: any loss means the firm should stop",
+      "Shut down: P is below AC"
+     ],
+     "right": 0,
+     "f": [
+      "pc-sr"
+     ],
+     "model": "If it shut down, the loss would be FC = 800. Producing, the loss is only 71. P > AVC, so keep producing in the short run."
+    }
+   ]
+  },
+  {
+   "id": "pc2a",
+   "text": "A firm in a competitive market receives $500 in total revenue and has marginal revenue of $10.",
+   "parts": [
+    {
+     "q": "What is the average revenue?",
+     "ans": 10,
+     "show": "$10",
+     "f": [
+      "pc-mr"
+     ],
+     "model": "In perfect competition AR = MR = P, so AR = $10."
+    },
+    {
+     "q": "How many units were sold?",
+     "ans": 50,
+     "show": "50",
+     "f": [
+      "r-tr"
+     ],
+     "model": "TR = P · Q → Q = TR / P = 500 / 10 = 50 units."
+    }
+   ]
+  },
+  {
+   "id": "pc2b",
+   "text": "A profit-maximizing business incurs an economic loss of $10,000 per year. Its fixed cost is $15,000 per year.",
+   "parts": [
+    {
+     "q": "Should it produce or shut down in the short run?",
+     "type": "choice",
+     "options": [
+      "Produce: the loss (10,000) is smaller than FC (15,000)",
+      "Shut down: it makes a loss"
+     ],
+     "right": 0,
+     "f": [
+      "pc-sr"
+     ],
+     "model": "Shutting down would make the loss FC = 15,000. Producing, it loses only 10,000, so revenue covers all variable costs and 5,000 of FC. Produce."
+    },
+    {
+     "q": "Should it stay in the industry or exit in the long run?",
+     "type": "choice",
+     "options": [
+      "Exit: in the long run there are no fixed costs and it still makes a loss",
+      "Stay: it covers its variable costs"
+     ],
+     "right": 0,
+     "f": [
+      "pc-be"
+     ],
+     "model": "In the long run all costs are variable. A firm that cannot reach at least a normal profit (P ≥ min AC) leaves the industry."
+    }
+   ]
+  },
+  {
+   "id": "pc3",
+   "text": "Consider total cost and total revenue given in the following table. Calculate profit for each quantity. How much should the firm produce to maximize profit? Calculate marginal revenue and marginal cost for each quantity. Can you tell whether this firm is in a competitive industry? If so, can you tell whether the industry is in a long-run equilibrium?",
+   "table": {
+    "head": [
+     "q",
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7"
+    ],
+    "rows": [
+     [
+      "TC, $",
+      "8",
+      "9",
+      "10",
+      "11",
+      "13",
+      "19",
+      "27",
+      "37"
+     ],
+     [
+      "TR, $",
+      "0",
+      "8",
+      "16",
+      "24",
+      "32",
+      "40",
+      "48",
+      "56"
+     ]
+    ]
+   },
+   "parts": [
+    {
+     "q": "Profit at q = 4",
+     "ans": 19,
+     "show": "$19",
+     "f": [
+      "p-pi"
+     ],
+     "model": "π = TR − TC = 32 − 13 = 19. All profits: −8, −1, 6, 13, 19, 21, 21, 19."
+    },
+    {
+     "q": "What is the highest profit?",
+     "ans": 21,
+     "show": "$21 (at q = 5 and q = 6)",
+     "f": [
+      "p-pi"
+     ],
+     "model": "Profit is 21 at both q = 5 and q = 6, so the firm produces 5 or 6 units."
+    },
+    {
+     "q": "Marginal revenue of each unit",
+     "ans": 8,
+     "show": "$8",
+     "f": [
+      "r-mr"
+     ],
+     "model": "MR = ΔTR / ΔQ = 8 for every unit (TR rises by 8 each time)."
+    },
+    {
+     "q": "Marginal cost of the 6th unit",
+     "ans": 8,
+     "show": "$8",
+     "f": [
+      "c-mc"
+     ],
+     "model": "MC₆ = TC₆ − TC₅ = 27 − 19 = 8. All MCs: 1, 1, 1, 2, 6, 8, 10. At q = 6, MR = MC = 8: the golden rule."
+    },
+    {
+     "q": "Is this firm in a competitive industry?",
+     "type": "choice",
+     "options": [
+      "Yes: MR is constant (8), so the firm is a price-taker with P = MR = 8",
+      "No: TR rises with output",
+      "We cannot tell from the table"
+     ],
+     "right": 0,
+     "f": [
+      "pc-mr"
+     ],
+     "model": "TR = 8 · q, so the price is 8 at every quantity: the firm takes the market price."
+    },
+    {
+     "q": "Is the industry in long-run equilibrium?",
+     "type": "choice",
+     "options": [
+      "No: the firm earns positive economic profit (21), so new firms will enter",
+      "Yes: the firm maximises profit",
+      "Yes: MR = MC"
+     ],
+     "right": 0,
+     "f": [
+      "pc-be"
+     ],
+     "model": "Long-run equilibrium needs economic profit 0 (P = min AC). Profit attracts entry; the price will fall."
+    }
+   ]
+  },
+  {
+   "id": "ps1",
+   "text": "Producer surplus (lecture example). The firm sells at P = 10.",
+   "table": {
+    "head": [
+     "Q",
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7"
+    ],
+    "rows": [
+     [
+      "VC",
+      "0",
+      "5",
+      "12",
+      "20",
+      "29",
+      "39",
+      "50",
+      "62"
+     ]
+    ]
+   },
+   "parts": [
+    {
+     "q": "MC of the 4th unit",
+     "ans": 9,
+     "show": "9",
+     "f": [
+      "c-mc"
+     ],
+     "model": "MC₄ = VC₄ − VC₃ = 29 − 20 = 9. All MCs: 5, 7, 8, 9, 10, 11, 12."
+    },
+    {
+     "q": "Optimal output Q_E",
+     "ans": 5,
+     "show": "5",
+     "f": [
+      "pc-opt"
+     ],
+     "model": "P = MC → MC of the 5th unit is 10 = P. The 6th unit would cost 11 > 10."
+    },
+    {
+     "q": "Producer surplus",
+     "ans": 11,
+     "show": "11",
+     "f": [
+      "m-ps"
+     ],
+     "model": "PS = Σ(P − MC) = 5 + 3 + 2 + 1 + 0 = 11. Check: TR − VC = 5 · 10 − 39 = 11."
+    }
+   ]
+  }
+ ]
+}

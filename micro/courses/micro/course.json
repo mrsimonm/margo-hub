@@ -1,0 +1,101 @@
+{
+  "title": "Micro Hub",
+  "code": "3BE123",
+  "subtitle": "VŠE Prague · Microeconomics · organised by test",
+  "intro": "Microeconomics (3BE123) at VŠE Prague, organised by what comes next: Test 2 on 15 December, then the oral exam. Lessons in small bites, a formula coach with new numbers every time, and graphs you can move.",
+  "footer": "Built from the 3BE123 lecture and seminar slides of Ing. Zuzana Dzbánková (VŠE Prague). Facts follow her slides; if anything here disagrees with the slides, the slides win.",
+  "testsCard": false,
+  "apply": [
+    {
+      "id": "s7",
+      "title": "Seminar 6 · Perfect competition: golden rule, profit or loss, shut down",
+      "file": "apply/s7.json",
+      "test": "test2",
+      "topic": "t7"
+    }
+  ],
+  "lectures": [
+    "lectures/t7",
+    "lectures/t8"
+  ],
+  "tests": [
+    {
+      "id": "test2",
+      "title": "Test 2 · End-term",
+      "sub": "Topics 7–11: firm in perfect competition, market equilibrium, imperfect markets, alternative goals of firms, factor markets, land and labour market. 20 points, 45 minutes, on paper.",
+      "badge": "Up next · 15 Dec",
+      "lectures": [
+        "t7",
+        "t8"
+      ],
+      "planned": [
+        {
+          "n": 9,
+          "title": "Imperfect markets: monopoly, oligopoly, monopolistic competition",
+          "sub": "Lecture of 24 Nov. Added when the slides arrive."
+        },
+        {
+          "n": 10,
+          "title": "Alternative goals of the firm · factor markets · land market",
+          "sub": "Lecture of 1 Dec. Added when the slides arrive."
+        },
+        {
+          "n": 11,
+          "title": "Labour market and capital market",
+          "sub": "Lecture of 8 Dec. Added when the slides arrive."
+        }
+      ]
+    },
+    {
+      "id": "oral",
+      "title": "Oral exam",
+      "sub": "20 topics, one drawn blind, about 15 minutes of written preparation, then you explain it. Every lecture counts.",
+      "badge": "From December",
+      "all": true,
+      "planned": [
+        {
+          "n": 20,
+          "title": "Oral exam practice: draw a random topic, prepare, compare with a model answer",
+          "sub": "Coming after Test 2."
+        }
+      ]
+    },
+    {
+      "id": "test1",
+      "title": "Test 1 · Mid-term",
+      "sub": "Topics 1–6: market elements, consumer behaviour, elasticity, production and costs, revenue and profit.",
+      "badge": "Done · 10 Nov",
+      "lectures": [],
+      "planned": [
+        {
+          "n": 1,
+          "title": "Market and market elements",
+          "sub": "Slides and video lectures ready. Added later for the oral exam."
+        },
+        {
+          "n": 2,
+          "title": "Theory of the consumer: cardinal and ordinal approach",
+          "sub": "Slides ready. Added later for the oral exam."
+        },
+        {
+          "n": 4,
+          "title": "Price elasticity of demand, consumer surplus",
+          "sub": "Slides ready. Added later for the oral exam."
+        },
+        {
+          "n": 5,
+          "title": "Production and costs in the short and long run",
+          "sub": "Slides ready. Added later for the oral exam."
+        },
+        {
+          "n": 6,
+          "title": "Revenue, profit and the optimal output rule",
+          "sub": "Slides ready. Added later for the oral exam."
+        }
+      ]
+    }
+  ],
+  "paths": [
+    "test2"
+  ]
+}

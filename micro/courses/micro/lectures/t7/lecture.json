@@ -1,0 +1,97 @@
+{
+  "num": 7,
+  "id": "t7",
+  "title": "Firm in Perfect Competition",
+  "short": "Perfect competition",
+  "sub": "Topic 7 · lecture of 27 Oct · revenue, profit, MR = MC, shut-down and break-even point",
+  "blurb": "How a price-taking firm decides how much to produce: MR = MC = P, profit or loss, when to shut down, the supply curve and the long-run break-even point.",
+  "h1": "The firm in perfect competition",
+  "lede": "A perfectly competitive firm cannot choose its price. It only chooses how much to produce. This lecture is one rule (MR = MC) used again and again: for the optimum, for the short-run decision to keep going or shut down, for the supply curve and for the long run.",
+  "six": [
+    "**Economic profit** = accounting profit − implicit (opportunity) costs. Economic profit 0 is a **normal profit**.",
+    "The **golden rule**: produce where **MR = MC**. MC > MR → produce less, MC < MR → produce more.",
+    "A perfectly competitive firm is a **price-taker**: its demand is horizontal, **d = AR = MR = P**, so the optimum is **P = MC**.",
+    "Short run: if P > AVC keep producing (the loss is smaller than FC). If P ≤ AVC **shut down**: the loss is FC. Shut-down point: **P = min AVC**.",
+    "The firm's **supply curve** is its MC curve above min AVC. The industry supply curve is the sum of the firms' MC curves (**S = ΣMC**).",
+    "Long run: free entry and exit push economic profit to 0. **Break-even point**: P = min AC, TR = TC."
+  ],
+  "must": "MR = MC = P, shut-down point and break-even point",
+  "foot": "Source: 3BE123 Lecture 7 slides (Firm in Perfect Competition; Revenue, Costs, Profit; Optimum of a Firm) and Seminar 6 homework, Ing. Z. Dzbánková, VŠE.",
+  "questions": [
+    { "id": "t7-ep", "q": "How is economic profit calculated in the lecture?", "h": "Start from accounting profit.", "answer": "Accounting profit minus implicit (opportunity) costs", "wrong": ["Total revenue minus explicit costs", "Accounting profit plus implicit costs", "Total revenue minus fixed costs"], "e": "Eπ = AP − OC, where AP = TR − explicit costs. Economic profit also subtracts what the owner gives up (implicit costs).", "fol": true },
+    { "id": "t7-normal", "q": "A firm makes a normal profit. What does that mean?", "answer": "Economic profit is zero: accounting profit just covers the implicit costs", "wrong": ["Accounting profit is zero", "The firm makes a loss equal to its fixed costs", "Economic profit is larger than accounting profit"], "e": "Normal profit = profit at the level of implicit costs. TR = TC (including opportunity costs), so economic profit = 0." },
+    { "id": "t7-ar", "q": "Average revenue AR is always equal to…", "answer": "the price P", "wrong": ["marginal revenue MR", "marginal cost MC", "total revenue divided by total cost"], "e": "AR = TR / Q = (P · Q) / Q = P. In perfect competition MR is also equal to P, but AR = P holds in every market." },
+    { "id": "t7-rule", "q": "At the current output MC > MR. What should a profit-maximising firm do?", "h": "The last unit costs more than it brings in.", "answer": "Decrease production", "wrong": ["Increase production", "Keep production the same", "Shut down immediately"], "e": "If the last unit adds more to cost (MC) than to revenue (MR), producing it lowers profit. Cut Q until MR = MC.", "fol": true },
+    { "id": "t7-golden", "q": "What is the golden rule of profit maximisation?", "answer": "MR = MC", "wrong": ["P = AC", "TR = TC", "AVC = MC"], "e": "MR = MC gives the optimal output Q_E. It holds in perfect competition and in imperfect competition." },
+    { "id": "t7-taker", "q": "Why is a perfectly competitive firm called a price-taker?", "answer": "It is too small to affect the market price, so it takes the price the market sets", "wrong": ["It always takes the highest price buyers offer", "It sets its price equal to its average cost", "The state sets its price"], "e": "Many small firms sell an identical product. No single firm can change the price, so each one receives the market price." },
+    { "id": "t7-dcurve", "q": "What does the demand curve facing one perfectly competitive firm look like?", "answer": "Horizontal (perfectly elastic) at the market price", "wrong": ["Downward sloping like the market demand", "Vertical (perfectly inelastic)", "Upward sloping like the supply curve"], "e": "The firm can sell any quantity at the market price, so d is a horizontal line: d = AR = MR = P. The MARKET demand still slopes down.", "fol": true },
+    { "id": "t7-char", "q": "Which is NOT a characteristic of perfect competition?", "answer": "Products are differentiated by brand", "wrong": ["Many small firms and many buyers", "Firms can enter and leave the industry freely", "Sellers and buyers are well informed"], "e": "In perfect competition the product is homogeneous (identical), like unprocessed agricultural products. Differentiation is a feature of imperfect competition." },
+    { "id": "t7-opt", "q": "Where is the optimum of a perfectly competitive firm?", "answer": "Where P = MR = MC", "wrong": ["Where P = min AC", "Where TR is at its maximum", "Where MC = AVC"], "e": "For a price-taker MR = P, so the golden rule MR = MC becomes P = MC.", "fol": true },
+    { "id": "t7-trline", "q": "In perfect competition, what does the total revenue curve look like?", "answer": "A straight line from the origin with slope P", "wrong": ["A hill that first rises and then falls", "A horizontal line", "A U-shaped curve"], "e": "TR = P · Q with a constant P, so every extra unit adds the same P. The slope of TR is MR = P." },
+    { "id": "t7-loss", "q": "In the short run P is below AC but above AVC. What should the firm do?", "h": "Compare the loss with fixed costs.", "answer": "Keep producing: the loss is smaller than its fixed costs", "wrong": ["Shut down: any loss means it should stop", "Raise its price above AC", "Produce where TR is largest"], "e": "With P > AVC, revenue covers all variable costs and part of FC. Shutting down would make the loss equal to the whole FC, which is worse.", "fol": true },
+    { "id": "t7-shut", "q": "What is the shut-down point?", "answer": "The point where P = AR = min AVC, so TR = VC and the loss equals FC", "wrong": ["The point where P = min AC, so TR = TC", "The point where MR = 0", "The point where FC = VC"], "e": "At P = min AVC the firm only covers its variable costs. Producing or not, it loses FC. Below this price it shuts down (Q = 0)." },
+    { "id": "t7-shut2", "q": "The lecture says the firm should shut down if…", "answer": "its total revenue is below its total variable cost", "wrong": ["its total revenue is below its total cost", "its economic profit is zero", "its marginal cost is rising"], "e": "TR < VC (P < AVC): every unit produced loses money even before fixed costs. Shutting down limits the loss to FC." },
+    { "id": "t7-supply", "q": "What is the short-run supply curve of a perfectly competitive firm?", "answer": "The part of its MC curve above minimum AVC", "wrong": ["The whole AC curve", "The part of its MC curve above minimum AC", "The horizontal price line"], "e": "For each price the firm produces where P = MC, as long as P ≥ min AVC. Below min AVC it supplies nothing." },
+    { "id": "t7-industry", "q": "How is the industry (market) supply curve in perfect competition made?", "answer": "By adding the firms' quantities at each price: S = ΣMC", "wrong": ["By adding the firms' prices at each quantity", "It is the MC curve of the largest firm", "By averaging the firms' AC curves"], "e": "Horizontal summation: at each price, add up what every firm supplies (each firm's MC above min AVC)." },
+    { "id": "t7-lr", "q": "Firms in a perfectly competitive industry earn economic profit. What happens in the long run?", "answer": "New firms enter, the price falls until economic profit is zero", "wrong": ["Profits stay because firms are price-takers", "Firms leave the industry", "The state sets a price ceiling"], "e": "Free entry: profit attracts new firms, market supply rises, the price falls until P = min AC (normal profit). Losses work the other way (exit)." },
+    { "id": "t7-be", "q": "What is the break-even point?", "answer": "P = AR = min AC, where TR = TC and economic profit is zero", "wrong": ["P = min AVC, where the loss equals FC", "The output where MC is at its minimum", "The point where accounting profit is zero"], "e": "At the break-even point revenue equals cost, the firm earns a normal profit. Above it there is profit, below it a loss.", "fol": true },
+    { "id": "t7-hw2", "q": "A competitive firm has TR = 500 and MR = 10. How many units did it sell?", "h": "In perfect competition AR = MR = P.", "answer": "50", "wrong": ["10", "5,000", "490"], "e": "MR = P = AR = 10. Q = TR / P = 500 / 10 = 50 (Seminar 6, homework 2)." },
+    { "id": "t7-hw2b", "q": "A profit-maximising firm loses 10,000 a year; its fixed cost is 15,000. What should it do?", "answer": "Produce in the short run, exit the industry in the long run", "wrong": ["Shut down now and stay in the industry", "Produce in the short run and in the long run", "Shut down now and exit"], "e": "Loss 10,000 < FC 15,000, so it covers its variable costs: keep producing in the short run. In the long run every cost is variable, and a loss means exit (Seminar 6, homework 2)." },
+    { "id": "t7-sunk", "x": true, "q": "Why does fixed cost not matter for the short-run decision to shut down?", "answer": "The firm pays FC whether it produces or not", "wrong": ["FC is always zero in the short run", "FC is included in MC", "FC only appears in accounting profit"], "e": "FC is paid in both cases, so only revenue versus variable cost decides whether producing helps." }
+  ],
+  "vocab": [
+    { "group": "Revenue and profit", "term": "Total revenue (TR)", "meaning": "All the money from sales: TR = P · Q." },
+    { "group": "Revenue and profit", "term": "Average revenue (AR)", "meaning": "Revenue per unit: AR = TR / Q = P." },
+    { "group": "Revenue and profit", "term": "Marginal revenue (MR)", "meaning": "Extra revenue from selling one more unit: MR = ΔTR / ΔQ." },
+    { "group": "Revenue and profit", "term": "Explicit costs", "meaning": "Costs actually paid out in money (accounting costs): materials, rent, wages." },
+    { "group": "Revenue and profit", "term": "Implicit costs", "meaning": "Opportunity costs: what the owner gives up, e.g. a salary elsewhere or rent for their own equipment." },
+    { "group": "Revenue and profit", "term": "Accounting profit", "meaning": "Total revenue minus explicit costs." },
+    { "group": "Revenue and profit", "term": "Economic profit", "meaning": "Accounting profit minus implicit costs. Shows if the business beats the next-best alternative." },
+    { "group": "Revenue and profit", "term": "Normal profit", "meaning": "Economic profit of zero: accounting profit just equals the implicit costs." },
+    { "group": "The firm's decision", "term": "Golden rule of profit maximisation", "meaning": "Produce where marginal revenue equals marginal cost: MR = MC." },
+    { "group": "The firm's decision", "term": "Price-taker", "meaning": "A firm too small to affect the price; it receives the market price." },
+    { "group": "The firm's decision", "term": "Perfect competition", "meaning": "Many small firms, identical product, free entry and exit, good information, low transaction costs." },
+    { "group": "The firm's decision", "term": "Shut-down point", "meaning": "P = min AVC: revenue only covers variable cost, the loss equals FC. Below this price the firm stops producing." },
+    { "group": "The firm's decision", "term": "Break-even point", "meaning": "P = min AC: total revenue equals total cost, economic profit is zero (normal profit)." },
+    { "group": "The firm's decision", "term": "Supply curve of the firm", "meaning": "The firm's MC curve above minimum AVC." },
+    { "group": "The firm's decision", "term": "Industry supply curve", "meaning": "The sum of all firms' quantities at each price: S = ΣMC." }
+  ],
+  "confusable": [
+    ["Shut-down point", "Break-even point"],
+    ["Accounting profit", "Economic profit", "Normal profit"],
+    ["Explicit costs", "Implicit costs"],
+    ["Average revenue (AR)", "Marginal revenue (MR)"]
+  ],
+  "facts": [
+    [1, "Economic profit equals accounting profit minus {implicit|explicit|fixed|variable} costs."],
+    [1, "When economic profit is zero, the firm earns a {normal|accounting|maximum|negative} profit."],
+    [1, "Average revenue is always equal to the {price|marginal cost|total cost|output}."],
+    [2, "If MC is greater than MR, the firm should {decrease|increase|keep|double} its production."],
+    [2, "The golden rule of profit maximisation holds in perfect and in {imperfect|no|only perfect|public} competition."],
+    [3, "In perfect competition the product is {homogeneous|differentiated|branded|unique}."],
+    [3, "A perfectly competitive firm faces a {horizontal|vertical|downward sloping|upward sloping} demand curve."],
+    [4, "A perfectly competitive firm produces where price equals {marginal cost|average cost|average variable cost|marginal revenue minus cost}."],
+    [5, "At the shut-down point price equals minimum {average variable cost|average cost|marginal revenue|fixed cost}."],
+    [5, "At the shut-down point the loss equals the {fixed|variable|marginal|total} cost."],
+    [5, "The supply curve of the firm is its {marginal cost|average cost|demand|total revenue} curve above minimum AVC."],
+    [6, "At the break-even point total revenue equals total {cost|revenue|variable cost|profit}."],
+    [6, "In the long run, economic profit in perfect competition tends to {zero|grow|infinity|double}."]
+  ],
+  "sheet": [
+    ["Revenue and profit", ["What", "Formula", "Remember"], [
+      ["Total revenue", "TR = P · Q", "In perfect competition a straight line from 0"],
+      ["Average revenue", "AR = TR / Q = P", "Always the price"],
+      ["Marginal revenue", "MR = ΔTR / ΔQ", "Perfect competition: MR = P"],
+      ["Accounting profit", "AP = TR − explicit costs", "What the accountant sees"],
+      ["Economic profit", "Eπ = AP − implicit costs", "0 = normal profit"]
+    ]],
+    ["Decisions of a perfectly competitive firm", ["Situation", "Condition", "What the firm does"], [
+      ["Optimum", "P = MR = MC", "Produces Q where the price line cuts the rising MC"],
+      ["Economic profit", "P > AC", "Produces; in the long run new firms enter"],
+      ["Loss, keep going", "AVC < P < AC", "Produces; loss < FC"],
+      ["Shut-down point", "P = min AVC (TR = VC)", "Indifferent; loss = FC"],
+      ["Shut down", "P < AVC", "Q = 0; loss = FC"],
+      ["Break-even point", "P = min AC (TR = TC)", "Normal profit; long-run equilibrium"]
+    ]]
+  ]
+}

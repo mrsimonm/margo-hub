@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+/* Runs each sub-hub's lecture validator across Statistics Hub and Micro Hub. */
+"use strict";
+
+const path = require("path");
+const { spawnSync } = require("child_process");
+
+const ROOT = path.resolve(__dirname, "..");
+const RUNS = [
+  { label: "Statistics Hub", cwd: path.join(ROOT, "stats"), args: ["tools/validate.js", "courses/stats"] },
+  { label: "Micro Hub", cwd: path.join(ROOT, "micro"), args: ["tools/validate.js", "courses/micro"] }
+];
+
+let failed = false;
+RUNS.forEach((r) => {
+  console.log("=== " + r.label + " ===");
+  const res = spawnSync(process.execPath, r.args, { cwd: r.cwd, stdio: "inherit" });
+  if (res.status !== 0) failed = true;
+});
+
+process.exit(failed ? 1 : 0);

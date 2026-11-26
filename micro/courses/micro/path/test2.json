@@ -1,0 +1,249 @@
+{
+ "id": "test2",
+ "title": "Test 2 study path",
+ "short": "Test 2",
+ "units": [
+  {
+   "id": "s7",
+   "title": "Topic 7 · Firm in perfect competition",
+   "bites": [
+    {
+     "id": "p7-r1",
+     "type": "read",
+     "title": "Three kinds of profit",
+     "html": "<p><b>Accounting profit</b> = TR − explicit costs (money really paid out).</p><p><b>Economic profit</b> = accounting profit − implicit costs (what the owner gives up: a salary elsewhere, rent for their own equipment).</p><p><b>Normal profit</b> = economic profit of 0.</p>"
+    },
+    {
+     "id": "p7-f1",
+     "type": "formulas",
+     "title": "Revenue and profit",
+     "ids": [
+      "r-tr",
+      "r-ar",
+      "r-mr",
+      "p-acc",
+      "p-eco"
+     ]
+    },
+    {
+     "id": "p7-d1",
+     "type": "read",
+     "title": "Try it with numbers",
+     "html": "<p>Solve it step by step. Press <b>New numbers</b> and do it again until it feels easy.</p><div class=\"mg\" data-g=\"drill\" data-kind=\"profit\"></div>"
+    },
+    {
+     "id": "p7-q1",
+     "type": "quiz",
+     "q": "TR = 1,200, explicit costs = 700, the owner could earn 200 elsewhere and rent out equipment for 150. Economic profit?",
+     "options": [
+      "150",
+      "500",
+      "350",
+      "−150"
+     ],
+     "right": 0,
+     "why": "Accounting profit = 1,200 − 700 = 500. Implicit costs = 200 + 150 = 350. Economic profit = 500 − 350 = 150."
+    },
+    {
+     "id": "p7-r2",
+     "type": "read",
+     "title": "The golden rule: MR = MC",
+     "html": "<p>Look only at the <b>next</b> piece:</p><ul><li>MC &gt; MR → it costs more than it brings → produce <b>less</b></li><li>MC &lt; MR → it brings more than it costs → produce <b>more</b></li><li><b>MR = MC</b> → the optimum</li></ul><p>This rule works in every market structure.</p>"
+    },
+    {
+     "id": "p7-r3",
+     "type": "read",
+     "title": "Price-taker: d = AR = MR = P",
+     "html": "<p>In perfect competition many small firms sell an identical product, so no firm can change the price. The firm's demand is a <b>horizontal line</b> at the market price: every extra piece brings exactly P.</p><p>So the golden rule MR = MC becomes <b>P = MC</b>.</p>"
+    },
+    {
+     "id": "p7-q2",
+     "type": "quiz",
+     "q": "What does the demand curve facing ONE perfectly competitive firm look like?",
+     "options": [
+      "Horizontal at the market price",
+      "Downward sloping",
+      "Vertical",
+      "Upward sloping"
+     ],
+     "right": 0,
+     "why": "The firm can sell any quantity at the market price: d = AR = MR = P. Only the market demand slopes down."
+    },
+    {
+     "id": "p7-g1",
+     "type": "read",
+     "title": "See it: move the price",
+     "html": "<p>Move the price. Green rectangle = profit, red = loss. Watch what happens below 15 (min AVC).</p><div class=\"mg\" data-g=\"pc-firm\"></div>"
+    },
+    {
+     "id": "p7-f2",
+     "type": "formulas",
+     "title": "Decisions of a perfectly competitive firm",
+     "ids": [
+      "pc-opt",
+      "pc-sr",
+      "pc-shut",
+      "pc-be",
+      "pc-sup"
+     ]
+    },
+    {
+     "id": "p7-e1",
+     "type": "example",
+     "title": "Seminar 6, golden rule homework",
+     "intro": "<p>P = 70, TC = 800 + 16Q + Q², MC = 16 + 2Q.</p>",
+     "steps": [
+      {
+       "html": "Optimum: P = MC → 70 = 16 + 2Q → <b>Q = 27</b>."
+      },
+      {
+       "html": "TR = 70 · 27 = <b>1,890</b>. TC = 800 + 16·27 + 27² = 800 + 432 + 729 = <b>1,961</b>."
+      },
+      {
+       "html": "π = 1,890 − 1,961 = <b>−71</b>: an economic loss."
+      },
+      {
+       "html": "AVC = 16 + Q = 43. P = 70 > AVC, and the loss 71 &lt; FC 800, so <b>keep producing</b> in the short run."
+      }
+     ]
+    },
+    {
+     "set": "s7",
+     "ex": "gr1",
+     "type": "exercise"
+    },
+    {
+     "id": "p7-d2",
+     "type": "read",
+     "title": "Your turn, new numbers",
+     "html": "<div class=\"mg\" data-g=\"drill\" data-kind=\"pc-opt\"></div>"
+    },
+    {
+     "id": "p7-q3",
+     "type": "quiz",
+     "q": "P is above AVC but below AC. In the short run the firm should…",
+     "options": [
+      "keep producing, its loss is smaller than FC",
+      "shut down, it makes a loss",
+      "raise its price",
+      "produce where TR is highest"
+     ],
+     "right": 0,
+     "why": "Revenue covers all variable costs and part of FC. Shutting down would make the loss equal to the whole FC."
+    },
+    {
+     "id": "p7-q4",
+     "type": "quiz",
+     "q": "Which pair is right?",
+     "options": [
+      "Shut-down: P = min AVC · Break-even: P = min AC",
+      "Shut-down: P = min AC · Break-even: P = min AVC",
+      "Shut-down: MR = 0 · Break-even: MC = 0",
+      "Shut-down: TR = TC · Break-even: TR = VC"
+     ],
+     "right": 0,
+     "why": "Shut-down: TR = VC, loss = FC (short run). Break-even: TR = TC, economic profit 0 (long run)."
+    },
+    {
+     "set": "s7",
+     "ex": "pc2a",
+     "type": "exercise"
+    },
+    {
+     "set": "s7",
+     "ex": "pc2b",
+     "type": "exercise"
+    },
+    {
+     "set": "s7",
+     "ex": "pc3",
+     "type": "exercise"
+    }
+   ]
+  },
+  {
+   "id": "u8",
+   "title": "Topics 7–8 · Equilibrium, surplus and imperfect competition",
+   "bites": [
+    {
+     "id": "p8-r1",
+     "type": "read",
+     "title": "Equilibrium: Qd = Qs",
+     "html": "<p>Above the equilibrium price → <b>surplus</b> → the price falls. Below it → <b>shortage</b> → the price rises.</p><p>Perfect competition is <b>allocatively efficient</b>: MU = MC.</p>"
+    },
+    {
+     "id": "p8-r2",
+     "type": "read",
+     "title": "Consumer and producer surplus",
+     "html": "<p><b>CS</b> = TU − real expenditure (under demand, above the price).<br><b>PS</b> = Σ(P − MC) = TR − VC (above supply, under the price).</p><div class=\"mg\" data-g=\"market\" data-mode=\"surplus\"></div>"
+    },
+    {
+     "set": "s7",
+     "ex": "ps1",
+     "type": "exercise"
+    },
+    {
+     "id": "p8-q1",
+     "type": "quiz",
+     "q": "Supply and demand both rise, supply rises more. The price…",
+     "options": [
+      "falls",
+      "rises",
+      "stays the same",
+      "we can't say anything about Q either"
+     ],
+     "right": 0,
+     "why": "ΔS > ΔD → P falls. The quantity rises."
+    },
+    {
+     "id": "p8-r3",
+     "type": "read",
+     "title": "Ceiling and floor",
+     "html": "<p><b>Ceiling</b> (max price) below P* → <b>shortage</b>, e.g. regulated rents.<br><b>Floor</b> (min price) above P* → <b>surplus</b>, e.g. subsidised farm prices.</p><div class=\"mg\" data-g=\"market\" data-mode=\"control\"></div>"
+    },
+    {
+     "id": "p8-d1",
+     "type": "read",
+     "title": "Calculate a shortage or surplus",
+     "html": "<div class=\"mg\" data-g=\"drill\" data-kind=\"control\"></div>"
+    },
+    {
+     "id": "p8-r4",
+     "type": "read",
+     "title": "Imperfect competition",
+     "html": "<p>At least one seller can affect the price → the firm's demand <b>slopes down</b> → <b>MR &lt; P</b>.</p><p>Same rule: <b>MR = MC</b> gives Q. Then go <b>up to demand</b> for the price. P &gt; MC → <b>deadweight loss</b>.</p><div class=\"mg\" data-g=\"monopoly\"></div>"
+    },
+    {
+     "id": "p8-f1",
+     "type": "formulas",
+     "title": "Imperfect competition",
+     "ids": [
+      "i-lin",
+      "i-opt",
+      "i-ler",
+      "i-el"
+     ]
+    },
+    {
+     "id": "p8-d2",
+     "type": "read",
+     "title": "Calculate MR = MC, price and Lerner index",
+     "html": "<div class=\"mg\" data-g=\"drill\" data-kind=\"mono\"></div>"
+    },
+    {
+     "id": "p8-q2",
+     "type": "quiz",
+     "q": "Lerner index of a firm with P = 50 and MC = 30?",
+     "options": [
+      "0.4",
+      "0.6",
+      "20",
+      "1.67"
+     ],
+     "right": 0,
+     "why": "L = (P − MC) / P = (50 − 30) / 50 = 0.4."
+    }
+   ]
+  }
+ ]
+}
