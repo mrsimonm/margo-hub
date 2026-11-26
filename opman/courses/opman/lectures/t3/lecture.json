@@ -1,0 +1,432 @@
+{
+ "num": 3,
+ "id": "t3",
+ "title": "Process standards: time, capacity and Little's Law",
+ "short": "Time & Little's Law",
+ "sub": "Lecture 5 + practice Test 1 · time you have vs time you need, capacity, OEE, TMU, Little's Law",
+ "blurb": "How much time you have, how much you need, when an order must start, and the three numbers of Little's Law.",
+ "h1": "Process standards: time and capacity",
+ "lede": "The second and fourth exercises of Test 1. Two different questions: how much time do you HAVE, and how much do you NEED? The ratio tells you whether the capacity is enough. Little's Law links units, rate and time.",
+ "six": [
+  "Two questions: how much time do you **have** (watch time − shift time) and how much do you **need** (unit time · units + batch time).",
+  "**Shift time** (breaks, cleaning) belongs to the shift, not to the order. Some of it may be written outside the table.",
+  "Never divide a **batch time** by the units: 4 cakes baked in 20 min is not 5 min per cake.",
+  "**Capacity** = the **maximum** output in a period. need / have: 100 % ideal, above it over capacity.",
+  "The answer is never 'we can't': it is '**we finish at…**'.",
+  "**Little's Law**: units in the system = rate · time. Two numbers are given, find the third, and watch units vs batches."
+ ],
+ "must": "time need vs have",
+ "foot": "Sources: 3BE216 lecture slides 'Process Standards', practice Test 1 (exercises 2 and 4) and its answer key, Lecture 5 and the Little's Law lecture as recorded.",
+ "questions": [
+  {
+   "id": "t3-have",
+   "q": "The time you HAVE in one 8-hour shift with 30 min of cleaning is…",
+   "answer": "450 min",
+   "wrong": [
+    "480 min",
+    "510 min",
+    "410 min"
+   ],
+   "e": "have = 480 − 30. Cleaning is shift time.",
+   "fol": true
+  },
+  {
+   "id": "t3-need",
+   "q": "Cut 20 WS25 (3.5 min each) and 100 WS30 (3 min each), setup 20 min per batch. Time you NEED?",
+   "answer": "410 min",
+   "wrong": [
+    "440 min",
+    "370 min",
+    "450 min"
+   ],
+   "e": "(3.5 · 20 + 20) + (3 · 100 + 20) = 90 + 320 = 410.",
+   "fol": true
+  },
+  {
+   "id": "t3-enough",
+   "q": "Need 410 min, have 450 min. Need / have =",
+   "answer": "91.11 %",
+   "wrong": [
+    "109.75 %",
+    "100 %",
+    "8.9 %"
+   ],
+   "e": "410 / 450 = 0.9111: under capacity, about 40 minutes spare."
+  },
+  {
+   "id": "t3-batch",
+   "q": "4 pieces are baked together for 20 minutes. Unit time?",
+   "answer": "There is none: 20 min is a batch time, one piece also needs 20 min",
+   "wrong": [
+    "5 min",
+    "20 / 4 = 5 min, unit time",
+    "80 min"
+   ],
+   "e": "Don't divide a batch time by the units."
+  },
+  {
+   "id": "t3-cap",
+   "q": "Capacity is…",
+   "answer": "the maximum output an operation can produce in a given period under given conditions",
+   "wrong": [
+    "the average output per day",
+    "the number of workers",
+    "the time needed for one unit"
+   ],
+   "e": "The answer must contain the word maximum.",
+   "fol": true
+  },
+  {
+   "id": "t3-takt",
+   "q": "Takt time is…",
+   "answer": "the rate of customer demand",
+   "wrong": [
+    "the setup time",
+    "the total time of one process",
+    "the time of one unit through the whole line"
+   ],
+   "e": "Lead time: one unit start to finish. Cycle time: one process. Changeover: setup. Takt: the customer's rhythm."
+  },
+  {
+   "id": "t3-lead",
+   "q": "Lead time is…",
+   "answer": "the total time to complete one unit of a product or service",
+   "wrong": [
+    "the setup time",
+    "the rate of customer demand",
+    "the time of one machine cycle"
+   ],
+   "e": "From the slide on times."
+  },
+  {
+   "id": "t3-plan",
+   "q": "A human-based operation needs 30 people. How do you plan it?",
+   "answer": "About 33–34 people: plan at 80 %, keep a buffer",
+   "wrong": [
+    "Exactly 30",
+    "60, to be safe",
+    "25, people work faster under pressure"
+   ],
+   "e": "From the lecture: never plan humans at 100 %."
+  },
+  {
+   "id": "t3-loss",
+   "q": "IT shuts the servers down from noon to 1 pm. Which loss is that?",
+   "answer": "Technical and organizational",
+   "wrong": [
+    "Personal",
+    "Force majeure",
+    "Shift time"
+   ],
+   "e": "Losses: personal (illness), technical and organizational, force majeure."
+  },
+  {
+   "id": "t3-at",
+   "q": "Q3: 92 days, 10 shutdown days, 26 weekend days, 3 holidays, 2 shifts × 8 h, 5 h maintenance a month. Available time?",
+   "answer": "833 h",
+   "wrong": [
+    "848 h",
+    "424 h",
+    "1 472 h"
+   ],
+   "e": "(31 + 31 + 30 − 10 − 26 − 3) · 2 · 8 − 5 · 3 = 53 · 16 − 15 = 833 h."
+  },
+  {
+   "id": "t3-tmu",
+   "q": "How many TMU in one hour?",
+   "answer": "100 000",
+   "wrong": [
+    "1 000",
+    "3 600",
+    "60 000"
+   ],
+   "e": "1 TMU = 0.00001 h = 0.0006 min = 0.036 s (Maynard, MTM/MOST)."
+  },
+  {
+   "id": "t3-oee",
+   "q": "In OEE, which losses separate operating time from net operating time?",
+   "answer": "Idling, minor interruptions and reduced speed",
+   "wrong": [
+    "Planned shutdown",
+    "Failures, settings and adjustments",
+    "Defects and rework"
+   ],
+   "e": "Total → planned (−shutdown) → operating (−failures, settings) → net operating (−idling, minor stops, reduced speed) → productive (−defects, rework, losses from start)."
+  },
+  {
+   "id": "t3-shifts",
+   "q": "Need 1 965 min, have 458 min per shift. Shifts needed?",
+   "answer": "4.29",
+   "wrong": [
+    "4",
+    "5",
+    "4.58"
+   ],
+   "e": "1 965 / 458 = 4.29: 4 full shifts plus 133 minutes on the first day."
+  },
+  {
+   "id": "t3-start",
+   "q": "The order needs 133 min on its first day. The shift ends at 17:00, the last 17 min are cleaning. Start at…",
+   "answer": "14:30",
+   "wrong": [
+    "14:47",
+    "14:13",
+    "15:00"
+   ],
+   "e": "Count back 133 + 17 = 150 min from 17:00."
+  },
+  {
+   "id": "t3-little",
+   "q": "Little's Law links…",
+   "answer": "units in the system, rate and time",
+   "wrong": [
+    "price, cost and profit",
+    "need, have and capacity",
+    "demand, supply and price"
+   ],
+   "e": "Three numbers: you get two, you find the third.",
+   "fol": true
+  },
+  {
+   "id": "t3-barista",
+   "q": "10 customers, one barista takes 5 min per customer. Serve all in 25 min: how many baristas?",
+   "answer": "2",
+   "wrong": [
+    "5",
+    "10",
+    "1"
+   ],
+   "e": "Needed rate: 25 / 10 = 2.5 min per customer; 5 / 2.5 = 2 baristas."
+  },
+  {
+   "id": "t3-fg",
+   "q": "10 finished goods per day wait 2 days before shipping. Inventory?",
+   "answer": "20 goods",
+   "wrong": [
+    "5 goods",
+    "12 goods",
+    "8 goods"
+   ],
+   "e": "units = rate · time = 10 · 2."
+  },
+  {
+   "id": "t3-users",
+   "q": "8 000 transactions/hour, response time 5 s, think time 30 s. Concurrent users?",
+   "answer": "about 78",
+   "wrong": [
+    "about 35",
+    "about 229",
+    "about 8 000"
+   ],
+   "e": "X = 8 000 / 3 600 = 2.22 per s; N = (5 + 30) · 2.22 ≈ 77.8 (the key writes 77.7)."
+  },
+  {
+   "id": "t3-codes",
+   "q": "20 codes are in an office, 4 leave per day. A new one arrives. When is it ready to go out?",
+   "answer": "After 5 days",
+   "wrong": [
+    "After 4 days",
+    "After 20 days",
+    "After 80 days"
+   ],
+   "e": "time = units / rate = 20 / 4. It is ready to go out, not yet out."
+  }
+ ],
+ "vocab": [
+  {
+   "group": "Time",
+   "term": "Shift time (t_c)",
+   "meaning": "Time tied to the shift, not the order (cleaning, breaks). You don't have it."
+  },
+  {
+   "group": "Time",
+   "term": "Batch time (t_b)",
+   "meaning": "Time needed once per batch or order (setup, drawings, handing over)."
+  },
+  {
+   "group": "Time",
+   "term": "Unit time (t_a)",
+   "meaning": "Time that repeats for every piece."
+  },
+  {
+   "group": "Time",
+   "term": "Lead time",
+   "meaning": "Total time to complete one unit of a product or service."
+  },
+  {
+   "group": "Time",
+   "term": "Cycle time",
+   "meaning": "Total time of a specific process."
+  },
+  {
+   "group": "Time",
+   "term": "Changeover time",
+   "meaning": "Setup time."
+  },
+  {
+   "group": "Time",
+   "term": "Takt time",
+   "meaning": "The rate of customer demand."
+  },
+  {
+   "group": "Time",
+   "term": "Line takt",
+   "meaning": "The rate of the line's outputs."
+  },
+  {
+   "group": "Capacity",
+   "term": "Capacity",
+   "meaning": "The maximum output of an operation in a given period under given conditions."
+  },
+  {
+   "group": "Capacity",
+   "term": "OEE",
+   "meaning": "Overall equipment efficiency: total time minus the losses down to productive time."
+  },
+  {
+   "group": "Capacity",
+   "term": "Process capability (Cp)",
+   "meaning": "Specification range divided by the natural variation (±3 standard deviations)."
+  },
+  {
+   "group": "Capacity",
+   "term": "FTE",
+   "meaning": "Full-time equivalent: how many people working 100 % your workforce equals."
+  },
+  {
+   "group": "Measuring",
+   "term": "TMU",
+   "meaning": "Time Measurement Unit: 1 hour = 100 000 TMU."
+  },
+  {
+   "group": "Measuring",
+   "term": "PMTS",
+   "meaning": "Predetermined motion time systems, such as MTM and MOST."
+  },
+  {
+   "group": "Little's Law",
+   "term": "Little's Law",
+   "meaning": "Units in the system = rate · time."
+  },
+  {
+   "group": "Losses",
+   "term": "Force majeure",
+   "meaning": "A loss nobody can control (a flood)."
+  }
+ ],
+ "confusable": [
+  [
+   "Shift time (t_c)",
+   "Batch time (t_b)",
+   "Unit time (t_a)"
+  ],
+  [
+   "Lead time",
+   "Cycle time",
+   "Takt time",
+   "Line takt"
+  ]
+ ],
+ "facts": [
+  [
+   1,
+   "In a human-based operation, plan at about {80|100|50|120} % so you keep a buffer."
+  ],
+  [
+   2,
+   "Capacity is the {maximum|average|minimum|planned} output in a period."
+  ],
+  [
+   2,
+   "Takt time is the rate of customer {demand|supply|service|complaints}."
+  ],
+  [
+   2,
+   "Changeover time is another word for {setup|lead|takt|cycle} time."
+  ],
+  [
+   3,
+   "One hour has {100000|3600|60000|1000} TMU."
+  ],
+  [
+   3,
+   "Cleaning the workplace at the end of the shift is {shift|unit|batch|lead} time."
+  ],
+  [
+   4,
+   "The answer to a capacity problem is never 'we can't' but 'we {finish|start|stop|wait} at…'."
+  ],
+  [
+   5,
+   "Little's Law: units in the system = rate · {time|price|cost|capacity}."
+  ]
+ ],
+ "sheet": [
+  [
+   "Practice Test 1, exercise 2 (µ column)",
+   [
+    "Step",
+    "Value"
+   ],
+   [
+    [
+     "Unit time",
+     "0.5 + 13.5 + 0.5 + 0.5 = 15 min"
+    ],
+    [
+     "Batch time",
+     "8 + 150 + 7 = 165 min"
+    ],
+    [
+     "Shift time",
+     "5 + 5 + 12 = 22 min"
+    ],
+    [
+     "Need",
+     "15 · 120 + 165 = 1 965 min"
+    ],
+    [
+     "Have",
+     "480 − 22 = 458 min"
+    ],
+    [
+     "Shifts",
+     "4.29 → 4 full + 133 min"
+    ],
+    [
+     "Start",
+     "17:00 − (133 + 17) = 14:30 on Monday"
+    ]
+   ]
+  ],
+  [
+   "Times",
+   [
+    "Name",
+    "Meaning"
+   ],
+   [
+    [
+     "Lead time",
+     "one unit, start to finish"
+    ],
+    [
+     "Cycle time",
+     "one process"
+    ],
+    [
+     "Changeover",
+     "setup"
+    ],
+    [
+     "Takt time",
+     "rate of customer demand"
+    ],
+    [
+     "Line takt",
+     "rate of line outputs"
+    ]
+   ]
+  ]
+ ]
+}

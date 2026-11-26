@@ -1,7 +1,7 @@
-// Margo's Study Hub offline support: caches the unified shell and Statistics Hub and Micro Hub.
+// Margo's Study Hub offline support: caches the unified shell, Statistics Hub, Micro Hub and Op Man Hub.
 // Bump V when you change root shell files or switcher.js. Content files (json, md, js, html)
 // are fetched fresh when online and served from cache when offline.
-const V = "margo-hub-v1";
+const V = "margo-hub-v2";
 const SHELL = [
   "./", "./index.html", "./switcher.js", "./manifest.webmanifest",
   "./lib/firebase-config.js", "./lib/firebase-sync.js", "./lib/cat.js", "./lib/stats.js",
@@ -10,7 +10,10 @@ const SHELL = [
   "./stats/lib/firebase-config.js", "./stats/lib/firebase-sync.js", "./stats/courses/stats/course.json",
   "./micro/", "./micro/index.html", "./micro/app.js", "./micro/lib/lecture-lib.js", "./micro/lib/cat.js", "./micro/lib/stats.js",
   "./micro/lib/formulas.js", "./micro/lib/graphs.js", "./micro/lib/firebase-config.js", "./micro/lib/firebase-sync.js",
-  "./micro/courses/micro/course.json"
+  "./micro/courses/micro/course.json",
+  "./opman/", "./opman/index.html", "./opman/app.js", "./opman/lib/lecture-lib.js", "./opman/lib/cat.js", "./opman/lib/stats.js",
+  "./opman/lib/formulas.js", "./opman/lib/apply.js", "./opman/lib/path.js", "./opman/lib/opman.js", "./opman/lib/firebase-config.js", "./opman/lib/firebase-sync.js",
+  "./opman/courses/opman/course.json"
 ];
 
 self.addEventListener("install", (e) => {
@@ -28,6 +31,7 @@ self.addEventListener("activate", (e) => {
 function navFallback(pathname) {
   if (/\/stats(\/|$)/.test(pathname)) return caches.match("./stats/index.html");
   if (/\/micro(\/|$)/.test(pathname)) return caches.match("./micro/index.html");
+  if (/\/opman(\/|$)/.test(pathname)) return caches.match("./opman/index.html");
   return caches.match("./index.html");
 }
 

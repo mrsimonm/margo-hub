@@ -1,0 +1,535 @@
+{
+ "num": 1,
+ "id": "t1",
+ "title": "Processes and process types",
+ "short": "Process types",
+ "sub": "Lectures 2–3 · process, performance, process typology, value chain, portfolio, legal issues, location",
+ "blurb": "What a process is, how to classify yours (it has to be in the video), the value chain, product portfolio, legal duties and outsourcing.",
+ "h1": "Processes and process types",
+ "lede": "Every exercise in this course starts from a process. Here you learn the one-line definition, the five performance objectives, and the typology the teacher wants to see in your video: where your process sits, what comes before and after it, and which processes support it.",
+ "six": [
+  "A **process** is a set of activities that transforms **input** into **output**.",
+  "**Structure follows strategy** (Chandler) and **performance = strategy + operational efficiency** (Porter): operations always cost something, so make them as cost-effective as possible.",
+  "Classify a process by production (piece, series, mass), sales order (to order or to stock), technology, layout, location and continuity.",
+  "**By time** and **by nature** don't put the process in a box: they place it in the chain (what comes before and after, which processes support it).",
+  "Porter's **value chain**: core processes give value to the customer; support processes help the organisation make its margin.",
+  "**Outsourcing** = another legal entity; **offshoring** = another geographical region. The two combine independently."
+ ],
+ "must": "process typology",
+ "foot": "Sources: 3BE216 slides (process typology, Porter's value chain), your Team 02 iPhone 11 deck, and Lecture 3 as recorded (portfolio, legal issues, outsourcing have no slide in the folder).",
+ "questions": [
+  {
+   "id": "t1-process",
+   "q": "What is a process?",
+   "answer": "A set of activities that transforms input into output",
+   "wrong": [
+    "A list of the machines in a factory",
+    "The organisational chart of the company",
+    "A document with requirements and specifications"
+   ],
+   "e": "Remember the three words: activities, input, output. The teacher expects this exact definition.",
+   "fol": true
+  },
+  {
+   "id": "t1-perf",
+   "q": "Performance equals…",
+   "answer": "strategy + operational efficiency (Porter)",
+   "wrong": [
+    "structure + strategy (Chandler)",
+    "operational efficiency only",
+    "sales minus marketing"
+   ],
+   "e": "Porter: you raise performance through strategy (selling more) and through efficient operations."
+  },
+  {
+   "id": "t1-zero",
+   "q": "Can the cost of the operation be cut to zero?",
+   "answer": "No: an operation always costs something, so make it as cost-effective as possible",
+   "wrong": [
+    "Yes, with enough automation",
+    "Yes, if sales grow fast enough",
+    "Only in services"
+   ],
+   "e": "Operational efficiency can never be zero: you need money to run the operation."
+  },
+  {
+   "id": "t1-chandler",
+   "q": "'Structure follows strategy' (Chandler) means…",
+   "answer": "You can design the operation properly only when the strategy is clear",
+   "wrong": [
+    "The strategy is written after the factory is built",
+    "Every company has the same structure",
+    "Marketing decides the layout of the factory"
+   ],
+   "e": "First the strategy, then the structure (the operation) that serves it."
+  },
+  {
+   "id": "t1-mass",
+   "q": "Few products (5–10 references) in a very big volume is…",
+   "answer": "mass production",
+   "wrong": [
+    "piece production",
+    "series production",
+    "a project"
+   ],
+   "e": "Low variety, high volume = mass.",
+   "fol": true
+  },
+  {
+   "id": "t1-piece",
+   "q": "A tailor making a suit for each customer is…",
+   "answer": "piece production",
+   "wrong": [
+    "mass production",
+    "series production",
+    "continuous production"
+   ],
+   "e": "One product, different for every customer: piece production."
+  },
+  {
+   "id": "t1-series",
+   "q": "A factory makes several types of screens (not one per customer) in good volume. That is…",
+   "answer": "series production",
+   "wrong": [
+    "piece production",
+    "a project",
+    "continuous production"
+   ],
+   "e": "The lecture's screen factory: a decent range, good volume, not one per customer → series."
+  },
+  {
+   "id": "t1-masssrv",
+   "q": "A call centre answering the same internet question for thousands of customers is…",
+   "answer": "a mass service",
+   "wrong": [
+    "a professional service",
+    "a project",
+    "piece production"
+   ],
+   "e": "Many people asking for the same thing = mass service. Consulting, unique for every client, is a professional service."
+  },
+  {
+   "id": "t1-stock",
+   "q": "You manufacture first, then the products wait in a warehouse to be sold. That is…",
+   "answer": "to stock",
+   "wrong": [
+    "to order",
+    "engineer to order",
+    "intermittent"
+   ],
+   "e": "To stock: produce, then sell. To order: wait for the email, call or customer, then start."
+  },
+  {
+   "id": "t1-chem",
+   "q": "Which is true about mechanical and chemical processes?",
+   "answer": "A chemical reaction is hard to reverse; a bent piece of metal can be bent back",
+   "wrong": [
+    "Mechanical processes can never be reversed",
+    "Chemical processes never use machines",
+    "Yogurt and wine are mechanical processes"
+   ],
+   "e": "Bending is reversible; a chemical reaction mostly isn't. Yogurt, beer and wine are biochemical."
+  },
+  {
+   "id": "t1-group",
+   "q": "In a grouped layout, when is grouping by product better than grouping by technology?",
+   "answer": "When you make only a few products",
+   "wrong": [
+    "When you make many different products",
+    "When the process is mobile",
+    "Never: technology is always better"
+   ],
+   "e": "Few products (closer to mass) → by product. Many products (closer to piece) → by technology."
+  },
+  {
+   "id": "t1-phase",
+   "q": "Airbus A380: wings from Spain, fuselage from Germany, final assembly in France. Which layout?",
+   "answer": "Phase",
+   "wrong": [
+    "Individual",
+    "Flow",
+    "Grouped by product"
+   ],
+   "e": "Big products are made in phases: think of a plane, a boat or a building."
+  },
+  {
+   "id": "t1-mobile",
+   "q": "A food truck or a building site is a … process.",
+   "answer": "mobile",
+   "wrong": [
+    "immobile",
+    "continuous",
+    "flow"
+   ],
+   "e": "The 'factory' goes to the customer or the site: mobile."
+  },
+  {
+   "id": "t1-cont",
+   "q": "The customer service of a global airline that can never be switched off is…",
+   "answer": "continuous",
+   "wrong": [
+    "intermittent",
+    "mobile",
+    "a project"
+   ],
+   "e": "It runs 24/7. A metal-industry oven is the same: it can't be switched off for the weekend."
+  },
+  {
+   "id": "t1-time",
+   "q": "What does classifying a process 'by time' tell you?",
+   "answer": "Where it sits in the chain: what comes before it and what comes after it",
+   "wrong": [
+    "How many hours a day it runs",
+    "How long one unit takes",
+    "Whether it can be stopped at night"
+   ],
+   "e": "By time (pre-production, production, post-production) and by nature (core, support, service) place your process in the chain. Many videos get this wrong.",
+   "fol": true
+  },
+  {
+   "id": "t1-service",
+   "q": "The workers' canteen in a chair factory is a…",
+   "answer": "service process",
+   "wrong": [
+    "core process",
+    "support process",
+    "post-production process"
+   ],
+   "e": "Not your business, but you still have to manage it: bad food makes workers ill."
+  },
+  {
+   "id": "t1-support",
+   "q": "Maintenance of the cold saw on a wood-cutting line is a…",
+   "answer": "support process",
+   "wrong": [
+    "core process",
+    "service process",
+    "pre-production process"
+   ],
+   "e": "It helps the core process (cutting wood) to work."
+  },
+  {
+   "id": "t1-porter",
+   "q": "Which is a SUPPORT activity in Porter's value chain?",
+   "answer": "Procurement",
+   "wrong": [
+    "Inbound logistics",
+    "Operations",
+    "Marketing & sales"
+   ],
+   "e": "Support: firm infrastructure, human resource management, technology development, procurement."
+  },
+  {
+   "id": "t1-out",
+   "q": "Outsourcing means…",
+   "answer": "another legal entity does the work for you",
+   "wrong": [
+    "production moves to another country",
+    "you build a second factory",
+    "the customer does part of the work"
+   ],
+   "e": "Out = out of your legal entity. It can be at home or abroad.",
+   "fol": true
+  },
+  {
+   "id": "t1-off",
+   "q": "Offshoring means…",
+   "answer": "the work is done in another geographical region",
+   "wrong": [
+    "another legal entity does the work",
+    "you buy a supplier",
+    "the work is done at night"
+   ],
+   "e": "Off-shore = another region. You can be insourced offshore (your own factory abroad) or outsourced at home."
+  },
+  {
+   "id": "t1-reshore",
+   "q": "Why do firms reshore (bring production back)?",
+   "answer": "Logistics and coordination costs grow and wages abroad rise",
+   "wrong": [
+    "Labour abroad becomes cheaper",
+    "Customers prefer imported goods",
+    "The law forbids offshoring"
+   ],
+   "e": "From Lecture 3: the labour gap shrinks while logistics and coordination costs eat the margin."
+  },
+  {
+   "id": "t1-label",
+   "q": "A product made in Czechia has labels only in Czech. Can you sell it in Germany?",
+   "answer": "No: the information has to be in German",
+   "wrong": [
+    "Yes, the EU has one market",
+    "Yes, if the product is certified",
+    "Only online"
+   ],
+   "e": "From Lecture 3: you must comply with the rules of the region, including the language."
+  },
+  {
+   "id": "t1-qsdfc",
+   "q": "First-pass yield and rework rate measure which performance objective?",
+   "answer": "Quality",
+   "wrong": [
+    "Speed",
+    "Dependability",
+    "Cost"
+   ],
+   "e": "From your iPhone deck: Q = first-pass yield, defects, rework rate."
+  }
+ ],
+ "vocab": [
+  {
+   "group": "Basics",
+   "term": "Process",
+   "meaning": "A set of activities that transforms input into output."
+  },
+  {
+   "group": "Basics",
+   "term": "Performance objectives",
+   "meaning": "Quality, Speed, Dependability, Flexibility, Cost (Q-S-D-F-C)."
+  },
+  {
+   "group": "By production",
+   "term": "Piece production",
+   "meaning": "One or very few of each product, different for each customer (a tailor)."
+  },
+  {
+   "group": "By production",
+   "term": "Series production",
+   "meaning": "A decent range of products in a good, not huge, volume."
+  },
+  {
+   "group": "By production",
+   "term": "Mass production",
+   "meaning": "Few products in a very big volume."
+  },
+  {
+   "group": "By production",
+   "term": "Continuous process",
+   "meaning": "One product made all the time in huge volume (water, electricity)."
+  },
+  {
+   "group": "By production",
+   "term": "Professional service",
+   "meaning": "A service that is unique for every client (consulting, IT projects)."
+  },
+  {
+   "group": "By production",
+   "term": "Mass service",
+   "meaning": "Many customers get the same service (a call centre)."
+  },
+  {
+   "group": "By sales order",
+   "term": "To order",
+   "meaning": "You start working when the order (email, call, customer) arrives."
+  },
+  {
+   "group": "By sales order",
+   "term": "To stock",
+   "meaning": "You produce first; the products wait in a warehouse to be sold."
+  },
+  {
+   "group": "By layout",
+   "term": "Individual layout",
+   "meaning": "One workstation where one person has everything at hand."
+  },
+  {
+   "group": "By layout",
+   "term": "Flow layout",
+   "meaning": "Workstations one after the other; each does one step."
+  },
+  {
+   "group": "By layout",
+   "term": "Group layout",
+   "meaning": "Areas grouped by product (few products) or by technology (many products)."
+  },
+  {
+   "group": "By layout",
+   "term": "Phase layout",
+   "meaning": "A big product is made in phases (a plane, a boat, a building)."
+  },
+  {
+   "group": "By location",
+   "term": "Mobile",
+   "meaning": "The process moves to the customer or site (a food truck, a building site)."
+  },
+  {
+   "group": "By continuity",
+   "term": "Intermittent",
+   "meaning": "The process can be stopped and started again (weekends)."
+  },
+  {
+   "group": "By nature",
+   "term": "Core process",
+   "meaning": "Activities that give value to the customer: what the customer pays for."
+  },
+  {
+   "group": "By nature",
+   "term": "Support process",
+   "meaning": "Activities that help the core process work (machine maintenance)."
+  },
+  {
+   "group": "By nature",
+   "term": "Service process",
+   "meaning": "Not your business, but you manage it (canteen, coffee, gardening)."
+  },
+  {
+   "group": "Value chain",
+   "term": "Value chain",
+   "meaning": "Porter (1985): core and support activities that together create the margin."
+  },
+  {
+   "group": "Portfolio",
+   "term": "Product portfolio",
+   "meaning": "The offer of the organisation: everything it sells."
+  },
+  {
+   "group": "Portfolio",
+   "term": "Product family",
+   "meaning": "Products that share components in production (motors, metal sheets, platforms)."
+  },
+  {
+   "group": "Location",
+   "term": "Outsourcing",
+   "meaning": "Another legal entity does the work for you."
+  },
+  {
+   "group": "Location",
+   "term": "Offshoring",
+   "meaning": "The work is done in another geographical region."
+  },
+  {
+   "group": "Location",
+   "term": "Reshoring",
+   "meaning": "Bringing production back home when the total cost abroad gets too high."
+  }
+ ],
+ "confusable": [
+  [
+   "Outsourcing",
+   "Offshoring",
+   "Reshoring"
+  ],
+  [
+   "Support process",
+   "Service process",
+   "Core process"
+  ],
+  [
+   "Piece production",
+   "Series production",
+   "Mass production"
+  ],
+  [
+   "Individual layout",
+   "Flow layout",
+   "Group layout",
+   "Phase layout"
+  ]
+ ],
+ "facts": [
+  [
+   1,
+   "A process is a set of activities that transforms input into {output|profit|structure|strategy}."
+  ],
+  [
+   1,
+   "Performance equals strategy plus operational {efficiency|structure|marketing|quality}."
+  ],
+  [
+   2,
+   "Few products in a very big volume is {mass|piece|series|project} production."
+  ],
+  [
+   2,
+   "A food truck is an example of a {mobile|immobile|continuous|flow} process."
+  ],
+  [
+   2,
+   "Grouping the layout by product makes sense when you make {few|many|mobile|unique} products."
+  ],
+  [
+   3,
+   "Maintenance of the machines is a {support|core|service|post-production} process."
+  ],
+  [
+   3,
+   "Porter published the value chain in {1985|1960|2012|1969}."
+  ],
+  [
+   4,
+   "Outsourcing means another legal {entity|region|country|currency}."
+  ],
+  [
+   4,
+   "Offshoring means another geographical {region|entity|owner|supplier}."
+  ]
+ ],
+ "sheet": [
+  [
+   "Process typology",
+   [
+    "Classify by",
+    "Types"
+   ],
+   [
+    [
+     "Production",
+     "piece · series · mass (book: project, jobbing, batch, mass, continuous)"
+    ],
+    [
+     "Sales order",
+     "to order · to stock"
+    ],
+    [
+     "Technology",
+     "mechanical · chemical · biological or biochemical"
+    ],
+    [
+     "Layout",
+     "individual · flow · group (by product or technology) · phase"
+    ],
+    [
+     "Location",
+     "mobile · immobile"
+    ],
+    [
+     "Continuity",
+     "continuous · intermittent"
+    ],
+    [
+     "Time (place in the chain)",
+     "pre-production · production · post-production"
+    ],
+    [
+     "Nature (place in the chain)",
+     "core/main · support · service"
+    ]
+   ]
+  ],
+  [
+   "Location",
+   [
+    "Word",
+    "Meaning"
+   ],
+   [
+    [
+     "Outsourcing",
+     "another legal entity"
+    ],
+    [
+     "Insourcing",
+     "your own legal entity"
+    ],
+    [
+     "Offshoring",
+     "another geographical region"
+    ],
+    [
+     "Reshoring",
+     "coming back home"
+    ]
+   ]
+  ]
+ ]
+}

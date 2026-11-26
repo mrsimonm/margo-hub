@@ -1,0 +1,480 @@
+{
+ "num": 4,
+ "id": "t4",
+ "title": "Operations planning and control",
+ "short": "Planning & sequencing",
+ "sub": "Lecture 7 + Seminar 7 · planning vs control, demand, decoupling point, loading, sequencing, scheduling, gradual, parallel, DBR",
+ "blurb": "The five sequencing rules, Gantt charts with Czech holidays, and the lead time with gradual, parallel and DBR sequencing.",
+ "h1": "Operations planning and control",
+ "lede": "The biggest calculation block of Test 2. The teacher says most students lose points on the Gantt chart, on choosing the best rule, and on gradual sequencing when the last batch is smaller. Draw everything.",
+ "six": [
+  "**Planning** formalises what should happen; **control** compares what was done with the plan.",
+  "**Dependent** demand is planned (5 tyres per car); **independent** demand is forecast (spare tyres in a garage).",
+  "Decoupling point: **make-to-stock, assemble-to-order, make-to-order, engineer-to-order**. Always give an example.",
+  "Planning activities: **loading** (how much), **sequencing** (in what order), **scheduling** (when), **monitoring & controlling**.",
+  "Five rules: DD, FIFO, LIFO, LOT, **SOT**. Compare the average time in process AND the average lateness.",
+  "Parallel sequencing: start from the **longest operation**; add the first cycles before it and the tail after it. Cycles are whole numbers."
+ ],
+ "must": "sequencing",
+ "foot": "Sources: 3BE216 lecture and seminar slides 'Operations planning', practice Test 2 (exercises 1, 2, 5) and its answer key, Lecture and Seminar 7 as recorded.",
+ "questions": [
+  {
+   "id": "t4-pc",
+   "q": "What is the difference between planning and control?",
+   "answer": "Planning sets what should be done and when; control compares what was done with the plan",
+   "wrong": [
+    "They are the same",
+    "Control comes before planning",
+    "Planning is for managers, control for workers"
+   ],
+   "e": "A typical state-exam question.",
+   "fol": true
+  },
+  {
+   "id": "t4-dep",
+   "q": "Which demand is DEPENDENT?",
+   "answer": "The tyres for the cars on the assembly line",
+   "wrong": [
+    "Tyres a garage will change next winter",
+    "Coffee sold tomorrow",
+    "Clothes sold in a mall"
+   ],
+   "e": "Dependent = from your own plan. Independent = from outside, you forecast it."
+  },
+  {
+   "id": "t4-mts",
+   "q": "Clothes waiting in a shopping mall are…",
+   "answer": "make-to-stock",
+   "wrong": [
+    "assemble-to-order",
+    "make-to-order",
+    "engineer-to-order"
+   ],
+   "e": "The mall is the nicest warehouse in the world."
+  },
+  {
+   "id": "t4-ato",
+   "q": "A pizza place keeps the ingredients ready and assembles when you order. That is…",
+   "answer": "assemble-to-order",
+   "wrong": [
+    "make-to-stock",
+    "make-to-order",
+    "engineer-to-order"
+   ],
+   "e": "The parts wait; the customer's order starts the assembly."
+  },
+  {
+   "id": "t4-eto",
+   "q": "A sofa designed for your living room is…",
+   "answer": "engineer-to-order",
+   "wrong": [
+    "assemble-to-order",
+    "make-to-stock",
+    "make-to-order"
+   ],
+   "e": "Even the design starts with the customer."
+  },
+  {
+   "id": "t4-acts",
+   "q": "Which is NOT one of the operations planning activities?",
+   "answer": "Forecasting",
+   "wrong": [
+    "Loading",
+    "Sequencing",
+    "Scheduling"
+   ],
+   "e": "Loading, sequencing, scheduling, monitoring & controlling."
+  },
+  {
+   "id": "t4-load",
+   "q": "A 24-hour banking app that never stops taking requests is…",
+   "answer": "infinite loading",
+   "wrong": [
+    "finite loading",
+    "sequencing",
+    "scheduling"
+   ],
+   "e": "Finite: load the machine and leave. Infinite: you never stop loading."
+  },
+  {
+   "id": "t4-sot",
+   "q": "Steve Smith's jobs: which rule gave both the lowest average time and the lowest average lateness?",
+   "answer": "SOT",
+   "wrong": [
+    "DD",
+    "FIFO",
+    "LOT"
+   ],
+   "e": "SOT: 7.6 days average time and 3 days average lateness in the lecture example.",
+   "fol": true
+  },
+  {
+   "id": "t4-fifo",
+   "q": "What is the FIFO order in an exercise?",
+   "answer": "The order of the jobs in the table",
+   "wrong": [
+    "Alphabetical",
+    "Shortest first",
+    "Earliest due date first"
+   ],
+   "e": "Assume the table gives the order of arrival."
+  },
+  {
+   "id": "t4-late",
+   "q": "A job finishes on day 4 and is due on day 5. Its lateness is…",
+   "answer": "0",
+   "wrong": [
+    "−1",
+    "1",
+    "5"
+   ],
+   "e": "Never negative: early is 0."
+  },
+  {
+   "id": "t4-sched",
+   "q": "Sequencing versus scheduling:",
+   "answer": "Sequencing decides the order; scheduling gives each job a specific time or date",
+   "wrong": [
+    "They are the same",
+    "Scheduling decides the order",
+    "Sequencing is only for services"
+   ],
+   "e": "Once you have the sequence you can make the schedule."
+  },
+  {
+   "id": "t4-half",
+   "q": "Job A 2.5 days, then job B 2.5 days, starting on Monday. When are both done?",
+   "answer": "After 5 working days",
+   "wrong": [
+    "After 6 working days",
+    "After 4.5 working days",
+    "After 7 working days"
+   ],
+   "e": "B starts in the free half of day 3."
+  },
+  {
+   "id": "t4-mon",
+   "q": "Monitoring versus controlling:",
+   "answer": "Monitoring follows the process in real time; controlling checks the result at the end",
+   "wrong": [
+    "They are the same",
+    "Controlling is done in real time",
+    "Monitoring is done once a year"
+   ],
+   "e": "The teacher stresses they are not the same."
+  },
+  {
+   "id": "t4-dbr",
+   "q": "In Drum-Buffer-Rope, the drum is…",
+   "answer": "the bottleneck",
+   "wrong": [
+    "the first operation",
+    "the warehouse",
+    "the signal to refill"
+   ],
+   "e": "Drum: the bottleneck. Buffer: units in front of it. Rope: the signal to pull more units.",
+   "fol": true
+  },
+  {
+   "id": "t4-cyc",
+   "q": "20 units, 2 workplaces, each takes 3 units at once. Cycles?",
+   "answer": "4",
+   "wrong": [
+    "3.33",
+    "3",
+    "6"
+   ],
+   "e": "20 / 6 = 3.33 → you can't run a third of a cycle: 4."
+  },
+  {
+   "id": "t4-grad",
+   "q": "Gradual sequencing means…",
+   "answer": "each operation processes the whole order before the next one starts",
+   "wrong": [
+    "every unit moves on as soon as it is ready",
+    "only the bottleneck works",
+    "operations run at the same time"
+   ],
+   "e": "Gradual: one operation after the other, for the whole order."
+  },
+  {
+   "id": "t4-par",
+   "q": "What is the first question in parallel sequencing?",
+   "answer": "Which operation is the longest?",
+   "wrong": [
+    "Which operation is the first?",
+    "How many units are ordered?",
+    "Which operation has a setup?"
+   ],
+   "e": "The trick from the slide: start from the longest operation, then add the head and the tail.",
+   "fol": true
+  },
+  {
+   "id": "t4-setup",
+   "q": "When does the setup of operation 2 make the order longer?",
+   "answer": "When the setup needs the units from operation 1",
+   "wrong": [
+    "Always",
+    "Never",
+    "Only in DBR"
+   ],
+   "e": "If it doesn't need the units, it can be done earlier, in parallel."
+  },
+  {
+   "id": "t4-sem",
+   "q": "Seminar: 20 units, gradual 470 min. Parallel, with operation 4 (150 min) the longest?",
+   "answer": "238 min",
+   "wrong": [
+    "150 min",
+    "470 min",
+    "218 min"
+   ],
+   "e": "150 + 8 (one cycle of op 3) + 20 + 20 (op 2) + 20 + 20 (op 1) = 238."
+  },
+  {
+   "id": "t4-dbrfirst",
+   "q": "If the longest operation is the FIRST one, what does DBR change?",
+   "answer": "Nothing in the lead time",
+   "wrong": [
+    "It halves it",
+    "It removes the tail",
+    "It adds the setups"
+   ],
+   "e": "From the seminar: you start with the drum anyway."
+  }
+ ],
+ "vocab": [
+  {
+   "group": "Planning",
+   "term": "Planning",
+   "meaning": "Formalising the activities, duties and timing that should happen."
+  },
+  {
+   "group": "Planning",
+   "term": "Control",
+   "meaning": "Comparing what was done with the plan, so you can correct it."
+  },
+  {
+   "group": "Demand",
+   "term": "Dependent demand",
+   "meaning": "Demand from your own plan (5 tyres per car)."
+  },
+  {
+   "group": "Demand",
+   "term": "Independent demand",
+   "meaning": "Demand from outside the company that you forecast."
+  },
+  {
+   "group": "Demand",
+   "term": "P:D ratio",
+   "meaning": "P = throughput time, D = demand time."
+  },
+  {
+   "group": "Decoupling point",
+   "term": "Make-to-stock (MTS)",
+   "meaning": "Made before the order and stored (clothes in a mall)."
+  },
+  {
+   "group": "Decoupling point",
+   "term": "Assemble-to-order (ATO)",
+   "meaning": "Parts wait; assembled when the order comes (pizza, Lego)."
+  },
+  {
+   "group": "Decoupling point",
+   "term": "Make-to-order (MTO)",
+   "meaning": "Made when the order comes (cars in Europe)."
+  },
+  {
+   "group": "Decoupling point",
+   "term": "Engineer-to-order (ETO)",
+   "meaning": "Designed and made for one customer (a custom sofa)."
+  },
+  {
+   "group": "Activities",
+   "term": "Loading",
+   "meaning": "How much to do: what you load into the system."
+  },
+  {
+   "group": "Activities",
+   "term": "Sequencing",
+   "meaning": "In what order to do things."
+  },
+  {
+   "group": "Activities",
+   "term": "Scheduling",
+   "meaning": "When: giving the sequence specific times."
+  },
+  {
+   "group": "Activities",
+   "term": "Monitoring & controlling",
+   "meaning": "Tracking in real time and checking the results."
+  },
+  {
+   "group": "Rules",
+   "term": "SOT",
+   "meaning": "Shortest operation time first."
+  },
+  {
+   "group": "Rules",
+   "term": "LOT",
+   "meaning": "Longest operation time first."
+  },
+  {
+   "group": "Rules",
+   "term": "DD",
+   "meaning": "Earliest due date first."
+  },
+  {
+   "group": "Sequencing",
+   "term": "Gradual sequencing",
+   "meaning": "Each operation finishes the whole order before the next one starts."
+  },
+  {
+   "group": "Sequencing",
+   "term": "Parallel sequencing",
+   "meaning": "Units move on as soon as a cycle is done; start from the longest operation."
+  },
+  {
+   "group": "Sequencing",
+   "term": "DBR",
+   "meaning": "Drum-Buffer-Rope: the bottleneck, the units in front of it, the signal to refill."
+  },
+  {
+   "group": "Sequencing",
+   "term": "Gantt chart",
+   "meaning": "Tasks as bars on a time axis, showing what happens when and in parallel."
+  }
+ ],
+ "confusable": [
+  [
+   "Planning",
+   "Control"
+  ],
+  [
+   "Sequencing",
+   "Scheduling",
+   "Loading"
+  ],
+  [
+   "Make-to-stock (MTS)",
+   "Assemble-to-order (ATO)",
+   "Make-to-order (MTO)",
+   "Engineer-to-order (ETO)"
+  ],
+  [
+   "Gradual sequencing",
+   "Parallel sequencing",
+   "DBR"
+  ],
+  [
+   "Dependent demand",
+   "Independent demand"
+  ]
+ ],
+ "facts": [
+  [
+   1,
+   "Independent demand comes from outside the company, so you {forecast|plan|control|sequence} it."
+  ],
+  [
+   1,
+   "Pizza is a classic example of {assemble|engineer|make|forecast}-to-order."
+  ],
+  [
+   2,
+   "Sequencing decides in what {order|time|amount|place} to do things."
+  ],
+  [
+   2,
+   "In the lecture example the best rule is {SOT|LOT|FIFO|DD}."
+  ],
+  [
+   3,
+   "Czech public holidays at Christmas are 24, 25 and {26|27|23|28} December."
+  ],
+  [
+   4,
+   "In DBR the drum is the {bottleneck|buffer|rope|warehouse}."
+  ],
+  [
+   5,
+   "A cycle is always a {whole|half|negative|decimal} number."
+  ],
+  [
+   5,
+   "In parallel sequencing you start from the {longest|first|last|cheapest} operation."
+  ]
+ ],
+ "sheet": [
+  [
+   "Steve Smith (practice Test 2, exercise 5)",
+   [
+    "Rule",
+    "Avg time",
+    "Avg lateness"
+   ],
+   [
+    [
+     "FIFO",
+     "11.6",
+     "6.2"
+    ],
+    [
+     "DD",
+     "8.4",
+     "3.2"
+    ],
+    [
+     "SOT",
+     "7.6",
+     "3.0"
+    ],
+    [
+     "LIFO",
+     "8.8",
+     "4.2"
+    ],
+    [
+     "LOT",
+     "12.8",
+     "7.4"
+    ]
+   ]
+  ],
+  [
+   "Practice Test 2, exercise 1 (20 units)",
+   [
+    "Method",
+    "Setup needs units",
+    "Setup without units"
+   ],
+   [
+    [
+     "Gradual",
+     "305",
+     "285"
+    ],
+    [
+     "Parallel",
+     "138",
+     "122"
+    ],
+    [
+     "DBR",
+     "118",
+     "87"
+    ],
+    [
+     "Gradual, 21 units",
+     "345",
+     "325"
+    ],
+    [
+     "Parallel, 21 units",
+     "145",
+     "125"
+    ]
+   ]
+  ]
+ ]
+}

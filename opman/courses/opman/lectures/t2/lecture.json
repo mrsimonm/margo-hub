@@ -1,0 +1,405 @@
+{
+ "num": 2,
+ "id": "t2",
+ "title": "Resource standards: materials",
+ "short": "Materials & CMU",
+ "sub": "Lecture 4 + Seminar 4 · standards, target costing, material losses, CMU, Bill of Materials, cutting bars",
+ "blurb": "Target costing, how much material you really need, the CMU at four levels, and the steel-bar exercise from Test 1.",
+ "h1": "Resource standards: how much material?",
+ "lede": "Test 1 opens with this. The maths is easy; the trouble is mixing up bottles, batches, sheets and metres. Learn the teacher's order of work and the four CMUs he asks for.",
+ "six": [
+  "A **standard** is a reference to compare against. We need standards to **manage** and to **improve**.",
+  "**Target costing**: goal price − profit = limit for costs. The question is not how much it costs but how much it **should** cost.",
+  "Material requirement = **net (useful) requirement** + technically unavoidable losses (reversible or irreversible).",
+  "**CMU** = net useful requirement / total material requirement. Asked at four levels: one cycle, one sheet, the partial sheet, the whole purchase.",
+  "Cutting bars: fill the **longest bar** first. When two plans have the same CMU, keep the one with the **bigger leftovers**.",
+  "Buy cut-to-size only if the material you lose (**1 − CMU**) is bigger than the supplier's surcharge."
+ ],
+ "must": "CMU",
+ "foot": "Sources: 3BE216 lecture slides 'Resources Standards' (wine, office chair, metal sheets), Seminar 4, practice Test 1 and its answer key.",
+ "questions": [
+  {
+   "id": "t2-std",
+   "q": "What is a standard?",
+   "answer": "A document (reference) with requirements, specifications or guidelines used consistently so things are fit for their purpose",
+   "wrong": [
+    "A certificate you buy from ISO",
+    "The fastest time anyone has done the job",
+    "A legal contract with a supplier"
+   ],
+   "e": "ISO's definition. In operations it is the reference you compare against.",
+   "fol": true
+  },
+  {
+   "id": "t2-why",
+   "q": "Why do we set standards?",
+   "answer": "To manage and to improve the operation",
+   "wrong": [
+    "To get an ISO certificate",
+    "To pay workers less",
+    "To make the product cheaper for the customer"
+   ],
+   "e": "The two words to remember: manage and improve."
+  },
+  {
+   "id": "t2-fast",
+   "q": "A cappuccino arrives in 5 seconds instead of the 2-minute standard. What should you think?",
+   "answer": "Faster is not automatically better: check what went wrong",
+   "wrong": [
+    "Great, lower the standard to 5 seconds",
+    "The barista deserves a bonus",
+    "The standard is wrong"
+   ],
+   "e": "From the lecture: finishing much faster than the standard can signal a mistake."
+  },
+  {
+   "id": "t2-target",
+   "q": "Target costing means…",
+   "answer": "Goal price − profit = the limit for the costs",
+   "wrong": [
+    "Costs + profit = the price",
+    "Price = what competitors charge + 10 %",
+    "Costs are set by the accountant"
+   ],
+   "e": "Cost based on price. The state exam asks this.",
+   "fol": true
+  },
+  {
+   "id": "t2-blue",
+   "q": "When can you set the price from your costs (cost + profit)?",
+   "answer": "When you are first in a new market (blue ocean)",
+   "wrong": [
+    "In every red-ocean market",
+    "Only for bread",
+    "Never"
+   ],
+   "e": "From the lecture: the first iPhone could. Most firms are in a red ocean where the market already sets the price."
+  },
+  {
+   "id": "t2-req",
+   "q": "The material requirement is…",
+   "answer": "net (useful) requirement + technically unavoidable losses",
+   "wrong": [
+    "net requirement − losses",
+    "only what ends up in the product",
+    "the material bought in one purchase"
+   ],
+   "e": "You must buy more than you use, because some is unavoidably lost."
+  },
+  {
+   "id": "t2-wine",
+   "q": "100 l of wine, 500 ml bottles, losses 0.2 % (pipelines) and 0.3 % (bottling). How many bottles can you promise?",
+   "answer": "199",
+   "wrong": [
+    "200",
+    "198",
+    "199.5"
+   ],
+   "e": "Each bottle needs 500 + 1 + 1.5 = 502.5 ml; 100 000 / 502.5 = 199.0… A half bottle is not a product."
+  },
+  {
+   "id": "t2-cmu",
+   "q": "The CMU is…",
+   "answer": "net useful requirement / total material requirement",
+   "wrong": [
+    "material bought / material used",
+    "1 − material requirement",
+    "the price of the material per kg"
+   ],
+   "e": "Coefficient of Material Utilization: how much of what you buy you really use.",
+   "fol": true
+  },
+  {
+   "id": "t2-bom",
+   "q": "A Bill of Materials (BOM) is…",
+   "answer": "a document listing the parts of each product and how many of each",
+   "wrong": [
+    "the invoice from the supplier",
+    "the list of machines",
+    "the price list of materials"
+   ],
+   "e": "The product structure plus the quantity of each part."
+  },
+  {
+   "id": "t2-arms",
+   "q": "100 chairs × 5 arms; one 1 m² sheet gives 18 arms; sheets come in packs of 5. How many sheets do you buy?",
+   "answer": "30",
+   "wrong": [
+    "28",
+    "27.78",
+    "25"
+   ],
+   "e": "500 / 18 = 27.78 → 28 sheets → packs of 5 → 30."
+  },
+  {
+   "id": "t2-cyc",
+   "q": "Why is the CMU of one press cycle the same (78.54 %) for the normal and the kids' chair?",
+   "answer": "The geometry is the same: two ellipses in a square",
+   "wrong": [
+    "Because both use 30 × 30 cm squares",
+    "Because the kids' chair is 20 % smaller",
+    "By coincidence"
+   ],
+   "e": "Same shape, same proportions, same CMU."
+  },
+  {
+   "id": "t2-sheet",
+   "q": "Why is the kids' chair better per sheet (72.38 % vs 63.62 %)?",
+   "answer": "More ellipses fit, and the leftover strip is smaller",
+   "wrong": [
+    "The ellipses are rounder",
+    "The sheet is bigger",
+    "The press is newer"
+   ],
+   "e": "24 × 24 squares: 4 per side, a small strip left; 30 × 30: 3 per side, a 10 cm strip left."
+  },
+  {
+   "id": "t2-purch",
+   "q": "Why is the kids' chair WORSE for the whole purchase (≈56.5 % vs 58.9 %)?",
+   "answer": "Four bought sheets stay unused (CMU 0) instead of two",
+   "wrong": [
+    "The ellipses are smaller",
+    "The press wastes more",
+    "Kids' chairs need more arms"
+   ],
+   "e": "16 sheets needed, 20 bought: 4 at 0 %. The normal chair: 28 needed, 30 bought: 2 at 0 %."
+  },
+  {
+   "id": "t2-analogy",
+   "q": "By analogy the kids' chair (20 % smaller) needs 25 sheets; by calculation it needs…",
+   "answer": "20",
+   "wrong": [
+    "24",
+    "25",
+    "30"
+   ],
+   "e": "32 arms per sheet → 500 / 32 = 15.6 → 16 sheets → buy 20. Analogy is quick but can be far off."
+  },
+  {
+   "id": "t2-tie",
+   "q": "Two bar plans have the same CMU. Which one does the teacher want?",
+   "answer": "The one with the bigger leftover pieces",
+   "wrong": [
+    "The one with more 6 m bars",
+    "Either one",
+    "The one with the smaller leftover pieces"
+   ],
+   "e": "Big leftovers are easier to sell or reuse. Small offcuts lose the points.",
+   "fol": true
+  },
+  {
+   "id": "t2-exact",
+   "q": "CMU 96.11 %. The supplier cuts to size for 5 % extra. Take it?",
+   "answer": "No: you lose only 3.89 %, less than 5 %",
+   "wrong": [
+    "Yes: 5 % is cheap",
+    "Yes: cut pieces are always better",
+    "No: CMU must be 100 %"
+   ],
+   "e": "Compare 1 − CMU with the surcharge."
+  },
+  {
+   "id": "t2-burn",
+   "q": "Can you sell the material burnt away by the saw?",
+   "answer": "No: it doesn't exist any more",
+   "wrong": [
+    "Yes, at 50 %",
+    "Yes, as scrap",
+    "Only if it is steel"
+   ],
+   "e": "In Test 1 the leftover to sell is 3.38 m, not 3.5 m, because the cuts burn material."
+  },
+  {
+   "id": "t2-improve",
+   "q": "How can the CMU of the whole purchase be improved?",
+   "answer": "Reuse unused sheets from stock across orders during the year",
+   "wrong": [
+    "Press harder",
+    "Buy bigger sheets",
+    "Redesign the ellipse"
+   ],
+   "e": "Per order the number doesn't change; across a year, leftover sheets in the warehouse can be used by the next order. Redesigning the shape is what improves the cycle CMU."
+  }
+ ],
+ "vocab": [
+  {
+   "group": "Standards",
+   "term": "Standard",
+   "meaning": "A reference document with requirements or specifications, used to manage and improve."
+  },
+  {
+   "group": "Standards",
+   "term": "Resources standards",
+   "meaning": "Standards for material, labour and other resources."
+  },
+  {
+   "group": "Standards",
+   "term": "Target costing",
+   "meaning": "Cost based on price: goal price − profit = the limit for costs."
+  },
+  {
+   "group": "Standards",
+   "term": "Blue ocean",
+   "meaning": "A new market where you are first and set the price yourself."
+  },
+  {
+   "group": "Standards",
+   "term": "Red ocean",
+   "meaning": "An existing market where the price is already set."
+  },
+  {
+   "group": "Setting a standard",
+   "term": "Analytical-calculated",
+   "meaning": "Calculate the material piece by piece."
+  },
+  {
+   "group": "Setting a standard",
+   "term": "Comparative-analogy",
+   "meaning": "Estimate from a similar product (20 % smaller → 20 % less material)."
+  },
+  {
+   "group": "Material",
+   "term": "Net (useful) requirement",
+   "meaning": "The material that ends up in the product."
+  },
+  {
+   "group": "Material",
+   "term": "Technically unavoidable loss",
+   "meaning": "Material you must buy but will lose (pipelines, cutting, spills)."
+  },
+  {
+   "group": "Material",
+   "term": "Reversible loss",
+   "meaning": "A loss you can bring back (spilled rice back on the plate)."
+  },
+  {
+   "group": "Material",
+   "term": "Irreversible loss",
+   "meaning": "A loss you can't get back (burnt, thrown away)."
+  },
+  {
+   "group": "Material",
+   "term": "CMU",
+   "meaning": "Coefficient of Material Utilization: net useful requirement / total material requirement."
+  },
+  {
+   "group": "Material",
+   "term": "Bill of Materials (BOM)",
+   "meaning": "The list of parts of a product and how many of each."
+  },
+  {
+   "group": "Material",
+   "term": "Kerf (saw width)",
+   "meaning": "The material the saw cuts away; it can't be sold."
+  }
+ ],
+ "confusable": [
+  [
+   "Reversible loss",
+   "Irreversible loss"
+  ],
+  [
+   "Analytical-calculated",
+   "Comparative-analogy"
+  ],
+  [
+   "Blue ocean",
+   "Red ocean"
+  ]
+ ],
+ "facts": [
+  [
+   1,
+   "We need standards to manage and to {improve|certify|sell|hire}."
+  ],
+  [
+   1,
+   "In target costing the goal price minus the profit gives the limit for {costs|sales|wages|taxes}."
+  ],
+  [
+   2,
+   "Material lost in the pipelines is a technically {unavoidable|optional|reversible|useful} loss."
+  ],
+  [
+   2,
+   "From 100 l of wine you can promise {199|200|198|201} bottles of 500 ml."
+  ],
+  [
+   2,
+   "The CMU of the wine barrel is {99.5|100|99|95} %."
+  ],
+  [
+   3,
+   "One 30 × 30 cm square gives a CMU of {78.54|63.62|49.48|58.90} %."
+  ],
+  [
+   3,
+   "If a sheet is not used at all in the order, its CMU is {0|50|100|25} %."
+  ],
+  [
+   4,
+   "If two bar plans have the same CMU, keep the one with the {bigger|smaller|fewer|cheaper} leftovers."
+  ]
+ ],
+ "sheet": [
+  [
+   "The four CMUs (office chair, lecture)",
+   [
+    "CMU of…",
+    "Normal chair 30 × 30",
+    "Kids' chair 24 × 24"
+   ],
+   [
+    [
+     "one press cycle",
+     "78.54 %",
+     "78.54 %"
+    ],
+    [
+     "one full sheet",
+     "63.62 %",
+     "72.38 %"
+    ],
+    [
+     "the partly used sheet",
+     "49.48 %",
+     "45.24 %"
+    ],
+    [
+     "the whole purchase",
+     "58.90 %",
+     "≈ 56.5 %"
+    ]
+   ]
+  ],
+  [
+   "Practice Test 1, bars",
+   [
+    "Question",
+    "Answer"
+   ],
+   [
+    [
+     "CMU, best plan",
+     "96.11 % (90 m bought, 86.5 m used)"
+    ],
+    [
+     "What to order",
+     "7 × 12 m + 1 × 6 m (bigger leftovers)"
+    ],
+    [
+     "Cut to size for +5 %?",
+     "No: 3.89 % < 5 %"
+    ],
+    [
+     "Leftover value",
+     "3.38 m · 19.5 · 50 % · 25 = 824 CZK"
+    ],
+    [
+     "Only 6 m bars",
+     "CMU 90.10 % → lose 9.9 % now vs 13.89 % waiting → go now"
+    ]
+   ]
+  ]
+ ]
+}

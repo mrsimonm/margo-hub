@@ -1,0 +1,262 @@
+{
+ "id": "test2",
+ "title": "Test 2 study path",
+ "short": "Test 2",
+ "units": [
+  {
+   "id": "u4a",
+   "title": "Sequencing rules and Gantt",
+   "sub": "Lecture 7",
+   "bites": [
+    {
+     "id": "p4-r1",
+     "type": "read",
+     "title": "Five rules",
+     "html": "<p><b>DD</b> earliest due date · <b>FIFO</b> table order · <b>LIFO</b> reverse · <b>LOT</b> longest first · <b>SOT</b> shortest first.</p><p>For each rule: finish times, then lateness = max(0, finish − due). Compare the average time in process AND the average lateness.</p>"
+    },
+    {
+     "id": "p4-f1",
+     "type": "formulas",
+     "title": "Two formulas",
+     "ids": [
+      "s-late",
+      "s-avg"
+     ],
+     "html": ""
+    },
+    {
+     "id": "p4-w1",
+     "type": "read",
+     "title": "Tap the jobs into order",
+     "html": "<div class=\"mg\" data-g=\"rules\" data-preset=\"steve\"></div>"
+    },
+    {
+     "id": "p4-q1",
+     "type": "quiz",
+     "q": "A job finishes on day 9 and is due on day 6. Lateness?",
+     "options": [
+      "3",
+      "0",
+      "−3",
+      "9"
+     ],
+     "right": 0,
+     "why": "9 − 6 = 3. If it finished early it would be 0, never negative."
+    },
+    {
+     "id": "p4-w2",
+     "type": "read",
+     "title": "Gantt with Czech holidays",
+     "html": "<p>Christmas: 24, 25, 26 December and 1 January are days off. Share half days.</p><div class=\"mg\" data-g=\"drill\" data-kind=\"gantt\"></div>"
+    },
+    {
+     "type": "exercise",
+     "set": "a4",
+     "ex": "5"
+    }
+   ]
+  },
+  {
+   "id": "u4b",
+   "title": "Gradual, parallel, DBR",
+   "sub": "Seminar 7",
+   "bites": [
+    {
+     "id": "p4-r2",
+     "type": "read",
+     "title": "The method",
+     "html": "<p>Cycles = order / (P · S), rounded <b>up</b>.</p><ul><li><b>Gradual</b>: every operation, one after the other.</li><li><b>Parallel</b>: find the longest operation, add the head before it and the tail after it.</li><li><b>DBR</b>: drum (the longest) + tail.</li></ul><p>Then ask: does the setup need the previous operation's units?</p>"
+    },
+    {
+     "id": "p4-f2",
+     "type": "formulas",
+     "title": "Formulas",
+     "ids": [
+      "s-cyc",
+      "s-op",
+      "s-grad",
+      "s-par",
+      "s-dbr"
+     ],
+     "html": ""
+    },
+    {
+     "id": "p4-e1",
+     "type": "example",
+     "title": "Seminar: 20 units, parallel",
+     "intro": "Op1 20 min (setup 20, 4 units per cycle) · Op2 20 (setup 20, 4 per cycle) · Op3 8 (2 per cycle) · Op4 15 (2 per cycle).",
+     "steps": [
+      {
+       "html": "Cycles: 5, 5, 10, 10. Lengths: 120, 120, 80, 150."
+      },
+      {
+       "html": "Longest: Op4 = 150. It is the last, so no tail."
+      },
+      {
+       "html": "Head: Op3 one cycle (8), Op2 setup + one cycle (20 + 20), Op1 setup + one cycle (20 + 20)."
+      },
+      {
+       "html": "Parallel = 150 + 8 + 40 + 40 = <b>238 min</b>. DBR = 150."
+      }
+     ]
+    },
+    {
+     "id": "p4-w3",
+     "type": "read",
+     "title": "Try every mode",
+     "html": "<div class=\"mg\" data-g=\"seqline\" data-preset=\"seminar\"></div>"
+    },
+    {
+     "id": "p4-q2",
+     "type": "quiz",
+     "q": "22 units, 4 per cycle. Cycles?",
+     "options": [
+      "6",
+      "5.5",
+      "5",
+      "22"
+     ],
+     "right": 0,
+     "why": "22 / 4 = 5.5 → 6: the last cycle carries only 2 units."
+    },
+    {
+     "id": "p4-w4",
+     "type": "read",
+     "title": "New numbers",
+     "html": "<div class=\"mg\" data-g=\"drill\" data-kind=\"seq-lead\"></div>"
+    },
+    {
+     "type": "exercise",
+     "set": "a4",
+     "ex": "1"
+    },
+    {
+     "type": "exercise",
+     "set": "a4",
+     "ex": "2"
+    }
+   ]
+  },
+  {
+   "id": "u5",
+   "title": "Choosing the technology",
+   "sub": "Seminar 8",
+   "bites": [
+    {
+     "id": "p5-f1",
+     "type": "formulas",
+     "title": "Cost lines",
+     "ids": [
+      "k-tc",
+      "k-q"
+     ],
+     "html": ""
+    },
+    {
+     "id": "p5-w1",
+     "type": "read",
+     "title": "Move the order size",
+     "html": "<div class=\"mg\" data-g=\"breakeven\" data-preset=\"abc\"></div>"
+    },
+    {
+     "id": "p5-q1",
+     "type": "quiz",
+     "q": "B is cheapest until 7 600 but its capacity is 5 000. What happens at 5 001?",
+     "options": [
+      "The cheapest line that still exists takes over",
+      "B keeps going",
+      "Nothing can be produced",
+      "Divide by 12"
+     ],
+     "right": 0,
+     "why": "That's the jump."
+    },
+    {
+     "id": "p5-w2",
+     "type": "read",
+     "title": "New numbers",
+     "html": "<div class=\"mg\" data-g=\"drill\" data-kind=\"be\"></div>"
+    },
+    {
+     "type": "exercise",
+     "set": "a5",
+     "ex": "3"
+    },
+    {
+     "type": "exercise",
+     "set": "a5",
+     "ex": "4"
+    }
+   ]
+  },
+  {
+   "id": "u6",
+   "title": "Theory: design, Lean, TOC, JIT, Industry 4.0",
+   "sub": "Lecture 8 + Seminar 8",
+   "bites": [
+    {
+     "id": "p6-r1",
+     "type": "read",
+     "title": "Five parts of process design",
+     "html": "<p>Product/service design · process technology · people, jobs and organisation · layout and flow · supply network design.</p>"
+    },
+    {
+     "id": "p6-w1",
+     "type": "read",
+     "title": "TOC in order",
+     "html": "<div class=\"mg\" data-g=\"order\" data-set=\"toc\"></div>"
+    },
+    {
+     "id": "p6-w2",
+     "type": "read",
+     "title": "Pull → JIT → JIS → Kanban",
+     "html": "<div class=\"mg\" data-g=\"order\" data-set=\"pull\"></div>"
+    },
+    {
+     "id": "p6-q1",
+     "type": "quiz",
+     "q": "Six Sigma is about…",
+     "options": [
+      "variability",
+      "waste",
+      "the long-term philosophy",
+      "the bottleneck"
+     ],
+     "right": 0,
+     "why": "Lean = effectiveness and waste; Six Sigma = variability."
+    },
+    {
+     "id": "p6-w3",
+     "type": "read",
+     "title": "Write the answers",
+     "html": "<div class=\"mg\" data-g=\"explain\" data-set=\"t2\"></div>"
+    },
+    {
+     "id": "p6-w4",
+     "type": "read",
+     "title": "Industry 4.0",
+     "html": "<p>17 technologies: explain each one and give one example. Use the 🃏 cards in lesson 7.</p><div class=\"mg\" data-g=\"sort\" data-set=\"i40\"></div>"
+    }
+   ]
+  },
+  {
+   "id": "u7",
+   "title": "Final: find the mistakes, then the mock test",
+   "sub": "90 minutes",
+   "bites": [
+    {
+     "id": "p7-w1",
+     "type": "read",
+     "title": "Find the mistake",
+     "html": "<div class=\"mg\" data-g=\"trap\" data-set=\"t2\"></div>"
+    },
+    {
+     "id": "p7-w2",
+     "type": "read",
+     "title": "Mock test",
+     "html": "<div class=\"mg\" data-g=\"mock\" data-test=\"2\"></div>"
+    }
+   ]
+  }
+ ]
+}

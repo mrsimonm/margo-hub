@@ -1,0 +1,214 @@
+{
+ "seminar": "Practice Test 1",
+ "title": "Practice Test 1 · work standards and Little's Law",
+ "source": "Exercises to practice, First Test (F. Martinez) and its answer key",
+ "formulas": [
+  "time",
+  "little"
+ ],
+ "intro": "<b>Work standards in order:</b><ul><li>Classify each activity: A unit, B batch, C shift time (some shift time is written outside the table).</li><li>NEED = unit time · units + batch time. HAVE = 480 − shift time.</li><li>Shifts = NEED / HAVE → full shifts + the minutes of the first day → count back from 17:00.</li></ul>",
+ "exercises": [
+  {
+   "id": "2",
+   "text": "A batch of 120 pieces must be completed at the end of this Friday shift. Decide when it must start (day and shift; Monday = shift 1, one 8-hour shift a day starting at 9:00). Each shift uses 12 min for general cleaning of the shop floor at the end.",
+   "table": {
+    "head": [
+     "Operation",
+     "LTL",
+     "µ",
+     "UTL"
+    ],
+    "rows": [
+     [
+      "Preparing the workplace",
+      "4.0",
+      "5.0",
+      "6.0"
+     ],
+     [
+      "Studying workflow and drawing",
+      "6.0",
+      "8.0",
+      "10.0"
+     ],
+     [
+      "Adjustment of machine",
+      "140.0",
+      "150.0",
+      "160.0"
+     ],
+     [
+      "Clamp the workpiece",
+      "0.3",
+      "0.5",
+      "0.7"
+     ],
+     [
+      "Turning one piece",
+      "13.0",
+      "13.5",
+      "14.0"
+     ],
+     [
+      "Release workpiece",
+      "0.4",
+      "0.5",
+      "0.6"
+     ],
+     [
+      "Check one (each) piece",
+      "0.49",
+      "0.5",
+      "0.51"
+     ],
+     [
+      "Handing over completed work",
+      "6.0",
+      "7.0",
+      "8.0"
+     ],
+     [
+      "Cleaning workplace",
+      "4.0",
+      "5.0",
+      "6.0"
+     ]
+    ]
+   },
+   "parts": [
+    {
+     "q": "a) Unit time, µ (min)",
+     "ans": 15,
+     "show": "15 min",
+     "f": [
+      "t-ta"
+     ],
+     "model": "Clamp 0.5 + turn 13.5 + release 0.5 + check 0.5 = 15 (type A: repeats for every piece)."
+    },
+    {
+     "q": "a) Batch time, µ (min)",
+     "ans": 165,
+     "show": "165 min",
+     "f": [
+      "t-tb"
+     ],
+     "model": "Drawing 8 + adjustment 150 + handing over 7 = 165 (type B)."
+    },
+    {
+     "q": "a) Shift time, µ (min)",
+     "ans": 22,
+     "show": "22 min",
+     "f": [
+      "t-tc"
+     ],
+     "model": "Preparing 5 + cleaning the workplace 5 + general cleaning 12 (outside the table) = 22 (type C)."
+    },
+    {
+     "q": "b) Time to manufacture the batch, µ (min)",
+     "ans": 1965,
+     "show": "1 965 min",
+     "f": [
+      "t-need"
+     ],
+     "model": "15 · 120 + 165 = 1 965."
+    },
+    {
+     "q": "b) Same with LTL (min)",
+     "ans": 1854.8,
+     "show": "1 854.8 min",
+     "f": [
+      "t-need"
+     ],
+     "model": "14.19 · 120 + 152 = 1 854.8."
+    },
+    {
+     "q": "b) Same with UTL (min)",
+     "ans": 2075.2,
+     "show": "2 075.2 min",
+     "f": [
+      "t-need"
+     ],
+     "model": "15.81 · 120 + 178 = 2 075.2."
+    },
+    {
+     "q": "c) Time you HAVE per shift, µ (min)",
+     "ans": 458,
+     "show": "458 min",
+     "f": [
+      "t-have"
+     ],
+     "model": "480 − 22 = 458."
+    },
+    {
+     "q": "c) Shifts needed, µ (2 decimals)",
+     "ans": 4.29,
+     "show": "4.29",
+     "f": [
+      "t-shifts"
+     ],
+     "model": "1 965 / 458 = 4.29: 4 full shifts (Tuesday–Friday) + part of Monday.",
+     "tol": 0.01
+    },
+    {
+     "q": "c) Minutes still needed on the first day, µ",
+     "ans": 133,
+     "show": "133 min",
+     "f": [
+      "t-shifts"
+     ],
+     "model": "1 965 − 4 · 458 = 133."
+    },
+    {
+     "q": "c) When must it start (µ)?",
+     "type": "choice",
+     "options": [
+      "Monday (shift 1) at 14:30",
+      "Monday at 14:47",
+      "Tuesday at 9:00",
+      "Monday at 9:00"
+     ],
+     "right": 0,
+     "f": [
+      "t-shifts"
+     ],
+     "model": "The last 17 min of the day are cleaning (5 + 12). Count back 133 + 17 = 150 min from 17:00 → 14:30. With LTL ≈ 16:29, with UTL ≈ 12:31. The key assumes an activity can be split between days."
+    }
+   ]
+  },
+  {
+   "id": "4",
+   "text": "Little's Law. a) A coffee-shop queue has 10 people; one barista needs about 5 min per customer. b) A product waits 2 days in finished-goods inventory; the factory makes 10 finished goods per day. c) At peak a system processes 8 000 transactions per hour, average response time about 5 s, average think time per user about 30 s.",
+   "parts": [
+    {
+     "q": "a) Baristas needed to serve the 10 customers in 25 min",
+     "ans": 2,
+     "show": "2",
+     "f": [
+      "l-law",
+      "l-rate"
+     ],
+     "model": "One barista: 10 · 5 = 50 min. For 25 min you need half the time per customer (2.5 min) → 2 baristas."
+    },
+    {
+     "q": "b) Finished goods in inventory",
+     "ans": 20,
+     "show": "20",
+     "f": [
+      "l-law"
+     ],
+     "model": "10 per day · 2 days = 20."
+    },
+    {
+     "q": "c) Concurrent users",
+     "ans": 77.78,
+     "show": "≈ 77.7",
+     "f": [
+      "l-users"
+     ],
+     "model": "X = 8 000 / 3 600 = 2.22 per s. N = (5 + 30) · 2.22 = 77.7 (with the exact 2.222…: 77.8).",
+     "tol": 0.2
+    }
+   ]
+  }
+ ]
+}

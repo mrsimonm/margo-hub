@@ -1,0 +1,361 @@
+{
+ "num": 5,
+ "id": "t5",
+ "title": "Process design and choosing the technology",
+ "short": "Process design",
+ "sub": "Lecture 8 + Seminar 8 · the five parts of process design, QFD, process technology, people, layout, supply network, break-even",
+ "blurb": "Turn a nice idea into a process you can run, and pick the cheapest technology for every quantity, capacity jump included.",
+ "h1": "Process design and choosing the technology",
+ "lede": "One theory question (the five parts of process design) and one calculation (choosing the technology) of Test 2. The calculation is a straight-line drawing: two minutes by hand, and it checks whatever Excel or AI gives you.",
+ "six": [
+  "**Process design** is the conceptual exercise that decides the specifics of the activities that create the product or service.",
+  "Five parts: **product/service design, process technology, people jobs and organisation, layout and flow, supply network design**.",
+  "**QFD** (house of quality) turns customer requirements into technical requirements.",
+  "Supply network: low asset specificity → **market**; high specificity and high uncertainty → **vertical integration**.",
+  "**TC = FC + VC · Q**: FC is where the line starts, VC is its slope. Crossing point Q = (FC_B − FC_A) / (VC_A − VC_B).",
+  "With capacities, watch the **jump**. Data per month instead of per year: same numbers, don't divide by 12."
+ ],
+ "must": "choosing the technology",
+ "foot": "Sources: 3BE216 lecture and seminar slides 'Process Design' and 'Selection of Technology', practice Test 2 (exercises 3 and 4) and its answer key, Lecture and Seminar 8 as recorded.",
+ "questions": [
+  {
+   "id": "t5-pd",
+   "q": "Process design is…",
+   "answer": "the conceptual exercise that determines the specifics of the activities that create the product or service",
+   "wrong": [
+    "buying the newest machines",
+    "drawing the logo",
+    "the marketing plan"
+   ],
+   "e": "From the slide. First you design, then you build."
+  },
+  {
+   "id": "t5-five",
+   "q": "Which is NOT one of the five parts of process design?",
+   "answer": "Pricing strategy",
+   "wrong": [
+    "Product/service design",
+    "Process technology",
+    "Supply network design"
+   ],
+   "e": "The five: product/service design, process technology, people jobs and organisation, layout and flow, supply network design.",
+   "fol": true
+  },
+  {
+   "id": "t5-qfd",
+   "q": "QFD (house of quality) is used to…",
+   "answer": "turn customer requirements into technical requirements",
+   "wrong": [
+    "calculate the CMU",
+    "schedule the workers",
+    "choose a supplier"
+   ],
+   "e": "The customer wants 'red'; you manufacture an RGB code you can check."
+  },
+  {
+   "id": "t5-tech",
+   "q": "Process technology determines…",
+   "answer": "the steps, tools, methods and systems to obtain the output",
+   "wrong": [
+    "the price of the product",
+    "the organisation chart",
+    "the brand"
+   ],
+   "e": "From the slide."
+  },
+  {
+   "id": "t5-layout",
+   "q": "Layout and flow determines…",
+   "answer": "where the workstations are and how material, products and information flow",
+   "wrong": [
+    "who the customers are",
+    "which machine is cheapest",
+    "the product colour"
+   ],
+   "e": "How the process works in the real space."
+  },
+  {
+   "id": "t5-job",
+   "q": "Who should write the job description for a production role?",
+   "answer": "The operations manager",
+   "wrong": [
+    "HR alone",
+    "The customer",
+    "Marketing"
+   ],
+   "e": "From the lecture: HR polishes and publishes it, but you know what the job needs."
+  },
+  {
+   "id": "t5-vi",
+   "q": "Very specific material, and nobody on the market makes it (high specificity, high uncertainty). What do you do?",
+   "answer": "Vertical integration: own the supplier",
+   "wrong": [
+    "Buy it on the market",
+    "Sign a contract with any supplier",
+    "Outsource it to the customer"
+   ],
+   "e": "High asset specificity and high uncertainty → vertical integration."
+  },
+  {
+   "id": "t5-mkt",
+   "q": "A simple item that many suppliers sell (low asset specificity). What do you do?",
+   "answer": "Buy it on the market (market transaction)",
+   "wrong": [
+    "Vertical integration",
+    "Build your own factory",
+    "A long contract"
+   ],
+   "e": "Low asset specificity → market transaction, whatever the uncertainty."
+  },
+  {
+   "id": "t5-tc",
+   "q": "In TC = FC + VC · Q, the fixed cost is…",
+   "answer": "where the line starts on the cost axis",
+   "wrong": [
+    "the slope of the line",
+    "the crossing point",
+    "the capacity"
+   ],
+   "e": "VC is the slope.",
+   "fol": true
+  },
+  {
+   "id": "t5-q",
+   "q": "CNC-A: FC 2.7 M, VC 240. CNC-B: FC 3.6 M, VC 210. Where do they cost the same?",
+   "answer": "30 000 units",
+   "wrong": [
+    "25 000 units",
+    "35 000 units",
+    "3 000 units"
+   ],
+   "e": "Q = (3 600 000 − 2 700 000) / (240 − 210) = 900 000 / 30 = 30 000.",
+   "fol": true
+  },
+  {
+   "id": "t5-cnc",
+   "q": "Same machines: you need 35 000 units. Which CNC?",
+   "answer": "CNC-B",
+   "wrong": [
+    "CNC-A",
+    "Either",
+    "Neither"
+   ],
+   "e": "Above 30 000 the flatter line (lower VC) is cheaper."
+  },
+  {
+   "id": "t5-jump",
+   "q": "B is cheapest up to 7 600 but can only make 5 000. A is cheaper than C up to 6 000. For 5 500 units?",
+   "answer": "A",
+   "wrong": [
+    "B",
+    "C",
+    "None"
+   ],
+   "e": "The jump: B no longer exists, compare A and C → A up to 6 000."
+  },
+  {
+   "id": "t5-month",
+   "q": "The same cost table is given per month instead of per year. What changes?",
+   "answer": "Only the unit: the intervals are now per month",
+   "wrong": [
+    "Divide the fixed costs by 12",
+    "Multiply the variable costs by 12",
+    "Everything must be recalculated"
+   ],
+   "e": "Same numbers, per month. Don't divide by 12."
+  },
+  {
+   "id": "t5-par",
+   "q": "Two options have the same variable cost. What do you choose?",
+   "answer": "The one with the lower fixed cost, at every quantity",
+   "wrong": [
+    "The one with the higher capacity",
+    "They cross at Q = 0",
+    "It depends on Q"
+   ],
+   "e": "Parallel lines never cross."
+  },
+  {
+   "id": "t5-sup",
+   "q": "Suppliers I (FC 10 000, VC 400), II (30 000, 200), III (40 000, 150). Cheapest for 150 pieces, no capacities?",
+   "answer": "II",
+   "wrong": [
+    "I",
+    "III",
+    "I and III equally"
+   ],
+   "e": "I up to 100, II from 100 to 200, III above 200. The I/III crossing at 120 doesn't matter: it is above II."
+  },
+  {
+   "id": "t5-cnc3d",
+   "q": "You need thousands of identical metal parts. CNC or 3D printing?",
+   "answer": "CNC: 3D printing is still much slower for big volumes",
+   "wrong": [
+    "3D printing: it is always cheaper",
+    "Either, the time is the same",
+    "Neither: only manual work"
+   ],
+   "e": "From the lecture: one part in 15 min on a CNC can take 3 hours printed."
+  }
+ ],
+ "vocab": [
+  {
+   "group": "Process design",
+   "term": "Process design",
+   "meaning": "The conceptual exercise deciding the specifics of the activities that create the output."
+  },
+  {
+   "group": "Process design",
+   "term": "Product/service design",
+   "meaning": "Decides the output of the process."
+  },
+  {
+   "group": "Process design",
+   "term": "Process technology",
+   "meaning": "The steps, tools, methods and systems that obtain the output."
+  },
+  {
+   "group": "Process design",
+   "term": "People, jobs and organisation",
+   "meaning": "Organisational structure, job descriptions and profiles, coordinated with HR."
+  },
+  {
+   "group": "Process design",
+   "term": "Layout and flow",
+   "meaning": "Where the workstations are and how material and information flow."
+  },
+  {
+   "group": "Process design",
+   "term": "Supply network design",
+   "meaning": "The operation in the context of its suppliers and customers."
+  },
+  {
+   "group": "Tools",
+   "term": "QFD",
+   "meaning": "Quality function deployment, the house of quality: customer requirements → technical requirements."
+  },
+  {
+   "group": "Technology",
+   "term": "CAD/CAM",
+   "meaning": "Computer-aided design and computer-aided manufacturing."
+  },
+  {
+   "group": "Technology",
+   "term": "CNC",
+   "meaning": "Computer numerical control: a machine tool run by a computer program."
+  },
+  {
+   "group": "Technology",
+   "term": "FMS",
+   "meaning": "Flexible manufacturing system."
+  },
+  {
+   "group": "Technology",
+   "term": "CRM",
+   "meaning": "Customer relationship management: learning and keeping customer needs to reach the highest profit."
+  },
+  {
+   "group": "Supply network",
+   "term": "Vertical integration",
+   "meaning": "Owning the supplier (upstream) or the route to the customer (downstream)."
+  },
+  {
+   "group": "Supply network",
+   "term": "Asset specificity",
+   "meaning": "How specific the thing you need is."
+  },
+  {
+   "group": "Choosing technology",
+   "term": "Fixed cost (FC)",
+   "meaning": "Cost that doesn't depend on the quantity: the start of the line."
+  },
+  {
+   "group": "Choosing technology",
+   "term": "Variable cost (VC)",
+   "meaning": "Cost per unit: the slope of the line."
+  },
+  {
+   "group": "Choosing technology",
+   "term": "Break-even quantity",
+   "meaning": "The quantity where two options cost the same."
+  }
+ ],
+ "confusable": [
+  [
+   "Fixed cost (FC)",
+   "Variable cost (VC)"
+  ],
+  [
+   "CAD/CAM",
+   "CNC",
+   "FMS"
+  ],
+  [
+   "Process technology",
+   "Layout and flow"
+  ]
+ ],
+ "facts": [
+  [
+   1,
+   "QFD turns customer requirements into {technical|financial|legal|marketing} requirements."
+  ],
+  [
+   2,
+   "A 3D printer for metal is still much {slower|faster|cheaper|bigger} than a CNC for big volumes."
+  ],
+  [
+   3,
+   "Low asset specificity means you buy it on the {market|contract|factory|stock}."
+  ],
+  [
+   4,
+   "In TC = FC + VC · Q the variable cost is the {slope|start|end|crossing} of the line."
+  ],
+  [
+   4,
+   "CNC-A and CNC-B cost the same at {30000|25000|35000|50000} units."
+  ],
+  [
+   4,
+   "Data per month instead of per year: do not divide by {12|2|100|52}."
+  ]
+ ],
+ "sheet": [
+  [
+   "Practice Test 2, exercise 3 (lines A, B, C)",
+   [
+    "",
+    "Without capacities",
+    "With capacities"
+   ],
+   [
+    [
+     "Crossings",
+     "Q A–B 8 000 · B–C 7 600 · A–C 6 000",
+     ""
+    ],
+    [
+     "Intervals",
+     "B 0–7 600 · C 7 600–∞",
+     "B 0–5 000 · A 5 001–6 000 · C 6 000–11 000"
+    ]
+   ]
+  ],
+  [
+   "Practice Test 2, exercise 4 (facilities)",
+   [
+    "",
+    "Without capacities",
+    "With capacities"
+   ],
+   [
+    [
+     "Intervals",
+     "Tabor 0–5 134 · Plzen 5 134–8 450 · Liberec 8 450–∞",
+     "Tabor 0–5 134 · Plzen –6 000 · Tabor 6 001–6 460 · Liberec –9 000 · Brno 9 001–25 000"
+    ]
+   ]
+  ]
+ ]
+}

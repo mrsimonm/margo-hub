@@ -1,11 +1,11 @@
 # Study Hub: notes for the coding agent
 
-Unified static study site combining **Bio Hub**, **Eco Hub** and **Geology Hub** into a single PWA with a top-bar subject switcher dropdown (`switcher.js`).
+Unified static study site combining **Statistics Hub**, **Micro Hub** and **Op Man Hub** into a single PWA with a top-bar subject switcher dropdown (`switcher.js`).
 
 ## Structure
 - `index.html`: reopens the last subject studied (`localStorage` key `margoHub.last`), or shows the subject picker screen on first visit / `?pick=1`.
 - `switcher.js`: adds the `Subjects ▾` button and dropdown menu to `.top .brand` inside every sub-hub without altering hub logic or layout.
-- `stats/`, `micro/`: exact copies of `~/Projects/stats-hub` and `~/Projects/micro-hub`, wired to `../manifest.webmanifest`, `../sw.js`, and `../switcher.js`.
+- `stats/`, `micro/`, `opman/`: exact copies of `~/Projects/stats-hub`, `~/Projects/micro-hub` and `~/Projects/opman-hub`, wired to `../manifest.webmanifest`, `../sw.js`, and `../switcher.js`.
 - `sw.js`, `manifest.webmanifest`, `icon-*.png`: unified offline PWA shell covering all three subjects.
 - `tools/sync-from-hubs.js`: re-syncs `stats/` and `micro/` cleanly from the standalone project folders.
 - `tools/validate.js`: runs lecture validation across both subjects.

@@ -1,0 +1,153 @@
+{
+ "seminar": "Practice Test 1",
+ "title": "Practice Test 1 · material standards",
+ "source": "Exercises to practice, First Test (F. Martinez) and its answer key",
+ "formulas": [
+  "mat"
+ ],
+ "intro": "<b>The teacher's order of work for bars:</b><ul><li>Focus on ONE bar of the longest length you can buy.</li><li>Fit as many long pieces in it as possible, then fill the rest with short ones.</li><li>Use short bars for what is still missing.</li><li>CMU = used / bought. Same CMU? Keep the plan with the bigger leftovers.</li></ul>",
+ "exercises": [
+  {
+   "id": "1",
+   "text": "A construction company has an order to build 5 garages. The structure needs 3 steel profiles (IPE 140) with a length of 5.4 m and one of a length of 1.1 m. The profiles are sold in bars of 6 m or 12 m. Specific weight per linear metre: 12.9 kg. The cold saw has a width of 0.5 cm, and the heat burns 0.5 mm of material on both sides of the cut.",
+   "parts": [
+    {
+     "q": "a) Total demand of steel profiles (m)",
+     "ans": 86.5,
+     "show": "86.5 m",
+     "f": [
+      "m-req"
+     ],
+     "model": "15 · 5.4 + 5 · 1.1 = 81 + 5.5 = 86.5 m."
+    },
+    {
+     "q": "a) The highest CMU you can reach (%)",
+     "ans": 96.11,
+     "show": "96.11 %",
+     "f": [
+      "m-cmu"
+     ],
+     "model": "Use the 12 m bars as much as possible: 5.4 + 5.4 + 1.1 per bar. The best purchase is 90 m: 86.5 / 90 = 96.11 %.",
+     "tol": 0.05,
+     "note": "Type the number only, without the % sign (for example 96.11)."
+    },
+    {
+     "q": "b) How many long and short bars do you order?",
+     "type": "choice",
+     "options": [
+      "7 × 12 m and 1 × 6 m",
+      "5 × 12 m and 5 × 6 m",
+      "8 × 12 m",
+      "16 × 6 m"
+     ],
+     "right": 0,
+     "f": [
+      "m-cmu"
+     ],
+     "model": "Both 7 + 1 and 5 + 5 reach 96.11 %, but 7 × 12 m + 1 × 6 m leaves longer pieces (2 × 1.2 m), which are easier to sell or reuse."
+    },
+    {
+     "q": "c) The supplier sells the exact lengths for 5 % extra. Take it?",
+     "type": "choice",
+     "options": [
+      "No",
+      "Yes"
+     ],
+     "right": 0,
+     "f": [
+      "m-exact"
+     ],
+     "model": "You lose 1 − CMU = 3.89 %, less than 5 %: no. The difference is small, so the key adds: consider other information before the final decision."
+    },
+    {
+     "q": "d) Sell what is left at 50 % of 19.50 EUR/m (1 EUR = 25 CZK). Price in CZK, without cents",
+     "ans": 824,
+     "show": "824 CZK",
+     "f": [
+      "m-sell"
+     ],
+     "model": "The material burnt by the cuts no longer exists. Left to sell: 3.38 m. 3.38 · 19.5 · 0.5 · 25 = 823.875 → 824 CZK.",
+     "tol": 1
+    },
+    {
+     "q": "e) The 10 m truck is free now, the 12 m truck in 2 days. CMU if you buy only 6 m bars (%)",
+     "ans": 90.1,
+     "show": "90.10 %",
+     "f": [
+      "m-cmu"
+     ],
+     "model": "16 bars of 6 m: 15 × 5.4 m and one bar with the five 1.1 m pieces. 96 m bought → CMU 90.10 %.",
+     "tol": 0.05,
+     "note": "Type the number only, without the % sign (for example 96.11)."
+    },
+    {
+     "q": "e) Stopping production costs 5 % of the material cost per day. Which truck?",
+     "type": "choice",
+     "options": [
+      "The 10 m truck now (6 m bars)",
+      "Wait 2 days for the 12 m truck"
+     ],
+     "right": 0,
+     "f": [
+      "m-wait"
+     ],
+     "model": "Now: lose 9.9 %. Wait: 2 · 5 % + 3.89 % = 13.89 %. Go now."
+    }
+   ]
+  },
+  {
+   "id": "3",
+   "text": "A construction company has an order to build one garage. The structure needs 4 steel profiles of 5.6 m. They are sold in bars of 12 m; the supplier also offers 7 m bars (leftovers from another job). Ignore the cold-saw losses (the material tolerance covers them).",
+   "parts": [
+    {
+     "q": "a) CMU with 12 m bars (%)",
+     "ans": 93.33,
+     "show": "93.33 %",
+     "f": [
+      "m-cmu"
+     ],
+     "model": "Two 5.6 m pieces per 12 m bar: 2 bars, 24 m bought, 22.4 m used → 93.33 %.",
+     "tol": 0.05,
+     "note": "Type the number only, without the % sign (for example 96.11)."
+    },
+    {
+     "q": "a) CMU with 7 m bars (%)",
+     "ans": 80,
+     "show": "80 %",
+     "f": [
+      "m-cmu"
+     ],
+     "model": "One 5.6 m piece per 7 m bar: 4 bars, 28 m bought → 22.4 / 28 = 80 %.",
+     "tol": 0.05,
+     "note": "Type the number only, without the % sign (for example 96.11)."
+    },
+    {
+     "q": "b) Which length do you buy?",
+     "type": "choice",
+     "options": [
+      "2 bars of 12 m",
+      "4 bars of 7 m"
+     ],
+     "right": 0,
+     "f": [
+      "m-cmu"
+     ],
+     "model": "93.33 % > 80 %."
+    },
+    {
+     "q": "c) Exact lengths for 12 % extra?",
+     "type": "choice",
+     "options": [
+      "No",
+      "Yes"
+     ],
+     "right": 0,
+     "f": [
+      "m-exact"
+     ],
+     "model": "You lose only 6.67 % (1 − CMU), far less than 12 %."
+    }
+   ]
+  }
+ ]
+}

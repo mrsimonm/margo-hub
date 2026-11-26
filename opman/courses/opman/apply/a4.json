@@ -1,0 +1,373 @@
+{
+ "seminar": "Practice Test 2",
+ "title": "Practice Test 2 · sequencing and scheduling",
+ "source": "Exercises to practice, Second Test (F. Martinez, 10 Nov 2025) and its answer key",
+ "formulas": [
+  "seq"
+ ],
+ "intro": "<b>Draw it!</b> Cycles = order / (P · S), rounded up. Gradual: add every operation. Parallel: start from the longest operation, add the head (first cycles before it) and the tail (last units after it). DBR: drum + tail. Ask whether the setup needs the units of the previous operation.",
+ "exercises": [
+  {
+   "id": "1",
+   "text": "You must manufacture 20 units of a new product.",
+   "table": {
+    "head": [
+     "Operation",
+     "Time (min)",
+     "Setup (min)",
+     "P workplaces",
+     "S units at once"
+    ],
+    "rows": [
+     [
+      "1",
+      "10",
+      "10",
+      "1",
+      "4"
+     ],
+     [
+      "2",
+      "15",
+      "20",
+      "2",
+      "2"
+     ],
+     [
+      "3",
+      "8",
+      "0",
+      "2",
+      "1"
+     ],
+     [
+      "4",
+      "7",
+      "0",
+      "2",
+      "1"
+     ]
+    ]
+   },
+   "parts": [
+    {
+     "q": "a) Gradual lead time, setup needs the units (min)",
+     "ans": 305,
+     "show": "305 min",
+     "f": [
+      "s-cyc",
+      "s-grad"
+     ],
+     "model": "Cycles 5, 5, 10, 10. (10 + 50) + (20 + 75) + 80 + 70 = 305."
+    },
+    {
+     "q": "a) Gradual, setup without units (min)",
+     "ans": 285,
+     "show": "285 min",
+     "f": [
+      "s-grad"
+     ],
+     "model": "Operation 2's setup runs while operation 1 works: 60 + 75 + 80 + 70 = 285."
+    },
+    {
+     "q": "b) Parallel, setup needs the units (min)",
+     "ans": 138,
+     "show": "138 min",
+     "f": [
+      "s-par"
+     ],
+     "model": "Longest: operation 2 (20 + 5 · 15 = 95). Head: op 1 10 + 10 = 20. Tail: op 2's last 4 units → op 3 2 cycles = 16 → op 3's last 2 units → op 4 1 cycle = 7. 20 + 95 + 16 + 7 = 138."
+    },
+    {
+     "q": "b) Parallel, setup without units (min)",
+     "ans": 122,
+     "show": "122 min",
+     "f": [
+      "s-par"
+     ],
+     "model": "Longest without setups: op 3 (80). Head: op 1 20, op 2 one cycle 15 → op 3 starts at 35; 35 + 80 + op 4 tail 7 = 122."
+    },
+    {
+     "q": "c) 21 units: gradual, setup needs units (min)",
+     "ans": 345,
+     "show": "345 min",
+     "f": [
+      "s-grad"
+     ],
+     "model": "Cycles 6, 6, 11, 11: 70 + 110 + 88 + 77 = 345 (+40)."
+    },
+    {
+     "q": "c) 21 units: parallel, setup needs units (min)",
+     "ans": 145,
+     "show": "145 min",
+     "f": [
+      "s-par"
+     ],
+     "model": "Op 2: 20 + 6 · 15 = 110. 20 + 110 + tail = 145 (+7)."
+    },
+    {
+     "q": "d) DBR, setup needs units (min)",
+     "ans": 118,
+     "show": "118 min",
+     "f": [
+      "s-dbr"
+     ],
+     "model": "Drum: op 2 = 95, then the tail 16 + 7 = 118."
+    },
+    {
+     "q": "d) DBR, setup without units (min)",
+     "ans": 87,
+     "show": "87 min",
+     "f": [
+      "s-dbr"
+     ],
+     "model": "Drum: op 3 = 80, then op 4's last cycle 7 = 87."
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "text": "A manufacturing order of 23 units. Note: the task gives 12 min for operation D, but the answer key's table uses 11 min (giving 200 / 167, 107 / 101, 98 / 46). Here the task's 12 min is used.",
+   "table": {
+    "head": [
+     "Operation",
+     "Time (min)",
+     "Setup (min)",
+     "P workplaces",
+     "S units at once"
+    ],
+    "rows": [
+     [
+      "A",
+      "2",
+      "5",
+      "3",
+      "1"
+     ],
+     [
+      "B",
+      "10",
+      "35",
+      "2",
+      "3"
+     ],
+     [
+      "C",
+      "5",
+      "0",
+      "1",
+      "3"
+     ],
+     [
+      "D",
+      "12",
+      "2",
+      "6",
+      "1"
+     ],
+     [
+      "E",
+      "2",
+      "10",
+      "1",
+      "6"
+     ]
+    ]
+   },
+   "parts": [
+    {
+     "q": "a) Gradual, setup needs the units (min)",
+     "ans": 204,
+     "show": "204 min",
+     "f": [
+      "s-cyc",
+      "s-grad"
+     ],
+     "model": "Cycles 8, 4, 8, 4, 4. 21 + 75 + 40 + 50 + 18 = 204 (key with D = 11: 200)."
+    },
+    {
+     "q": "a) Gradual, setup without units (min)",
+     "ans": 171,
+     "show": "171 min",
+     "f": [
+      "s-grad"
+     ],
+     "model": "A 21 → B starts at 35 (its setup) → 75 → C 115 → D 163 → E 171 (key with D = 11: 167)."
+    },
+    {
+     "q": "b) Parallel, setup needs the units (min)",
+     "ans": 108,
+     "show": "108 min",
+     "f": [
+      "s-par"
+     ],
+     "model": "Longest: B = 35 + 40 = 75. Head: A 5 + 2 · 2 = 9 (B takes 6 units). Tail: B's last 5 units → C 2 cycles = 10 → C's last 2 → D 1 cycle = 12 → E 2. 9 + 75 + 10 + 12 + 2 = 108 (key: 107)."
+    },
+    {
+     "q": "b) Parallel, setup without units (min)",
+     "ans": 105,
+     "show": "105 min",
+     "f": [
+      "s-par"
+     ],
+     "model": "Longest without setups: D = 4 · 12 = 48. B's 35-min setup is longer than A's 9, so B starts at 35; C feeds D after 2 cycles (55); 55 + 48 + E 2 = 105 (key: 101)."
+    },
+    {
+     "q": "c) One more unit (24). What changes?",
+     "type": "choice",
+     "options": [
+      "Nothing",
+      "+2 min",
+      "+10 min",
+      "+1 cycle everywhere"
+     ],
+     "right": 0,
+     "f": [
+      "s-cyc"
+     ],
+     "model": "23 and 24 units need the same number of cycles in every operation, so nothing changes."
+    },
+    {
+     "q": "d) DBR, setup needs the units (min)",
+     "ans": 99,
+     "show": "99 min",
+     "f": [
+      "s-dbr"
+     ],
+     "model": "Drum B 75 + tail 10 + 12 + 2 = 99 (key: 98)."
+    },
+    {
+     "q": "d) DBR, setup without units (min)",
+     "ans": 50,
+     "show": "50 min",
+     "f": [
+      "s-dbr"
+     ],
+     "model": "Drum D 48 + E 2 = 50 (key: 46)."
+    }
+   ]
+  },
+  {
+   "id": "5",
+   "text": "Steve Smith, a web designer, returns from vacation to five jobs, coded I to V in order of arrival. He wants to minimise the average time the jobs are in his office and, if possible, meet the due dates.",
+   "table": {
+    "head": [
+     "Job",
+     "I",
+     "II",
+     "III",
+     "IV",
+     "V"
+    ],
+    "rows": [
+     [
+      "Process time (days)",
+      "3",
+      "5",
+      "6",
+      "2",
+      "1"
+     ],
+     [
+      "Due date",
+      "5",
+      "6",
+      "8",
+      "7",
+      "3"
+     ]
+    ]
+   },
+   "parts": [
+    {
+     "q": "FIFO: average time in process (days)",
+     "ans": 11.6,
+     "show": "11.6",
+     "f": [
+      "s-avg"
+     ],
+     "model": "Finish 3, 8, 14, 16, 17 → 58 / 5 = 11.6.",
+     "tol": 0.01
+    },
+    {
+     "q": "FIFO: average lateness (days)",
+     "ans": 6.2,
+     "show": "6.2",
+     "f": [
+      "s-late",
+      "s-avg"
+     ],
+     "model": "0, 2, 6, 9, 14 → 31 / 5 = 6.2.",
+     "tol": 0.01
+    },
+    {
+     "q": "DD: average time in process",
+     "ans": 8.4,
+     "show": "8.4",
+     "f": [
+      "s-avg"
+     ],
+     "model": "V I II IV III: 1, 4, 9, 11, 17 → 42 / 5.",
+     "tol": 0.01
+    },
+    {
+     "q": "SOT: average time in process",
+     "ans": 7.6,
+     "show": "7.6",
+     "f": [
+      "s-avg"
+     ],
+     "model": "V IV I II III: 1, 3, 6, 11, 17 → 38 / 5.",
+     "tol": 0.01
+    },
+    {
+     "q": "SOT: average lateness",
+     "ans": 3,
+     "show": "3",
+     "f": [
+      "s-late",
+      "s-avg"
+     ],
+     "model": "0, 0, 1, 5, 9 → 15 / 5 = 3.",
+     "tol": 0.01
+    },
+    {
+     "q": "LIFO: average time in process",
+     "ans": 8.8,
+     "show": "8.8",
+     "f": [
+      "s-avg"
+     ],
+     "model": "V IV III II I: 1, 3, 9, 14, 17 → 44 / 5.",
+     "tol": 0.01
+    },
+    {
+     "q": "LOT: average lateness",
+     "ans": 7.4,
+     "show": "7.4",
+     "f": [
+      "s-late",
+      "s-avg"
+     ],
+     "model": "III II I IV V: lateness 0, 5, 9, 9, 14 → 37 / 5.",
+     "tol": 0.01
+    },
+    {
+     "q": "Which rule is best?",
+     "type": "choice",
+     "options": [
+      "SOT",
+      "DD",
+      "FIFO",
+      "LIFO"
+     ],
+     "right": 0,
+     "f": [
+      "s-avg"
+     ],
+     "model": "SOT has the lowest average time (7.6) and the lowest average lateness (3). In the Gantt chart the jobs run V, IV, I, II, III over 17 working days (weekends skipped)."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "id": "test1",
+ "title": "Test 1 study path",
+ "short": "Test 1",
+ "units": [
+  {
+   "id": "v1",
+   "title": "Process types",
+   "sub": "Lectures 2–3",
+   "bites": [
+    {
+     "id": "q1-r1",
+     "type": "read",
+     "title": "Definition",
+     "html": "<p>A <b>process</b> is a set of activities that transforms input into output.</p>"
+    },
+    {
+     "id": "q1-w1",
+     "type": "read",
+     "title": "Where does it sit?",
+     "html": "<div class=\"mg\" data-g=\"sort\" data-set=\"stage\"></div>"
+    }
+   ]
+  },
+  {
+   "id": "v2",
+   "title": "Materials and CMU",
+   "sub": "Lecture + Seminar 4",
+   "bites": [
+    {
+     "id": "q2-f1",
+     "type": "formulas",
+     "title": "Material formulas",
+     "ids": [
+      "m-req",
+      "m-cmu",
+      "m-units",
+      "m-pack",
+      "m-exact"
+     ],
+     "html": ""
+    },
+    {
+     "id": "q2-w1",
+     "type": "read",
+     "title": "Four CMUs",
+     "html": "<div class=\"mg\" data-g=\"drill\" data-kind=\"cmu-sheet\"></div>"
+    },
+    {
+     "id": "q2-w2",
+     "type": "read",
+     "title": "Cut the bars",
+     "html": "<div class=\"mg\" data-g=\"bars\" data-preset=\"garage\"></div>"
+    },
+    {
+     "id": "q2-q1",
+     "type": "quiz",
+     "q": "Same CMU, two plans. Which one?",
+     "options": [
+      "The one with bigger leftovers",
+      "Either",
+      "More 6 m bars",
+      "Fewer bars"
+     ],
+     "right": 0,
+     "why": "Big leftovers are easier to sell or reuse."
+    },
+    {
+     "type": "exercise",
+     "set": "a2",
+     "ex": "1"
+    },
+    {
+     "type": "exercise",
+     "set": "a2",
+     "ex": "3"
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "title": "Time, capacity, Little's Law",
+   "sub": "Lecture 5",
+   "bites": [
+    {
+     "id": "q3-f1",
+     "type": "formulas",
+     "title": "Need and have",
+     "ids": [
+      "t-need",
+      "t-have",
+      "t-shifts"
+     ],
+     "html": ""
+    },
+    {
+     "id": "q3-w1",
+     "type": "read",
+     "title": "Sort the times",
+     "html": "<div class=\"mg\" data-g=\"sort\" data-set=\"timetypes\"></div>"
+    },
+    {
+     "id": "q3-w2",
+     "type": "read",
+     "title": "When to start",
+     "html": "<div class=\"mg\" data-g=\"drill\" data-kind=\"time-start\"></div>"
+    },
+    {
+     "id": "q3-w3",
+     "type": "read",
+     "title": "Little's Law",
+     "html": "<div class=\"mg\" data-g=\"drill\" data-kind=\"little\"></div>"
+    },
+    {
+     "type": "exercise",
+     "set": "a3",
+     "ex": "2"
+    },
+    {
+     "type": "exercise",
+     "set": "a3",
+     "ex": "4"
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "title": "Final: mistakes and mock test",
+   "sub": "90 minutes",
+   "bites": [
+    {
+     "id": "q4-w1",
+     "type": "read",
+     "title": "Find the mistake",
+     "html": "<div class=\"mg\" data-g=\"trap\" data-set=\"t1\"></div>"
+    },
+    {
+     "id": "q4-w2",
+     "type": "read",
+     "title": "Mock test",
+     "html": "<div class=\"mg\" data-g=\"mock\" data-test=\"1\"></div>"
+    }
+   ]
+  }
+ ]
+}

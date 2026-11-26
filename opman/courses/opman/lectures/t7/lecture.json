@@ -1,0 +1,442 @@
+{
+ "num": 7,
+ "id": "t7",
+ "title": "Industry 4.0",
+ "short": "Industry 4.0",
+ "sub": "Seminar 8 · the four industrial revolutions and the 17 technologies of Industry 4.0",
+ "blurb": "The four revolutions in one line each, and all 17 technologies: what they are and one real example, from your own Team O workshop sheet.",
+ "h1": "Industry 4.0",
+ "lede": "Practice Test 2 asks you to explain each of the 17 technologies and give one manufacturing example. The descriptions here come from the seminar slides; the examples come from your own team's workshop sheet.",
+ "six": [
+  "Four revolutions: **1784 steam** (UK) · **1870 electricity** · **1969 electronics** (the microchip) · **Industry 4.0 connectivity**.",
+  "**Industry 4.0** (i4.0): a German concept from **2012**, the Internet of Things applied to industry (IIoT).",
+  "The Czech Academy of Sciences lists **17 technologies** related to Industry 4.0.",
+  "In the test: **explain** each technology and give **one example** in manufacturing.",
+  "As a manager you don't need to be an engineer, but you must judge whether a technology makes sense, financially too."
+ ],
+ "must": "the 17 technologies",
+ "foot": "Sources: 3BE216 seminar slides 'Industry 4.0' (descriptions), your Team O workshop sheet (examples), Seminar 8 as recorded.",
+ "questions": [
+  {
+   "id": "t7-i40",
+   "q": "Industry 4.0 is…",
+   "answer": "a German concept from 2012: connectivity, the Internet of Things applied to industry",
+   "wrong": [
+    "the invention of the steam engine",
+    "the first microchip in 1969",
+    "a Czech law on factories"
+   ],
+   "e": "The fourth industrial revolution: connected machines and products (IIoT).",
+   "fol": true
+  },
+  {
+   "id": "t7-1",
+   "q": "The first industrial revolution (1784, UK) was about…",
+   "answer": "steam",
+   "wrong": [
+    "electricity",
+    "the microchip",
+    "connectivity"
+   ],
+   "e": "Steam made machines possible."
+  },
+  {
+   "id": "t7-2",
+   "q": "The second industrial revolution (around 1870) was about…",
+   "answer": "electricity",
+   "wrong": [
+    "steam",
+    "the microchip",
+    "the internet"
+   ],
+   "e": "A stable source of energy for machines."
+  },
+  {
+   "id": "t7-3",
+   "q": "The third industrial revolution (1969) was about…",
+   "answer": "electronics: the first microchip",
+   "wrong": [
+    "steam",
+    "electricity",
+    "graphene"
+   ],
+   "e": "Computers and automation."
+  },
+  {
+   "id": "t7-n",
+   "q": "How many Industry 4.0 technologies does the Czech Academy of Sciences list?",
+   "answer": "17",
+   "wrong": [
+    "4",
+    "12",
+    "14"
+   ],
+   "e": "From the seminar slide."
+  },
+  {
+   "id": "t7-ar",
+   "q": "'Integrates artificially created objects into an image of the real world' is…",
+   "answer": "augmented reality",
+   "wrong": [
+    "digital modelling",
+    "brain interface",
+    "big data"
+   ],
+   "e": "Example: HoloLens instructions for workers."
+  },
+  {
+   "id": "t7-iot",
+   "q": "'Connectivity and interaction between objects, and remote control' is…",
+   "answer": "Internet of Things",
+   "wrong": [
+    "cognitive computing",
+    "terahertz",
+    "virtual assistants"
+   ],
+   "e": "Example: Bosch Blaichach, 60 000 sensors."
+  },
+  {
+   "id": "t7-rob",
+   "q": "Robots that co-operate with humans by means of sensors are…",
+   "answer": "advanced robotics",
+   "wrong": [
+    "autonomous robots",
+    "brain interface",
+    "machine learning"
+   ],
+   "e": "Autonomous robots, by contrast, work totally without human management."
+  },
+  {
+   "id": "t7-auto",
+   "q": "Robots totally autonomous from human management and decision-making are…",
+   "answer": "autonomous robots",
+   "wrong": [
+    "advanced robotics",
+    "human-machine interaction",
+    "virtual assistants"
+   ],
+   "e": "Example: Symbotic robots in warehouses."
+  },
+  {
+   "id": "t7-bio",
+   "q": "Plants (chlorophyll) used as sensors for indoor conditions are…",
+   "answer": "biosensors",
+   "wrong": [
+    "new sensors",
+    "energy sourcing",
+    "graphene"
+   ],
+   "e": "Example: Vivent PhytlSigns in greenhouses."
+  },
+  {
+   "id": "t7-graph",
+   "q": "The strongest material, conducts heat and electricity, almost transparent:",
+   "answer": "graphene",
+   "wrong": [
+    "terahertz",
+    "quantum technologies",
+    "biosensors"
+   ],
+   "e": "Example: graphene-enhanced smart packaging."
+  },
+  {
+   "id": "t7-thz",
+   "q": "Fast wireless data transfer up to 10^11 bits per second:",
+   "answer": "terahertz",
+   "wrong": [
+    "quantum technologies",
+    "big data",
+    "new sensors"
+   ],
+   "e": "Example from your sheet: TeraView TeraCota checks car paint thickness."
+  },
+  {
+   "id": "t7-energy",
+   "q": "Energy from ambient temperature, vibration or airflow:",
+   "answer": "energy sourcing",
+   "wrong": [
+    "new sensors",
+    "big data",
+    "machine learning"
+   ],
+   "e": "Your sheet's example: BMW's wind turbines in Leipzig."
+  },
+  {
+   "id": "t7-ml",
+   "q": "The ability to adapt to and react positively to changes in the environment:",
+   "answer": "machine learning",
+   "wrong": [
+    "cognitive computing",
+    "big data",
+    "digital modelling"
+   ],
+   "e": "Example: DeepMind cuts data-centre cooling energy."
+  },
+  {
+   "id": "t7-dm",
+   "q": "Simulation models of digital factories, optimised with virtual reality:",
+   "answer": "digital modelling",
+   "wrong": [
+    "augmented reality",
+    "big data",
+    "advanced robotics"
+   ],
+   "e": "Example: BMW factories in NVIDIA Omniverse."
+  }
+ ],
+ "vocab": [
+  {
+   "group": "The 17 technologies",
+   "term": "Advanced robotics",
+   "meaning": "Robots capable of co-operating with humans by means of sensors; more flexibility, variability, complexity and speed."
+  },
+  {
+   "group": "The 17 technologies",
+   "term": "Big data",
+   "meaning": "Processing large data for optimization and improvement … real-time management."
+  },
+  {
+   "group": "The 17 technologies",
+   "term": "Digital modelling",
+   "meaning": "Simulation models of digital factories; optimize production processes with virtual reality."
+  },
+  {
+   "group": "The 17 technologies",
+   "term": "Internet of Things",
+   "meaning": "Connectivity and interaction between objects, and remote control."
+  },
+  {
+   "group": "The 17 technologies",
+   "term": "Human-machine interaction",
+   "meaning": "Collaboration between robots and people based on voice recognition and gestures."
+  },
+  {
+   "group": "The 17 technologies",
+   "term": "Augmented reality",
+   "meaning": "Integrates artificially created objects into an image of the real world."
+  },
+  {
+   "group": "The 17 technologies",
+   "term": "Virtual assistants",
+   "meaning": "Recognise situations derived from individual user needs."
+  },
+  {
+   "group": "The 17 technologies",
+   "term": "Energy sourcing",
+   "meaning": "Energy from ambient temperature, vibration or airflow."
+  },
+  {
+   "group": "The 17 technologies",
+   "term": "New sensors",
+   "meaning": "Data collection and analysis in various areas, with wireless transmission."
+  },
+  {
+   "group": "The 17 technologies",
+   "term": "Machine learning",
+   "meaning": "The ability to adapt to and react positively to changes in the environment."
+  },
+  {
+   "group": "The 17 technologies",
+   "term": "Biosensors",
+   "meaning": "Useful plants (chlorophyll) as sensors for monitoring indoor environmental parameters."
+  },
+  {
+   "group": "The 17 technologies",
+   "term": "Terahertz",
+   "meaning": "Fast wireless data transfer, up to 10^11 bits per second."
+  },
+  {
+   "group": "The 17 technologies",
+   "term": "Autonomous robots",
+   "meaning": "Programmed robots, totally autonomous from human management and decision-making."
+  },
+  {
+   "group": "The 17 technologies",
+   "term": "Brain interface",
+   "meaning": "Lets brain activity trigger external activity."
+  },
+  {
+   "group": "The 17 technologies",
+   "term": "Cognitive computing",
+   "meaning": "Signal processing and learning by example, associative memory, AI and network decision making."
+  },
+  {
+   "group": "The 17 technologies",
+   "term": "Quantum technologies",
+   "meaning": "Extremely high data transfer speeds with high security."
+  },
+  {
+   "group": "The 17 technologies",
+   "term": "New graphene characteristics",
+   "meaning": "The strongest material; conducts heat and electricity; almost transparent."
+  },
+  {
+   "group": "Revolutions",
+   "term": "Industry 4.0",
+   "meaning": "The fourth industrial revolution (Germany, 2012): connectivity, IIoT."
+  }
+ ],
+ "confusable": [
+  [
+   "Advanced robotics",
+   "Autonomous robots",
+   "Human-machine interaction"
+  ],
+  [
+   "Augmented reality",
+   "Digital modelling"
+  ],
+  [
+   "Biosensors",
+   "New sensors"
+  ],
+  [
+   "Machine learning",
+   "Cognitive computing"
+  ],
+  [
+   "Terahertz",
+   "Quantum technologies"
+  ]
+ ],
+ "cards": {
+  "tab": "17 technologies",
+  "h1": "The 17 technologies of Industry 4.0",
+  "who": "Which technology am I?",
+  "lede": "Front: the technology. Back: what it is (seminar slide) and one example (your Team O sheet). Say both before you flip.",
+  "labels": {
+   "d": "What it is",
+   "x": "Example (Team O sheet)"
+  },
+  "keys": [
+   "d",
+   "x"
+  ],
+  "items": [
+   {
+    "n": "Advanced robotics",
+    "grp": "Technology 1",
+    "d": "Robots capable of co-operating with humans by means of sensors; more flexibility, variability, complexity and speed.",
+    "x": "BMW Group uses NVIDIA's Isaac robotics platform to run customised cars, several models on one line, just in time and just in sequence."
+   },
+   {
+    "n": "Big data",
+    "grp": "Technology 2",
+    "d": "Processing large data for optimization and improvement … real-time management.",
+    "x": "Dolle A/S (Denmark) combined shop-floor data with ERP data for descriptive and predictive analytics."
+   },
+   {
+    "n": "Digital modelling",
+    "grp": "Technology 3",
+    "d": "Simulation models of digital factories; optimize production processes with virtual reality.",
+    "x": "BMW simulates its factories in NVIDIA Omniverse: expected efficiency gains of up to 30 %."
+   },
+   {
+    "n": "Internet of Things",
+    "grp": "Technology 4",
+    "d": "Connectivity and interaction between objects, and remote control.",
+    "x": "Bosch's plant in Blaichach uses over 60 000 sensors for monitoring and predictive maintenance."
+   },
+   {
+    "n": "Human-machine interaction",
+    "grp": "Technology 5",
+    "d": "Collaboration between robots and people based on voice recognition and gestures.",
+    "x": "Workers use Siemens SIMATIC HMI touchscreens to control and monitor machines."
+   },
+   {
+    "n": "Augmented reality",
+    "grp": "Technology 6",
+    "d": "Integrates artificially created objects into an image of the real world.",
+    "x": "Microsoft HoloLens shows 3D instructions to guide workers during industrial tasks."
+   },
+   {
+    "n": "Virtual assistants",
+    "grp": "Technology 7",
+    "d": "Recognise situations derived from individual user needs.",
+    "x": "Siemens Industrial Copilot helps factory workers find and solve machine problems."
+   },
+   {
+    "n": "Energy sourcing",
+    "grp": "Technology 8",
+    "d": "Energy from ambient temperature, vibration or airflow.",
+    "x": "BMW uses four wind turbines at its Leipzig factory."
+   },
+   {
+    "n": "New sensors",
+    "grp": "Technology 9",
+    "d": "Data collection and analysis in various areas, with wireless transmission.",
+    "x": "ABB Ability: wireless sensors on factory motors."
+   },
+   {
+    "n": "Machine learning",
+    "grp": "Technology 10",
+    "d": "The ability to adapt to and react positively to changes in the environment.",
+    "x": "Google DeepMind's AI cuts data-centre cooling energy."
+   },
+   {
+    "n": "Biosensors",
+    "grp": "Technology 11",
+    "d": "Useful plants (chlorophyll) as sensors for monitoring indoor environmental parameters.",
+    "x": "Vivent PhytlSigns: plants used as sensors in greenhouses."
+   },
+   {
+    "n": "Terahertz",
+    "grp": "Technology 12",
+    "d": "Fast wireless data transfer, up to 10^11 bits per second.",
+    "x": "TeraView TeraCota checks car paint thickness on the line."
+   },
+   {
+    "n": "Autonomous robots",
+    "grp": "Technology 13",
+    "d": "Programmed robots, totally autonomous from human management and decision-making.",
+    "x": "Symbotic robots in warehousing."
+   },
+   {
+    "n": "Brain interface",
+    "grp": "Technology 14",
+    "d": "Lets brain activity trigger external activity.",
+    "x": "Non-invasive wearable EEG (Fraunhofer)."
+   },
+   {
+    "n": "Cognitive computing",
+    "grp": "Technology 15",
+    "d": "Signal processing and learning by example, associative memory, AI and network decision making.",
+    "x": "OpenText Magellan cognitive analytics."
+   },
+   {
+    "n": "Quantum technologies",
+    "grp": "Technology 16",
+    "d": "Extremely high data transfer speeds with high security.",
+    "x": "SavantX HONE: quantum-powered container logistics."
+   },
+   {
+    "n": "New graphene characteristics",
+    "grp": "Technology 17",
+    "d": "The strongest material; conducts heat and electricity; almost transparent.",
+    "x": "Graphene-enhanced smart packaging (University of Manchester)."
+   }
+  ]
+ },
+ "facts": [
+  [
+   1,
+   "The first industrial revolution started in {1784|1870|1969|2012}."
+  ],
+  [
+   1,
+   "The second industrial revolution brought {electricity|steam|the microchip|the internet}."
+  ],
+  [
+   1,
+   "Industry 4.0 started as a German concept in {2012|1784|1969|2000}."
+  ],
+  [
+   2,
+   "Plants used as sensors are called {biosensors|new sensors|terahertz|graphene}."
+  ],
+  [
+   2,
+   "The strongest material, almost transparent, is {graphene|terahertz|steel|silicon}."
+  ]
+ ]
+}

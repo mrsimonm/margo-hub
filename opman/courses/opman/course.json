@@ -1,0 +1,83 @@
+{
+ "title": "Op Man Hub",
+ "code": "3BE216",
+ "subtitle": "VŠE Prague · Operations Management · organised by test",
+ "intro": "Operations Management (3BE216, Felipe Martinez) organised by test: short lessons, drag-and-drop exercises, calculation drills with new numbers every time, the real practice-test exercises, and 90-minute mock tests like the ones on Moodle.",
+ "footer": "Built from the 3BE216 lecture and seminar slides of Felipe Martinez (VŠE Prague), the practice tests and their answer keys, your team projects, and the lecture recordings (used only as context). If anything here disagrees with the slides, the slides win.",
+ "testsCard": false,
+ "apply": [
+  {
+   "id": "a2",
+   "title": "Practice Test 1 · material standards (exercises 1 and 3)",
+   "file": "apply/a2.json",
+   "test": "test1",
+   "topic": "t2"
+  },
+  {
+   "id": "a3",
+   "title": "Practice Test 1 · work standards and Little's Law (exercises 2 and 4)",
+   "file": "apply/a3.json",
+   "test": "test1",
+   "topic": "t3"
+  },
+  {
+   "id": "a4",
+   "title": "Practice Test 2 · sequencing and scheduling (exercises 1, 2, 5)",
+   "file": "apply/a4.json",
+   "test": "test2",
+   "topic": "t4"
+  },
+  {
+   "id": "a5",
+   "title": "Practice Test 2 · choosing the technology (exercises 3 and 4)",
+   "file": "apply/a5.json",
+   "test": "test2",
+   "topic": "t5"
+  }
+ ],
+ "lectures": [
+  "lectures/t1",
+  "lectures/t2",
+  "lectures/t3",
+  "lectures/t4",
+  "lectures/t5",
+  "lectures/t6",
+  "lectures/t7"
+ ],
+ "tests": [
+  {
+   "id": "test2",
+   "title": "Test 2",
+   "sub": "Operations planning (sequencing rules, Gantt, gradual / parallel / DBR), process design and choosing the technology, modern methods, Industry 4.0. On Moodle, open book, 90 minutes, your own numbers.",
+   "badge": "Up next",
+   "lectures": [
+    "t4",
+    "t5",
+    "t6",
+    "t7"
+   ]
+  },
+  {
+   "id": "state",
+   "title": "State exam theory",
+   "sub": "The definitions the teacher says come back in the state exam: process, standard, target costing, capacity, planning vs control, DBR, TOC, Lean vs Six Sigma, decoupling point, Industry 4.0. Every lecture counts.",
+   "badge": "Later",
+   "all": true
+  },
+  {
+   "id": "test1",
+   "title": "Test 1",
+   "sub": "Resource standards (CMU, steel bars, metal sheets), process standards (time you have vs need, when to start), Little's Law, process types. Good for revision.",
+   "badge": "Revision",
+   "lectures": [
+    "t1",
+    "t2",
+    "t3"
+   ]
+  }
+ ],
+ "paths": [
+  "test2",
+  "test1"
+ ]
+}

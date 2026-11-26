@@ -1,0 +1,279 @@
+{
+ "seminar": "Practice Test 2",
+ "title": "Practice Test 2 · choosing the technology",
+ "source": "Exercises to practice, Second Test (F. Martinez, 10 Nov 2025) and its answer key",
+ "formulas": [
+  "tech"
+ ],
+ "intro": "<b>Steps:</b> find every crossing Q = (FC<sub>B</sub> − FC<sub>A</sub>) / (VC<sub>A</sub> − VC<sub>B</sub>) → sketch the lines (lowest FC starts lowest, lowest VC is flattest) → read the cheapest line per interval → add the capacities and watch for the jump.",
+ "exercises": [
+  {
+   "id": "3",
+   "text": "A new product portfolio can be made on three technological lines with different fixed and variable costs.",
+   "table": {
+    "head": [
+     "CZK",
+     "Option A",
+     "Option B",
+     "Option C"
+    ],
+    "rows": [
+     [
+      "Rent / year",
+      "600 000",
+      "600 000",
+      "600 000"
+     ],
+     [
+      "Depreciation / year",
+      "300 000",
+      "200 000",
+      "400 000"
+     ],
+     [
+      "Other fixed costs / year",
+      "180 000",
+      "120 000",
+      "110 000"
+     ],
+     [
+      "Material / unit",
+      "25",
+      "35",
+      "55"
+     ],
+     [
+      "Payroll / unit",
+      "90",
+      "100",
+      "55"
+     ],
+     [
+      "Annual capacity (units)",
+      "11 000",
+      "5 000",
+      "11 000"
+     ]
+    ]
+   },
+   "parts": [
+    {
+     "q": "Fixed cost of A per year (CZK)",
+     "ans": 1080000,
+     "show": "1 080 000",
+     "f": [
+      "k-fc"
+     ],
+     "model": "600 000 + 300 000 + 180 000."
+    },
+    {
+     "q": "Variable cost of B per unit (CZK)",
+     "ans": 135,
+     "show": "135",
+     "f": [
+      "k-vc"
+     ],
+     "model": "35 + 100."
+    },
+    {
+     "q": "a) Q where A and B cost the same",
+     "ans": 8000,
+     "show": "8 000",
+     "f": [
+      "k-q"
+     ],
+     "model": "(1 080 000 − 920 000) / (135 − 115) = 160 000 / 20 = 8 000."
+    },
+    {
+     "q": "a) Q where B and C cost the same",
+     "ans": 7600,
+     "show": "7 600",
+     "f": [
+      "k-q"
+     ],
+     "model": "(1 110 000 − 920 000) / (135 − 110) = 190 000 / 25 = 7 600."
+    },
+    {
+     "q": "a) Q where A and C cost the same",
+     "ans": 6000,
+     "show": "6 000",
+     "f": [
+      "k-q"
+     ],
+     "model": "(1 110 000 − 1 080 000) / (115 − 110) = 30 000 / 5 = 6 000."
+    },
+    {
+     "q": "a) Cheapest intervals without capacities:",
+     "type": "choice",
+     "options": [
+      "B 0–7 600, then C",
+      "A 0–6 000, then C",
+      "B 0–8 000, then A",
+      "B 0–5 000, A 5 001–6 000, C above"
+     ],
+     "right": 0,
+     "f": [
+      "k-tc"
+     ],
+     "model": "A is never the lowest line; B is cheapest until it crosses C at 7 600."
+    },
+    {
+     "q": "b) With the annual capacities:",
+     "type": "choice",
+     "options": [
+      "B 0–5 000, A 5 001–6 000, C 6 000–11 000",
+      "B 0–7 600, C 7 600–11 000",
+      "B 0–5 000, C 5 001–11 000",
+      "A 0–6 000, C 6 000–11 000"
+     ],
+     "right": 0,
+     "f": [
+      "k-tc"
+     ],
+     "model": "B stops at 5 000 (the jump); then A is cheaper than C up to 6 000."
+    },
+    {
+     "q": "c) The same data per month instead of per year:",
+     "type": "choice",
+     "options": [
+      "Same intervals, but per month",
+      "Divide fixed costs by 12 and recalculate",
+      "Multiply the capacities by 12",
+      "B becomes the cheapest everywhere"
+     ],
+     "right": 0,
+     "f": [
+      "k-tc"
+     ],
+     "model": "Same numbers within a month. Don't divide by 12."
+    }
+   ]
+  },
+  {
+   "id": "4",
+   "text": "Four facilities can make the new product, each with different fixed and variable costs relative to the Prague warehouse. Transport has a fixed cost of 2 CZK/km and an average of 1 000 trips a year.",
+   "table": {
+    "head": [
+     "",
+     "Liberec",
+     "Brno",
+     "Tabor",
+     "Plzen"
+    ],
+    "rows": [
+     [
+      "Distance (km)",
+      "113",
+      "206",
+      "91",
+      "99"
+     ],
+     [
+      "Warehouse management CZK/year",
+      "300 000",
+      "500 000",
+      "150 000",
+      "200 000"
+     ],
+     [
+      "Maintenance CZK/year",
+      "140 000",
+      "150 000",
+      "11 000",
+      "99 000"
+     ],
+     [
+      "Transport CZK/unit",
+      "5",
+      "55",
+      "75",
+      "30"
+     ],
+     [
+      "Packaging CZK/unit",
+      "45",
+      "145",
+      "25",
+      "40"
+     ],
+     [
+      "Annual capacity",
+      "9 000",
+      "25 000",
+      "9 000",
+      "6 000"
+     ]
+    ]
+   },
+   "parts": [
+    {
+     "q": "Fixed cost of Tabor per year (CZK)",
+     "ans": 343000,
+     "show": "343 000",
+     "f": [
+      "k-fc"
+     ],
+     "model": "150 000 + 11 000 + 2 · 91 · 1 000 = 343 000."
+    },
+    {
+     "q": "Fixed cost of Plzen per year (CZK)",
+     "ans": 497000,
+     "show": "497 000",
+     "f": [
+      "k-fc"
+     ],
+     "model": "200 000 + 99 000 + 2 · 99 · 1 000 = 497 000."
+    },
+    {
+     "q": "Q where Tabor and Plzen cost the same",
+     "ans": 5133.33,
+     "show": "≈ 5 134",
+     "f": [
+      "k-q"
+     ],
+     "model": "(497 000 − 343 000) / (100 − 70) = 5 133.3 (the key rounds to 5 134).",
+     "tol": 1
+    },
+    {
+     "q": "Q where Plzen and Liberec cost the same",
+     "ans": 8450,
+     "show": "8 450",
+     "f": [
+      "k-q"
+     ],
+     "model": "Liberec FC = 300 000 + 140 000 + 226 000 = 666 000, VC 50. (666 000 − 497 000) / (70 − 50) = 8 450."
+    },
+    {
+     "q": "a) Cheapest intervals without capacities:",
+     "type": "choice",
+     "options": [
+      "Tabor 0–5 134, Plzen 5 134–8 450, Liberec above",
+      "Tabor 0–6 460, then Liberec",
+      "Plzen 0–8 450, then Liberec",
+      "Brno is always cheapest"
+     ],
+     "right": 0,
+     "f": [
+      "k-tc"
+     ],
+     "model": "Brno has the highest fixed AND variable cost: never the cheapest without capacities."
+    },
+    {
+     "q": "b) With capacities, which facility for 6 200 units?",
+     "type": "choice",
+     "options": [
+      "Tabor",
+      "Plzen",
+      "Liberec",
+      "Brno"
+     ],
+     "right": 0,
+     "f": [
+      "k-tc"
+     ],
+     "model": "Plzen stops at 6 000 (the jump). Between Tabor and Liberec, Tabor is cheaper up to 6 460. Full answer: Tabor 0–5 134, Plzen –6 000, Tabor 6 001–6 460, Liberec –9 000, Brno 9 001–25 000."
+    }
+   ]
+  }
+ ]
+}

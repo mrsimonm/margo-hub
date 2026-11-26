@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/* Runs each sub-hub's lecture validator across Statistics Hub and Micro Hub. */
+/* Runs each sub-hub's lecture validator across Statistics Hub, Micro Hub and Op Man Hub. */
 "use strict";
 
 const path = require("path");
@@ -8,7 +8,8 @@ const { spawnSync } = require("child_process");
 const ROOT = path.resolve(__dirname, "..");
 const RUNS = [
   { label: "Statistics Hub", cwd: path.join(ROOT, "stats"), args: ["tools/validate.js", "courses/stats"] },
-  { label: "Micro Hub", cwd: path.join(ROOT, "micro"), args: ["tools/validate.js", "courses/micro"] }
+  { label: "Micro Hub", cwd: path.join(ROOT, "micro"), args: ["tools/validate.js", "courses/micro"] },
+  { label: "Op Man Hub", cwd: path.join(ROOT, "opman"), args: ["tools/validate.js", "courses/opman"] }
 ];
 
 let failed = false;

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-/* Syncs Statistics Hub and Micro Hub from their standalone ~/Projects/<name>-hub folders
-   into margo-hub/{stats,micro}, wiring each sub-hub to the shared manifest, service worker, switcher.js,
+/* Syncs Statistics Hub, Micro Hub and Op Man Hub from their standalone ~/Projects/<name>-hub folders
+   into margo-hub/{stats,micro,opman}, wiring each sub-hub to the shared manifest, service worker, switcher.js,
    unified Google sign-in and shared Study Cat without touching the standalone repositories. */
 "use strict";
 
@@ -13,7 +13,8 @@ const PROJECTS = path.resolve(ROOT, "..");
 
 const HUBS = [
   { id: "stats", src: path.join(PROJECTS, "stats-hub"), hubDoc: "stats" },
-  { id: "micro", src: path.join(PROJECTS, "micro-hub"), hubDoc: "micro" }
+  { id: "micro", src: path.join(PROJECTS, "micro-hub"), hubDoc: "micro" },
+  { id: "opman", src: path.join(PROJECTS, "opman-hub"), hubDoc: "opman" }
 ];
 
 const SKIP = new Set([

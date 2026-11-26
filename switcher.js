@@ -1,5 +1,5 @@
 /* Study Hub subject switcher + unified Google sign-in indicator:
-   adds "Subjects ▾" to the top bar of Statistics Hub and Micro Hub so you can switch subjects
+   adds "Subjects ▾" to the top bar of Statistics Hub, Micro Hub and Op Man Hub so you can switch subjects
    or sign in with Google once for the whole app without leaving where you are. */
 (function () {
   "use strict";
@@ -24,6 +24,16 @@
       tint: "var(--c4)",
       key: "microHub.v1",
       hubDoc: "micro"
+    },
+    {
+      id: "opman",
+      name: "Op Man Hub",
+      icon: "🏭",
+      sub: "VŠE · 3BE216 Operations Management",
+      note: "Drag & drop · Drills · Mock tests",
+      tint: "var(--ok)",
+      key: "opmanHub.v1",
+      hubDoc: "opman"
     }
   ];
 
@@ -110,7 +120,7 @@
   var scriptEl = document.currentScript || document.querySelector("script[data-hub]");
   var curId = (scriptEl && scriptEl.getAttribute("data-hub")) || "";
   if (!curId) {
-    var m = /\/(stats|micro)(?:\/|$)/.exec(location.pathname);
+    var m = /\/(stats|micro|opman)(?:\/|$)/.exec(location.pathname);
     if (m) curId = m[1];
   }
 

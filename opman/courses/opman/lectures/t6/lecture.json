@@ -1,0 +1,413 @@
+{
+ "num": 6,
+ "id": "t6",
+ "title": "Modern methods and support processes",
+ "short": "Lean, TOC, JIT",
+ "sub": "Lecture 8 (second part) · Lean, TPS, Lean vs Six Sigma, TOC, ABC-XYZ, pull, JIT, JIS, Kanban, facility management, TPM",
+ "blurb": "The theory block of Test 2 and the state exam: Lean and TPS, the 5 steps of TOC, how pull, JIT, JIS and Kanban fit together, and TPM.",
+ "h1": "Modern methods and support processes",
+ "lede": "Mostly theory, asked as short definitions. The teacher listens for specific words: value and waste for Lean, variability for Six Sigma, exploit as the second step of TOC.",
+ "six": [
+  "**Lean** increases **value** to the customer by reducing **waste** in a **continuous improvement** environment.",
+  "**TPS** has 14 principles in 4 sections: long-term philosophy · the right process · developing people and partners · solving root problems.",
+  "**Lean** = effectiveness (the standard, the average); **Six Sigma** = **variability**.",
+  "**TOC**: identify → **exploit** → subordinate → elevate → prevent inertia.",
+  "**Pull** is the philosophy, **JIT** makes only what's needed, **JIS** delivers it in assembly order, **Kanban** is the signal.",
+  "**TPM**: total, productive, maintenance. Goals: no defects, no unplanned downtime, no accidents."
+ ],
+ "must": "TOC and Lean",
+ "foot": "Sources: 3BE216 lecture slides 'Modern Methods and Support Processes' and the second half of Lecture 8 as recorded.",
+ "questions": [
+  {
+   "id": "t6-lean",
+   "q": "Lean is a methodology that…",
+   "answer": "increases value to the customer by reducing waste, with continuous improvement",
+   "wrong": [
+    "reduces variability only",
+    "cuts the number of workers",
+    "replaces people with robots"
+   ],
+   "e": "Value, waste, continuous improvement: the three words.",
+   "fol": true
+  },
+  {
+   "id": "t6-sig",
+   "q": "Six Sigma is about…",
+   "answer": "reducing variability",
+   "wrong": [
+    "setting the standard",
+    "reducing waste",
+    "building a long-term philosophy"
+   ],
+   "e": "If you answer without the word variability, you didn't answer.",
+   "fol": true
+  },
+  {
+   "id": "t6-mass",
+   "q": "Craft, mass and lean production: which offers variety AND low cost?",
+   "answer": "Lean",
+   "wrong": [
+    "Craft",
+    "Mass",
+    "None"
+   ],
+   "e": "Craft: flexible but costly. Mass: cheap but little variety. Lean: both."
+  },
+  {
+   "id": "t6-tps1",
+   "q": "TPS principle 1:",
+   "answer": "Base your management decisions on a long-term philosophy, even at the expense of short-term financial goals",
+   "wrong": [
+    "Use a pull system to avoid overproduction",
+    "Go and see for yourself",
+    "Level out the workload"
+   ],
+   "e": "Section 1P: long-term philosophy."
+  },
+  {
+   "id": "t6-heij",
+   "q": "'Level out the workload (heijunka): work like the tortoise, not the hare' belongs to which TPS section?",
+   "answer": "2P · the right process will produce the right results",
+   "wrong": [
+    "1P · long-term philosophy",
+    "3P · developing people and partners",
+    "4P · solving root problems"
+   ],
+   "e": "Principles 2–8: flow, pull, heijunka, stop to fix problems, standardised tasks, visual control, reliable technology."
+  },
+  {
+   "id": "t6-genchi",
+   "q": "Genchi genbutsu means…",
+   "answer": "go and see for yourself to understand the situation",
+   "wrong": [
+    "continuous improvement",
+    "relentless reflection",
+    "level the workload"
+   ],
+   "e": "Principle 12, section 4P. Hansei = reflection, kaizen = continuous improvement."
+  },
+  {
+   "id": "t6-toc2",
+   "q": "What is step 2 of TOC?",
+   "answer": "Exploit the constraint",
+   "wrong": [
+    "Elevate the constraint",
+    "Identify the constraint",
+    "Remove the constraint"
+   ],
+   "e": "The teacher: if you say 'make the bottleneck disappear' as step 2, you lose the points.",
+   "fol": true
+  },
+  {
+   "id": "t6-toc",
+   "q": "The basic concepts of TOC are throughput, inventory and…",
+   "answer": "operational expenses",
+   "wrong": [
+    "variability",
+    "kanban",
+    "quality"
+   ],
+   "e": "Goldratt, The Goal."
+  },
+  {
+   "id": "t6-abc",
+   "q": "In ABC-XYZ, which items suit just in time best?",
+   "answer": "AX: high value, used very regularly",
+   "wrong": [
+    "CZ: low value, erratic use",
+    "CX: low value, regular use",
+    "AZ: high value, erratic use"
+   ],
+   "e": "High value means you don't want it in stock; regular use means the supply can flow."
+  },
+  {
+   "id": "t6-pull",
+   "q": "'Give me what I need in the right time' describes…",
+   "answer": "a pull system",
+   "wrong": [
+    "a push system",
+    "make-to-stock",
+    "Six Sigma"
+   ],
+   "e": "Pull is the philosophy."
+  },
+  {
+   "id": "t6-jit",
+   "q": "Just in time means…",
+   "answer": "make only what you need, when you need it, in the amount needed",
+   "wrong": [
+    "deliver parts in assembly order",
+    "make as much as possible",
+    "keep a big safety stock"
+   ],
+   "e": "JIT is the first tool of pull."
+  },
+  {
+   "id": "t6-jis",
+   "q": "Just in sequence means…",
+   "answer": "parts arrive in the same order as the assembly sequence",
+   "wrong": [
+    "parts arrive once a month",
+    "only the bottleneck works",
+    "parts are made to stock"
+   ],
+   "e": "A warehouse-free process matching JIT."
+  },
+  {
+   "id": "t6-kanban",
+   "q": "A kanban is…",
+   "answer": "a card or signal that tells the previous step to move or produce ('take one, make one')",
+   "wrong": [
+    "a Japanese machine",
+    "a quality certificate",
+    "a type of layout"
+   ],
+   "e": "It controls the flow of resources."
+  },
+  {
+   "id": "t6-fm",
+   "q": "Facility management is about…",
+   "answer": "the functionality of the built environment: people, place, process and technology",
+   "wrong": [
+    "machine maintenance only",
+    "managing the product portfolio",
+    "marketing"
+   ],
+   "e": "The IFMA definition. Lifts, heating, cleaning, the building."
+  },
+  {
+   "id": "t6-tpm",
+   "q": "TPM stands for…",
+   "answer": "Total Productive Maintenance",
+   "wrong": [
+    "Total Process Management",
+    "Time Per Machine",
+    "Total Pull Method"
+   ],
+   "e": "Total: everyone. Productive: without stopping production. Maintenance: equipment in good condition."
+  },
+  {
+   "id": "t6-tpmgoal",
+   "q": "The goals of TPM are no product defects, no unplanned downtime and…",
+   "answer": "no accidents",
+   "wrong": [
+    "no workers",
+    "no inventory",
+    "no suppliers"
+   ],
+   "e": "Bad maintenance of a window can break your hand."
+  },
+  {
+   "id": "t6-oee",
+   "q": "How are TPM and OEE linked?",
+   "answer": "The losses in OEE are what TPM tries to remove",
+   "wrong": [
+    "They are not related",
+    "OEE replaces TPM",
+    "TPM measures the price of machines"
+   ],
+   "e": "Better OEE, better TPM."
+  }
+ ],
+ "vocab": [
+  {
+   "group": "Lean",
+   "term": "Lean",
+   "meaning": "More value for the customer, less waste, continuous improvement."
+  },
+  {
+   "group": "Lean",
+   "term": "TPS",
+   "meaning": "Toyota Production System: 14 principles in 4 sections."
+  },
+  {
+   "group": "Lean",
+   "term": "Heijunka",
+   "meaning": "Level out the workload: like the tortoise, not the hare."
+  },
+  {
+   "group": "Lean",
+   "term": "Genchi genbutsu",
+   "meaning": "Go and see for yourself."
+  },
+  {
+   "group": "Lean",
+   "term": "Hansei",
+   "meaning": "Relentless reflection."
+  },
+  {
+   "group": "Lean",
+   "term": "Kaizen",
+   "meaning": "Continuous improvement."
+  },
+  {
+   "group": "Lean",
+   "term": "Six Sigma",
+   "meaning": "Reduces variability around the standard."
+  },
+  {
+   "group": "TOC",
+   "term": "Theory of Constraints (TOC)",
+   "meaning": "Goldratt: the system is limited by its constraint (bottleneck)."
+  },
+  {
+   "group": "TOC",
+   "term": "Throughput",
+   "meaning": "How fast the system generates money."
+  },
+  {
+   "group": "TOC",
+   "term": "Inventory (TOC)",
+   "meaning": "Everything the system has in order to create throughput."
+  },
+  {
+   "group": "TOC",
+   "term": "Operational expenses",
+   "meaning": "The money needed to turn inventory into throughput."
+  },
+  {
+   "group": "Inventory",
+   "term": "ABC-XYZ",
+   "meaning": "ABC sorts items by value, XYZ by how regularly they are used."
+  },
+  {
+   "group": "Flow",
+   "term": "Pull system",
+   "meaning": "'Give me what I need in the right time.'"
+  },
+  {
+   "group": "Flow",
+   "term": "Just in time (JIT)",
+   "meaning": "Make only what you need, when you need it, in the amount needed."
+  },
+  {
+   "group": "Flow",
+   "term": "Just in sequence (JIS)",
+   "meaning": "Parts arrive in the same order as the assembly."
+  },
+  {
+   "group": "Flow",
+   "term": "Kanban",
+   "meaning": "A card or signal to move or produce: take one, make one."
+  },
+  {
+   "group": "Support",
+   "term": "Facility management",
+   "meaning": "Keeps the built environment working: people, place, process and technology."
+  },
+  {
+   "group": "Support",
+   "term": "TPM",
+   "meaning": "Total Productive Maintenance: no defects, no unplanned downtime, no accidents."
+  }
+ ],
+ "confusable": [
+  [
+   "Lean",
+   "Six Sigma"
+  ],
+  [
+   "Just in time (JIT)",
+   "Just in sequence (JIS)",
+   "Kanban",
+   "Pull system"
+  ],
+  [
+   "Genchi genbutsu",
+   "Hansei",
+   "Kaizen",
+   "Heijunka"
+  ],
+  [
+   "Throughput",
+   "Inventory (TOC)",
+   "Operational expenses"
+  ]
+ ],
+ "facts": [
+  [
+   1,
+   "Lean increases value by reducing {waste|variability|workers|prices}."
+  ],
+  [
+   1,
+   "TPS has {14|5|4|17} principles."
+  ],
+  [
+   2,
+   "Six Sigma reduces {variability|waste|inventory|prices}."
+  ],
+  [
+   2,
+   "The second step of TOC is to {exploit|elevate|identify|remove} the constraint."
+  ],
+  [
+   3,
+   "Just in sequence delivers parts in the order of the {assembly|invoice|alphabet|warehouse}."
+  ],
+  [
+   4,
+   "Facility management has {11|5|14|17} core competences."
+  ],
+  [
+   4,
+   "TPM aims for no defects, no unplanned downtime and no {accidents|workers|stock|suppliers}."
+  ]
+ ],
+ "sheet": [
+  [
+   "TPS: 4 sections",
+   [
+    "Section",
+    "Principles"
+   ],
+   [
+    [
+     "1P Long-term philosophy",
+     "1"
+    ],
+    [
+     "2P The right process will produce the right results",
+     "2–8: flow, pull, heijunka, stop to fix problems, standardised tasks, visual control, reliable technology"
+    ],
+    [
+     "3P Develop your people and partners",
+     "9–11: grow leaders, develop people and teams, respect partners and suppliers"
+    ],
+    [
+     "4P Continuously solving root problems",
+     "12–14: genchi genbutsu, decide slowly by consensus, hansei and kaizen"
+    ]
+   ]
+  ],
+  [
+   "TOC",
+   [
+    "Step",
+    ""
+   ],
+   [
+    [
+     "1",
+     "Identify the constraint"
+    ],
+    [
+     "2",
+     "Exploit it"
+    ],
+    [
+     "3",
+     "Subordinate everything else"
+    ],
+    [
+     "4",
+     "Elevate it"
+    ],
+    [
+     "5",
+     "Prevent inertia from becoming the constraint"
+    ]
+   ]
+  ]
+ ]
+}

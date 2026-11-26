@@ -12,14 +12,14 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Study Hub">
-<meta name="description" content="Statistics Hub and Micro Hub in one app: pick a subject, switch anytime, and grow one shared Study Cat.">
+<meta name="description" content="Statistics Hub, Micro Hub and Op Man Hub in one app: pick a subject, switch anytime, and grow one shared Study Cat.">
 <script>
 (function () {
   try {
     var q = new URLSearchParams(location.search);
     if (!q.get("pick")) {
       var last = localStorage.getItem("margoHub.last");
-      if (last === "stats" || last === "micro") {
+      if (last === "stats" || last === "micro" || last === "opman") {
         location.replace("./" + last + "/");
       }
     }
@@ -175,6 +175,12 @@ body.catopen{overflow:hidden}
       <span class="tt"><span aria-hidden="true">📈</span>Micro Hub</span>
       <span class="ts">Lessons in small bites, a formula coach with new numbers every time, graphs you can move and test practice.</span>
       <span class="st"><span class="meta">Formula coach · Moving graphs</span></span>
+    </a>
+    <a class="tile" data-hub-card="opman" href="./opman/" style="--tc:var(--ok)">
+      <span class="tn">3BE216 · Operations Management</span>
+      <span class="tt"><span aria-hidden="true">🏭</span>Op Man Hub</span>
+      <span class="ts">Cut steel bars, sort, order and drag, draw lead-time timelines and break-even lines, then the practice tests and 90-minute mock tests with new numbers.</span>
+      <span class="st"><span class="meta">Drag &amp; drop · Drills · Mock tests</span></span>
     </a>
   </div>
 

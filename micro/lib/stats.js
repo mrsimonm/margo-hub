@@ -11,8 +11,13 @@
 
   var HUBS = [
     { id: "stats", name: "Statistics Hub", short: "Stats", icon: "🎲", code: "4ST601", color: "var(--c1)", key: "statsHub.v1", examKey: "exam40" },
-    { id: "micro", name: "Micro Hub", short: "Micro", icon: "📈", code: "3BE123", color: "var(--c4)", key: "microHub.v1", examKey: "exam40" }
+    { id: "micro", name: "Micro Hub", short: "Micro", icon: "📈", code: "3BE123", color: "var(--c4)", key: "microHub.v1", examKey: "exam40" },
+    { id: "opman", name: "Op Man Hub", short: "Op Man", icon: "🏭", code: "3BE216", color: "var(--ok)", key: "opmanHub.v1", examKey: "exam40" }
   ];
+  var HUB_IDS = HUBS.map(function (h) { return h.id; });
+  function zeroVals() { var o = {}; HUB_IDS.forEach(function (h) { o[h] = 0; }); return o; }
+  function sumVals(v) { var t = 0; HUB_IDS.forEach(function (h) { t += +v[h] || 0; }); return t; }
+  function perHub(make) { var o = {}; HUB_IDS.forEach(function (h) { o[h] = make(); }); return o; }
   var HUB_BY_ID = {};
   HUBS.forEach(function (h) { HUB_BY_ID[h.id] = h; });
 
@@ -29,6 +34,15 @@
     micro: [
       { id: "t7", num: 7, short: "Perfect competition", steps: 6, q: 20, voc: 15, mas: true },
       { id: "t8", num: 8, short: "Equilibrium & imperfect", steps: 6, q: 23, voc: 16, mas: true }
+    ],
+    opman: [
+      { id: "t1", num: 1, short: "Process types", steps: 4, q: 23, voc: 25, mas: true },
+      { id: "t2", num: 2, short: "Materials & CMU", steps: 4, q: 18, voc: 14, mas: true },
+      { id: "t3", num: 3, short: "Time & Little's Law", steps: 5, q: 19, voc: 16, mas: true },
+      { id: "t4", num: 4, short: "Planning & sequencing", steps: 5, q: 20, voc: 20, mas: true },
+      { id: "t5", num: 5, short: "Process design", steps: 4, q: 16, voc: 16, mas: true },
+      { id: "t6", num: 6, short: "Lean, TOC, JIT", steps: 4, q: 17, voc: 18, mas: true },
+      { id: "t7", num: 7, short: "Industry 4.0", steps: 2, q: 15, voc: 18, mas: true }
     ]
   };
   var ECO_TICK_TOTAL = 24;
@@ -61,7 +75,7 @@
   function activeHubId() {
     var s = document.querySelector("script[data-hub]");
     if (s && s.getAttribute("data-hub")) return s.getAttribute("data-hub");
-    var m = /\/(stats|micro)(?:\/|$)/.exec(location.pathname);
+    var m = /\/(stats|micro|opman)(?:\/|$)/.exec(location.pathname);
     return m ? m[1] : "";
   }
 
@@ -72,9 +86,9 @@
       hrs: {},     // "YYYY-MM-DDTHH" -> { bio?: [sec, q, ok, xp, steps, ms], ... }
       modes: {},   // "<hub>:<mode>" -> [sec, q, ok, ms]
       topics: {},  // "<hub>:<tN>" -> [sec, q, ok, ms, revOk]
-      seen: { stats: {}, micro: {} },
-      sess: { all: freshSess(), stats: freshSess(), micro: freshSess() },
-      sprints: { stats: [0, 0, 0], micro: [0, 0, 0] } // [started, completed, secDone]
+      seen: perHub(function () { return {}; }),
+      sess: (function () { var o = perHub(freshSess); o.all = freshSess(); return o; })(),
+      sprints: perHub(function () { return [0, 0, 0]; }) // [started, completed, secDone]
     };
   }
 
@@ -99,7 +113,7 @@
         var row = raw.hrs[hk];
         if (!isObj(row)) return;
         var clean = {}, has = false;
-        ["stats", "micro"].forEach(function (hid) {
+        HUB_IDS.forEach(function (hid) {
           if (Array.isArray(row[hid])) { clean[hid] = normArr(row[hid], 6); has = true; }
         });
         if (has) d.hrs[hk] = clean;
@@ -116,14 +130,14 @@
       });
     }
     if (isObj(raw.seen)) {
-      ["stats", "micro"].forEach(function (hid) {
+      HUB_IDS.forEach(function (hid) {
         if (isObj(raw.seen[hid])) {
           Object.keys(raw.seen[hid]).slice(0, 1000).forEach(function (qid) { d.seen[hid][qid] = 1; });
         }
       });
     }
     if (isObj(raw.sess)) {
-      ["all", "stats", "micro"].forEach(function (k) {
+      ["all"].concat(HUB_IDS).forEach(function (k) {
         var s = raw.sess[k];
         if (isObj(s)) {
           d.sess[k] = {
@@ -136,7 +150,7 @@
       });
     }
     if (isObj(raw.sprints)) {
-      ["stats", "micro"].forEach(function (hid) {
+      HUB_IDS.forEach(function (hid) {
         if (Array.isArray(raw.sprints[hid])) d.sprints[hid] = normArr(raw.sprints[hid], 3);
       });
     }
@@ -150,7 +164,7 @@
     if (hkeys.length > 4500) hkeys = hkeys.slice(hkeys.length - 4500);
     hkeys.forEach(function (hk) {
       var ra = a.hrs[hk] || {}, rb = b.hrs[hk] || {}, rc = {}, has = false;
-      ["stats", "micro"].forEach(function (hid) {
+      HUB_IDS.forEach(function (hid) {
         if (ra[hid] || rb[hid]) { rc[hid] = maxArr(ra[hid], rb[hid], 6); has = true; }
       });
       if (has) out.hrs[hk] = rc;
@@ -161,11 +175,11 @@
     Array.from(new Set(Object.keys(a.topics).concat(Object.keys(b.topics)))).slice(0, 180).forEach(function (tk) {
       out.topics[tk] = maxArr(a.topics[tk], b.topics[tk], 5);
     });
-    ["stats", "micro"].forEach(function (hid) {
+    HUB_IDS.forEach(function (hid) {
       out.seen[hid] = Object.assign({}, b.seen[hid] || {}, a.seen[hid] || {});
       out.sprints[hid] = maxArr(a.sprints[hid], b.sprints[hid], 3);
     });
-    ["all", "stats", "micro"].forEach(function (k) {
+    ["all"].concat(HUB_IDS).forEach(function (k) {
       var sa = a.sess[k] || freshSess(), sb = b.sess[k] || freshSess();
       out.sess[k] = {
         n: Math.max(sa.n, sb.n),
@@ -579,7 +593,7 @@
   }
 
   function scopeHubs(scope) {
-    return scope === "all" ? ["stats", "micro"] : [scope];
+    return scope === "all" ? HUB_IDS : [scope];
   }
 
   /* Compute comprehensive snapshot for selected scope ("all" | "bio" | "eco" | "geo") */
@@ -845,7 +859,7 @@
       periodLabel = DOWS[(day.getDay() + 6) % 7] + " " + day.getDate() + " " + MONTHS[day.getMonth()] + " " + day.getFullYear();
       for (var hr = 0; hr < 24; hr++) {
         var hk = dk + "T" + pad2(hr);
-        var vals = { stats: 0, micro: 0 }, q = 0, ok = 0, sec = 0;
+        var vals = zeroVals(), q = 0, ok = 0, sec = 0;
         hids.forEach(function (hid) {
           var a = D.hrs[hk] && D.hrs[hk][hid];
           vals[hid] = metricValFromArr(a, metric);
@@ -855,7 +869,7 @@
           short: hr % 3 === 0 ? pad2(hr) : "",
           full: pad2(hr) + ":00–" + pad2(hr) + ":59 (" + periodLabel + ")",
           vals: vals,
-          total: vals.stats + vals.micro,
+          total: sumVals(vals),
           sec: sec, q: q, ok: ok
         });
       }
@@ -867,7 +881,7 @@
       for (var i = 0; i < 7; i++) {
         var cd = new Date(wStart.getFullYear(), wStart.getMonth(), wStart.getDate() + i);
         var cdk = dateKey(cd);
-        var wvals = { stats: 0, micro: 0 }, wq = 0, wok = 0, wsec = 0;
+        var wvals = zeroVals(), wq = 0, wok = 0, wsec = 0;
         hids.forEach(function (hid) {
           wvals[hid] = sumDayMetric(cdk, hid, metric);
           for (var h2 = 0; h2 < 24; h2++) {
@@ -879,7 +893,7 @@
           short: DOWS[i],
           full: DOWS[i] + " " + cd.getDate() + " " + MONTHS[cd.getMonth()] + " " + cd.getFullYear(),
           vals: wvals,
-          total: wvals.stats + wvals.micro,
+          total: sumVals(wvals),
           sec: wsec, q: wq, ok: wok
         });
       }
@@ -890,7 +904,7 @@
       for (var dNum = 1; dNum <= daysInMonth; dNum++) {
         var md = new Date(mDate.getFullYear(), mDate.getMonth(), dNum);
         var mdk = dateKey(md);
-        var mvals = { stats: 0, micro: 0 }, mq = 0, mok = 0, msec = 0;
+        var mvals = zeroVals(), mq = 0, mok = 0, msec = 0;
         hids.forEach(function (hid) {
           mvals[hid] = sumDayMetric(mdk, hid, metric);
           for (var h3 = 0; h3 < 24; h3++) {
@@ -902,7 +916,7 @@
           short: (dNum === 1 || dNum % 5 === 0 || dNum === daysInMonth) ? String(dNum) : "",
           full: DOWS[(md.getDay() + 6) % 7] + " " + dNum + " " + MONTHS[mDate.getMonth()] + " " + mDate.getFullYear(),
           vals: mvals,
-          total: mvals.stats + mvals.micro,
+          total: sumVals(mvals),
           sec: msec, q: mq, ok: mok
         });
       }
@@ -912,7 +926,7 @@
       for (var wk = 0; wk < sem.weeks; wk++) {
         var sw0 = new Date(sem.start.getFullYear(), sem.start.getMonth(), sem.start.getDate() + wk * 7);
         var sw1 = new Date(sw0.getFullYear(), sw0.getMonth(), sw0.getDate() + 6);
-        var svals = { stats: 0, micro: 0 }, sq = 0, sok = 0, ssec = 0;
+        var svals = zeroVals(), sq = 0, sok = 0, ssec = 0;
         for (var sd = 0; sd < 7; sd++) {
           var curD = new Date(sw0.getFullYear(), sw0.getMonth(), sw0.getDate() + sd);
           var sdk = dateKey(curD);
@@ -928,7 +942,7 @@
           short: (wk % 2 === 0 || wk === sem.weeks - 1) ? ("W" + (wk + 1)) : "",
           full: "Week " + (wk + 1) + " (" + sw0.getDate() + " " + MONTHS[sw0.getMonth()] + " – " + sw1.getDate() + " " + MONTHS[sw1.getMonth()] + ")",
           vals: svals,
-          total: svals.stats + svals.micro,
+          total: sumVals(svals),
           sec: ssec, q: sq, ok: sok
         });
       }
@@ -938,7 +952,7 @@
       periodLabel = String(yrNum);
       for (var mn = 0; mn < 12; mn++) {
         var prefix = yrNum + "-" + pad2(mn + 1) + "-";
-        var yvals = { stats: 0, micro: 0 }, yq = 0, yok = 0, ysec = 0;
+        var yvals = zeroVals(), yq = 0, yok = 0, ysec = 0;
         Object.keys(D.hrs).forEach(function (hk) {
           if (hk.indexOf(prefix) !== 0) return;
           hids.forEach(function (hid) {
@@ -953,7 +967,7 @@
           short: MONTHS[mn],
           full: MONTHS[mn] + " " + yrNum,
           vals: yvals,
-          total: yvals.stats + yvals.micro,
+          total: sumVals(yvals),
           sec: ysec, q: yq, ok: yok
         });
       }
@@ -1051,7 +1065,7 @@
 
     var slotW = plotW / n;
     var barW = Math.max(4, Math.min(34, slotW * 0.68));
-    var order = scope === "all" ? ["stats", "micro"] : [scope];
+    var order = scope === "all" ? HUB_IDS : [scope];
 
     B.forEach(function (b, idx) {
       var x0 = padL + idx * slotW + (slotW - barW) / 2;
@@ -1197,7 +1211,7 @@
       renderBarChartSVG(series, UI.scope, UI.metric) +
       '<div class="st-inspect">' +
         '<span><b>' + esc(selB ? selB.full : "") + ':</b> ' + (selB ? fmtMetricVal(selB.total, UI.metric) : "0") +
-          (UI.scope === "all" && selB ? ' (🎲 ' + (UI.metric === "min" ? selB.vals.stats.toFixed(1) + "m" : Math.round(selB.vals.stats)) + ' · 📈 ' + (UI.metric === "min" ? selB.vals.micro.toFixed(1) + "m" : Math.round(selB.vals.micro)) + ')' : '') +
+          (UI.scope === "all" && selB ? ' (' + HUBS.map(function (h) { var v = +selB.vals[h.id] || 0; return h.icon + ' ' + (UI.metric === "min" ? v.toFixed(1) + "m" : Math.round(v)); }).join(" · ") + ')' : '') +
         '</span>' +
         '<span style="color:var(--mute)">Period total: <b>' + fmtMetricVal(periodTot, UI.metric) + '</b> · Active slots: <b>' + nonZero + '/' + series.buckets.length + '</b></span>' +
       '</div>' +
@@ -1373,6 +1387,7 @@
             '<button type="button" class="st-pill on" data-st-scope="all">All (2)</button>' +
             '<button type="button" class="st-pill" data-st-scope="stats">🎲 Stats</button>' +
             '<button type="button" class="st-pill" data-st-scope="micro">📈 Micro</button>' +
+            '<button type="button" class="st-pill" data-st-scope="opman">🏭 Op Man</button>' +
           '</div>' +
           '<button type="button" class="st-x" id="stclose" aria-label="Close Statistics">✕</button>' +
         '</div></div>' +
