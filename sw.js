@@ -2,7 +2,7 @@
 // Margo's Study Hub offline support: caches the hub shell and every subject listed in subjects.json.
 // Bump V when you change root shell files or switcher.js. Content files (json, md, js, html)
 // are fetched fresh when online and served from cache when offline.
-const V = "margo-hub-ad132fff";
+const V = "margo-hub-21c7e6db";
 const SHELL = [
   "./", "./index.html", "./switcher.js", "./manifest.webmanifest",
   "./lib/firebase-config.js", "./lib/firebase-sync.js", "./lib/cat.js", "./lib/stats.js",
