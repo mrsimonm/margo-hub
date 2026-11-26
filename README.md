@@ -12,6 +12,8 @@ Same engine as Simon's Study Hub (`~/Projects/study-hub`): one Google sign-in (F
 
 ```bash
 python3 -m http.server 8000      # open http://localhost:8000
-node tools/validate.js           # validate both subjects
-node tools/sync-from-hubs.js     # re-sync stats/, micro/ and opman/ from ~/Projects/stats-hub, micro-hub and opman-hub
+node tools/validate.js           # validate every subject
+node tools/hub.js sync           # re-sync stats/, micro/ and opman/ from ~/Projects/*-hub (subjects.json)
 ```
+
+Shared hub files (picker, switcher, Study Cat, stats, sign-in) come from `~/Projects/hub-kit/shell`; change them there and run `node ~/Projects/hub-kit/tools/build.js all`.
