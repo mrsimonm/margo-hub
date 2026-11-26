@@ -1,0 +1,11 @@
+{
+  "id": "margo-hub",
+  "name": "Margo's Study Hub",
+  "short": "Study Hub",
+  "prefix": "margoHub",
+  "description": "Statistics Hub, Micro Hub and Op Man Hub in one app: pick a subject, switch anytime, and grow one shared Study Cat.",
+  "tagline": "VŠE Prague · All subjects in one place",
+  "school": "VŠE",
+  "colors": { "background": "#10161A", "theme": "#10161A" },
+  "firebaseProject": "geo-hub-96426"
+}

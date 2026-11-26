@@ -1,9 +1,10 @@
 #!/usr/bin/env node
+/* Generated from hub-kit/shell, edit there (then run: node ~/Projects/hub-kit/tools/build.js all). */
 /* Single CLI for Margo's Study Hub (tools/hub.js):
    - node tools/hub.js sync          Syncs all subjects in subjects.json, regenerates markers, validates
    - node tools/hub.js add <id>      Adds <id> to subjects.json (auto-detecting or restoring metadata) & syncs
    - node tools/hub.js remove <id>   Removes <id> from subjects.json, deletes <id>/ & syncs
-   - node tools/hub.js check         Warns if margo-hub/<id>/ differs from committed <src> or <src> is dirty */
+   - node tools/hub.js check         Warns if <id>/ in this hub differs from committed <src> or <src> is dirty */
 "use strict";
 
 const fs = require("fs");
@@ -23,6 +24,13 @@ const SKIP = new Set([
   "manifest.webmanifest",
   "sw.js"
 ]);
+
+/* Optional subjects.json fields (defaults in brackets):
+   hubDoc   Firestore doc under users/{uid}/hubs/ [id]; "" = legacy users/{uid} (Geology Hub)
+   examKey  best-score key the stats page reads ["exam40"]
+   catalogStatic  lecture entries for old JS-only lectures the course.json does not list [[]]
+   extraShell     extra paths (relative to the subject folder) for the offline cache [[]] */
+function hubDocOf(h) { return h.hubDoc === undefined ? h.id : h.hubDoc; }
 
 function readSubjects() {
   return JSON.parse(fs.readFileSync(SUBJECTS_PATH, "utf8"));
@@ -118,7 +126,7 @@ function generateStatsJs(subjects) {
   subjects.forEach((h, idx) => {
     const comma = idx < subjects.length - 1 ? "," : "";
     lines.push(
-      `    { id: ${JSON.stringify(h.id)}, name: ${JSON.stringify(h.name)}, short: ${JSON.stringify(h.short)}, icon: ${JSON.stringify(h.icon)}, code: ${JSON.stringify(h.code)}, color: ${JSON.stringify(h.color)}, key: ${JSON.stringify(h.key)}, examKey: "exam40" }${comma}`
+      `    { id: ${JSON.stringify(h.id)}, name: ${JSON.stringify(h.name)}, short: ${JSON.stringify(h.short)}, icon: ${JSON.stringify(h.icon)}, code: ${JSON.stringify(h.code)}, color: ${JSON.stringify(h.color)}, key: ${JSON.stringify(h.key)}, examKey: ${JSON.stringify(h.examKey || "exam40")} }${comma}`
     );
   });
   lines.push("  ];");
@@ -126,7 +134,7 @@ function generateStatsJs(subjects) {
   lines.push("  var CATALOG = {");
   subjects.forEach((h, sIdx) => {
     const sComma = sIdx < subjects.length - 1 ? "," : "";
-    const lecs = countLecturesForSubject(h);
+    const lecs = (h.catalogStatic || []).concat(countLecturesForSubject(h));
     lines.push(`    ${h.id}: [`);
     lecs.forEach((l, lIdx) => {
       const lComma = lIdx < lecs.length - 1 ? "," : "";
@@ -143,6 +151,17 @@ function generateStatsJs(subjects) {
   return updated;
 }
 
+function generateCatJs(subjects) {
+  const p = path.join(ROOT, "lib", "cat.js");
+  const lines = ["  var HUB_SOURCES = ["];
+  subjects.forEach((h, idx) => {
+    const comma = idx < subjects.length - 1 ? "," : "";
+    lines.push(`    { id: ${JSON.stringify(h.id)}, key: ${JSON.stringify(h.key)}, short: ${JSON.stringify(h.short)}, hubDoc: ${JSON.stringify(hubDocOf(h))} }${comma}`);
+  });
+  lines.push("  ];");
+  fs.writeFileSync(p, replaceJsBlock(fs.readFileSync(p, "utf8"), lines, 0), "utf8");
+}
+
 function generateSwitcherJs(subjects) {
   const p = path.join(ROOT, "switcher.js");
   const lines = ["  var HUBS = ["];
@@ -156,7 +175,7 @@ function generateSwitcherJs(subjects) {
     lines.push(`      note: ${JSON.stringify(h.note)},`);
     lines.push(`      tint: ${JSON.stringify(h.color)},`);
     lines.push(`      key: ${JSON.stringify(h.key)},`);
-    lines.push(`      hubDoc: ${JSON.stringify(h.id)}`);
+    lines.push(`      hubDoc: ${JSON.stringify(hubDocOf(h))}`);
     lines.push(`    }${comma}`);
   });
   lines.push("  ];");
@@ -211,7 +230,8 @@ function subjectShellEntries(h) {
     `./${h.id}/index.html`,
     `./${h.id}/app.js`,
     ...libFiles.map((f) => `./${h.id}/lib/${f}`),
-    `./${h.id}/${h.course}/course.json`
+    `./${h.id}/${h.course}/course.json`,
+    ...(h.extraShell || []).map((rel) => `./${h.id}/${rel}`)
   ];
   return entries;
 }
@@ -269,12 +289,7 @@ function generateSwJs(subjects) {
 function sync() {
   const subjects = readSubjects();
 
-  ["icon-192.png", "icon-512.png", "icon-maskable-512.png"].forEach((icon) => {
-    const srcIcon = path.join(PROJECTS, "study-hub", icon);
-    if (fs.existsSync(srcIcon)) {
-      fs.copyFileSync(srcIcon, path.join(ROOT, icon));
-    }
-  });
+  generateCatJs(subjects); // before sharedCat is read, so every subject gets the fresh list
 
   const sharedConfig = fs.readFileSync(path.join(ROOT, "lib", "firebase-config.js"), "utf8");
   const sharedSync = fs.readFileSync(path.join(ROOT, "lib", "firebase-sync.js"), "utf8");
@@ -304,7 +319,7 @@ function sync() {
       if (rel === "index.html") {
         fs.writeFileSync(to, patchIndexHtml(fs.readFileSync(from, "utf8"), h.id), "utf8");
       } else if (rel === "lib/firebase-config.js") {
-        fs.writeFileSync(to, buildFirebaseConfig(sharedConfig, h.id), "utf8");
+        fs.writeFileSync(to, buildFirebaseConfig(sharedConfig, hubDocOf(h)), "utf8");
       } else if (rel === "lib/firebase-sync.js") {
         fs.writeFileSync(to, sharedSync, "utf8");
       } else if (rel === "lib/cat.js") {
@@ -330,7 +345,7 @@ function sync() {
   generateIndexHtml(subjects);
   generateValidateJs(subjects);
   generateSwJs(subjects);
-  console.log("✓ Generated switcher.js, index.html, lib/stats.js, sw.js, tools/validate.js");
+  console.log("✓ Generated switcher.js, index.html, lib/cat.js, lib/stats.js, sw.js, tools/validate.js");
 
   const vRes = spawnSync(process.execPath, [path.join(ROOT, "tools", "validate.js")], { stdio: "inherit" });
   if (vRes.status !== 0) process.exit(vRes.status || 1);
@@ -522,7 +537,7 @@ function check() {
       warnings++;
     }
 
-    // (a) Compare margo-hub/<id>/ against committed HEAD of source repo
+    // (a) Compare this hub's <id>/ against committed HEAD of source repo
     const committedFiles = execFileSync("git", ["-C", src, "ls-tree", "-r", "--name-only", "-z", "HEAD"], { encoding: "utf8" })
       .split("\0")
       .filter(Boolean);
@@ -534,7 +549,7 @@ function check() {
         const raw = execFileSync("git", ["-C", src, "show", "HEAD:" + rel], { encoding: "utf8" });
         expected.set(rel, Buffer.from(patchIndexHtml(raw, h.id), "utf8"));
       } else if (rel === "lib/firebase-config.js") {
-        expected.set(rel, Buffer.from(buildFirebaseConfig(sharedConfig, h.id), "utf8"));
+        expected.set(rel, Buffer.from(buildFirebaseConfig(sharedConfig, hubDocOf(h)), "utf8"));
       } else if (rel === "lib/firebase-sync.js") {
         expected.set(rel, Buffer.from(sharedSync, "utf8"));
       } else if (rel === "lib/cat.js") {

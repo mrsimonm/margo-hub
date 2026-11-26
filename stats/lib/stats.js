@@ -1,7 +1,8 @@
+/* Generated from hub-kit/shell, edit there (then run: node ~/Projects/hub-kit/tools/build.js all). */
 /* Margo's Study Hub Quantitative Statistics (lib/stats.js)
    Tracks active study time, question accuracy, response speed, mode breakdown, focus sprints, sessions,
    hourly/daily/weekly/monthly/semester/yearly usage bars, circadian profiles and per-lecture metrics
-   across Statistics Hub and Micro Hub. Plain JS + inline SVG, offline-ready, synced via Firestore. */
+   across every subject in subjects.json. Plain JS + inline SVG, offline-ready, synced via Firestore. */
 (function () {
   "use strict";
 
@@ -765,7 +766,7 @@
       out.qSeen += ph.qSeen;
     });
 
-    if (false) { // Eco-only tick-all/path counters (not in Margo's hubs)
+    if (HUB_BY_ID.eco && (scope === "all" || scope === "eco")) { // Eco Hub only: tick-all and study path counters
       try {
         var tk = JSON.parse(localStorage.getItem("ecoHub.tick") || "null");
         if (tk && isObj(tk.best)) out.ecoTickDone = Object.keys(tk.best).filter(function (k) { return tk.best[k]; }).length;
@@ -1291,7 +1292,7 @@
       '<div class="st-mline"><span>Session length buckets</span><span></span><span class="st-num">' + bLabels.map(function (lb, k) { return lb + ':' + (sess.b[k] || 0); }).join(' ') + '</span></div>' +
       '<div class="st-mline"><span>Focus sprints completed</span><span></span><span class="st-num">' + S.sprintDone + ' / ' + S.sprintStart + ' (' + fmtPct(S.sprintDone, S.sprintStart) + ') · ' + fmtMin(S.sprintSec) + '</span></div>' +
       (S.bestExamPct !== null ? '<div class="st-mline"><span>Best timed exam practice</span><span></span><span class="st-num"><b>' + S.bestExamPct + '%</b></span></div>' : '') +
-      (false ? '<div class="st-mline"><span>🌿 Eco Tick-all / Study path</span><span></span><span class="st-num">' + S.ecoTickDone + '/' + ECO_TICK_TOTAL + ' (' + fmtPct(S.ecoTickDone, ECO_TICK_TOTAL) + ') · ' + S.ecoPathDone + '/' + ECO_PATH_TOTAL + '</span></div>' : '') +
+      ((HUB_BY_ID.eco && (UI.scope === "all" || UI.scope === "eco")) ? '<div class="st-mline"><span>🌿 Eco Tick-all / Study path</span><span></span><span class="st-num">' + S.ecoTickDone + '/' + ECO_TICK_TOTAL + ' (' + fmtPct(S.ecoTickDone, ECO_TICK_TOTAL) + ') · ' + S.ecoPathDone + '/' + ECO_PATH_TOTAL + '</span></div>' : '') +
     '</div>';
     h += '</div>';
 

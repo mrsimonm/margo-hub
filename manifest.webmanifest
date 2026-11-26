@@ -1,7 +1,7 @@
 {
   "name": "Margo's Study Hub",
   "short_name": "Study Hub",
-  "description": "Statistics Hub and Micro Hub in one place: switch subjects anytime with offline support.",
+  "description": "Statistics Hub, Micro Hub and Op Man Hub in one app: pick a subject, switch anytime, and grow one shared Study Cat.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

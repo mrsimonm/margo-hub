@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-/* Runs each sub-hub's lecture validator across Statistics Hub, Micro Hub and Op Man Hub. */
+/* Generated from hub-kit/shell, edit there (then run: node ~/Projects/hub-kit/tools/build.js all). */
+/* Runs each sub-hub's lecture validator across every subject in subjects.json. */
 "use strict";
 
 const path = require("path");

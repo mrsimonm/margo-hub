@@ -1,5 +1,6 @@
+/* Generated from hub-kit/shell, edit there (then run: node ~/Projects/hub-kit/tools/build.js all). */
 /* Study Hub subject switcher + unified Google sign-in indicator:
-   adds "Subjects ▾" to the top bar of Statistics Hub, Micro Hub and Op Man Hub so you can switch subjects
+   adds "Subjects ▾" to the top bar of every subject so you can switch subjects
    or sign in with Google once for the whole app without leaving where you are. */
 (function () {
   "use strict";
